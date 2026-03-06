@@ -1,0 +1,1739 @@
+Summary for ./hachimi-out.mapped.jar
+Decompiled with CFR 0.152
+
+
+mapped.Class1011
+----------------------------
+
+method12746(net.minecraft.class_2338 boolean )
+  Unable to fully structure code
+method12757(net.minecraft.class_2338 int boolean boolean boolean boolean mapped.Class6134 )
+  Unable to fully structure code
+method12762(net.minecraft.class_2338 boolean )
+  Unable to fully structure code
+
+
+mapped.Class1018
+----------------------------
+
+8aVqTERv8g4Ont(java.lang.invoke.MethodHandles$Lookup java.lang.String java.lang.invoke.MethodType java.lang.String java.lang.Integer java.lang.Integer java.lang.Integer )
+  Unable to fully structure code
+
+
+mapped.Class1026
+----------------------------
+
+S0vbDep4vwTVGm(java.lang.invoke.MethodHandles$Lookup java.lang.String java.lang.invoke.MethodType java.lang.String java.lang.Integer java.lang.Integer java.lang.Integer )
+  Unable to fully structure code
+
+
+mapped.Class1043
+----------------------------
+
+P81rn9iHDyMbCcQm(java.lang.String int )
+  Unable to fully structure code
+
+
+mapped.Class1068
+----------------------------
+
+Ys4ZfrdYbr3GOA(java.lang.invoke.MethodHandles$Lookup java.lang.String java.lang.invoke.MethodType java.lang.String java.lang.Integer java.lang.Integer java.lang.Integer )
+  Unable to fully structure code
+
+
+mapped.Class1076
+----------------------------
+
+6nqTvSJBWxylYMgq(java.lang.String int )
+  Unable to fully structure code
+
+
+mapped.Class1077
+----------------------------
+
+fDU1hnQWqTMicbqI(java.lang.String int )
+  Unable to fully structure code
+
+
+mapped.Class1080
+----------------------------
+
+yYmrWda4aL29W9(java.lang.invoke.MethodHandles$Lookup java.lang.String java.lang.invoke.MethodType java.lang.String java.lang.Integer java.lang.Integer java.lang.Integer )
+  Unable to fully structure code
+
+
+mapped.Class1129
+----------------------------
+
+nQFqAvcYBQLXq1(java.lang.invoke.MethodHandles$Lookup java.lang.String java.lang.invoke.MethodType java.lang.String java.lang.Integer java.lang.Integer java.lang.Integer )
+  Unable to fully structure code
+
+
+mapped.Class1137
+----------------------------
+
+Txi9G1jIYBx35i(java.lang.invoke.MethodHandles$Lookup java.lang.String java.lang.invoke.MethodType java.lang.String java.lang.Integer java.lang.Integer java.lang.Integer )
+  Handled impossible loop by duplicating code
+
+
+mapped.Class1143
+----------------------------
+
+9aOXJeeaUcaSd2(java.lang.invoke.MethodHandles$Lookup java.lang.String java.lang.invoke.MethodType java.lang.String java.lang.Integer java.lang.Integer java.lang.Integer )
+  Unable to fully structure code
+
+
+mapped.Class1158
+----------------------------
+
+method13111(net.minecraft.class_1297 )
+  Handled impossible loop by adding 'first' condition
+
+
+mapped.Class1165
+----------------------------
+
+Lbzb6DlWWyVAdj(java.lang.invoke.MethodHandles$Lookup java.lang.String java.lang.invoke.MethodType java.lang.String java.lang.Integer java.lang.Integer java.lang.Integer )
+  Unable to fully structure code
+
+
+mapped.Class1181
+----------------------------
+
+Qf9wgwOQUBZeop(java.lang.invoke.MethodHandles$Lookup java.lang.String java.lang.invoke.MethodType java.lang.String java.lang.Integer java.lang.Integer java.lang.Integer )
+  Unable to fully structure code
+
+
+mapped.Class1188
+----------------------------
+
+YA7yj55vZBUVNw(java.lang.invoke.MethodHandles$Lookup java.lang.String java.lang.invoke.MethodType java.lang.String java.lang.Integer java.lang.Integer java.lang.Integer )
+  Unable to fully structure code
+
+
+mapped.Class1191
+----------------------------
+
+GRwPOxoJXe3Aw9(java.lang.invoke.MethodHandles$Lookup java.lang.String java.lang.invoke.MethodType java.lang.String java.lang.Integer java.lang.Integer java.lang.Integer )
+  Unable to fully structure code
+
+
+mapped.Class1197
+----------------------------
+
+method13223(java.lang.StringBuilder int net.minecraft.class_2583 int )
+  Unable to fully structure code
+
+
+mapped.Class1200
+----------------------------
+
+hgjB7XHHPnanBn(java.lang.invoke.MethodHandles$Lookup java.lang.String java.lang.invoke.MethodType java.lang.String java.lang.Integer java.lang.Integer java.lang.Integer )
+  Unable to fully structure code
+
+
+mapped.Class1205
+----------------------------
+
+IyoKJFVXawaslw(java.lang.invoke.MethodHandles$Lookup java.lang.String java.lang.invoke.MethodType java.lang.String java.lang.Integer java.lang.Integer java.lang.Integer )
+  Handled impossible loop by duplicating code
+
+
+mapped.Class1207
+----------------------------
+
+GsP2H161wuaD79(java.lang.invoke.MethodHandles$Lookup java.lang.String java.lang.invoke.MethodType java.lang.String java.lang.Integer java.lang.Integer java.lang.Integer )
+  Unable to fully structure code
+
+
+mapped.Class1212
+----------------------------
+
+Bg6de4Ypwe6LoO(java.lang.invoke.MethodHandles$Lookup java.lang.String java.lang.invoke.MethodType java.lang.String java.lang.Integer java.lang.Integer java.lang.Integer )
+  Unable to fully structure code
+
+
+mapped.Class1256
+----------------------------
+
+method13550(net.minecraft.class_1799 net.minecraft.class_1799[] )
+  Handled impossible loop by adding 'first' condition
+
+
+mapped.Class1276
+----------------------------
+
+vt4Un2v1owytIh(java.lang.invoke.MethodHandles$Lookup java.lang.String java.lang.invoke.MethodType java.lang.String java.lang.Integer java.lang.Integer java.lang.Integer )
+  Unable to fully structure code
+
+
+mapped.Class1284
+----------------------------
+
+gt9UISELre2vwF(java.lang.invoke.MethodHandles$Lookup java.lang.String java.lang.invoke.MethodType java.lang.String java.lang.Integer java.lang.Integer java.lang.Integer )
+  Handled impossible loop by duplicating code
+
+
+mapped.Class1308
+----------------------------
+
+method13628(net.minecraft.class_1799 net.minecraft.class_5321 )
+  Unable to fully structure code
+
+
+mapped.Class1326
+----------------------------
+
+PYGo2nPLmoHzrTO1(java.lang.String int )
+  Unable to fully structure code
+
+
+mapped.Class1330
+----------------------------
+
+GlTltYBJrog06N(java.lang.invoke.MethodHandles$Lookup java.lang.String java.lang.invoke.MethodType java.lang.String java.lang.Integer java.lang.Integer java.lang.Integer )
+  Unable to fully structure code
+
+
+mapped.Class1331
+----------------------------
+
+2QaLci2lilLTkG(java.lang.invoke.MethodHandles$Lookup java.lang.String java.lang.invoke.MethodType java.lang.String java.lang.Integer java.lang.Integer java.lang.Integer )
+  Unable to fully structure code
+
+
+mapped.Class1372
+----------------------------
+
+nlTwc7499yvj0c(java.lang.invoke.MethodHandles$Lookup java.lang.String java.lang.invoke.MethodType java.lang.String java.lang.Integer java.lang.Integer java.lang.Integer )
+  Unable to fully structure code
+
+
+mapped.Class1413
+----------------------------
+
+qTS4LXZ2f5MJIa(java.lang.invoke.MethodHandles$Lookup java.lang.String java.lang.invoke.MethodType java.lang.String java.lang.Integer java.lang.Integer java.lang.Integer )
+  Handled impossible loop by duplicating code
+
+
+mapped.Class1446
+----------------------------
+
+wjbKLHAIKISWE9(java.lang.invoke.MethodHandles$Lookup java.lang.String java.lang.invoke.MethodType java.lang.String java.lang.Integer java.lang.Integer java.lang.Integer )
+  Unable to fully structure code
+
+
+mapped.Class1450
+----------------------------
+
+method_25404(int int int )
+  Unable to fully structure code
+
+
+mapped.Class1460
+----------------------------
+
+etYFOGkwlaQI1y(java.lang.invoke.MethodHandles$Lookup java.lang.String java.lang.invoke.MethodType java.lang.String java.lang.Integer java.lang.Integer java.lang.Integer )
+  Handled impossible loop by duplicating code
+
+
+mapped.Class1470
+----------------------------
+
+LDOrNDQgXGTJlg(java.lang.invoke.MethodHandles$Lookup java.lang.String java.lang.invoke.MethodType java.lang.String java.lang.Integer java.lang.Integer java.lang.Integer )
+  Handled impossible loop by duplicating code
+
+
+mapped.Class1486
+----------------------------
+
+7lIoVj8rwXkdyh(java.lang.invoke.MethodHandles$Lookup java.lang.String java.lang.invoke.MethodType java.lang.String java.lang.Integer java.lang.Integer java.lang.Integer )
+  Unable to fully structure code
+
+
+mapped.Class1502
+----------------------------
+
+m2e4ejqgvpjty6(java.lang.invoke.MethodHandles$Lookup java.lang.String java.lang.invoke.MethodType java.lang.String java.lang.Integer java.lang.Integer java.lang.Integer )
+  Handled impossible loop by duplicating code
+
+
+mapped.Class1541
+----------------------------
+
+otkoFyCLRdjZ7U(java.lang.invoke.MethodHandles$Lookup java.lang.String java.lang.invoke.MethodType java.lang.String java.lang.Integer java.lang.Integer java.lang.Integer )
+  Unable to fully structure code
+
+
+mapped.Class1567
+----------------------------
+
+method14582(net.minecraft.class_4587 net.minecraft.class_630 double double double int int float boolean boolean boolean )
+  Unable to fully structure code
+method14659(net.minecraft.class_4587 net.minecraft.class_1297 float int int float boolean boolean boolean )
+  Unable to fully structure code
+
+
+mapped.Class1602
+----------------------------
+
+yNaScFoJOZZYdT(java.lang.invoke.MethodHandles$Lookup java.lang.String java.lang.invoke.MethodType java.lang.String java.lang.Integer java.lang.Integer java.lang.Integer )
+  Unable to fully structure code
+
+
+mapped.Class1614
+----------------------------
+
+o4nrRFGJZuB6ov(java.lang.invoke.MethodHandles$Lookup java.lang.String java.lang.invoke.MethodType java.lang.String java.lang.Integer java.lang.Integer java.lang.Integer )
+  Unable to fully structure code
+
+
+mapped.Class1631
+----------------------------
+
+Z7x52RcGA9kD1Z(java.lang.invoke.MethodHandles$Lookup java.lang.String java.lang.invoke.MethodType java.lang.String java.lang.Integer java.lang.Integer java.lang.Integer )
+  Unable to fully structure code
+
+
+mapped.Class1649
+----------------------------
+
+SAjiF9aLnTvFIa(java.lang.invoke.MethodHandles$Lookup java.lang.String java.lang.invoke.MethodType java.lang.String java.lang.Integer java.lang.Integer java.lang.Integer )
+  Unable to fully structure code
+
+
+mapped.Class1668
+----------------------------
+
+method15165(net.minecraft.class_332 int int )
+  Unable to fully structure code
+  Could not resolve type clashes
+
+
+mapped.Class1687
+----------------------------
+
+eFSrMFOCrbjek2(java.lang.invoke.MethodHandles$Lookup java.lang.String java.lang.invoke.MethodType java.lang.String java.lang.Integer java.lang.Integer java.lang.Integer )
+  Unable to fully structure code
+
+
+mapped.Class1708
+----------------------------
+
+va3DNzyMU1QKw4(java.lang.invoke.MethodHandles$Lookup java.lang.String java.lang.invoke.MethodType java.lang.String java.lang.Integer java.lang.Integer java.lang.Integer )
+  Unable to fully structure code
+
+
+mapped.Class1709
+----------------------------
+
+Gbb6qySC2OavVe(java.lang.invoke.MethodHandles$Lookup java.lang.String java.lang.invoke.MethodType java.lang.String java.lang.Integer java.lang.Integer java.lang.Integer )
+  Unable to fully structure code
+
+
+mapped.Class1745
+----------------------------
+
+method15564(net.minecraft.class_2338 double int java.util.List )
+  Unable to fully structure code
+method15619(net.minecraft.class_2338 net.minecraft.class_2350 net.minecraft.class_1268 boolean boolean )
+  Unable to fully structure code
+
+
+mapped.Class1751
+----------------------------
+
+odt0ZzTlOqk4Qv(java.lang.invoke.MethodHandles$Lookup java.lang.String java.lang.invoke.MethodType java.lang.String java.lang.Integer java.lang.Integer java.lang.Integer )
+  Unable to fully structure code
+
+
+mapped.Class1782
+----------------------------
+
+6sVGLhSF1Ei6ZaWA(java.lang.String int )
+  Unable to fully structure code
+
+
+mapped.Class1795
+----------------------------
+
+QadqT7d1g3llPq(java.lang.invoke.MethodHandles$Lookup java.lang.String java.lang.invoke.MethodType java.lang.String java.lang.Integer java.lang.Integer java.lang.Integer )
+  Unable to fully structure code
+
+
+mapped.Class1821
+----------------------------
+
+0IGgNYUMLUgYxz(java.lang.invoke.MethodHandles$Lookup java.lang.String java.lang.invoke.MethodType java.lang.String java.lang.Integer java.lang.Integer java.lang.Integer )
+  Handled impossible loop by duplicating code
+
+
+mapped.Class2299
+----------------------------
+
+method15846(net.minecraft.class_2338 net.minecraft.class_2350 net.minecraft.class_638 net.minecraft.class_1657 )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Extractable last case doesn't follow previous, and can't clone.
+
+
+mapped.Class261
+----------------------------
+
+method707(net.minecraft.class_332 float float float )
+  Unable to fully structure code
+
+
+mapped.Class2618
+----------------------------
+
+iWatQHOQXOkIOP(java.lang.invoke.MethodHandles$Lookup java.lang.String java.lang.invoke.MethodType java.lang.String java.lang.Integer java.lang.Integer java.lang.Integer )
+  Unable to fully structure code
+
+
+mapped.Class271
+----------------------------
+
+method825(net.minecraft.class_332 float float float float float )
+  Handled impossible loop by adding 'first' condition
+
+
+mapped.Class273
+----------------------------
+
+method646(int int int )
+  Unable to fully structure code
+
+
+mapped.Class274
+----------------------------
+
+method646(int int int )
+  Unable to fully structure code
+method649(double double int )
+  Unable to fully structure code
+
+
+mapped.Class276
+----------------------------
+
+method649(double double int )
+  Unable to fully structure code
+method1209(net.minecraft.class_332 float float float float float )
+  Handled impossible loop by adding 'first' condition
+
+
+mapped.Class282
+----------------------------
+
+method1425(mapped.Class204 )
+  Unable to fully structure code
+
+
+mapped.Class283
+----------------------------
+
+method1438(mapped.Class120 )
+  Unable to fully structure code
+
+
+mapped.Class285
+----------------------------
+
+method1471(mapped.Class161 )
+  Unable to fully structure code
+  Could not resolve type clashes
+
+
+mapped.Class287
+----------------------------
+
+method1584(net.minecraft.class_4587 net.minecraft.class_1657 )
+  Unable to fully structure code
+
+
+mapped.Class292
+----------------------------
+
+method1712(double double double double int )
+  Unable to fully structure code
+method1737()
+  Unable to fully structure code
+
+
+mapped.Class294
+----------------------------
+
+method1759(mapped.Class131 )
+  Unable to fully structure code
+
+
+mapped.Class295
+----------------------------
+
+method1798(mapped.Class59 )
+  Unable to fully structure code
+
+
+mapped.Class296
+----------------------------
+
+method1856(mapped.Class68 )
+  Unable to fully structure code
+
+
+mapped.Class297
+----------------------------
+
+method1877(mapped.Class131 )
+  Handled impossible loop by duplicating code
+
+
+mapped.Class298
+----------------------------
+
+method1973(mapped.Class56 )
+  Unable to fully structure code
+
+
+mapped.Class300
+----------------------------
+
+DNqLbGyAmHgTgH(java.lang.invoke.MethodHandles$Lookup java.lang.String java.lang.invoke.MethodType java.lang.String java.lang.Integer java.lang.Integer java.lang.Integer )
+  Unable to fully structure code
+
+
+mapped.Class305
+----------------------------
+
+method2171(mapped.Class65 )
+  Unable to fully structure code
+
+
+mapped.Class307
+----------------------------
+
+method2233(mapped.Class210 )
+  Unable to fully structure code
+method2272()
+  Unable to fully structure code
+method2291(net.minecraft.class_1297 )
+  Unable to fully structure code
+method2352(mapped.Class131 )
+  Unable to fully structure code
+
+
+mapped.Class310
+----------------------------
+
+method2502(mapped.Class199 )
+  Unable to fully structure code
+
+
+mapped.Class315
+----------------------------
+
+method2598(mapped.Class59 )
+  Could not resolve type clashes
+  Unable to fully structure code
+
+
+mapped.Class319
+----------------------------
+
+method2682(mapped.Class210 )
+  Unable to fully structure code
+
+
+mapped.Class3208
+----------------------------
+
+VPLDe4JPsnERpo(java.lang.invoke.MethodHandles$Lookup java.lang.String java.lang.invoke.MethodType java.lang.String java.lang.Integer java.lang.Integer java.lang.Integer )
+  Unable to fully structure code
+
+
+mapped.Class3228
+----------------------------
+
+sjVA9mOLoeLSNW(java.lang.invoke.MethodHandles$Lookup java.lang.String java.lang.invoke.MethodType java.lang.String java.lang.Integer java.lang.Integer java.lang.Integer )
+  Unable to fully structure code
+
+
+mapped.Class3239
+----------------------------
+
+yIiiNltjrTVY83(java.lang.invoke.MethodHandles$Lookup java.lang.String java.lang.invoke.MethodType java.lang.String java.lang.Integer java.lang.Integer java.lang.Integer )
+  Unable to fully structure code
+
+
+mapped.Class3269
+----------------------------
+
+yrwwlyVpB9suyY(java.lang.invoke.MethodHandles$Lookup java.lang.String java.lang.invoke.MethodType java.lang.String java.lang.Integer java.lang.Integer java.lang.Integer )
+  Unable to fully structure code
+
+
+mapped.Class328
+----------------------------
+
+method2838(mapped.Class62 )
+  Unable to fully structure code
+
+
+mapped.Class3294
+----------------------------
+
+Mzg5FiY4Q0BwMY(java.lang.invoke.MethodHandles$Lookup java.lang.String java.lang.invoke.MethodType java.lang.String java.lang.Integer java.lang.Integer java.lang.Integer )
+  Unable to fully structure code
+
+
+mapped.Class3295
+----------------------------
+
+JgS9DpMYWSFEGn(java.lang.invoke.MethodHandles$Lookup java.lang.String java.lang.invoke.MethodType java.lang.String java.lang.Integer java.lang.Integer java.lang.Integer )
+  Unable to fully structure code
+
+
+mapped.Class3319
+----------------------------
+
+7cj9bcxRd2ij2Q(java.lang.invoke.MethodHandles$Lookup java.lang.String java.lang.invoke.MethodType java.lang.String java.lang.Integer java.lang.Integer java.lang.Integer )
+  Unable to fully structure code
+
+
+mapped.Class338
+----------------------------
+
+method3144(double double )
+  Unable to fully structure code
+method3196()
+  Unable to fully structure code
+
+
+mapped.Class339
+----------------------------
+
+method3403(mapped.Class233 )
+  Unable to fully structure code
+method3427(java.lang.String net.minecraft.class_1291 )
+  Recovered potentially malformed switches.  Disable with '--allowmalformedswitch false'
+  Unable to fully structure code
+
+
+mapped.Class340
+----------------------------
+
+method3590(mapped.Class31 )
+  Unable to fully structure code
+method3663(mapped.Class131 )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Extractable last case doesn't follow previous, and can't clone.
+method3714()
+  Unable to fully structure code
+
+
+mapped.Class3411
+----------------------------
+
+xO79QMnsSJpeYE(java.lang.invoke.MethodHandles$Lookup java.lang.String java.lang.invoke.MethodType java.lang.String java.lang.Integer java.lang.Integer java.lang.Integer )
+  Unable to fully structure code
+
+
+mapped.Class3412
+----------------------------
+
+53Q8h74VplAg8Y(java.lang.invoke.MethodHandles$Lookup java.lang.String java.lang.invoke.MethodType java.lang.String java.lang.Integer java.lang.Integer java.lang.Integer )
+  Unable to fully structure code
+
+
+mapped.Class342
+----------------------------
+
+method3743(mapped.Class131 )
+  Unable to fully structure code
+  Could not resolve type clashes
+
+
+mapped.Class344
+----------------------------
+
+method3778(mapped.Class63 )
+  Unable to fully structure code
+
+
+mapped.Class3442
+----------------------------
+
+method17369(double boolean boolean double )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Extractable last case doesn't follow previous, and can't clone.
+method17405(double boolean )
+  Unable to fully structure code
+
+
+mapped.Class3458
+----------------------------
+
+NWiFF3LbYFbqBFbV(java.lang.String int )
+  Unable to fully structure code
+
+
+mapped.Class3478
+----------------------------
+
+hjdpnSdi4iYdb9(java.lang.invoke.MethodHandles$Lookup java.lang.String java.lang.invoke.MethodType java.lang.String java.lang.Integer java.lang.Integer java.lang.Integer )
+  Recovered potentially malformed switches.  Disable with '--allowmalformedswitch false'
+  Unable to fully structure code
+
+
+mapped.Class3488
+----------------------------
+
+ACWpv8IPPla7AI(java.lang.invoke.MethodHandles$Lookup java.lang.String java.lang.invoke.MethodType java.lang.String java.lang.Integer java.lang.Integer java.lang.Integer )
+  Unable to fully structure code
+
+
+mapped.Class3489
+----------------------------
+
+D4ugXe4ErwaqjG0k(java.lang.String int )
+  Unable to fully structure code
+
+
+mapped.Class3493
+----------------------------
+
+method17603(net.minecraft.class_1657 double )
+  Unable to fully structure code
+
+
+mapped.Class3497
+----------------------------
+
+method_1238()
+  Handled impossible loop by adding 'first' condition
+
+
+mapped.Class3502
+----------------------------
+
+02Yb33A4SZbWkv(java.lang.invoke.MethodHandles$Lookup java.lang.String java.lang.invoke.MethodType java.lang.String java.lang.Integer java.lang.Integer java.lang.Integer )
+  Unable to fully structure code
+
+
+mapped.Class351
+----------------------------
+
+method3927(mapped.Class133 )
+  Unable to fully structure code
+method3969(mapped.Class63 )
+  Unable to fully structure code
+
+
+mapped.Class3513
+----------------------------
+
+7ikXgAJdwgfrdy(java.lang.invoke.MethodHandles$Lookup java.lang.String java.lang.invoke.MethodType java.lang.String java.lang.Integer java.lang.Integer java.lang.Integer )
+  Unable to fully structure code
+
+
+mapped.Class352
+----------------------------
+
+method3980(float )
+  Unable to fully structure code
+method4121(mapped.Class204 )
+  Unable to fully structure code
+method4197(float )
+  Unable to fully structure code
+
+
+mapped.Class3545
+----------------------------
+
+BRu4r64L2T8rNO(java.lang.invoke.MethodHandles$Lookup java.lang.String java.lang.invoke.MethodType java.lang.String java.lang.Integer java.lang.Integer java.lang.Integer )
+  Handled impossible loop by duplicating code
+
+
+mapped.Class355
+----------------------------
+
+method4326(mapped.Class63 )
+  Unable to fully structure code
+
+
+mapped.Class3555
+----------------------------
+
+D10XbMwJAMZuWw(java.lang.invoke.MethodHandles$Lookup java.lang.String java.lang.invoke.MethodType java.lang.String java.lang.Integer java.lang.Integer java.lang.Integer )
+  Handled impossible loop by duplicating code
+
+
+mapped.Class356
+----------------------------
+
+method4404(mapped.Class233 )
+  Unable to fully structure code
+
+
+mapped.Class3573
+----------------------------
+
+1GLKJFOejWn7RN(java.lang.invoke.MethodHandles$Lookup java.lang.String java.lang.invoke.MethodType java.lang.String java.lang.Integer java.lang.Integer java.lang.Integer )
+  Unable to fully structure code
+
+
+mapped.Class3597
+----------------------------
+
+a7CduPNltYSOYF(java.lang.invoke.MethodHandles$Lookup java.lang.String java.lang.invoke.MethodType java.lang.String java.lang.Integer java.lang.Integer java.lang.Integer )
+  Handled impossible loop by duplicating code
+
+
+mapped.Class3607
+----------------------------
+
+pYs2jp75wglBRF(java.lang.invoke.MethodHandles$Lookup java.lang.String java.lang.invoke.MethodType java.lang.String java.lang.Integer java.lang.Integer java.lang.Integer )
+  Unable to fully structure code
+
+
+mapped.Class3613
+----------------------------
+
+tSejBRcUiKN6VO(java.lang.invoke.MethodHandles$Lookup java.lang.String java.lang.invoke.MethodType java.lang.String java.lang.Integer java.lang.Integer java.lang.Integer )
+  Unable to fully structure code
+
+
+mapped.Class3615
+----------------------------
+
+8NDeSfrdFDPpz6(java.lang.invoke.MethodHandles$Lookup java.lang.String java.lang.invoke.MethodType java.lang.String java.lang.Integer java.lang.Integer java.lang.Integer )
+  Handled impossible loop by duplicating code
+
+
+mapped.Class3623
+----------------------------
+
+Yu4N4GFGKhH48e(java.lang.invoke.MethodHandles$Lookup java.lang.String java.lang.invoke.MethodType java.lang.String java.lang.Integer java.lang.Integer java.lang.Integer )
+  Handled impossible loop by duplicating code
+
+
+mapped.Class3635
+----------------------------
+
+S0UqLBi9JkNiFB(java.lang.invoke.MethodHandles$Lookup java.lang.String java.lang.invoke.MethodType java.lang.String java.lang.Integer java.lang.Integer java.lang.Integer )
+  Unable to fully structure code
+
+
+mapped.Class3645
+----------------------------
+
+fYEcLGvtoqOPpH(java.lang.invoke.MethodHandles$Lookup java.lang.String java.lang.invoke.MethodType java.lang.String java.lang.Integer java.lang.Integer java.lang.Integer )
+  Unable to fully structure code
+
+
+mapped.Class3756
+----------------------------
+
+NqvVK6BadLtSAj(java.lang.invoke.MethodHandles$Lookup java.lang.String java.lang.invoke.MethodType java.lang.String java.lang.Integer java.lang.Integer java.lang.Integer )
+  Unable to fully structure code
+
+
+mapped.Class3779
+----------------------------
+
+FAKllMbEn9VoG1(java.lang.invoke.MethodHandles$Lookup java.lang.String java.lang.invoke.MethodType java.lang.String java.lang.Integer java.lang.Integer java.lang.Integer )
+  Unable to fully structure code
+
+
+mapped.Class3788
+----------------------------
+
+wPFBdQOqTWnobk(java.lang.invoke.MethodHandles$Lookup java.lang.String java.lang.invoke.MethodType java.lang.String java.lang.Integer java.lang.Integer java.lang.Integer )
+  Unable to fully structure code
+
+
+mapped.Class379
+----------------------------
+
+method5036(mapped.Class63 )
+  Unable to fully structure code
+
+
+mapped.Class380
+----------------------------
+
+method5085(mapped.Class59 )
+  Unable to fully structure code
+
+
+mapped.Class382
+----------------------------
+
+method5122(mapped.Class233 )
+  Unable to fully structure code
+
+
+mapped.Class384
+----------------------------
+
+method5299(mapped.Class59 )
+  Unable to fully structure code
+
+
+mapped.Class385
+----------------------------
+
+method5337()
+  Unable to fully structure code
+method5347(mapped.Class131 )
+  Handled impossible loop by adding 'first' condition
+
+
+mapped.Class3850
+----------------------------
+
+method18843(mapped.Class131 )
+  Unable to fully structure code
+method18987(int )
+  Unable to fully structure code
+
+
+mapped.Class3883
+----------------------------
+
+36oTWo6tQ4WGbr(java.lang.invoke.MethodHandles$Lookup java.lang.String java.lang.invoke.MethodType java.lang.String java.lang.Integer java.lang.Integer java.lang.Integer )
+  Unable to fully structure code
+
+
+mapped.Class3885
+----------------------------
+
+ou9HJ7SrwRcjME(java.lang.invoke.MethodHandles$Lookup java.lang.String java.lang.invoke.MethodType java.lang.String java.lang.Integer java.lang.Integer java.lang.Integer )
+  Unable to fully structure code
+
+
+mapped.Class390
+----------------------------
+
+method5530(mapped.Class58 )
+  Handled impossible loop by adding 'first' condition
+
+
+mapped.Class3900
+----------------------------
+
+Fb96SoFOI2BNaT(java.lang.invoke.MethodHandles$Lookup java.lang.String java.lang.invoke.MethodType java.lang.String java.lang.Integer java.lang.Integer java.lang.Integer )
+  Unable to fully structure code
+
+
+mapped.Class392
+----------------------------
+
+method5577(mapped.Class133 )
+  Unable to fully structure code
+method5611(mapped.Class63 )
+  Unable to fully structure code
+
+
+mapped.Class3928
+----------------------------
+
+JaeVYUQV8rogql(java.lang.invoke.MethodHandles$Lookup java.lang.String java.lang.invoke.MethodType java.lang.String java.lang.Integer java.lang.Integer java.lang.Integer )
+  Unable to fully structure code
+
+
+mapped.Class3956
+----------------------------
+
+TqkYSCJznqWNU7(java.lang.invoke.MethodHandles$Lookup java.lang.String java.lang.invoke.MethodType java.lang.String java.lang.Integer java.lang.Integer java.lang.Integer )
+  Unable to fully structure code
+
+
+mapped.Class3961
+----------------------------
+
+gXoyFA6Jlw1tvl(java.lang.invoke.MethodHandles$Lookup java.lang.String java.lang.invoke.MethodType java.lang.String java.lang.Integer java.lang.Integer java.lang.Integer )
+  Unable to fully structure code
+
+
+mapped.Class397
+----------------------------
+
+method5774(mapped.Class59 )
+  Unable to fully structure code
+
+
+mapped.Class3971
+----------------------------
+
+NHiKiLVeaJlC6S(java.lang.invoke.MethodHandles$Lookup java.lang.String java.lang.invoke.MethodType java.lang.String java.lang.Integer java.lang.Integer java.lang.Integer )
+  Unable to fully structure code
+
+
+mapped.Class398
+----------------------------
+
+method5857(mapped.Class210 )
+  Handled impossible loop by adding 'first' condition
+
+
+mapped.Class4009
+----------------------------
+
+EA1TSTujJUjSTP(java.lang.invoke.MethodHandles$Lookup java.lang.String java.lang.invoke.MethodType java.lang.String java.lang.Integer java.lang.Integer java.lang.Integer )
+  Unable to fully structure code
+
+
+mapped.Class4013
+----------------------------
+
+7eeme4OtrA1Ne3(java.lang.invoke.MethodHandles$Lookup java.lang.String java.lang.invoke.MethodType java.lang.String java.lang.Integer java.lang.Integer java.lang.Integer )
+  Unable to fully structure code
+
+
+mapped.Class402
+----------------------------
+
+method5930(net.minecraft.class_1297 )
+  Unable to fully structure code
+method5932()
+  Handled impossible loop by adding 'first' condition
+method5955(float net.minecraft.class_4587 )
+  Unable to fully structure code
+method5963(net.minecraft.class_2586 )
+  Unable to fully structure code
+method6188(net.hachimi.client.api.render.satin.ManagedShaderEffect float )
+  Unable to fully structure code
+
+
+mapped.Class4021
+----------------------------
+
+bXCjIwYNLTlFVVPS(java.lang.String int )
+  Unable to fully structure code
+
+
+mapped.Class4038
+----------------------------
+
+oyYq9oln2GBggU(java.lang.invoke.MethodHandles$Lookup java.lang.String java.lang.invoke.MethodType java.lang.String java.lang.Integer java.lang.Integer java.lang.Integer )
+  Unable to fully structure code
+
+
+mapped.Class4045
+----------------------------
+
+method20104(float float float float )
+  Unable to fully structure code
+
+
+mapped.Class405
+----------------------------
+
+method6361(net.minecraft.class_1297 )
+  Unable to fully structure code
+
+
+mapped.Class4055
+----------------------------
+
+qkFKNWt7GYGmEd(java.lang.invoke.MethodHandles$Lookup java.lang.String java.lang.invoke.MethodType java.lang.String java.lang.Integer java.lang.Integer java.lang.Integer )
+  Recovered potentially malformed switches.  Disable with '--allowmalformedswitch false'
+  Unable to fully structure code
+
+
+mapped.Class4064
+----------------------------
+
+XnXt4HMSg11FWV(java.lang.invoke.MethodHandles$Lookup java.lang.String java.lang.invoke.MethodType java.lang.String java.lang.Integer java.lang.Integer java.lang.Integer )
+  Unable to fully structure code
+
+
+mapped.Class4075
+----------------------------
+
+BBLWOTLDXQtdTd(java.lang.invoke.MethodHandles$Lookup java.lang.String java.lang.invoke.MethodType java.lang.String java.lang.Integer java.lang.Integer java.lang.Integer )
+  Unable to fully structure code
+
+
+mapped.Class4078
+----------------------------
+
+YzOC8gTLAOvPJT(java.lang.invoke.MethodHandles$Lookup java.lang.String java.lang.invoke.MethodType java.lang.String java.lang.Integer java.lang.Integer java.lang.Integer )
+  Handled impossible loop by duplicating code
+
+
+mapped.Class412
+----------------------------
+
+method6532(mapped.Class63 )
+  Unable to fully structure code
+
+
+mapped.Class4123
+----------------------------
+
+twRGNL478rLdLA(java.lang.invoke.MethodHandles$Lookup java.lang.String java.lang.invoke.MethodType java.lang.String java.lang.Integer java.lang.Integer java.lang.Integer )
+  Unable to fully structure code
+
+
+mapped.Class414
+----------------------------
+
+method6617(double net.minecraft.class_742 )
+  Unable to fully structure code
+
+
+mapped.Class415
+----------------------------
+
+method6703(mapped.Class210 )
+  Unable to fully structure code
+
+
+mapped.Class4155
+----------------------------
+
+DGjMehgqo3627c(java.lang.invoke.MethodHandles$Lookup java.lang.String java.lang.invoke.MethodType java.lang.String java.lang.Integer java.lang.Integer java.lang.Integer )
+  Unable to fully structure code
+
+
+mapped.Class417
+----------------------------
+
+method6874(net.minecraft.class_243 )
+  Unable to fully structure code
+method6958(mapped.Class210 )
+  Unable to fully structure code
+
+
+mapped.Class4179
+----------------------------
+
+YYrjOj0z43hbfh(java.lang.invoke.MethodHandles$Lookup java.lang.String java.lang.invoke.MethodType java.lang.String java.lang.Integer java.lang.Integer java.lang.Integer )
+  Unable to fully structure code
+
+
+mapped.Class418
+----------------------------
+
+method7055(net.minecraft.class_1297 )
+  Unable to fully structure code
+
+
+mapped.Class4181
+----------------------------
+
+BwrENZBvGGPc4Y(java.lang.invoke.MethodHandles$Lookup java.lang.String java.lang.invoke.MethodType java.lang.String java.lang.Integer java.lang.Integer java.lang.Integer )
+  Unable to fully structure code
+
+
+mapped.Class419
+----------------------------
+
+method7078(mapped.Class76 )
+  Unable to fully structure code
+method7085(net.minecraft.class_2338 )
+  Unable to fully structure code
+method7096()
+  Handled impossible loop by adding 'first' condition
+method7136(mapped.Class210 )
+  Unable to fully structure code
+method7226(net.minecraft.class_2338 )
+  Recovered potentially malformed switches.  Disable with '--allowmalformedswitch false'
+method7229()
+  Unable to fully structure code
+method7356(net.minecraft.class_1297 )
+  Unable to fully structure code
+method7445(java.util.List java.util.List )
+  Unable to fully structure code
+method7481(net.minecraft.class_1657 net.minecraft.class_2338 )
+  Unable to fully structure code
+method7514()
+  Handled impossible loop by adding 'first' condition
+method7689(java.util.List )
+  Handled impossible loop by adding 'first' condition
+
+
+mapped.Class4193
+----------------------------
+
+qrZTxmtBcvrNDSay(java.lang.String int )
+  Unable to fully structure code
+
+
+mapped.Class420
+----------------------------
+
+method7820()
+  Unable to fully structure code
+method7911()
+  Unable to fully structure code
+
+
+mapped.Class421
+----------------------------
+
+method7952(mapped.Class210 )
+  Unable to fully structure code
+method8014(net.minecraft.class_1297 )
+  Unable to fully structure code
+
+
+mapped.Class4210
+----------------------------
+
+method20831()
+  Unable to fully structure code
+
+
+mapped.Class422
+----------------------------
+
+method8187(mapped.Class210 )
+  Unable to fully structure code
+
+
+mapped.Class424
+----------------------------
+
+method8269(net.minecraft.class_1297 )
+  Handled impossible loop by duplicating code
+
+
+mapped.Class4244
+----------------------------
+
+zO8p7eINlqk9otR3(java.lang.String )
+  Unable to fully structure code
+
+
+mapped.Class425
+----------------------------
+
+method8406()
+  Unable to fully structure code
+method8432()
+  Handled impossible loop by adding 'first' condition
+method8439()
+  Unable to fully structure code
+
+
+mapped.Class4262
+----------------------------
+
+tFogNNlMct5ioW(java.lang.invoke.MethodHandles$Lookup java.lang.String java.lang.invoke.MethodType java.lang.String java.lang.Integer java.lang.Integer java.lang.Integer )
+  Unable to fully structure code
+
+
+mapped.Class429
+----------------------------
+
+method8645(mapped.Class210 )
+  Unable to fully structure code
+
+
+mapped.Class430
+----------------------------
+
+method8725(net.minecraft.class_1297 )
+  Recovered potentially malformed switches.  Disable with '--allowmalformedswitch false'
+
+
+mapped.Class431
+----------------------------
+
+method8797(mapped.Class210 )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Extractable last case doesn't follow previous, and can't clone.
+
+
+mapped.Class432
+----------------------------
+
+method8863(net.minecraft.class_2338 boolean )
+  Handled impossible loop by adding 'first' condition
+method8977(net.minecraft.class_2338 )
+  Handled impossible loop by duplicating code
+
+
+mapped.Class435
+----------------------------
+
+method9200(net.minecraft.class_2338 boolean )
+  Unable to fully structure code
+method9266(mapped.Class210 )
+  Unable to fully structure code
+
+
+mapped.Class436
+----------------------------
+
+method9323(double net.minecraft.class_243 )
+  Unable to fully structure code
+method9357(net.minecraft.class_2338 )
+  Unable to fully structure code
+
+
+mapped.Class4376
+----------------------------
+
+hdE1wOrqF26DI7(java.lang.invoke.MethodHandles$Lookup java.lang.String java.lang.invoke.MethodType java.lang.String java.lang.Integer java.lang.Integer java.lang.Integer )
+  Unable to fully structure code
+
+
+mapped.Class440
+----------------------------
+
+method9485()
+  Unable to fully structure code
+
+
+mapped.Class441
+----------------------------
+
+method9561(net.minecraft.class_6880 )
+  Unable to fully structure code
+
+
+mapped.Class442
+----------------------------
+
+method9636(float )
+  Unable to fully structure code
+
+
+mapped.Class444
+----------------------------
+
+method9713(mapped.Class210 )
+  Unable to fully structure code
+method9752()
+  Handled impossible loop by adding 'first' condition
+
+
+mapped.Class445
+----------------------------
+
+method10120()
+  Unable to fully structure code
+
+
+mapped.Class446
+----------------------------
+
+method10127(net.minecraft.class_1799 )
+  Unable to fully structure code
+
+
+mapped.Class447
+----------------------------
+
+method10176(net.minecraft.class_2743 )
+  Unable to fully structure code
+method10230(mapped.Class210 )
+  Handled impossible loop by adding 'first' condition
+method10284(net.minecraft.class_2338 net.minecraft.class_238 )
+  Unable to fully structure code
+
+
+mapped.Class4496
+----------------------------
+
+jSNGyIb3A2J6bZ(java.lang.invoke.MethodHandles$Lookup java.lang.String java.lang.invoke.MethodType java.lang.String java.lang.Integer java.lang.Integer java.lang.Integer )
+  Unable to fully structure code
+
+
+mapped.Class453
+----------------------------
+
+method10512(mapped.Class133 )
+  Unable to fully structure code
+
+
+mapped.Class469
+----------------------------
+
+method10724(net.minecraft.class_1297 int java.util.List )
+  Unable to fully structure code
+
+
+mapped.Class487
+----------------------------
+
+BjUyMNAnO3MD6qnY(java.lang.String )
+  Handled impossible loop by adding 'first' condition
+
+
+mapped.Class4971
+----------------------------
+
+method20974(mapped.Class63 )
+  Handled impossible loop by adding 'first' condition
+
+
+mapped.Class499
+----------------------------
+
+EXzDnLPQhOGenP(java.lang.invoke.MethodHandles$Lookup java.lang.String java.lang.invoke.MethodType java.lang.String java.lang.Integer java.lang.Integer java.lang.Integer )
+  Unable to fully structure code
+
+
+mapped.Class513
+----------------------------
+
+ag5JDuo6vqZYW7(java.lang.invoke.MethodHandles$Lookup java.lang.String java.lang.invoke.MethodType java.lang.String java.lang.Integer java.lang.Integer java.lang.Integer )
+  Unable to fully structure code
+
+
+mapped.Class516
+----------------------------
+
+eV8YNYJ4dyjKq8gy(java.lang.String )
+  Unable to fully structure code
+
+
+mapped.Class5183
+----------------------------
+
+method21019(net.minecraft.class_243 )
+  Unable to fully structure code
+
+
+mapped.Class525
+----------------------------
+
+method10904(net.minecraft.class_1297 net.minecraft.class_1297 )
+  Handled impossible loop by adding 'first' condition
+
+
+mapped.Class534
+----------------------------
+
+Nusgn53d47QaGMr0(java.lang.String )
+  Handled impossible loop by adding 'first' condition
+
+
+mapped.Class5438
+----------------------------
+
+5M0vlG42Sw1FSD(java.lang.invoke.MethodHandles$Lookup java.lang.String java.lang.invoke.MethodType java.lang.String java.lang.Integer java.lang.Integer java.lang.Integer )
+  Unable to fully structure code
+
+
+mapped.Class5449
+----------------------------
+
+method21106(net.minecraft.class_2338 net.minecraft.class_1309 )
+  Unable to fully structure code
+
+
+mapped.Class5488
+----------------------------
+
+tvHXlvZlIcAaJE(java.lang.invoke.MethodHandles$Lookup java.lang.String java.lang.invoke.MethodType java.lang.String java.lang.Integer java.lang.Integer java.lang.Integer )
+  Unable to fully structure code
+
+
+mapped.Class5500
+----------------------------
+
+f9HEsFYbrFv7wg(java.lang.invoke.MethodHandles$Lookup java.lang.String java.lang.invoke.MethodType java.lang.String java.lang.Integer java.lang.Integer java.lang.Integer )
+  Unable to fully structure code
+
+
+mapped.Class5512
+----------------------------
+
+method21550()
+  Unable to fully structure code
+method21577()
+  Unable to fully structure code
+method21675()
+  Unable to fully structure code
+
+
+mapped.Class5543
+----------------------------
+
+Wb7DQvwSeiQhNT(java.lang.invoke.MethodHandles$Lookup java.lang.String java.lang.invoke.MethodType java.lang.String java.lang.Integer java.lang.Integer java.lang.Integer )
+  Unable to fully structure code
+
+
+mapped.Class5551
+----------------------------
+
+Je7jgR2DrRCjOI(java.lang.invoke.MethodHandles$Lookup java.lang.String java.lang.invoke.MethodType java.lang.String java.lang.Integer java.lang.Integer java.lang.Integer )
+  Unable to fully structure code
+
+
+mapped.Class5553
+----------------------------
+
+gF6eIHF4ika3pH(java.lang.invoke.MethodHandles$Lookup java.lang.String java.lang.invoke.MethodType java.lang.String java.lang.Integer java.lang.Integer java.lang.Integer )
+  Handled impossible loop by duplicating code
+
+
+mapped.Class5561
+----------------------------
+
+LHbiNvnJreiT26(java.lang.invoke.MethodHandles$Lookup java.lang.String java.lang.invoke.MethodType java.lang.String java.lang.Integer java.lang.Integer java.lang.Integer )
+  Unable to fully structure code
+
+
+mapped.Class5575
+----------------------------
+
+hFI5EeicW6myyf(java.lang.invoke.MethodHandles$Lookup java.lang.String java.lang.invoke.MethodType java.lang.String java.lang.Integer java.lang.Integer java.lang.Integer )
+  Unable to fully structure code
+
+
+mapped.Class5581
+----------------------------
+
+ATQdV2UJ4IVakw(java.lang.invoke.MethodHandles$Lookup java.lang.String java.lang.invoke.MethodType java.lang.String java.lang.Integer java.lang.Integer java.lang.Integer )
+  Unable to fully structure code
+
+
+mapped.Class5584
+----------------------------
+
+CIXojvtShxeVxQ(java.lang.invoke.MethodHandles$Lookup java.lang.String java.lang.invoke.MethodType java.lang.String java.lang.Integer java.lang.Integer java.lang.Integer )
+  Unable to fully structure code
+
+
+mapped.Class5623
+----------------------------
+
+zJG5LiOxVs0WjF(java.lang.invoke.MethodHandles$Lookup java.lang.String java.lang.invoke.MethodType java.lang.String java.lang.Integer java.lang.Integer java.lang.Integer )
+  Unable to fully structure code
+
+
+mapped.Class5625
+----------------------------
+
+5UbPF5O6de7tcQ(java.lang.invoke.MethodHandles$Lookup java.lang.String java.lang.invoke.MethodType java.lang.String java.lang.Integer java.lang.Integer java.lang.Integer )
+  Unable to fully structure code
+
+
+mapped.Class563
+----------------------------
+
+method11056(net.minecraft.class_243 )
+  Unable to fully structure code
+
+
+mapped.Class5656
+----------------------------
+
+kilSGf1PTDg3iz(java.lang.invoke.MethodHandles$Lookup java.lang.String java.lang.invoke.MethodType java.lang.String java.lang.Integer java.lang.Integer java.lang.Integer )
+  Unable to fully structure code
+
+
+mapped.Class5659
+----------------------------
+
+method22125(net.minecraft.class_1657 net.minecraft.class_2338 boolean boolean boolean boolean )
+  Unable to fully structure code
+
+
+mapped.Class5660
+----------------------------
+
+XPrVBYmmGhSHYG(java.lang.invoke.MethodHandles$Lookup java.lang.String java.lang.invoke.MethodType java.lang.String java.lang.Integer java.lang.Integer java.lang.Integer )
+  Unable to fully structure code
+
+
+mapped.Class5667
+----------------------------
+
+bGS2Nqrh4hHvLv(java.lang.invoke.MethodHandles$Lookup java.lang.String java.lang.invoke.MethodType java.lang.String java.lang.Integer java.lang.Integer java.lang.Integer )
+  Unable to fully structure code
+
+
+mapped.Class568
+----------------------------
+
+method11056(net.minecraft.class_243 )
+  Handled impossible loop by adding 'first' condition
+
+
+mapped.Class5681
+----------------------------
+
+oyjcy6O4zIrB2L(java.lang.invoke.MethodHandles$Lookup java.lang.String java.lang.invoke.MethodType java.lang.String java.lang.Integer java.lang.Integer java.lang.Integer )
+  Unable to fully structure code
+
+
+mapped.Class5686
+----------------------------
+
+method22390()
+  Unable to fully structure code
+
+
+mapped.Class5693
+----------------------------
+
+SIbq5L1JnWVo5i(java.lang.invoke.MethodHandles$Lookup java.lang.String java.lang.invoke.MethodType java.lang.String java.lang.Integer java.lang.Integer java.lang.Integer )
+  Unable to fully structure code
+
+
+mapped.Class5703
+----------------------------
+
+2rVoyvi20LAEIX(java.lang.invoke.MethodHandles$Lookup java.lang.String java.lang.invoke.MethodType java.lang.String java.lang.Integer java.lang.Integer java.lang.Integer )
+  Unable to fully structure code
+
+
+mapped.Class5707
+----------------------------
+
+f1Y2SBzpqVGzeX(java.lang.invoke.MethodHandles$Lookup java.lang.String java.lang.invoke.MethodType java.lang.String java.lang.Integer java.lang.Integer java.lang.Integer )
+  Unable to fully structure code
+
+
+mapped.Class5709
+----------------------------
+
+44lr9tNiLqGV6mtL(java.lang.String int )
+  Unable to fully structure code
+
+
+mapped.Class5711
+----------------------------
+
+method22514(net.minecraft.class_2338 )
+  Unable to fully structure code
+
+
+mapped.Class5719
+----------------------------
+
+faeTbYvxFsKY2p(java.lang.invoke.MethodHandles$Lookup java.lang.String java.lang.invoke.MethodType java.lang.String java.lang.Integer java.lang.Integer java.lang.Integer )
+  Unable to fully structure code
+
+
+mapped.Class5722
+----------------------------
+
+xgQcMSJFWNVXJsFM(java.lang.String int )
+  Unable to fully structure code
+
+
+mapped.Class5733
+----------------------------
+
+vVZnvIYve9uK87(java.lang.invoke.MethodHandles$Lookup java.lang.String java.lang.invoke.MethodType java.lang.String java.lang.Integer java.lang.Integer java.lang.Integer )
+  Unable to fully structure code
+
+
+mapped.Class5744
+----------------------------
+
+iHvy1lIWrZ4Kbj(java.lang.invoke.MethodHandles$Lookup java.lang.String java.lang.invoke.MethodType java.lang.String java.lang.Integer java.lang.Integer java.lang.Integer )
+  Unable to fully structure code
+
+
+mapped.Class5746
+----------------------------
+
+nFxzoQ11wQUdOl(java.lang.invoke.MethodHandles$Lookup java.lang.String java.lang.invoke.MethodType java.lang.String java.lang.Integer java.lang.Integer java.lang.Integer )
+  Unable to fully structure code
+
+
+mapped.Class5754
+----------------------------
+
+LnSy7p4Z9Pvfxj(java.lang.invoke.MethodHandles$Lookup java.lang.String java.lang.invoke.MethodType java.lang.String java.lang.Integer java.lang.Integer java.lang.Integer )
+  Handled impossible loop by duplicating code
+
+
+mapped.Class5775
+----------------------------
+
+xaYFfbwTOKnMOe(java.lang.invoke.MethodHandles$Lookup java.lang.String java.lang.invoke.MethodType java.lang.String java.lang.Integer java.lang.Integer java.lang.Integer )
+  Unable to fully structure code
+
+
+mapped.Class5778
+----------------------------
+
+JGNGSjMJo7KKyY(java.lang.invoke.MethodHandles$Lookup java.lang.String java.lang.invoke.MethodType java.lang.String java.lang.Integer java.lang.Integer java.lang.Integer )
+  Handled impossible loop by duplicating code
+
+
+mapped.Class5796
+----------------------------
+
+7k3Q2DJjpbe2tI(java.lang.invoke.MethodHandles$Lookup java.lang.String java.lang.invoke.MethodType java.lang.String java.lang.Integer java.lang.Integer java.lang.Integer )
+  Unable to fully structure code
+
+
+mapped.Class5817
+----------------------------
+
+D6cFpQxwU6Ilvg(java.lang.invoke.MethodHandles$Lookup java.lang.String java.lang.invoke.MethodType java.lang.String java.lang.Integer java.lang.Integer java.lang.Integer )
+  Unable to fully structure code
+
+
+mapped.Class5820
+----------------------------
+
+VL22D7Iji2XU2p(java.lang.invoke.MethodHandles$Lookup java.lang.String java.lang.invoke.MethodType java.lang.String java.lang.Integer java.lang.Integer java.lang.Integer )
+  Unable to fully structure code
+
+
+mapped.Class5831
+----------------------------
+
+qSY1njgHRGCa3d(java.lang.invoke.MethodHandles$Lookup java.lang.String java.lang.invoke.MethodType java.lang.String java.lang.Integer java.lang.Integer java.lang.Integer )
+  Unable to fully structure code
+
+
+mapped.Class5840
+----------------------------
+
+eb5t0zr6oviWaC(java.lang.invoke.MethodHandles$Lookup java.lang.String java.lang.invoke.MethodType java.lang.String java.lang.Integer java.lang.Integer java.lang.Integer )
+  Unable to fully structure code
+
+
+mapped.Class5844
+----------------------------
+
+DkXJeb0bRMyE87(java.lang.invoke.MethodHandles$Lookup java.lang.String java.lang.invoke.MethodType java.lang.String java.lang.Integer java.lang.Integer java.lang.Integer )
+  Unable to fully structure code
+
+
+mapped.Class5928
+----------------------------
+
+65wHpytnJQJPwy(java.lang.invoke.MethodHandles$Lookup java.lang.String java.lang.invoke.MethodType java.lang.String java.lang.Integer java.lang.Integer java.lang.Integer )
+  Unable to fully structure code
+
+
+mapped.Class5952
+----------------------------
+
+rNGSpC8mqoNdii(java.lang.invoke.MethodHandles$Lookup java.lang.String java.lang.invoke.MethodType java.lang.String java.lang.Integer java.lang.Integer java.lang.Integer )
+  Unable to fully structure code
+
+
+mapped.Class6010
+----------------------------
+
+gVGwJbr9cB60A9(java.lang.invoke.MethodHandles$Lookup java.lang.String java.lang.invoke.MethodType java.lang.String java.lang.Integer java.lang.Integer java.lang.Integer )
+  Unable to fully structure code
+
+
+mapped.Class6011
+----------------------------
+
+x6WjqGSngSUH4q(java.lang.invoke.MethodHandles$Lookup java.lang.String java.lang.invoke.MethodType java.lang.String java.lang.Integer java.lang.Integer java.lang.Integer )
+  Unable to fully structure code
+
+
+mapped.Class6026
+----------------------------
+
+wEnCFKAG9lgewFF2(java.lang.String int )
+  Unable to fully structure code
+
+
+mapped.Class6044

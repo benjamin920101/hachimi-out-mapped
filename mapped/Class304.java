@@ -1,0 +1,192 @@
+/*
+ * Decompiled with CFR 0.152.
+ * 
+ * Could not load the following classes:
+ *  net.minecraft.class_1268
+ *  net.minecraft.class_1309
+ *  net.minecraft.class_1657
+ *  net.minecraft.class_1764
+ *  net.minecraft.class_1792
+ *  net.minecraft.class_1799
+ *  net.minecraft.class_1802
+ *  net.minecraft.class_2338
+ *  net.minecraft.class_2350
+ *  net.minecraft.class_2596
+ *  net.minecraft.class_2846
+ *  net.minecraft.class_2846$class_2847
+ *  net.minecraft.class_310
+ *  net.minecraft.class_746
+ */
+package mapped;
+
+import mapped.Class1;
+import mapped.Class248;
+import mapped.Class252;
+import mapped.Class253;
+import mapped.Class278;
+import mapped.Class298;
+import mapped.Class3978;
+import mapped.Class3979;
+import mapped.Class413;
+import mapped.Class543;
+import mapped.Class5496;
+import mapped.Class556;
+import mapped.Class5723;
+import mapped.Class6009;
+import mapped.Class63;
+import net.minecraft.class_1268;
+import net.minecraft.class_1309;
+import net.minecraft.class_1657;
+import net.minecraft.class_1764;
+import net.minecraft.class_1792;
+import net.minecraft.class_1799;
+import net.minecraft.class_1802;
+import net.minecraft.class_2338;
+import net.minecraft.class_2350;
+import net.minecraft.class_2596;
+import net.minecraft.class_2846;
+import net.minecraft.class_310;
+import net.minecraft.class_746;
+
+/*
+ * Illegal identifiers - consider using --renameillegalidents true
+ */
+public class Class304
+extends Class278 {
+    Class248 field595 = this.method450(new Class253("Crossbow", "Automatically releases crossbow when fully charged", (boolean)field598[0]));
+    Class248 field596 = this.method450(new Class252("Ticks", "Ticks before releasing the bow charge", (int)field598[1], (int)field598[3], (int)field598[2]));
+    Class248 field597 = this.method450(new Class253("TPS-Sync", "Sync bow release to server ticks", (boolean)field598[0]));
+    private static long[] field598 = new long[4];
+
+    public static class_1268 method2065() {
+        return class_1268.field_5808;
+    }
+
+    private static void method2066(long l2) {
+        Class304.field598[3] = l2 ^ 0x3E9FA643B6EAF4C5L;
+        Class304.field598[2] = l2 ^ 0x3E9FA643B6EAF4D4L;
+        Class304.field598[0] = l2 ^ 0x3E9FA643B6EAF4C0L;
+        Class304.field598[1] = l2 ^ 0x3E9FA643B6EAF4C3L;
+    }
+
+    public static class_746 method2067(class_310 class_3102) {
+        return class_3102.field_1724;
+    }
+
+    private static void method2068(Class5496 class5496, class_2596 class_25962) {
+        class5496.method21341(class_25962);
+    }
+
+    private static void method2069() {
+        Class298.method1924();
+    }
+
+    private static void method2070(Class5496 class5496, class_2596 class_25962) {
+        class5496.method21341(class_25962);
+    }
+
+    private static Class3978 method2071() {
+        return Class304.method2079();
+    }
+
+    public static class_746 method2072(class_310 class_3102) {
+        return class_3102.field_1724;
+    }
+
+    private static void method2073() {
+        Class298.method1924();
+    }
+
+    private static void method2074(long l2) {
+        Class304.method2066(l2);
+    }
+
+    private static float method2075(Class3978 class3978) {
+        return class3978.method19528();
+    }
+
+    public static class_1792 method2076() {
+        return class_1802.field_8102;
+    }
+
+    private static void method2077() {
+        Class6009.method23561();
+    }
+
+    /*
+     * Enabled aggressive block sorting
+     */
+    @Class1
+    public void method2078(Class63 c2) {
+        int n2;
+        if (Class413.method6576().method1265()) {
+            return;
+        }
+        if (c2.method128() != Class543.field2691) {
+            return;
+        }
+        class_1799 b2 = Class304.field290.field_1724.method_6047();
+        if (b2.method_7909() != Class304.method2076()) {
+            n2 = ((Boolean)this.field595.method507()).booleanValue() ? 48167 : 48168;
+        } else {
+            int n3 = ((Boolean)this.field597.method507()).booleanValue() ? 60155 : 60156;
+            block8: while (true) {
+                switch (n3) {
+                    case 60156: {
+                        n3 = 60154;
+                        continue block8;
+                    }
+                    case 60155: {
+                        float f2 = 20.0f - Class304.method2075(Class304.method2071());
+                        Class3979.method19561();
+                        return;
+                    }
+                }
+                break;
+            }
+            float a2 = 0.0f;
+            if (!((float)Class304.field290.field_1724.method_6048() + a2 >= (float)((Integer)this.field596.method507()).intValue())) return;
+            Class304.method2068(Class5723.field11048, (class_2596)new class_2846(class_2846.class_2847.field_12974, class_2338.field_10980, class_2350.field_11033));
+            Class304.field290.field_1724.method_6075();
+            return;
+        }
+        block9: while (true) {
+            switch (n2) {
+                case 48168: {
+                    n2 = 48166;
+                    continue block9;
+                }
+                case 48167: {
+                    if (b2.method_7909() != class_1802.field_8399) return;
+                    if (!((float)Class304.field290.field_1724.method_6048() / (float)class_1764.method_7775((class_1799)Class304.field290.field_1724.method_6047(), (class_1309)Class304.method2072(field290)) > 1.0f)) return;
+                    Class304.method2070(Class304.method2080(), (class_2596)new class_2846(class_2846.class_2847.field_12974, class_2338.field_10980, class_2350.field_11033));
+                    Class304.field290.field_1724.method_6075();
+                    Class304.field290.field_1761.method_2919((class_1657)Class304.method2067(field290), Class304.method2065());
+                    return;
+                }
+            }
+            break;
+        }
+    }
+
+    public Class304() {
+        super("AutoRelease", "Automatically releases a charged bow", Class556.field2758);
+    }
+
+    public static Class3978 method2079() {
+        return Class5723.field11047;
+    }
+
+    public static Class5496 method2080() {
+        return Class5723.field11048;
+    }
+
+    static {
+        Class304.method2074(4512508161410397376L);
+    }
+
+    private static Object 1(char c2) {
+        return ((Object[])1)[c2];
+    }
+}
+
