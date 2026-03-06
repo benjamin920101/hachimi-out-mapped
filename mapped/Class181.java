@@ -2,13 +2,13 @@
  * Decompiled with CFR 0.152.
  * 
  * Could not load the following classes:
- *  net.minecraft.class_4184
+ *  net.minecraft.client.render.Camera
  */
 package mapped;
 
 import mapped.Class3;
 import mapped.Class8;
-import net.minecraft.class_4184;
+import net.minecraft.client.render.Camera;
 
 @Class3
 public class Class181

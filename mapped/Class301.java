@@ -2,9 +2,9 @@
  * Decompiled with CFR 0.152.
  * 
  * Could not load the following classes:
- *  net.minecraft.class_2596
- *  net.minecraft.class_2645
- *  net.minecraft.class_8042
+ *  net.minecraft.network.packet.Packet
+ *  net.minecraft.network.packet.s2c.play.CloseScreenS2CPacket
+ *  net.minecraft.network.packet.s2c.play.BundleS2CPacket
  */
 package mapped;
 
@@ -26,9 +26,9 @@ import mapped.Class537;
 import mapped.Class556;
 import mapped.Class5648;
 import net.hachimi.client.mixin.c;
-import net.minecraft.class_2596;
-import net.minecraft.class_2645;
-import net.minecraft.class_8042;
+import net.minecraft.network.packet.Packet;
+import net.minecraft.network.packet.s2c.play.CloseScreenS2CPacket;
+import net.minecraft.network.packet.s2c.play.BundleS2CPacket;
 
 /*
  * Illegal identifiers - consider using --renameillegalidents true

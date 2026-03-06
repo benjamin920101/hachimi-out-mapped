@@ -2,13 +2,13 @@
  * Decompiled with CFR 0.152.
  * 
  * Could not load the following classes:
- *  net.minecraft.class_2708
+ *  net.minecraft.network.packet.s2c.play.PlayerPositionLookS2CPacket
  */
 package mapped;
 
 import mapped.Class3;
 import mapped.Class8;
-import net.minecraft.class_2708;
+import net.minecraft.network.packet.s2c.play.PlayerPositionLookS2CPacket;
 
 @Class3
 public class Class12

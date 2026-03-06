@@ -2,10 +2,10 @@
  * Decompiled with CFR 0.152.
  * 
  * Could not load the following classes:
- *  net.minecraft.class_1738
- *  net.minecraft.class_1792
- *  net.minecraft.class_1799
- *  net.minecraft.class_332
+ *  net.minecraft.item.ArmorItem
+ *  net.minecraft.item.Item
+ *  net.minecraft.item.ItemStack
+ *  net.minecraft.client.gui.DrawContext
  */
 package mapped;
 
@@ -41,10 +41,10 @@ import mapped.Class6394;
 import mapped.Class6454;
 import mapped.Class8;
 import mapped.Class909;
-import net.minecraft.class_1738;
-import net.minecraft.class_1792;
-import net.minecraft.class_1799;
-import net.minecraft.class_332;
+import net.minecraft.item.ArmorItem;
+import net.minecraft.item.Item;
+import net.minecraft.item.ItemStack;
+import net.minecraft.client.gui.DrawContext;
 
 /*
  * Illegal identifiers - consider using --renameillegalidents true

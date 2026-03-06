@@ -5,37 +5,37 @@
  *  baritone.api.BaritoneAPI
  *  baritone.api.pathing.goals.Goal
  *  baritone.api.pathing.goals.GoalBlock
- *  net.minecraft.class_124
- *  net.minecraft.class_1268
- *  net.minecraft.class_1294
- *  net.minecraft.class_1297
- *  net.minecraft.class_1304
- *  net.minecraft.class_1657
- *  net.minecraft.class_1671
- *  net.minecraft.class_1703
- *  net.minecraft.class_1713
- *  net.minecraft.class_1770
- *  net.minecraft.class_1781
- *  net.minecraft.class_1792
- *  net.minecraft.class_1799
- *  net.minecraft.class_1802
- *  net.minecraft.class_2338
- *  net.minecraft.class_2374
- *  net.minecraft.class_243
- *  net.minecraft.class_2596
- *  net.minecraft.class_2848
- *  net.minecraft.class_2848$class_2849
- *  net.minecraft.class_2886
- *  net.minecraft.class_304
- *  net.minecraft.class_310
- *  net.minecraft.class_315
- *  net.minecraft.class_3532
- *  net.minecraft.class_636
- *  net.minecraft.class_638
- *  net.minecraft.class_6880
- *  net.minecraft.class_7204
- *  net.minecraft.class_744
- *  net.minecraft.class_746
+ *  net.minecraft.util.Formatting
+ *  net.minecraft.util.Hand
+ *  net.minecraft.entity.effect.StatusEffects
+ *  net.minecraft.entity.Entity
+ *  net.minecraft.entity.EquipmentSlot
+ *  net.minecraft.entity.player.PlayerEntity
+ *  net.minecraft.entity.projectile.FireworkRocketEntity
+ *  net.minecraft.screen.ScreenHandler
+ *  net.minecraft.screen.slot.SlotActionType
+ *  net.minecraft.item.ElytraItem
+ *  net.minecraft.item.FireworkRocketItem
+ *  net.minecraft.item.Item
+ *  net.minecraft.item.ItemStack
+ *  net.minecraft.item.Items
+ *  net.minecraft.util.math.BlockPos
+ *  net.minecraft.util.math.Position
+ *  net.minecraft.util.math.Vec3d
+ *  net.minecraft.network.packet.Packet
+ *  net.minecraft.network.packet.c2s.play.ClientCommandC2SPacket
+ *  net.minecraft.network.packet.c2s.play.ClientCommandC2SPacket$Mode
+ *  net.minecraft.network.packet.c2s.play.PlayerInteractItemC2SPacket
+ *  net.minecraft.client.option.KeyBinding
+ *  net.minecraft.client.MinecraftClient
+ *  net.minecraft.client.option.GameOptions
+ *  net.minecraft.util.math.MathHelper
+ *  net.minecraft.client.network.ClientPlayerInteractionManager
+ *  net.minecraft.client.world.ClientWorld
+ *  net.minecraft.registry.entry.RegistryEntry
+ *  net.minecraft.client.network.SequencedPacketCreator
+ *  net.minecraft.client.input.Input
+ *  net.minecraft.client.network.ClientPlayerEntity
  */
 package mapped;
 
@@ -124,36 +124,36 @@ import mapped.Class925;
 import mapped.Class926;
 import mapped.Class955;
 import net.hachimi.client.mixin.au;
-import net.minecraft.class_124;
-import net.minecraft.class_1268;
-import net.minecraft.class_1294;
-import net.minecraft.class_1297;
-import net.minecraft.class_1304;
-import net.minecraft.class_1657;
-import net.minecraft.class_1671;
-import net.minecraft.class_1703;
-import net.minecraft.class_1713;
-import net.minecraft.class_1770;
-import net.minecraft.class_1781;
-import net.minecraft.class_1792;
-import net.minecraft.class_1799;
-import net.minecraft.class_1802;
-import net.minecraft.class_2338;
-import net.minecraft.class_2374;
-import net.minecraft.class_243;
-import net.minecraft.class_2596;
-import net.minecraft.class_2848;
-import net.minecraft.class_2886;
-import net.minecraft.class_304;
-import net.minecraft.class_310;
-import net.minecraft.class_315;
-import net.minecraft.class_3532;
-import net.minecraft.class_636;
-import net.minecraft.class_638;
-import net.minecraft.class_6880;
-import net.minecraft.class_7204;
-import net.minecraft.class_744;
-import net.minecraft.class_746;
+import net.minecraft.util.Formatting;
+import net.minecraft.util.Hand;
+import net.minecraft.entity.effect.StatusEffects;
+import net.minecraft.entity.Entity;
+import net.minecraft.entity.EquipmentSlot;
+import net.minecraft.entity.player.PlayerEntity;
+import net.minecraft.entity.projectile.FireworkRocketEntity;
+import net.minecraft.screen.ScreenHandler;
+import net.minecraft.screen.slot.SlotActionType;
+import net.minecraft.item.ElytraItem;
+import net.minecraft.item.FireworkRocketItem;
+import net.minecraft.item.Item;
+import net.minecraft.item.ItemStack;
+import net.minecraft.item.Items;
+import net.minecraft.util.math.BlockPos;
+import net.minecraft.util.math.Position;
+import net.minecraft.util.math.Vec3d;
+import net.minecraft.network.packet.Packet;
+import net.minecraft.network.packet.c2s.play.ClientCommandC2SPacket;
+import net.minecraft.network.packet.c2s.play.PlayerInteractItemC2SPacket;
+import net.minecraft.client.option.KeyBinding;
+import net.minecraft.client.MinecraftClient;
+import net.minecraft.client.option.GameOptions;
+import net.minecraft.util.math.MathHelper;
+import net.minecraft.client.network.ClientPlayerInteractionManager;
+import net.minecraft.client.world.ClientWorld;
+import net.minecraft.registry.entry.RegistryEntry;
+import net.minecraft.client.network.SequencedPacketCreator;
+import net.minecraft.client.input.Input;
+import net.minecraft.client.network.ClientPlayerEntity;
 
 /*
  * Illegal identifiers - consider using --renameillegalidents true

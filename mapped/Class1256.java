@@ -3,32 +3,32 @@
  * 
  * Could not load the following classes:
  *  com.mojang.blaze3d.systems.RenderSystem
- *  net.minecraft.class_1263
- *  net.minecraft.class_1277
- *  net.minecraft.class_1733
- *  net.minecraft.class_1747
- *  net.minecraft.class_1767
- *  net.minecraft.class_1792
- *  net.minecraft.class_1799
- *  net.minecraft.class_2248
- *  net.minecraft.class_2371
- *  net.minecraft.class_2480
- *  net.minecraft.class_2487
- *  net.minecraft.class_2499
- *  net.minecraft.class_2960
- *  net.minecraft.class_310
- *  net.minecraft.class_332
- *  net.minecraft.class_3872
- *  net.minecraft.class_3872$class_3931
- *  net.minecraft.class_437
- *  net.minecraft.class_495
- *  net.minecraft.class_7225$class_7874
- *  net.minecraft.class_746
- *  net.minecraft.class_757
- *  net.minecraft.class_9279
- *  net.minecraft.class_9323
- *  net.minecraft.class_9331
- *  net.minecraft.class_9334
+ *  net.minecraft.inventory.Inventory
+ *  net.minecraft.inventory.SimpleInventory
+ *  net.minecraft.screen.ShulkerBoxScreenHandler
+ *  net.minecraft.item.BlockItem
+ *  net.minecraft.util.DyeColor
+ *  net.minecraft.item.Item
+ *  net.minecraft.item.ItemStack
+ *  net.minecraft.block.Block
+ *  net.minecraft.util.collection.DefaultedList
+ *  net.minecraft.block.ShulkerBoxBlock
+ *  net.minecraft.nbt.NbtCompound
+ *  net.minecraft.nbt.NbtList
+ *  net.minecraft.util.Identifier
+ *  net.minecraft.client.MinecraftClient
+ *  net.minecraft.client.gui.DrawContext
+ *  net.minecraft.client.gui.screen.ingame.BookScreen
+ *  net.minecraft.client.gui.screen.ingame.BookScreen$Contents
+ *  net.minecraft.client.gui.screen.Screen
+ *  net.minecraft.client.gui.screen.ingame.ShulkerBoxScreen
+ *  net.minecraft.registry.RegistryWrapper$WrapperLookup
+ *  net.minecraft.client.network.ClientPlayerEntity
+ *  net.minecraft.client.render.GameRenderer
+ *  net.minecraft.component.type.NbtComponent
+ *  net.minecraft.component.ComponentMap
+ *  net.minecraft.component.ComponentType
+ *  net.minecraft.component.DataComponentTypes
  */
 package mapped;
 
@@ -51,31 +51,31 @@ import mapped.Class5659;
 import mapped.Class5836;
 import mapped.Class6322;
 import net.hachimi.client.mixin.aB;
-import net.minecraft.class_1263;
-import net.minecraft.class_1277;
-import net.minecraft.class_1733;
-import net.minecraft.class_1747;
-import net.minecraft.class_1767;
-import net.minecraft.class_1792;
-import net.minecraft.class_1799;
-import net.minecraft.class_2248;
-import net.minecraft.class_2371;
-import net.minecraft.class_2480;
-import net.minecraft.class_2487;
-import net.minecraft.class_2499;
-import net.minecraft.class_2960;
-import net.minecraft.class_310;
-import net.minecraft.class_332;
-import net.minecraft.class_3872;
-import net.minecraft.class_437;
-import net.minecraft.class_495;
-import net.minecraft.class_7225;
-import net.minecraft.class_746;
-import net.minecraft.class_757;
-import net.minecraft.class_9279;
-import net.minecraft.class_9323;
-import net.minecraft.class_9331;
-import net.minecraft.class_9334;
+import net.minecraft.inventory.Inventory;
+import net.minecraft.inventory.SimpleInventory;
+import net.minecraft.screen.ShulkerBoxScreenHandler;
+import net.minecraft.item.BlockItem;
+import net.minecraft.util.DyeColor;
+import net.minecraft.item.Item;
+import net.minecraft.item.ItemStack;
+import net.minecraft.block.Block;
+import net.minecraft.util.collection.DefaultedList;
+import net.minecraft.block.ShulkerBoxBlock;
+import net.minecraft.nbt.NbtCompound;
+import net.minecraft.nbt.NbtList;
+import net.minecraft.util.Identifier;
+import net.minecraft.client.MinecraftClient;
+import net.minecraft.client.gui.DrawContext;
+import net.minecraft.client.gui.screen.ingame.BookScreen;
+import net.minecraft.client.gui.screen.Screen;
+import net.minecraft.client.gui.screen.ingame.ShulkerBoxScreen;
+import net.minecraft.registry.RegistryWrapper;
+import net.minecraft.client.network.ClientPlayerEntity;
+import net.minecraft.client.render.GameRenderer;
+import net.minecraft.component.type.NbtComponent;
+import net.minecraft.component.ComponentMap;
+import net.minecraft.component.ComponentType;
+import net.minecraft.component.DataComponentTypes;
 
 /*
  * Illegal identifiers - consider using --renameillegalidents true

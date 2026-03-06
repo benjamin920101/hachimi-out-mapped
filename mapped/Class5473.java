@@ -2,7 +2,7 @@
  * Decompiled with CFR 0.152.
  * 
  * Could not load the following classes:
- *  net.minecraft.class_8030
+ *  net.minecraft.client.gui.ScreenRect
  */
 package mapped;
 
@@ -15,7 +15,7 @@ import java.util.ArrayDeque;
 import java.util.Deque;
 import java.util.Objects;
 import net.hachimi.HACHIMI_CLIENT;
-import net.minecraft.class_8030;
+import net.minecraft.client.gui.ScreenRect;
 
 public class Class5473 {
     private final Deque field10257 = new ArrayDeque();

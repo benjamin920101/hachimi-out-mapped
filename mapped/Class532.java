@@ -2,7 +2,7 @@
  * Decompiled with CFR 0.152.
  * 
  * Could not load the following classes:
- *  net.minecraft.class_2246
+ *  net.minecraft.block.Blocks
  */
 package mapped;
 
@@ -11,7 +11,7 @@ import java.lang.invoke.ConstantCallSite;
 import java.lang.invoke.MethodHandles;
 import java.lang.invoke.MethodType;
 import java.util.LinkedList;
-import net.minecraft.class_2246;
+import net.minecraft.block.Blocks;
 
 /*
  * Illegal identifiers - consider using --renameillegalidents true

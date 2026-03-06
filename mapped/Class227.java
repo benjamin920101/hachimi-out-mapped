@@ -2,7 +2,7 @@
  * Decompiled with CFR 0.152.
  * 
  * Could not load the following classes:
- *  net.minecraft.class_5498
+ *  net.minecraft.client.option.Perspective
  */
 package mapped;
 
@@ -11,7 +11,7 @@ import java.lang.invoke.ConstantCallSite;
 import java.lang.invoke.MethodHandles;
 import java.lang.invoke.MethodType;
 import mapped.Class8;
-import net.minecraft.class_5498;
+import net.minecraft.client.option.Perspective;
 
 /*
  * Illegal identifiers - consider using --renameillegalidents true

@@ -2,29 +2,29 @@
  * Decompiled with CFR 0.152.
  * 
  * Could not load the following classes:
- *  net.minecraft.class_1268
- *  net.minecraft.class_1294
- *  net.minecraft.class_1297
- *  net.minecraft.class_1309
- *  net.minecraft.class_1922
- *  net.minecraft.class_2338
- *  net.minecraft.class_2338$class_2339
- *  net.minecraft.class_238
- *  net.minecraft.class_243
- *  net.minecraft.class_2596
- *  net.minecraft.class_2680
- *  net.minecraft.class_2824
- *  net.minecraft.class_2828
- *  net.minecraft.class_2828$class_2829
- *  net.minecraft.class_2828$class_2830
- *  net.minecraft.class_2848
- *  net.minecraft.class_2848$class_2849
- *  net.minecraft.class_2879
- *  net.minecraft.class_310
- *  net.minecraft.class_638
- *  net.minecraft.class_6880
- *  net.minecraft.class_744
- *  net.minecraft.class_746
+ *  net.minecraft.util.Hand
+ *  net.minecraft.entity.effect.StatusEffects
+ *  net.minecraft.entity.Entity
+ *  net.minecraft.entity.LivingEntity
+ *  net.minecraft.world.BlockView
+ *  net.minecraft.util.math.BlockPos
+ *  net.minecraft.util.math.BlockPos$Mutable
+ *  net.minecraft.util.math.Box
+ *  net.minecraft.util.math.Vec3d
+ *  net.minecraft.network.packet.Packet
+ *  net.minecraft.block.BlockState
+ *  net.minecraft.network.packet.c2s.play.PlayerInteractEntityC2SPacket
+ *  net.minecraft.network.packet.c2s.play.PlayerMoveC2SPacket
+ *  net.minecraft.network.packet.c2s.play.PlayerMoveC2SPacket$PositionAndOnGround
+ *  net.minecraft.network.packet.c2s.play.PlayerMoveC2SPacket$Full
+ *  net.minecraft.network.packet.c2s.play.ClientCommandC2SPacket
+ *  net.minecraft.network.packet.c2s.play.ClientCommandC2SPacket$Mode
+ *  net.minecraft.network.packet.c2s.play.HandSwingC2SPacket
+ *  net.minecraft.client.MinecraftClient
+ *  net.minecraft.client.world.ClientWorld
+ *  net.minecraft.registry.entry.RegistryEntry
+ *  net.minecraft.client.input.Input
+ *  net.minecraft.client.network.ClientPlayerEntity
  */
 package mapped;
 
@@ -92,25 +92,25 @@ import mapped.Class925;
 import mapped.Class926;
 import mapped.Class929;
 import net.hachimi.client.mixin.bH;
-import net.minecraft.class_1268;
-import net.minecraft.class_1294;
-import net.minecraft.class_1297;
-import net.minecraft.class_1309;
-import net.minecraft.class_1922;
-import net.minecraft.class_2338;
-import net.minecraft.class_238;
-import net.minecraft.class_243;
-import net.minecraft.class_2596;
-import net.minecraft.class_2680;
-import net.minecraft.class_2824;
-import net.minecraft.class_2828;
-import net.minecraft.class_2848;
-import net.minecraft.class_2879;
-import net.minecraft.class_310;
-import net.minecraft.class_638;
-import net.minecraft.class_6880;
-import net.minecraft.class_744;
-import net.minecraft.class_746;
+import net.minecraft.util.Hand;
+import net.minecraft.entity.effect.StatusEffects;
+import net.minecraft.entity.Entity;
+import net.minecraft.entity.LivingEntity;
+import net.minecraft.world.BlockView;
+import net.minecraft.util.math.BlockPos;
+import net.minecraft.util.math.Box;
+import net.minecraft.util.math.Vec3d;
+import net.minecraft.network.packet.Packet;
+import net.minecraft.block.BlockState;
+import net.minecraft.network.packet.c2s.play.PlayerInteractEntityC2SPacket;
+import net.minecraft.network.packet.c2s.play.PlayerMoveC2SPacket;
+import net.minecraft.network.packet.c2s.play.ClientCommandC2SPacket;
+import net.minecraft.network.packet.c2s.play.HandSwingC2SPacket;
+import net.minecraft.client.MinecraftClient;
+import net.minecraft.client.world.ClientWorld;
+import net.minecraft.registry.entry.RegistryEntry;
+import net.minecraft.client.input.Input;
+import net.minecraft.client.network.ClientPlayerEntity;
 
 /*
  * Illegal identifiers - consider using --renameillegalidents true

@@ -2,37 +2,37 @@
  * Decompiled with CFR 0.152.
  * 
  * Could not load the following classes:
- *  net.minecraft.class_1268
- *  net.minecraft.class_1292
- *  net.minecraft.class_1294
- *  net.minecraft.class_1309
- *  net.minecraft.class_1657
- *  net.minecraft.class_1799
- *  net.minecraft.class_1893
- *  net.minecraft.class_1922
- *  net.minecraft.class_2246
- *  net.minecraft.class_2248
- *  net.minecraft.class_2338
- *  net.minecraft.class_2350
- *  net.minecraft.class_238
- *  net.minecraft.class_2382
- *  net.minecraft.class_243
- *  net.minecraft.class_259
- *  net.minecraft.class_2596
- *  net.minecraft.class_2626
- *  net.minecraft.class_265
- *  net.minecraft.class_2680
- *  net.minecraft.class_2846
- *  net.minecraft.class_2846$class_2847
- *  net.minecraft.class_2868
- *  net.minecraft.class_2879
- *  net.minecraft.class_310
- *  net.minecraft.class_3532
- *  net.minecraft.class_4587
- *  net.minecraft.class_5321
- *  net.minecraft.class_638
- *  net.minecraft.class_6880
- *  net.minecraft.class_746
+ *  net.minecraft.util.Hand
+ *  net.minecraft.entity.effect.StatusEffectUtil
+ *  net.minecraft.entity.effect.StatusEffects
+ *  net.minecraft.entity.LivingEntity
+ *  net.minecraft.entity.player.PlayerEntity
+ *  net.minecraft.item.ItemStack
+ *  net.minecraft.enchantment.Enchantments
+ *  net.minecraft.world.BlockView
+ *  net.minecraft.block.Blocks
+ *  net.minecraft.block.Block
+ *  net.minecraft.util.math.BlockPos
+ *  net.minecraft.util.math.Direction
+ *  net.minecraft.util.math.Box
+ *  net.minecraft.util.math.Vec3i
+ *  net.minecraft.util.math.Vec3d
+ *  net.minecraft.util.shape.VoxelShapes
+ *  net.minecraft.network.packet.Packet
+ *  net.minecraft.network.packet.s2c.play.BlockUpdateS2CPacket
+ *  net.minecraft.util.shape.VoxelShape
+ *  net.minecraft.block.BlockState
+ *  net.minecraft.network.packet.c2s.play.PlayerActionC2SPacket
+ *  net.minecraft.network.packet.c2s.play.PlayerActionC2SPacket$Action
+ *  net.minecraft.network.packet.c2s.play.UpdateSelectedSlotC2SPacket
+ *  net.minecraft.network.packet.c2s.play.HandSwingC2SPacket
+ *  net.minecraft.client.MinecraftClient
+ *  net.minecraft.util.math.MathHelper
+ *  net.minecraft.client.util.math.MatrixStack
+ *  net.minecraft.registry.RegistryKey
+ *  net.minecraft.client.world.ClientWorld
+ *  net.minecraft.registry.entry.RegistryEntry
+ *  net.minecraft.client.network.ClientPlayerEntity
  */
 package mapped;
 
@@ -118,36 +118,36 @@ import mapped.Class703;
 import mapped.Class706;
 import mapped.Class752;
 import mapped.Class896;
-import net.minecraft.class_1268;
-import net.minecraft.class_1292;
-import net.minecraft.class_1294;
-import net.minecraft.class_1309;
-import net.minecraft.class_1657;
-import net.minecraft.class_1799;
-import net.minecraft.class_1893;
-import net.minecraft.class_1922;
-import net.minecraft.class_2246;
-import net.minecraft.class_2248;
-import net.minecraft.class_2338;
-import net.minecraft.class_2350;
-import net.minecraft.class_238;
-import net.minecraft.class_2382;
-import net.minecraft.class_243;
-import net.minecraft.class_259;
-import net.minecraft.class_2596;
-import net.minecraft.class_2626;
-import net.minecraft.class_265;
-import net.minecraft.class_2680;
-import net.minecraft.class_2846;
-import net.minecraft.class_2868;
-import net.minecraft.class_2879;
-import net.minecraft.class_310;
-import net.minecraft.class_3532;
-import net.minecraft.class_4587;
-import net.minecraft.class_5321;
-import net.minecraft.class_638;
-import net.minecraft.class_6880;
-import net.minecraft.class_746;
+import net.minecraft.util.Hand;
+import net.minecraft.entity.effect.StatusEffectUtil;
+import net.minecraft.entity.effect.StatusEffects;
+import net.minecraft.entity.LivingEntity;
+import net.minecraft.entity.player.PlayerEntity;
+import net.minecraft.item.ItemStack;
+import net.minecraft.enchantment.Enchantments;
+import net.minecraft.world.BlockView;
+import net.minecraft.block.Blocks;
+import net.minecraft.block.Block;
+import net.minecraft.util.math.BlockPos;
+import net.minecraft.util.math.Direction;
+import net.minecraft.util.math.Box;
+import net.minecraft.util.math.Vec3i;
+import net.minecraft.util.math.Vec3d;
+import net.minecraft.util.shape.VoxelShapes;
+import net.minecraft.network.packet.Packet;
+import net.minecraft.network.packet.s2c.play.BlockUpdateS2CPacket;
+import net.minecraft.util.shape.VoxelShape;
+import net.minecraft.block.BlockState;
+import net.minecraft.network.packet.c2s.play.PlayerActionC2SPacket;
+import net.minecraft.network.packet.c2s.play.UpdateSelectedSlotC2SPacket;
+import net.minecraft.network.packet.c2s.play.HandSwingC2SPacket;
+import net.minecraft.client.MinecraftClient;
+import net.minecraft.util.math.MathHelper;
+import net.minecraft.client.util.math.MatrixStack;
+import net.minecraft.registry.RegistryKey;
+import net.minecraft.client.world.ClientWorld;
+import net.minecraft.registry.entry.RegistryEntry;
+import net.minecraft.client.network.ClientPlayerEntity;
 
 /*
  * Illegal identifiers - consider using --renameillegalidents true

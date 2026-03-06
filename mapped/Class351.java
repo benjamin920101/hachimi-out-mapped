@@ -3,27 +3,27 @@
  * 
  * Could not load the following classes:
  *  com.google.common.collect.Lists
- *  net.minecraft.class_1294
- *  net.minecraft.class_1297
- *  net.minecraft.class_1511
- *  net.minecraft.class_1657
- *  net.minecraft.class_1713
- *  net.minecraft.class_1743
- *  net.minecraft.class_1792
- *  net.minecraft.class_1802
- *  net.minecraft.class_1810
- *  net.minecraft.class_1829
- *  net.minecraft.class_1835
- *  net.minecraft.class_239
- *  net.minecraft.class_2653
- *  net.minecraft.class_2749
- *  net.minecraft.class_310
- *  net.minecraft.class_315
- *  net.minecraft.class_3965
- *  net.minecraft.class_636
- *  net.minecraft.class_638
- *  net.minecraft.class_746
- *  net.minecraft.class_9362
+ *  net.minecraft.entity.effect.StatusEffects
+ *  net.minecraft.entity.Entity
+ *  net.minecraft.entity.decoration.EndCrystalEntity
+ *  net.minecraft.entity.player.PlayerEntity
+ *  net.minecraft.screen.slot.SlotActionType
+ *  net.minecraft.item.AxeItem
+ *  net.minecraft.item.Item
+ *  net.minecraft.item.Items
+ *  net.minecraft.item.PickaxeItem
+ *  net.minecraft.item.SwordItem
+ *  net.minecraft.item.TridentItem
+ *  net.minecraft.util.hit.HitResult
+ *  net.minecraft.network.packet.s2c.play.ScreenHandlerSlotUpdateS2CPacket
+ *  net.minecraft.network.packet.s2c.play.HealthUpdateS2CPacket
+ *  net.minecraft.client.MinecraftClient
+ *  net.minecraft.client.option.GameOptions
+ *  net.minecraft.util.hit.BlockHitResult
+ *  net.minecraft.client.network.ClientPlayerInteractionManager
+ *  net.minecraft.client.world.ClientWorld
+ *  net.minecraft.client.network.ClientPlayerEntity
+ *  net.minecraft.item.MaceItem
  */
 package mapped;
 
@@ -76,27 +76,27 @@ import mapped.Class6322;
 import mapped.Class6454;
 import mapped.Class694;
 import mapped.Class773;
-import net.minecraft.class_1294;
-import net.minecraft.class_1297;
-import net.minecraft.class_1511;
-import net.minecraft.class_1657;
-import net.minecraft.class_1713;
-import net.minecraft.class_1743;
-import net.minecraft.class_1792;
-import net.minecraft.class_1802;
-import net.minecraft.class_1810;
-import net.minecraft.class_1829;
-import net.minecraft.class_1835;
-import net.minecraft.class_239;
-import net.minecraft.class_2653;
-import net.minecraft.class_2749;
-import net.minecraft.class_310;
-import net.minecraft.class_315;
-import net.minecraft.class_3965;
-import net.minecraft.class_636;
-import net.minecraft.class_638;
-import net.minecraft.class_746;
-import net.minecraft.class_9362;
+import net.minecraft.entity.effect.StatusEffects;
+import net.minecraft.entity.Entity;
+import net.minecraft.entity.decoration.EndCrystalEntity;
+import net.minecraft.entity.player.PlayerEntity;
+import net.minecraft.screen.slot.SlotActionType;
+import net.minecraft.item.AxeItem;
+import net.minecraft.item.Item;
+import net.minecraft.item.Items;
+import net.minecraft.item.PickaxeItem;
+import net.minecraft.item.SwordItem;
+import net.minecraft.item.TridentItem;
+import net.minecraft.util.hit.HitResult;
+import net.minecraft.network.packet.s2c.play.ScreenHandlerSlotUpdateS2CPacket;
+import net.minecraft.network.packet.s2c.play.HealthUpdateS2CPacket;
+import net.minecraft.client.MinecraftClient;
+import net.minecraft.client.option.GameOptions;
+import net.minecraft.util.hit.BlockHitResult;
+import net.minecraft.client.network.ClientPlayerInteractionManager;
+import net.minecraft.client.world.ClientWorld;
+import net.minecraft.client.network.ClientPlayerEntity;
+import net.minecraft.item.MaceItem;
 
 /*
  * Illegal identifiers - consider using --renameillegalidents true

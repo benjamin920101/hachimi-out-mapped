@@ -4,24 +4,24 @@
  * Could not load the following classes:
  *  it.unimi.dsi.fastutil.ints.Int2ObjectMap
  *  it.unimi.dsi.fastutil.ints.Int2ObjectOpenHashMap
- *  net.minecraft.class_1268
- *  net.minecraft.class_1297
- *  net.minecraft.class_1657
- *  net.minecraft.class_1713
- *  net.minecraft.class_1738
- *  net.minecraft.class_1799
- *  net.minecraft.class_1802
- *  net.minecraft.class_1935
- *  net.minecraft.class_1937
- *  net.minecraft.class_2596
- *  net.minecraft.class_2663
- *  net.minecraft.class_2670
- *  net.minecraft.class_2805
- *  net.minecraft.class_2813
- *  net.minecraft.class_2827
- *  net.minecraft.class_310
- *  net.minecraft.class_638
- *  net.minecraft.class_746
+ *  net.minecraft.util.Hand
+ *  net.minecraft.entity.Entity
+ *  net.minecraft.entity.player.PlayerEntity
+ *  net.minecraft.screen.slot.SlotActionType
+ *  net.minecraft.item.ArmorItem
+ *  net.minecraft.item.ItemStack
+ *  net.minecraft.item.Items
+ *  net.minecraft.item.ItemConvertible
+ *  net.minecraft.world.World
+ *  net.minecraft.network.packet.Packet
+ *  net.minecraft.network.packet.s2c.play.EntityStatusS2CPacket
+ *  net.minecraft.network.packet.s2c.common.KeepAliveS2CPacket
+ *  net.minecraft.network.packet.c2s.play.RequestCommandCompletionsC2SPacket
+ *  net.minecraft.network.packet.c2s.play.ClickSlotC2SPacket
+ *  net.minecraft.network.packet.c2s.common.KeepAliveC2SPacket
+ *  net.minecraft.client.MinecraftClient
+ *  net.minecraft.client.world.ClientWorld
+ *  net.minecraft.client.network.ClientPlayerEntity
  */
 package mapped;
 
@@ -56,24 +56,24 @@ import mapped.Class584;
 import mapped.Class63;
 import mapped.Class6322;
 import mapped.Class6454;
-import net.minecraft.class_1268;
-import net.minecraft.class_1297;
-import net.minecraft.class_1657;
-import net.minecraft.class_1713;
-import net.minecraft.class_1738;
-import net.minecraft.class_1799;
-import net.minecraft.class_1802;
-import net.minecraft.class_1935;
-import net.minecraft.class_1937;
-import net.minecraft.class_2596;
-import net.minecraft.class_2663;
-import net.minecraft.class_2670;
-import net.minecraft.class_2805;
-import net.minecraft.class_2813;
-import net.minecraft.class_2827;
-import net.minecraft.class_310;
-import net.minecraft.class_638;
-import net.minecraft.class_746;
+import net.minecraft.util.Hand;
+import net.minecraft.entity.Entity;
+import net.minecraft.entity.player.PlayerEntity;
+import net.minecraft.screen.slot.SlotActionType;
+import net.minecraft.item.ArmorItem;
+import net.minecraft.item.ItemStack;
+import net.minecraft.item.Items;
+import net.minecraft.item.ItemConvertible;
+import net.minecraft.world.World;
+import net.minecraft.network.packet.Packet;
+import net.minecraft.network.packet.s2c.play.EntityStatusS2CPacket;
+import net.minecraft.network.packet.s2c.common.KeepAliveS2CPacket;
+import net.minecraft.network.packet.c2s.play.RequestCommandCompletionsC2SPacket;
+import net.minecraft.network.packet.c2s.play.ClickSlotC2SPacket;
+import net.minecraft.network.packet.c2s.common.KeepAliveC2SPacket;
+import net.minecraft.client.MinecraftClient;
+import net.minecraft.client.world.ClientWorld;
+import net.minecraft.client.network.ClientPlayerEntity;
 
 public class Class393
 extends Class278 {

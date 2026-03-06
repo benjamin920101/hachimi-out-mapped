@@ -3,7 +3,7 @@
  * 
  * Could not load the following classes:
  *  com.mojang.brigadier.CommandDispatcher
- *  net.minecraft.class_2172
+ *  net.minecraft.command.CommandSource
  */
 package mapped;
 
@@ -13,7 +13,7 @@ import java.lang.invoke.ConstantCallSite;
 import java.lang.invoke.MethodHandles;
 import java.lang.invoke.MethodType;
 import mapped.Class8;
-import net.minecraft.class_2172;
+import net.minecraft.command.CommandSource;
 
 /*
  * Illegal identifiers - consider using --renameillegalidents true

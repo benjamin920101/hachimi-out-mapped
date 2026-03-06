@@ -2,8 +2,8 @@
  * Decompiled with CFR 0.152.
  * 
  * Could not load the following classes:
- *  net.minecraft.class_1937
- *  net.minecraft.class_5321
+ *  net.minecraft.world.World
+ *  net.minecraft.registry.RegistryKey
  */
 package mapped;
 
@@ -13,8 +13,8 @@ import java.lang.invoke.MethodHandles;
 import java.lang.invoke.MethodType;
 import mapped.Class4045;
 import mapped.Class4122;
-import net.minecraft.class_1937;
-import net.minecraft.class_5321;
+import net.minecraft.world.World;
+import net.minecraft.registry.RegistryKey;
 
 /*
  * Illegal identifiers - consider using --renameillegalidents true

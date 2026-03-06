@@ -2,26 +2,26 @@
  * Decompiled with CFR 0.152.
  * 
  * Could not load the following classes:
- *  net.minecraft.class_1291
- *  net.minecraft.class_1293
- *  net.minecraft.class_1657
- *  net.minecraft.class_1713
- *  net.minecraft.class_1753
- *  net.minecraft.class_1792
- *  net.minecraft.class_1799
- *  net.minecraft.class_1802
- *  net.minecraft.class_1833
- *  net.minecraft.class_1844
- *  net.minecraft.class_2338
- *  net.minecraft.class_2350
- *  net.minecraft.class_2596
- *  net.minecraft.class_2846
- *  net.minecraft.class_2846$class_2847
- *  net.minecraft.class_304
- *  net.minecraft.class_310
- *  net.minecraft.class_315
- *  net.minecraft.class_746
- *  net.minecraft.class_9334
+ *  net.minecraft.entity.effect.StatusEffect
+ *  net.minecraft.entity.effect.StatusEffectInstance
+ *  net.minecraft.entity.player.PlayerEntity
+ *  net.minecraft.screen.slot.SlotActionType
+ *  net.minecraft.item.BowItem
+ *  net.minecraft.item.Item
+ *  net.minecraft.item.ItemStack
+ *  net.minecraft.item.Items
+ *  net.minecraft.item.TippedArrowItem
+ *  net.minecraft.component.type.PotionContentsComponent
+ *  net.minecraft.util.math.BlockPos
+ *  net.minecraft.util.math.Direction
+ *  net.minecraft.network.packet.Packet
+ *  net.minecraft.network.packet.c2s.play.PlayerActionC2SPacket
+ *  net.minecraft.network.packet.c2s.play.PlayerActionC2SPacket$Action
+ *  net.minecraft.client.option.KeyBinding
+ *  net.minecraft.client.MinecraftClient
+ *  net.minecraft.client.option.GameOptions
+ *  net.minecraft.client.network.ClientPlayerEntity
+ *  net.minecraft.component.DataComponentTypes
  */
 package mapped;
 
@@ -51,25 +51,25 @@ import mapped.Class6188;
 import mapped.Class6322;
 import mapped.Class6454;
 import mapped.Class715;
-import net.minecraft.class_1291;
-import net.minecraft.class_1293;
-import net.minecraft.class_1657;
-import net.minecraft.class_1713;
-import net.minecraft.class_1753;
-import net.minecraft.class_1792;
-import net.minecraft.class_1799;
-import net.minecraft.class_1802;
-import net.minecraft.class_1833;
-import net.minecraft.class_1844;
-import net.minecraft.class_2338;
-import net.minecraft.class_2350;
-import net.minecraft.class_2596;
-import net.minecraft.class_2846;
-import net.minecraft.class_304;
-import net.minecraft.class_310;
-import net.minecraft.class_315;
-import net.minecraft.class_746;
-import net.minecraft.class_9334;
+import net.minecraft.entity.effect.StatusEffect;
+import net.minecraft.entity.effect.StatusEffectInstance;
+import net.minecraft.entity.player.PlayerEntity;
+import net.minecraft.screen.slot.SlotActionType;
+import net.minecraft.item.BowItem;
+import net.minecraft.item.Item;
+import net.minecraft.item.ItemStack;
+import net.minecraft.item.Items;
+import net.minecraft.item.TippedArrowItem;
+import net.minecraft.component.type.PotionContentsComponent;
+import net.minecraft.util.math.BlockPos;
+import net.minecraft.util.math.Direction;
+import net.minecraft.network.packet.Packet;
+import net.minecraft.network.packet.c2s.play.PlayerActionC2SPacket;
+import net.minecraft.client.option.KeyBinding;
+import net.minecraft.client.MinecraftClient;
+import net.minecraft.client.option.GameOptions;
+import net.minecraft.client.network.ClientPlayerEntity;
+import net.minecraft.component.DataComponentTypes;
 
 /*
  * Illegal identifiers - consider using --renameillegalidents true

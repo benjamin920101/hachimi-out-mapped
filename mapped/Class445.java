@@ -2,28 +2,28 @@
  * Decompiled with CFR 0.152.
  * 
  * Could not load the following classes:
- *  net.minecraft.class_1268
- *  net.minecraft.class_1297
- *  net.minecraft.class_1511
- *  net.minecraft.class_1533
- *  net.minecraft.class_1534
- *  net.minecraft.class_1657
- *  net.minecraft.class_1792
- *  net.minecraft.class_1802
- *  net.minecraft.class_2338
- *  net.minecraft.class_238
- *  net.minecraft.class_2399
- *  net.minecraft.class_243
- *  net.minecraft.class_259
- *  net.minecraft.class_2596
- *  net.minecraft.class_265
- *  net.minecraft.class_2886
- *  net.minecraft.class_310
- *  net.minecraft.class_3532
- *  net.minecraft.class_3736
- *  net.minecraft.class_638
- *  net.minecraft.class_744
- *  net.minecraft.class_746
+ *  net.minecraft.util.Hand
+ *  net.minecraft.entity.Entity
+ *  net.minecraft.entity.decoration.EndCrystalEntity
+ *  net.minecraft.entity.decoration.ItemFrameEntity
+ *  net.minecraft.entity.decoration.painting.PaintingEntity
+ *  net.minecraft.entity.player.PlayerEntity
+ *  net.minecraft.item.Item
+ *  net.minecraft.item.Items
+ *  net.minecraft.util.math.BlockPos
+ *  net.minecraft.util.math.Box
+ *  net.minecraft.block.LadderBlock
+ *  net.minecraft.util.math.Vec3d
+ *  net.minecraft.util.shape.VoxelShapes
+ *  net.minecraft.network.packet.Packet
+ *  net.minecraft.util.shape.VoxelShape
+ *  net.minecraft.network.packet.c2s.play.PlayerInteractItemC2SPacket
+ *  net.minecraft.client.MinecraftClient
+ *  net.minecraft.util.math.MathHelper
+ *  net.minecraft.block.ScaffoldingBlock
+ *  net.minecraft.client.world.ClientWorld
+ *  net.minecraft.client.input.Input
+ *  net.minecraft.client.network.ClientPlayerEntity
  */
 package mapped;
 
@@ -97,28 +97,28 @@ import mapped.Class6408;
 import mapped.Class6454;
 import mapped.Class65;
 import mapped.Class700;
-import net.minecraft.class_1268;
-import net.minecraft.class_1297;
-import net.minecraft.class_1511;
-import net.minecraft.class_1533;
-import net.minecraft.class_1534;
-import net.minecraft.class_1657;
-import net.minecraft.class_1792;
-import net.minecraft.class_1802;
-import net.minecraft.class_2338;
-import net.minecraft.class_238;
-import net.minecraft.class_2399;
-import net.minecraft.class_243;
-import net.minecraft.class_259;
-import net.minecraft.class_2596;
-import net.minecraft.class_265;
-import net.minecraft.class_2886;
-import net.minecraft.class_310;
-import net.minecraft.class_3532;
-import net.minecraft.class_3736;
-import net.minecraft.class_638;
-import net.minecraft.class_744;
-import net.minecraft.class_746;
+import net.minecraft.util.Hand;
+import net.minecraft.entity.Entity;
+import net.minecraft.entity.decoration.EndCrystalEntity;
+import net.minecraft.entity.decoration.ItemFrameEntity;
+import net.minecraft.entity.decoration.painting.PaintingEntity;
+import net.minecraft.entity.player.PlayerEntity;
+import net.minecraft.item.Item;
+import net.minecraft.item.Items;
+import net.minecraft.util.math.BlockPos;
+import net.minecraft.util.math.Box;
+import net.minecraft.block.LadderBlock;
+import net.minecraft.util.math.Vec3d;
+import net.minecraft.util.shape.VoxelShapes;
+import net.minecraft.network.packet.Packet;
+import net.minecraft.util.shape.VoxelShape;
+import net.minecraft.network.packet.c2s.play.PlayerInteractItemC2SPacket;
+import net.minecraft.client.MinecraftClient;
+import net.minecraft.util.math.MathHelper;
+import net.minecraft.block.ScaffoldingBlock;
+import net.minecraft.client.world.ClientWorld;
+import net.minecraft.client.input.Input;
+import net.minecraft.client.network.ClientPlayerEntity;
 
 /*
  * Illegal identifiers - consider using --renameillegalidents true

@@ -2,23 +2,23 @@
  * Decompiled with CFR 0.152.
  * 
  * Could not load the following classes:
- *  com.mojang.blaze3d.platform.GlStateManager$class_4534
- *  com.mojang.blaze3d.platform.GlStateManager$class_4535
+ *  com.mojang.blaze3d.platform.GlStateManager$DstFactor
+ *  com.mojang.blaze3d.platform.GlStateManager$SrcFactor
  *  com.mojang.blaze3d.systems.RenderSystem
- *  net.minecraft.class_1041
- *  net.minecraft.class_1058
- *  net.minecraft.class_286
- *  net.minecraft.class_287
- *  net.minecraft.class_289
- *  net.minecraft.class_290
- *  net.minecraft.class_293
- *  net.minecraft.class_293$class_5596
- *  net.minecraft.class_310
- *  net.minecraft.class_332
- *  net.minecraft.class_5253$class_5254
- *  net.minecraft.class_757
- *  net.minecraft.class_8030
- *  net.minecraft.class_9801
+ *  net.minecraft.client.util.Window
+ *  net.minecraft.client.texture.Sprite
+ *  net.minecraft.client.render.BufferRenderer
+ *  net.minecraft.client.render.BufferBuilder
+ *  net.minecraft.client.render.Tessellator
+ *  net.minecraft.client.render.VertexFormats
+ *  net.minecraft.client.render.VertexFormat
+ *  net.minecraft.client.render.VertexFormat$DrawMode
+ *  net.minecraft.client.MinecraftClient
+ *  net.minecraft.client.gui.DrawContext
+ *  net.minecraft.util.math.ColorHelper$Argb
+ *  net.minecraft.client.render.GameRenderer
+ *  net.minecraft.client.gui.ScreenRect
+ *  net.minecraft.client.render.BuiltBuffer
  *  org.joml.Matrix4f
  */
 package mapped;
@@ -37,19 +37,19 @@ import mapped.Class5473;
 import mapped.Class5685;
 import mapped.Class5899;
 import mapped.Class6454;
-import net.minecraft.class_1041;
-import net.minecraft.class_1058;
-import net.minecraft.class_286;
-import net.minecraft.class_287;
-import net.minecraft.class_289;
-import net.minecraft.class_290;
-import net.minecraft.class_293;
-import net.minecraft.class_310;
-import net.minecraft.class_332;
-import net.minecraft.class_5253;
-import net.minecraft.class_757;
-import net.minecraft.class_8030;
-import net.minecraft.class_9801;
+import net.minecraft.client.util.Window;
+import net.minecraft.client.texture.Sprite;
+import net.minecraft.client.render.BufferRenderer;
+import net.minecraft.client.render.BufferBuilder;
+import net.minecraft.client.render.Tessellator;
+import net.minecraft.client.render.VertexFormats;
+import net.minecraft.client.render.VertexFormat;
+import net.minecraft.client.MinecraftClient;
+import net.minecraft.client.gui.DrawContext;
+import net.minecraft.util.math.ColorHelper;
+import net.minecraft.client.render.GameRenderer;
+import net.minecraft.client.gui.ScreenRect;
+import net.minecraft.client.render.BuiltBuffer;
 import org.joml.Matrix4f;
 
 public abstract class Class263

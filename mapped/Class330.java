@@ -2,15 +2,15 @@
  * Decompiled with CFR 0.152.
  * 
  * Could not load the following classes:
- *  net.minecraft.class_1536
- *  net.minecraft.class_1792
- *  net.minecraft.class_1802
- *  net.minecraft.class_2596
- *  net.minecraft.class_2767
- *  net.minecraft.class_310
- *  net.minecraft.class_3417
- *  net.minecraft.class_408
- *  net.minecraft.class_437
+ *  net.minecraft.entity.projectile.FishingBobberEntity
+ *  net.minecraft.item.Item
+ *  net.minecraft.item.Items
+ *  net.minecraft.network.packet.Packet
+ *  net.minecraft.network.packet.s2c.play.PlaySoundS2CPacket
+ *  net.minecraft.client.MinecraftClient
+ *  net.minecraft.sound.SoundEvents
+ *  net.minecraft.client.gui.screen.ChatScreen
+ *  net.minecraft.client.gui.screen.Screen
  */
 package mapped;
 
@@ -29,15 +29,15 @@ import mapped.Class5659;
 import mapped.Class5836;
 import mapped.Class63;
 import mapped.Class873;
-import net.minecraft.class_1536;
-import net.minecraft.class_1792;
-import net.minecraft.class_1802;
-import net.minecraft.class_2596;
-import net.minecraft.class_2767;
-import net.minecraft.class_310;
-import net.minecraft.class_3417;
-import net.minecraft.class_408;
-import net.minecraft.class_437;
+import net.minecraft.entity.projectile.FishingBobberEntity;
+import net.minecraft.item.Item;
+import net.minecraft.item.Items;
+import net.minecraft.network.packet.Packet;
+import net.minecraft.network.packet.s2c.play.PlaySoundS2CPacket;
+import net.minecraft.client.MinecraftClient;
+import net.minecraft.sound.SoundEvents;
+import net.minecraft.client.gui.screen.ChatScreen;
+import net.minecraft.client.gui.screen.Screen;
 
 /*
  * Illegal identifiers - consider using --renameillegalidents true

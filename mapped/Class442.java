@@ -2,14 +2,14 @@
  * Decompiled with CFR 0.152.
  * 
  * Could not load the following classes:
- *  net.minecraft.class_1294
- *  net.minecraft.class_304
- *  net.minecraft.class_310
- *  net.minecraft.class_315
- *  net.minecraft.class_3532
- *  net.minecraft.class_6880
- *  net.minecraft.class_744
- *  net.minecraft.class_746
+ *  net.minecraft.entity.effect.StatusEffects
+ *  net.minecraft.client.option.KeyBinding
+ *  net.minecraft.client.MinecraftClient
+ *  net.minecraft.client.option.GameOptions
+ *  net.minecraft.util.math.MathHelper
+ *  net.minecraft.registry.entry.RegistryEntry
+ *  net.minecraft.client.input.Input
+ *  net.minecraft.client.network.ClientPlayerEntity
  */
 package mapped;
 
@@ -44,14 +44,14 @@ import mapped.Class6322;
 import mapped.Class6454;
 import mapped.Class803;
 import mapped.Class91;
-import net.minecraft.class_1294;
-import net.minecraft.class_304;
-import net.minecraft.class_310;
-import net.minecraft.class_315;
-import net.minecraft.class_3532;
-import net.minecraft.class_6880;
-import net.minecraft.class_744;
-import net.minecraft.class_746;
+import net.minecraft.entity.effect.StatusEffects;
+import net.minecraft.client.option.KeyBinding;
+import net.minecraft.client.MinecraftClient;
+import net.minecraft.client.option.GameOptions;
+import net.minecraft.util.math.MathHelper;
+import net.minecraft.registry.entry.RegistryEntry;
+import net.minecraft.client.input.Input;
+import net.minecraft.client.network.ClientPlayerEntity;
 
 /*
  * Illegal identifiers - consider using --renameillegalidents true

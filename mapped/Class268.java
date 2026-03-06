@@ -2,7 +2,7 @@
  * Decompiled with CFR 0.152.
  * 
  * Could not load the following classes:
- *  net.minecraft.class_332
+ *  net.minecraft.client.gui.DrawContext
  */
 package mapped;
 
@@ -10,7 +10,7 @@ import mapped.Class248;
 import mapped.Class261;
 import mapped.Class266;
 import mapped.Class276;
-import net.minecraft.class_332;
+import net.minecraft.client.gui.DrawContext;
 
 public abstract class Class268
 extends Class266 {

@@ -2,31 +2,31 @@
  * Decompiled with CFR 0.152.
  * 
  * Could not load the following classes:
- *  net.minecraft.class_1268
- *  net.minecraft.class_1657
- *  net.minecraft.class_1799
- *  net.minecraft.class_243
- *  net.minecraft.class_2596
- *  net.minecraft.class_2664
- *  net.minecraft.class_2743
- *  net.minecraft.class_2824
- *  net.minecraft.class_2828
- *  net.minecraft.class_2846
- *  net.minecraft.class_2846$class_2847
- *  net.minecraft.class_2848
- *  net.minecraft.class_2879
- *  net.minecraft.class_2885
- *  net.minecraft.class_2886
- *  net.minecraft.class_310
- *  net.minecraft.class_3414
- *  net.minecraft.class_3417
- *  net.minecraft.class_3419
- *  net.minecraft.class_638
- *  net.minecraft.class_6880$class_6883
- *  net.minecraft.class_746
- *  net.minecraft.class_8042
- *  net.minecraft.class_9331
- *  net.minecraft.class_9334
+ *  net.minecraft.util.Hand
+ *  net.minecraft.entity.player.PlayerEntity
+ *  net.minecraft.item.ItemStack
+ *  net.minecraft.util.math.Vec3d
+ *  net.minecraft.network.packet.Packet
+ *  net.minecraft.network.packet.s2c.play.ExplosionS2CPacket
+ *  net.minecraft.network.packet.s2c.play.EntityVelocityUpdateS2CPacket
+ *  net.minecraft.network.packet.c2s.play.PlayerInteractEntityC2SPacket
+ *  net.minecraft.network.packet.c2s.play.PlayerMoveC2SPacket
+ *  net.minecraft.network.packet.c2s.play.PlayerActionC2SPacket
+ *  net.minecraft.network.packet.c2s.play.PlayerActionC2SPacket$Action
+ *  net.minecraft.network.packet.c2s.play.ClientCommandC2SPacket
+ *  net.minecraft.network.packet.c2s.play.HandSwingC2SPacket
+ *  net.minecraft.network.packet.c2s.play.PlayerInteractBlockC2SPacket
+ *  net.minecraft.network.packet.c2s.play.PlayerInteractItemC2SPacket
+ *  net.minecraft.client.MinecraftClient
+ *  net.minecraft.sound.SoundEvent
+ *  net.minecraft.sound.SoundEvents
+ *  net.minecraft.sound.SoundCategory
+ *  net.minecraft.client.world.ClientWorld
+ *  net.minecraft.registry.entry.RegistryEntry$Reference
+ *  net.minecraft.client.network.ClientPlayerEntity
+ *  net.minecraft.network.packet.s2c.play.BundleS2CPacket
+ *  net.minecraft.component.ComponentType
+ *  net.minecraft.component.DataComponentTypes
  */
 package mapped;
 
@@ -71,30 +71,30 @@ import mapped.Class6322;
 import mapped.Class6454;
 import net.hachimi.client.mixin.bm;
 import net.hachimi.client.mixin.c;
-import net.minecraft.class_1268;
-import net.minecraft.class_1657;
-import net.minecraft.class_1799;
-import net.minecraft.class_243;
-import net.minecraft.class_2596;
-import net.minecraft.class_2664;
-import net.minecraft.class_2743;
-import net.minecraft.class_2824;
-import net.minecraft.class_2828;
-import net.minecraft.class_2846;
-import net.minecraft.class_2848;
-import net.minecraft.class_2879;
-import net.minecraft.class_2885;
-import net.minecraft.class_2886;
-import net.minecraft.class_310;
-import net.minecraft.class_3414;
-import net.minecraft.class_3417;
-import net.minecraft.class_3419;
-import net.minecraft.class_638;
-import net.minecraft.class_6880;
-import net.minecraft.class_746;
-import net.minecraft.class_8042;
-import net.minecraft.class_9331;
-import net.minecraft.class_9334;
+import net.minecraft.util.Hand;
+import net.minecraft.entity.player.PlayerEntity;
+import net.minecraft.item.ItemStack;
+import net.minecraft.util.math.Vec3d;
+import net.minecraft.network.packet.Packet;
+import net.minecraft.network.packet.s2c.play.ExplosionS2CPacket;
+import net.minecraft.network.packet.s2c.play.EntityVelocityUpdateS2CPacket;
+import net.minecraft.network.packet.c2s.play.PlayerInteractEntityC2SPacket;
+import net.minecraft.network.packet.c2s.play.PlayerMoveC2SPacket;
+import net.minecraft.network.packet.c2s.play.PlayerActionC2SPacket;
+import net.minecraft.network.packet.c2s.play.ClientCommandC2SPacket;
+import net.minecraft.network.packet.c2s.play.HandSwingC2SPacket;
+import net.minecraft.network.packet.c2s.play.PlayerInteractBlockC2SPacket;
+import net.minecraft.network.packet.c2s.play.PlayerInteractItemC2SPacket;
+import net.minecraft.client.MinecraftClient;
+import net.minecraft.sound.SoundEvent;
+import net.minecraft.sound.SoundEvents;
+import net.minecraft.sound.SoundCategory;
+import net.minecraft.client.world.ClientWorld;
+import net.minecraft.registry.entry.RegistryEntry;
+import net.minecraft.client.network.ClientPlayerEntity;
+import net.minecraft.network.packet.s2c.play.BundleS2CPacket;
+import net.minecraft.component.ComponentType;
+import net.minecraft.component.DataComponentTypes;
 
 /*
  * Illegal identifiers - consider using --renameillegalidents true

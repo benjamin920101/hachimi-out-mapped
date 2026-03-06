@@ -2,9 +2,9 @@
  * Decompiled with CFR 0.152.
  * 
  * Could not load the following classes:
- *  net.minecraft.class_2338
- *  net.minecraft.class_2350
- *  net.minecraft.class_3965
+ *  net.minecraft.util.math.BlockPos
+ *  net.minecraft.util.math.Direction
+ *  net.minecraft.util.hit.BlockHitResult
  */
 package mapped;
 
@@ -14,9 +14,9 @@ import java.lang.invoke.MethodHandle;
 import java.lang.invoke.MethodHandles;
 import java.lang.invoke.MethodType;
 import net.hachimi.HACHIMI_CLIENT;
-import net.minecraft.class_2338;
-import net.minecraft.class_2350;
-import net.minecraft.class_3965;
+import net.minecraft.util.math.BlockPos;
+import net.minecraft.util.math.Direction;
+import net.minecraft.util.hit.BlockHitResult;
 
 public class Class3691 {
     private static long[] field8286 = new long[1];

@@ -2,12 +2,12 @@
  * Decompiled with CFR 0.152.
  * 
  * Could not load the following classes:
- *  net.minecraft.class_1297
- *  net.minecraft.class_1657
- *  net.minecraft.class_1934
- *  net.minecraft.class_310
- *  net.minecraft.class_638
- *  net.minecraft.class_640
+ *  net.minecraft.entity.Entity
+ *  net.minecraft.entity.player.PlayerEntity
+ *  net.minecraft.world.GameMode
+ *  net.minecraft.client.MinecraftClient
+ *  net.minecraft.client.world.ClientWorld
+ *  net.minecraft.client.network.PlayerListEntry
  *  org.jetbrains.annotations.Nullable
  */
 package mapped;
@@ -29,12 +29,12 @@ import mapped.Class5659;
 import mapped.Class5723;
 import mapped.Class6009;
 import mapped.Class6454;
-import net.minecraft.class_1297;
-import net.minecraft.class_1657;
-import net.minecraft.class_1934;
-import net.minecraft.class_310;
-import net.minecraft.class_638;
-import net.minecraft.class_640;
+import net.minecraft.entity.Entity;
+import net.minecraft.entity.player.PlayerEntity;
+import net.minecraft.world.GameMode;
+import net.minecraft.client.MinecraftClient;
+import net.minecraft.client.world.ClientWorld;
+import net.minecraft.client.network.PlayerListEntry;
 import org.jetbrains.annotations.Nullable;
 
 /*

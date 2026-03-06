@@ -2,10 +2,10 @@
  * Decompiled with CFR 0.152.
  * 
  * Could not load the following classes:
- *  net.minecraft.class_1934
- *  net.minecraft.class_310
- *  net.minecraft.class_4587
- *  net.minecraft.class_746
+ *  net.minecraft.world.GameMode
+ *  net.minecraft.client.MinecraftClient
+ *  net.minecraft.client.util.math.MatrixStack
+ *  net.minecraft.client.network.ClientPlayerEntity
  */
 package mapped;
 
@@ -29,10 +29,10 @@ import mapped.Class489;
 import mapped.Class556;
 import mapped.Class6283;
 import mapped.Class6454;
-import net.minecraft.class_1934;
-import net.minecraft.class_310;
-import net.minecraft.class_4587;
-import net.minecraft.class_746;
+import net.minecraft.world.GameMode;
+import net.minecraft.client.MinecraftClient;
+import net.minecraft.client.util.math.MatrixStack;
+import net.minecraft.client.network.ClientPlayerEntity;
 
 /*
  * Illegal identifiers - consider using --renameillegalidents true

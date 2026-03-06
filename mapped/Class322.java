@@ -2,14 +2,14 @@
  * Decompiled with CFR 0.152.
  * 
  * Could not load the following classes:
- *  net.minecraft.class_1511
- *  net.minecraft.class_1656
- *  net.minecraft.class_1792
- *  net.minecraft.class_1802
- *  net.minecraft.class_2596
- *  net.minecraft.class_2828$class_2829
- *  net.minecraft.class_310
- *  net.minecraft.class_746
+ *  net.minecraft.entity.decoration.EndCrystalEntity
+ *  net.minecraft.entity.player.PlayerAbilities
+ *  net.minecraft.item.Item
+ *  net.minecraft.item.Items
+ *  net.minecraft.network.packet.Packet
+ *  net.minecraft.network.packet.c2s.play.PlayerMoveC2SPacket$PositionAndOnGround
+ *  net.minecraft.client.MinecraftClient
+ *  net.minecraft.client.network.ClientPlayerEntity
  */
 package mapped;
 
@@ -46,14 +46,14 @@ import mapped.Class6322;
 import mapped.Class6454;
 import mapped.Class72;
 import mapped.Class926;
-import net.minecraft.class_1511;
-import net.minecraft.class_1656;
-import net.minecraft.class_1792;
-import net.minecraft.class_1802;
-import net.minecraft.class_2596;
-import net.minecraft.class_2828;
-import net.minecraft.class_310;
-import net.minecraft.class_746;
+import net.minecraft.entity.decoration.EndCrystalEntity;
+import net.minecraft.entity.player.PlayerAbilities;
+import net.minecraft.item.Item;
+import net.minecraft.item.Items;
+import net.minecraft.network.packet.Packet;
+import net.minecraft.network.packet.c2s.play.PlayerMoveC2SPacket;
+import net.minecraft.client.MinecraftClient;
+import net.minecraft.client.network.ClientPlayerEntity;
 
 /*
  * Illegal identifiers - consider using --renameillegalidents true

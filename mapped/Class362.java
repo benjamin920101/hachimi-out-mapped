@@ -2,8 +2,8 @@
  * Decompiled with CFR 0.152.
  * 
  * Could not load the following classes:
- *  net.minecraft.class_2561
- *  net.minecraft.class_303$class_7590
+ *  net.minecraft.text.Text
+ *  net.minecraft.client.gui.hud.ChatHudLine$Visible
  */
 package mapped;
 
@@ -42,8 +42,8 @@ import mapped.Class600;
 import mapped.Class6253;
 import mapped.Class72;
 import mapped.Class74;
-import net.minecraft.class_2561;
-import net.minecraft.class_303;
+import net.minecraft.text.Text;
+import net.minecraft.client.gui.hud.ChatHudLine;
 
 /*
  * Illegal identifiers - consider using --renameillegalidents true

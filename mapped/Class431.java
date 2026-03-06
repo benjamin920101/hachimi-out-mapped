@@ -2,22 +2,22 @@
  * Decompiled with CFR 0.152.
  * 
  * Could not load the following classes:
- *  net.minecraft.class_1747
- *  net.minecraft.class_1792
- *  net.minecraft.class_1799
- *  net.minecraft.class_2246
- *  net.minecraft.class_2248
- *  net.minecraft.class_2338
- *  net.minecraft.class_2350
- *  net.minecraft.class_243
- *  net.minecraft.class_304
- *  net.minecraft.class_310
- *  net.minecraft.class_315
- *  net.minecraft.class_3532
- *  net.minecraft.class_3965
- *  net.minecraft.class_4587
- *  net.minecraft.class_638
- *  net.minecraft.class_746
+ *  net.minecraft.item.BlockItem
+ *  net.minecraft.item.Item
+ *  net.minecraft.item.ItemStack
+ *  net.minecraft.block.Blocks
+ *  net.minecraft.block.Block
+ *  net.minecraft.util.math.BlockPos
+ *  net.minecraft.util.math.Direction
+ *  net.minecraft.util.math.Vec3d
+ *  net.minecraft.client.option.KeyBinding
+ *  net.minecraft.client.MinecraftClient
+ *  net.minecraft.client.option.GameOptions
+ *  net.minecraft.util.math.MathHelper
+ *  net.minecraft.util.hit.BlockHitResult
+ *  net.minecraft.client.util.math.MatrixStack
+ *  net.minecraft.client.world.ClientWorld
+ *  net.minecraft.client.network.ClientPlayerEntity
  */
 package mapped;
 
@@ -81,22 +81,22 @@ import mapped.Class6286;
 import mapped.Class6322;
 import mapped.Class6454;
 import mapped.Class894;
-import net.minecraft.class_1747;
-import net.minecraft.class_1792;
-import net.minecraft.class_1799;
-import net.minecraft.class_2246;
-import net.minecraft.class_2248;
-import net.minecraft.class_2338;
-import net.minecraft.class_2350;
-import net.minecraft.class_243;
-import net.minecraft.class_304;
-import net.minecraft.class_310;
-import net.minecraft.class_315;
-import net.minecraft.class_3532;
-import net.minecraft.class_3965;
-import net.minecraft.class_4587;
-import net.minecraft.class_638;
-import net.minecraft.class_746;
+import net.minecraft.item.BlockItem;
+import net.minecraft.item.Item;
+import net.minecraft.item.ItemStack;
+import net.minecraft.block.Blocks;
+import net.minecraft.block.Block;
+import net.minecraft.util.math.BlockPos;
+import net.minecraft.util.math.Direction;
+import net.minecraft.util.math.Vec3d;
+import net.minecraft.client.option.KeyBinding;
+import net.minecraft.client.MinecraftClient;
+import net.minecraft.client.option.GameOptions;
+import net.minecraft.util.math.MathHelper;
+import net.minecraft.util.hit.BlockHitResult;
+import net.minecraft.client.util.math.MatrixStack;
+import net.minecraft.client.world.ClientWorld;
+import net.minecraft.client.network.ClientPlayerEntity;
 
 /*
  * Illegal identifiers - consider using --renameillegalidents true

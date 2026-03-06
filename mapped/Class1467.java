@@ -2,8 +2,8 @@
  * Decompiled with CFR 0.152.
  * 
  * Could not load the following classes:
- *  net.minecraft.class_1657
- *  net.minecraft.class_742
+ *  net.minecraft.entity.player.PlayerEntity
+ *  net.minecraft.client.network.AbstractClientPlayerEntity
  */
 package mapped;
 
@@ -13,8 +13,8 @@ import java.lang.invoke.MethodHandles;
 import java.lang.invoke.MethodType;
 import mapped.Class1468;
 import mapped.Class6402;
-import net.minecraft.class_1657;
-import net.minecraft.class_742;
+import net.minecraft.entity.player.PlayerEntity;
+import net.minecraft.client.network.AbstractClientPlayerEntity;
 
 public class Class1467
 extends Class1468 {

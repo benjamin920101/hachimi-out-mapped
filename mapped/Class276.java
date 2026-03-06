@@ -2,8 +2,8 @@
  * Decompiled with CFR 0.152.
  * 
  * Could not load the following classes:
- *  net.minecraft.class_332
- *  net.minecraft.class_3532
+ *  net.minecraft.client.gui.DrawContext
+ *  net.minecraft.util.math.MathHelper
  */
 package mapped;
 
@@ -62,8 +62,8 @@ import mapped.Class735;
 import mapped.Class750;
 import mapped.Class765;
 import mapped.Class968;
-import net.minecraft.class_332;
-import net.minecraft.class_3532;
+import net.minecraft.client.gui.DrawContext;
+import net.minecraft.util.math.MathHelper;
 
 public class Class276
 extends Class266 {

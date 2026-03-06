@@ -2,27 +2,27 @@
  * Decompiled with CFR 0.152.
  * 
  * Could not load the following classes:
- *  net.minecraft.class_1799
- *  net.minecraft.class_1802
- *  net.minecraft.class_1922
- *  net.minecraft.class_2246
- *  net.minecraft.class_2248
- *  net.minecraft.class_2338
- *  net.minecraft.class_2350
- *  net.minecraft.class_238
- *  net.minecraft.class_243
- *  net.minecraft.class_2596
- *  net.minecraft.class_265
- *  net.minecraft.class_2846
- *  net.minecraft.class_2846$class_2847
- *  net.minecraft.class_304
- *  net.minecraft.class_310
- *  net.minecraft.class_315
- *  net.minecraft.class_3532
- *  net.minecraft.class_636
- *  net.minecraft.class_638
- *  net.minecraft.class_7204
- *  net.minecraft.class_746
+ *  net.minecraft.item.ItemStack
+ *  net.minecraft.item.Items
+ *  net.minecraft.world.BlockView
+ *  net.minecraft.block.Blocks
+ *  net.minecraft.block.Block
+ *  net.minecraft.util.math.BlockPos
+ *  net.minecraft.util.math.Direction
+ *  net.minecraft.util.math.Box
+ *  net.minecraft.util.math.Vec3d
+ *  net.minecraft.network.packet.Packet
+ *  net.minecraft.util.shape.VoxelShape
+ *  net.minecraft.network.packet.c2s.play.PlayerActionC2SPacket
+ *  net.minecraft.network.packet.c2s.play.PlayerActionC2SPacket$Action
+ *  net.minecraft.client.option.KeyBinding
+ *  net.minecraft.client.MinecraftClient
+ *  net.minecraft.client.option.GameOptions
+ *  net.minecraft.util.math.MathHelper
+ *  net.minecraft.client.network.ClientPlayerInteractionManager
+ *  net.minecraft.client.world.ClientWorld
+ *  net.minecraft.client.network.SequencedPacketCreator
+ *  net.minecraft.client.network.ClientPlayerEntity
  *  skidonion.sAnhI.___.____
  */
 package mapped;
@@ -107,26 +107,26 @@ import mapped.Class694;
 import mapped.Class873;
 import mapped.Class926;
 import net.hachimi.client.mixin.bt;
-import net.minecraft.class_1799;
-import net.minecraft.class_1802;
-import net.minecraft.class_1922;
-import net.minecraft.class_2246;
-import net.minecraft.class_2248;
-import net.minecraft.class_2338;
-import net.minecraft.class_2350;
-import net.minecraft.class_238;
-import net.minecraft.class_243;
-import net.minecraft.class_2596;
-import net.minecraft.class_265;
-import net.minecraft.class_2846;
-import net.minecraft.class_304;
-import net.minecraft.class_310;
-import net.minecraft.class_315;
-import net.minecraft.class_3532;
-import net.minecraft.class_636;
-import net.minecraft.class_638;
-import net.minecraft.class_7204;
-import net.minecraft.class_746;
+import net.minecraft.item.ItemStack;
+import net.minecraft.item.Items;
+import net.minecraft.world.BlockView;
+import net.minecraft.block.Blocks;
+import net.minecraft.block.Block;
+import net.minecraft.util.math.BlockPos;
+import net.minecraft.util.math.Direction;
+import net.minecraft.util.math.Box;
+import net.minecraft.util.math.Vec3d;
+import net.minecraft.network.packet.Packet;
+import net.minecraft.util.shape.VoxelShape;
+import net.minecraft.network.packet.c2s.play.PlayerActionC2SPacket;
+import net.minecraft.client.option.KeyBinding;
+import net.minecraft.client.MinecraftClient;
+import net.minecraft.client.option.GameOptions;
+import net.minecraft.util.math.MathHelper;
+import net.minecraft.client.network.ClientPlayerInteractionManager;
+import net.minecraft.client.world.ClientWorld;
+import net.minecraft.client.network.SequencedPacketCreator;
+import net.minecraft.client.network.ClientPlayerEntity;
 import skidonion.sAnhI.___;
 import skidonion.sAnhI.___.____;
 

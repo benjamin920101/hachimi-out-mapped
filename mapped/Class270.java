@@ -2,10 +2,10 @@
  * Decompiled with CFR 0.152.
  * 
  * Could not load the following classes:
- *  net.minecraft.class_124
- *  net.minecraft.class_332
- *  net.minecraft.class_3414
- *  net.minecraft.class_3532
+ *  net.minecraft.util.Formatting
+ *  net.minecraft.client.gui.DrawContext
+ *  net.minecraft.sound.SoundEvent
+ *  net.minecraft.util.math.MathHelper
  *  org.apache.commons.lang3.ArrayUtils
  *  skidonion.sAnhI.___.____
  */
@@ -41,10 +41,10 @@ import mapped.Class6454;
 import mapped.Class683;
 import mapped.Class925;
 import mapped.Class926;
-import net.minecraft.class_124;
-import net.minecraft.class_332;
-import net.minecraft.class_3414;
-import net.minecraft.class_3532;
+import net.minecraft.util.Formatting;
+import net.minecraft.client.gui.DrawContext;
+import net.minecraft.sound.SoundEvent;
+import net.minecraft.util.math.MathHelper;
 import org.apache.commons.lang3.ArrayUtils;
 import skidonion.sAnhI.___;
 import skidonion.sAnhI.___.____;

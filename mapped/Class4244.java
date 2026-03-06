@@ -2,7 +2,7 @@
  * Decompiled with CFR 0.152.
  * 
  * Could not load the following classes:
- *  net.minecraft.class_2338
+ *  net.minecraft.util.math.BlockPos
  */
 package mapped;
 
@@ -18,7 +18,7 @@ import mapped.Class1745;
 import mapped.Class1807;
 import mapped.Class4971;
 import mapped.Class6259;
-import net.minecraft.class_2338;
+import net.minecraft.util.math.BlockPos;
 
 /*
  * Illegal identifiers - consider using --renameillegalidents true

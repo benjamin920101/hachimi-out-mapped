@@ -2,16 +2,16 @@
  * Decompiled with CFR 0.152.
  * 
  * Could not load the following classes:
- *  net.minecraft.class_1268
- *  net.minecraft.class_1802
- *  net.minecraft.class_2338
- *  net.minecraft.class_2350
- *  net.minecraft.class_2596
- *  net.minecraft.class_2828$class_2829
- *  net.minecraft.class_2885
- *  net.minecraft.class_310
- *  net.minecraft.class_3965
- *  net.minecraft.class_746
+ *  net.minecraft.util.Hand
+ *  net.minecraft.item.Items
+ *  net.minecraft.util.math.BlockPos
+ *  net.minecraft.util.math.Direction
+ *  net.minecraft.network.packet.Packet
+ *  net.minecraft.network.packet.c2s.play.PlayerMoveC2SPacket$PositionAndOnGround
+ *  net.minecraft.network.packet.c2s.play.PlayerInteractBlockC2SPacket
+ *  net.minecraft.client.MinecraftClient
+ *  net.minecraft.util.hit.BlockHitResult
+ *  net.minecraft.client.network.ClientPlayerEntity
  */
 package mapped;
 
@@ -32,16 +32,16 @@ import mapped.Class5723;
 import mapped.Class597;
 import mapped.Class6009;
 import mapped.Class607;
-import net.minecraft.class_1268;
-import net.minecraft.class_1802;
-import net.minecraft.class_2338;
-import net.minecraft.class_2350;
-import net.minecraft.class_2596;
-import net.minecraft.class_2828;
-import net.minecraft.class_2885;
-import net.minecraft.class_310;
-import net.minecraft.class_3965;
-import net.minecraft.class_746;
+import net.minecraft.util.Hand;
+import net.minecraft.item.Items;
+import net.minecraft.util.math.BlockPos;
+import net.minecraft.util.math.Direction;
+import net.minecraft.network.packet.Packet;
+import net.minecraft.network.packet.c2s.play.PlayerMoveC2SPacket;
+import net.minecraft.network.packet.c2s.play.PlayerInteractBlockC2SPacket;
+import net.minecraft.client.MinecraftClient;
+import net.minecraft.util.hit.BlockHitResult;
+import net.minecraft.client.network.ClientPlayerEntity;
 
 /*
  * Illegal identifiers - consider using --renameillegalidents true

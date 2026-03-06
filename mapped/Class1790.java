@@ -2,13 +2,13 @@
  * Decompiled with CFR 0.152.
  * 
  * Could not load the following classes:
- *  net.minecraft.class_437
+ *  net.minecraft.client.gui.screen.Screen
  *  skidonion.sAnhI.___.____
  */
 package mapped;
 
 import net.hachimi.HACHIMI_CLIENT;
-import net.minecraft.class_437;
+import net.minecraft.client.gui.screen.Screen;
 import skidonion.sAnhI.___;
 import skidonion.sAnhI.___.____;
 

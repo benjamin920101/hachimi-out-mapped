@@ -2,16 +2,16 @@
  * Decompiled with CFR 0.152.
  * 
  * Could not load the following classes:
- *  net.minecraft.class_1291
- *  net.minecraft.class_1293
- *  net.minecraft.class_6880
+ *  net.minecraft.entity.effect.StatusEffect
+ *  net.minecraft.entity.effect.StatusEffectInstance
+ *  net.minecraft.registry.entry.RegistryEntry
  */
 package mapped;
 
 import mapped.Class244;
-import net.minecraft.class_1291;
-import net.minecraft.class_1293;
-import net.minecraft.class_6880;
+import net.minecraft.entity.effect.StatusEffect;
+import net.minecraft.entity.effect.StatusEffectInstance;
+import net.minecraft.registry.entry.RegistryEntry;
 
 /*
  * Illegal identifiers - consider using --renameillegalidents true

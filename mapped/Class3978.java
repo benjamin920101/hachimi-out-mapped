@@ -3,7 +3,7 @@
  * 
  * Could not load the following classes:
  *  com.google.common.collect.Lists
- *  net.minecraft.class_2761
+ *  net.minecraft.network.packet.s2c.play.WorldTimeUpdateS2CPacket
  */
 package mapped;
 
@@ -31,7 +31,7 @@ import mapped.Class597;
 import mapped.Class6023;
 import mapped.Class6322;
 import mapped.Class803;
-import net.minecraft.class_2761;
+import net.minecraft.network.packet.s2c.play.WorldTimeUpdateS2CPacket;
 
 /*
  * Illegal identifiers - consider using --renameillegalidents true

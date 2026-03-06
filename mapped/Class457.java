@@ -2,7 +2,7 @@
  * Decompiled with CFR 0.152.
  * 
  * Could not load the following classes:
- *  net.minecraft.class_3532
+ *  net.minecraft.util.math.MathHelper
  */
 package mapped;
 
@@ -13,7 +13,7 @@ import mapped.Class251;
 import mapped.Class451;
 import mapped.Class556;
 import mapped.Class86;
-import net.minecraft.class_3532;
+import net.minecraft.util.math.MathHelper;
 
 /*
  * Illegal identifiers - consider using --renameillegalidents true

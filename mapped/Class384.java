@@ -2,14 +2,14 @@
  * Decompiled with CFR 0.152.
  * 
  * Could not load the following classes:
- *  net.minecraft.class_2338
- *  net.minecraft.class_2350
- *  net.minecraft.class_238
- *  net.minecraft.class_2680
- *  net.minecraft.class_310
- *  net.minecraft.class_4587
- *  net.minecraft.class_638
- *  net.minecraft.class_746
+ *  net.minecraft.util.math.BlockPos
+ *  net.minecraft.util.math.Direction
+ *  net.minecraft.util.math.Box
+ *  net.minecraft.block.BlockState
+ *  net.minecraft.client.MinecraftClient
+ *  net.minecraft.client.util.math.MatrixStack
+ *  net.minecraft.client.world.ClientWorld
+ *  net.minecraft.client.network.ClientPlayerEntity
  */
 package mapped;
 
@@ -45,14 +45,14 @@ import mapped.Class60;
 import mapped.Class6009;
 import mapped.Class6322;
 import mapped.Class6454;
-import net.minecraft.class_2338;
-import net.minecraft.class_2350;
-import net.minecraft.class_238;
-import net.minecraft.class_2680;
-import net.minecraft.class_310;
-import net.minecraft.class_4587;
-import net.minecraft.class_638;
-import net.minecraft.class_746;
+import net.minecraft.util.math.BlockPos;
+import net.minecraft.util.math.Direction;
+import net.minecraft.util.math.Box;
+import net.minecraft.block.BlockState;
+import net.minecraft.client.MinecraftClient;
+import net.minecraft.client.util.math.MatrixStack;
+import net.minecraft.client.world.ClientWorld;
+import net.minecraft.client.network.ClientPlayerEntity;
 
 /*
  * Illegal identifiers - consider using --renameillegalidents true

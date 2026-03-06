@@ -2,23 +2,23 @@
  * Decompiled with CFR 0.152.
  * 
  * Could not load the following classes:
- *  net.minecraft.class_1297
- *  net.minecraft.class_1937
- *  net.minecraft.class_1941
- *  net.minecraft.class_2246
- *  net.minecraft.class_2248
- *  net.minecraft.class_2338
- *  net.minecraft.class_2338$class_2339
- *  net.minecraft.class_238
- *  net.minecraft.class_265
- *  net.minecraft.class_2818
- *  net.minecraft.class_310
- *  net.minecraft.class_315
- *  net.minecraft.class_3726
- *  net.minecraft.class_4076
- *  net.minecraft.class_5329
- *  net.minecraft.class_631
- *  net.minecraft.class_638
+ *  net.minecraft.entity.Entity
+ *  net.minecraft.world.World
+ *  net.minecraft.world.CollisionView
+ *  net.minecraft.block.Blocks
+ *  net.minecraft.block.Block
+ *  net.minecraft.util.math.BlockPos
+ *  net.minecraft.util.math.BlockPos$Mutable
+ *  net.minecraft.util.math.Box
+ *  net.minecraft.util.shape.VoxelShape
+ *  net.minecraft.world.chunk.WorldChunk
+ *  net.minecraft.client.MinecraftClient
+ *  net.minecraft.client.option.GameOptions
+ *  net.minecraft.block.ShapeContext
+ *  net.minecraft.util.math.ChunkSectionPos
+ *  net.minecraft.world.BlockCollisionSpliterator
+ *  net.minecraft.client.world.ClientChunkManager
+ *  net.minecraft.client.world.ClientWorld
  *  skidonion.sAnhI.___.____
  */
 package mapped;
@@ -31,22 +31,22 @@ import mapped.Class376;
 import mapped.Class4122;
 import mapped.Class5659;
 import mapped.Class6454;
-import net.minecraft.class_1297;
-import net.minecraft.class_1937;
-import net.minecraft.class_1941;
-import net.minecraft.class_2246;
-import net.minecraft.class_2248;
-import net.minecraft.class_2338;
-import net.minecraft.class_238;
-import net.minecraft.class_265;
-import net.minecraft.class_2818;
-import net.minecraft.class_310;
-import net.minecraft.class_315;
-import net.minecraft.class_3726;
-import net.minecraft.class_4076;
-import net.minecraft.class_5329;
-import net.minecraft.class_631;
-import net.minecraft.class_638;
+import net.minecraft.entity.Entity;
+import net.minecraft.world.World;
+import net.minecraft.world.CollisionView;
+import net.minecraft.block.Blocks;
+import net.minecraft.block.Block;
+import net.minecraft.util.math.BlockPos;
+import net.minecraft.util.math.Box;
+import net.minecraft.util.shape.VoxelShape;
+import net.minecraft.world.chunk.WorldChunk;
+import net.minecraft.client.MinecraftClient;
+import net.minecraft.client.option.GameOptions;
+import net.minecraft.block.ShapeContext;
+import net.minecraft.util.math.ChunkSectionPos;
+import net.minecraft.world.BlockCollisionSpliterator;
+import net.minecraft.client.world.ClientChunkManager;
+import net.minecraft.client.world.ClientWorld;
 import skidonion.sAnhI.___;
 import skidonion.sAnhI.___.____;
 

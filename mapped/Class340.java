@@ -2,38 +2,38 @@
  * Decompiled with CFR 0.152.
  * 
  * Could not load the following classes:
- *  net.minecraft.class_1268
- *  net.minecraft.class_1297
- *  net.minecraft.class_1657
- *  net.minecraft.class_1713
- *  net.minecraft.class_1799
- *  net.minecraft.class_1802
- *  net.minecraft.class_2246
- *  net.minecraft.class_2248
- *  net.minecraft.class_2338
- *  net.minecraft.class_2350
- *  net.minecraft.class_238
- *  net.minecraft.class_2560
- *  net.minecraft.class_2596
- *  net.minecraft.class_2846
- *  net.minecraft.class_2846$class_2847
- *  net.minecraft.class_2848
- *  net.minecraft.class_2848$class_2849
- *  net.minecraft.class_2886
- *  net.minecraft.class_304
- *  net.minecraft.class_310
- *  net.minecraft.class_315
- *  net.minecraft.class_3532
- *  net.minecraft.class_3675
- *  net.minecraft.class_3830
- *  net.minecraft.class_408
- *  net.minecraft.class_418
- *  net.minecraft.class_498
- *  net.minecraft.class_5134
- *  net.minecraft.class_7204
- *  net.minecraft.class_744
- *  net.minecraft.class_746
- *  net.minecraft.class_9334
+ *  net.minecraft.util.Hand
+ *  net.minecraft.entity.Entity
+ *  net.minecraft.entity.player.PlayerEntity
+ *  net.minecraft.screen.slot.SlotActionType
+ *  net.minecraft.item.ItemStack
+ *  net.minecraft.item.Items
+ *  net.minecraft.block.Blocks
+ *  net.minecraft.block.Block
+ *  net.minecraft.util.math.BlockPos
+ *  net.minecraft.util.math.Direction
+ *  net.minecraft.util.math.Box
+ *  net.minecraft.block.CobwebBlock
+ *  net.minecraft.network.packet.Packet
+ *  net.minecraft.network.packet.c2s.play.PlayerActionC2SPacket
+ *  net.minecraft.network.packet.c2s.play.PlayerActionC2SPacket$Action
+ *  net.minecraft.network.packet.c2s.play.ClientCommandC2SPacket
+ *  net.minecraft.network.packet.c2s.play.ClientCommandC2SPacket$Mode
+ *  net.minecraft.network.packet.c2s.play.PlayerInteractItemC2SPacket
+ *  net.minecraft.client.option.KeyBinding
+ *  net.minecraft.client.MinecraftClient
+ *  net.minecraft.client.option.GameOptions
+ *  net.minecraft.util.math.MathHelper
+ *  net.minecraft.client.util.InputUtil
+ *  net.minecraft.block.SweetBerryBushBlock
+ *  net.minecraft.client.gui.screen.ChatScreen
+ *  net.minecraft.client.gui.screen.DeathScreen
+ *  net.minecraft.client.gui.screen.ingame.SignEditScreen
+ *  net.minecraft.entity.attribute.EntityAttributes
+ *  net.minecraft.client.network.SequencedPacketCreator
+ *  net.minecraft.client.input.Input
+ *  net.minecraft.client.network.ClientPlayerEntity
+ *  net.minecraft.component.DataComponentTypes
  */
 package mapped;
 
@@ -101,36 +101,36 @@ import mapped.Class803;
 import mapped.Class829;
 import mapped.Class924;
 import net.hachimi.client.mixin.by;
-import net.minecraft.class_1268;
-import net.minecraft.class_1297;
-import net.minecraft.class_1657;
-import net.minecraft.class_1713;
-import net.minecraft.class_1799;
-import net.minecraft.class_1802;
-import net.minecraft.class_2246;
-import net.minecraft.class_2248;
-import net.minecraft.class_2338;
-import net.minecraft.class_2350;
-import net.minecraft.class_238;
-import net.minecraft.class_2560;
-import net.minecraft.class_2596;
-import net.minecraft.class_2846;
-import net.minecraft.class_2848;
-import net.minecraft.class_2886;
-import net.minecraft.class_304;
-import net.minecraft.class_310;
-import net.minecraft.class_315;
-import net.minecraft.class_3532;
-import net.minecraft.class_3675;
-import net.minecraft.class_3830;
-import net.minecraft.class_408;
-import net.minecraft.class_418;
-import net.minecraft.class_498;
-import net.minecraft.class_5134;
-import net.minecraft.class_7204;
-import net.minecraft.class_744;
-import net.minecraft.class_746;
-import net.minecraft.class_9334;
+import net.minecraft.util.Hand;
+import net.minecraft.entity.Entity;
+import net.minecraft.entity.player.PlayerEntity;
+import net.minecraft.screen.slot.SlotActionType;
+import net.minecraft.item.ItemStack;
+import net.minecraft.item.Items;
+import net.minecraft.block.Blocks;
+import net.minecraft.block.Block;
+import net.minecraft.util.math.BlockPos;
+import net.minecraft.util.math.Direction;
+import net.minecraft.util.math.Box;
+import net.minecraft.block.CobwebBlock;
+import net.minecraft.network.packet.Packet;
+import net.minecraft.network.packet.c2s.play.PlayerActionC2SPacket;
+import net.minecraft.network.packet.c2s.play.ClientCommandC2SPacket;
+import net.minecraft.network.packet.c2s.play.PlayerInteractItemC2SPacket;
+import net.minecraft.client.option.KeyBinding;
+import net.minecraft.client.MinecraftClient;
+import net.minecraft.client.option.GameOptions;
+import net.minecraft.util.math.MathHelper;
+import net.minecraft.client.util.InputUtil;
+import net.minecraft.block.SweetBerryBushBlock;
+import net.minecraft.client.gui.screen.ChatScreen;
+import net.minecraft.client.gui.screen.DeathScreen;
+import net.minecraft.client.gui.screen.ingame.SignEditScreen;
+import net.minecraft.entity.attribute.EntityAttributes;
+import net.minecraft.client.network.SequencedPacketCreator;
+import net.minecraft.client.input.Input;
+import net.minecraft.client.network.ClientPlayerEntity;
+import net.minecraft.component.DataComponentTypes;
 
 /*
  * Illegal identifiers - consider using --renameillegalidents true

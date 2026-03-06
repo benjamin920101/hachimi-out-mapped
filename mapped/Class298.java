@@ -3,27 +3,27 @@
  * 
  * Could not load the following classes:
  *  com.mojang.blaze3d.systems.RenderSystem
- *  net.minecraft.class_1297
- *  net.minecraft.class_1309
- *  net.minecraft.class_1477
- *  net.minecraft.class_1493
- *  net.minecraft.class_1511
- *  net.minecraft.class_1657
- *  net.minecraft.class_1937
- *  net.minecraft.class_238
- *  net.minecraft.class_243
- *  net.minecraft.class_2596
- *  net.minecraft.class_2663
- *  net.minecraft.class_310
- *  net.minecraft.class_3532
- *  net.minecraft.class_3887
- *  net.minecraft.class_4050
- *  net.minecraft.class_4587
- *  net.minecraft.class_583
- *  net.minecraft.class_742
- *  net.minecraft.class_746
- *  net.minecraft.class_8080
- *  net.minecraft.class_922
+ *  net.minecraft.entity.Entity
+ *  net.minecraft.entity.LivingEntity
+ *  net.minecraft.entity.passive.SquidEntity
+ *  net.minecraft.entity.passive.WolfEntity
+ *  net.minecraft.entity.decoration.EndCrystalEntity
+ *  net.minecraft.entity.player.PlayerEntity
+ *  net.minecraft.world.World
+ *  net.minecraft.util.math.Box
+ *  net.minecraft.util.math.Vec3d
+ *  net.minecraft.network.packet.Packet
+ *  net.minecraft.network.packet.s2c.play.EntityStatusS2CPacket
+ *  net.minecraft.client.MinecraftClient
+ *  net.minecraft.util.math.MathHelper
+ *  net.minecraft.client.render.entity.feature.FeatureRenderer
+ *  net.minecraft.entity.EntityPose
+ *  net.minecraft.client.util.math.MatrixStack
+ *  net.minecraft.client.render.entity.model.EntityModel
+ *  net.minecraft.client.network.AbstractClientPlayerEntity
+ *  net.minecraft.client.network.ClientPlayerEntity
+ *  net.minecraft.entity.LimbAnimator
+ *  net.minecraft.client.render.entity.LivingEntityRenderer
  */
 package mapped;
 
@@ -80,27 +80,27 @@ import mapped.Class6322;
 import mapped.Class6454;
 import mapped.Class80;
 import mapped.Class803;
-import net.minecraft.class_1297;
-import net.minecraft.class_1309;
-import net.minecraft.class_1477;
-import net.minecraft.class_1493;
-import net.minecraft.class_1511;
-import net.minecraft.class_1657;
-import net.minecraft.class_1937;
-import net.minecraft.class_238;
-import net.minecraft.class_243;
-import net.minecraft.class_2596;
-import net.minecraft.class_2663;
-import net.minecraft.class_310;
-import net.minecraft.class_3532;
-import net.minecraft.class_3887;
-import net.minecraft.class_4050;
-import net.minecraft.class_4587;
-import net.minecraft.class_583;
-import net.minecraft.class_742;
-import net.minecraft.class_746;
-import net.minecraft.class_8080;
-import net.minecraft.class_922;
+import net.minecraft.entity.Entity;
+import net.minecraft.entity.LivingEntity;
+import net.minecraft.entity.passive.SquidEntity;
+import net.minecraft.entity.passive.WolfEntity;
+import net.minecraft.entity.decoration.EndCrystalEntity;
+import net.minecraft.entity.player.PlayerEntity;
+import net.minecraft.world.World;
+import net.minecraft.util.math.Box;
+import net.minecraft.util.math.Vec3d;
+import net.minecraft.network.packet.Packet;
+import net.minecraft.network.packet.s2c.play.EntityStatusS2CPacket;
+import net.minecraft.client.MinecraftClient;
+import net.minecraft.util.math.MathHelper;
+import net.minecraft.client.render.entity.feature.FeatureRenderer;
+import net.minecraft.entity.EntityPose;
+import net.minecraft.client.util.math.MatrixStack;
+import net.minecraft.client.render.entity.model.EntityModel;
+import net.minecraft.client.network.AbstractClientPlayerEntity;
+import net.minecraft.client.network.ClientPlayerEntity;
+import net.minecraft.entity.LimbAnimator;
+import net.minecraft.client.render.entity.LivingEntityRenderer;
 
 /*
  * Illegal identifiers - consider using --renameillegalidents true

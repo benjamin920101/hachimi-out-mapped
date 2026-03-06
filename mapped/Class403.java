@@ -2,12 +2,12 @@
  * Decompiled with CFR 0.152.
  * 
  * Could not load the following classes:
- *  net.minecraft.class_2596
- *  net.minecraft.class_2708
- *  net.minecraft.class_2793
- *  net.minecraft.class_310
- *  net.minecraft.class_434
- *  net.minecraft.class_746
+ *  net.minecraft.network.packet.Packet
+ *  net.minecraft.network.packet.s2c.play.PlayerPositionLookS2CPacket
+ *  net.minecraft.network.packet.c2s.play.TeleportConfirmC2SPacket
+ *  net.minecraft.client.MinecraftClient
+ *  net.minecraft.client.gui.screen.DownloadingTerrainScreen
+ *  net.minecraft.client.network.ClientPlayerEntity
  */
 package mapped;
 
@@ -34,12 +34,12 @@ import mapped.Class6322;
 import mapped.Class6454;
 import mapped.Class925;
 import mapped.Class926;
-import net.minecraft.class_2596;
-import net.minecraft.class_2708;
-import net.minecraft.class_2793;
-import net.minecraft.class_310;
-import net.minecraft.class_434;
-import net.minecraft.class_746;
+import net.minecraft.network.packet.Packet;
+import net.minecraft.network.packet.s2c.play.PlayerPositionLookS2CPacket;
+import net.minecraft.network.packet.c2s.play.TeleportConfirmC2SPacket;
+import net.minecraft.client.MinecraftClient;
+import net.minecraft.client.gui.screen.DownloadingTerrainScreen;
+import net.minecraft.client.network.ClientPlayerEntity;
 
 /*
  * Illegal identifiers - consider using --renameillegalidents true

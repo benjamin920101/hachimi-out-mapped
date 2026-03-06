@@ -3,7 +3,7 @@
  * 
  * Could not load the following classes:
  *  com.google.gson.JsonObject
- *  net.minecraft.class_243
+ *  net.minecraft.util.math.Vec3d
  */
 package mapped;
 
@@ -11,7 +11,7 @@ import com.google.gson.JsonObject;
 import mapped.Class244;
 import mapped.Class925;
 import mapped.Class926;
-import net.minecraft.class_243;
+import net.minecraft.util.math.Vec3d;
 
 public class Class243
 extends Class244 {

@@ -5,22 +5,22 @@
  *  com.google.common.collect.Lists
  *  it.unimi.dsi.fastutil.ints.Int2ObjectMap
  *  it.unimi.dsi.fastutil.ints.Int2ObjectOpenHashMap
- *  net.minecraft.class_1657
- *  net.minecraft.class_1661
- *  net.minecraft.class_1703
- *  net.minecraft.class_1713
- *  net.minecraft.class_1735
- *  net.minecraft.class_1799
- *  net.minecraft.class_2371
- *  net.minecraft.class_2596
- *  net.minecraft.class_2653
- *  net.minecraft.class_2813
- *  net.minecraft.class_2815
- *  net.minecraft.class_2868
- *  net.minecraft.class_310
- *  net.minecraft.class_634
- *  net.minecraft.class_746
- *  net.minecraft.class_8042
+ *  net.minecraft.entity.player.PlayerEntity
+ *  net.minecraft.entity.player.PlayerInventory
+ *  net.minecraft.screen.ScreenHandler
+ *  net.minecraft.screen.slot.SlotActionType
+ *  net.minecraft.screen.slot.Slot
+ *  net.minecraft.item.ItemStack
+ *  net.minecraft.util.collection.DefaultedList
+ *  net.minecraft.network.packet.Packet
+ *  net.minecraft.network.packet.s2c.play.ScreenHandlerSlotUpdateS2CPacket
+ *  net.minecraft.network.packet.c2s.play.ClickSlotC2SPacket
+ *  net.minecraft.network.packet.c2s.play.CloseHandledScreenC2SPacket
+ *  net.minecraft.network.packet.c2s.play.UpdateSelectedSlotC2SPacket
+ *  net.minecraft.client.MinecraftClient
+ *  net.minecraft.client.network.ClientPlayNetworkHandler
+ *  net.minecraft.client.network.ClientPlayerEntity
+ *  net.minecraft.network.packet.s2c.play.BundleS2CPacket
  */
 package mapped;
 
@@ -193,22 +193,22 @@ import mapped.Class90;
 import mapped.Class947;
 import mapped.Class955;
 import net.hachimi.client.mixin.c;
-import net.minecraft.class_1657;
-import net.minecraft.class_1661;
-import net.minecraft.class_1703;
-import net.minecraft.class_1713;
-import net.minecraft.class_1735;
-import net.minecraft.class_1799;
-import net.minecraft.class_2371;
-import net.minecraft.class_2596;
-import net.minecraft.class_2653;
-import net.minecraft.class_2813;
-import net.minecraft.class_2815;
-import net.minecraft.class_2868;
-import net.minecraft.class_310;
-import net.minecraft.class_634;
-import net.minecraft.class_746;
-import net.minecraft.class_8042;
+import net.minecraft.entity.player.PlayerEntity;
+import net.minecraft.entity.player.PlayerInventory;
+import net.minecraft.screen.ScreenHandler;
+import net.minecraft.screen.slot.SlotActionType;
+import net.minecraft.screen.slot.Slot;
+import net.minecraft.item.ItemStack;
+import net.minecraft.util.collection.DefaultedList;
+import net.minecraft.network.packet.Packet;
+import net.minecraft.network.packet.s2c.play.ScreenHandlerSlotUpdateS2CPacket;
+import net.minecraft.network.packet.c2s.play.ClickSlotC2SPacket;
+import net.minecraft.network.packet.c2s.play.CloseHandledScreenC2SPacket;
+import net.minecraft.network.packet.c2s.play.UpdateSelectedSlotC2SPacket;
+import net.minecraft.client.MinecraftClient;
+import net.minecraft.client.network.ClientPlayNetworkHandler;
+import net.minecraft.client.network.ClientPlayerEntity;
+import net.minecraft.network.packet.s2c.play.BundleS2CPacket;
 
 /*
  * Illegal identifiers - consider using --renameillegalidents true

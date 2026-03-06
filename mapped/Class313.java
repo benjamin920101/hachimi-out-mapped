@@ -3,8 +3,8 @@
  * 
  * Could not load the following classes:
  *  baritone.api.BaritoneAPI
- *  net.minecraft.class_304
- *  net.minecraft.class_315
+ *  net.minecraft.client.option.KeyBinding
+ *  net.minecraft.client.option.GameOptions
  */
 package mapped;
 
@@ -22,8 +22,8 @@ import mapped.Class6009;
 import mapped.Class6188;
 import mapped.Class63;
 import mapped.Class6322;
-import net.minecraft.class_304;
-import net.minecraft.class_315;
+import net.minecraft.client.option.KeyBinding;
+import net.minecraft.client.option.GameOptions;
 
 /*
  * Illegal identifiers - consider using --renameillegalidents true

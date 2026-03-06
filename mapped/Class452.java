@@ -5,7 +5,7 @@
  *  baritone.api.BaritoneAPI
  *  baritone.api.Settings
  *  baritone.api.Settings$Setting
- *  net.minecraft.class_2561
+ *  net.minecraft.text.Text
  */
 package mapped;
 
@@ -25,7 +25,7 @@ import mapped.Class543;
 import mapped.Class556;
 import mapped.Class68;
 import mapped.Class890;
-import net.minecraft.class_2561;
+import net.minecraft.text.Text;
 
 /*
  * Illegal identifiers - consider using --renameillegalidents true

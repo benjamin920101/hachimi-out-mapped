@@ -2,15 +2,15 @@
  * Decompiled with CFR 0.152.
  * 
  * Could not load the following classes:
- *  net.minecraft.class_1294
- *  net.minecraft.class_1313
- *  net.minecraft.class_241
- *  net.minecraft.class_243
- *  net.minecraft.class_2596
- *  net.minecraft.class_2664
- *  net.minecraft.class_2743
- *  net.minecraft.class_310
- *  net.minecraft.class_746
+ *  net.minecraft.entity.effect.StatusEffects
+ *  net.minecraft.entity.MovementType
+ *  net.minecraft.util.math.Vec2f
+ *  net.minecraft.util.math.Vec3d
+ *  net.minecraft.network.packet.Packet
+ *  net.minecraft.network.packet.s2c.play.ExplosionS2CPacket
+ *  net.minecraft.network.packet.s2c.play.EntityVelocityUpdateS2CPacket
+ *  net.minecraft.client.MinecraftClient
+ *  net.minecraft.client.network.ClientPlayerEntity
  */
 package mapped;
 
@@ -41,15 +41,15 @@ import mapped.Class6454;
 import mapped.Class954;
 import net.hachimi.client.mixin.bc;
 import net.hachimi.client.mixin.j;
-import net.minecraft.class_1294;
-import net.minecraft.class_1313;
-import net.minecraft.class_241;
-import net.minecraft.class_243;
-import net.minecraft.class_2596;
-import net.minecraft.class_2664;
-import net.minecraft.class_2743;
-import net.minecraft.class_310;
-import net.minecraft.class_746;
+import net.minecraft.entity.effect.StatusEffects;
+import net.minecraft.entity.MovementType;
+import net.minecraft.util.math.Vec2f;
+import net.minecraft.util.math.Vec3d;
+import net.minecraft.network.packet.Packet;
+import net.minecraft.network.packet.s2c.play.ExplosionS2CPacket;
+import net.minecraft.network.packet.s2c.play.EntityVelocityUpdateS2CPacket;
+import net.minecraft.client.MinecraftClient;
+import net.minecraft.client.network.ClientPlayerEntity;
 
 /*
  * Illegal identifiers - consider using --renameillegalidents true

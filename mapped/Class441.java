@@ -2,22 +2,22 @@
  * Decompiled with CFR 0.152.
  * 
  * Could not load the following classes:
- *  net.minecraft.class_1268
- *  net.minecraft.class_1293
- *  net.minecraft.class_1294
- *  net.minecraft.class_1297
- *  net.minecraft.class_1792
- *  net.minecraft.class_1799
- *  net.minecraft.class_1802
- *  net.minecraft.class_1844
- *  net.minecraft.class_238
- *  net.minecraft.class_2596
- *  net.minecraft.class_2886
- *  net.minecraft.class_310
- *  net.minecraft.class_6880
- *  net.minecraft.class_7204
- *  net.minecraft.class_746
- *  net.minecraft.class_9334
+ *  net.minecraft.util.Hand
+ *  net.minecraft.entity.effect.StatusEffectInstance
+ *  net.minecraft.entity.effect.StatusEffects
+ *  net.minecraft.entity.Entity
+ *  net.minecraft.item.Item
+ *  net.minecraft.item.ItemStack
+ *  net.minecraft.item.Items
+ *  net.minecraft.component.type.PotionContentsComponent
+ *  net.minecraft.util.math.Box
+ *  net.minecraft.network.packet.Packet
+ *  net.minecraft.network.packet.c2s.play.PlayerInteractItemC2SPacket
+ *  net.minecraft.client.MinecraftClient
+ *  net.minecraft.registry.entry.RegistryEntry
+ *  net.minecraft.client.network.SequencedPacketCreator
+ *  net.minecraft.client.network.ClientPlayerEntity
+ *  net.minecraft.component.DataComponentTypes
  */
 package mapped;
 
@@ -53,22 +53,22 @@ import mapped.Class6454;
 import mapped.Class747;
 import mapped.Class803;
 import mapped.Class926;
-import net.minecraft.class_1268;
-import net.minecraft.class_1293;
-import net.minecraft.class_1294;
-import net.minecraft.class_1297;
-import net.minecraft.class_1792;
-import net.minecraft.class_1799;
-import net.minecraft.class_1802;
-import net.minecraft.class_1844;
-import net.minecraft.class_238;
-import net.minecraft.class_2596;
-import net.minecraft.class_2886;
-import net.minecraft.class_310;
-import net.minecraft.class_6880;
-import net.minecraft.class_7204;
-import net.minecraft.class_746;
-import net.minecraft.class_9334;
+import net.minecraft.util.Hand;
+import net.minecraft.entity.effect.StatusEffectInstance;
+import net.minecraft.entity.effect.StatusEffects;
+import net.minecraft.entity.Entity;
+import net.minecraft.item.Item;
+import net.minecraft.item.ItemStack;
+import net.minecraft.item.Items;
+import net.minecraft.component.type.PotionContentsComponent;
+import net.minecraft.util.math.Box;
+import net.minecraft.network.packet.Packet;
+import net.minecraft.network.packet.c2s.play.PlayerInteractItemC2SPacket;
+import net.minecraft.client.MinecraftClient;
+import net.minecraft.registry.entry.RegistryEntry;
+import net.minecraft.client.network.SequencedPacketCreator;
+import net.minecraft.client.network.ClientPlayerEntity;
+import net.minecraft.component.DataComponentTypes;
 
 /*
  * Illegal identifiers - consider using --renameillegalidents true

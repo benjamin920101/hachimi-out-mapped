@@ -2,15 +2,15 @@
  * Decompiled with CFR 0.152.
  * 
  * Could not load the following classes:
- *  net.minecraft.class_1657
- *  net.minecraft.class_1703
- *  net.minecraft.class_1713
- *  net.minecraft.class_1792
- *  net.minecraft.class_1799
- *  net.minecraft.class_1802
- *  net.minecraft.class_310
- *  net.minecraft.class_636
- *  net.minecraft.class_746
+ *  net.minecraft.entity.player.PlayerEntity
+ *  net.minecraft.screen.ScreenHandler
+ *  net.minecraft.screen.slot.SlotActionType
+ *  net.minecraft.item.Item
+ *  net.minecraft.item.ItemStack
+ *  net.minecraft.item.Items
+ *  net.minecraft.client.MinecraftClient
+ *  net.minecraft.client.network.ClientPlayerInteractionManager
+ *  net.minecraft.client.network.ClientPlayerEntity
  */
 package mapped;
 
@@ -50,15 +50,15 @@ import mapped.Class6454;
 import mapped.Class803;
 import mapped.Class924;
 import mapped.Class942;
-import net.minecraft.class_1657;
-import net.minecraft.class_1703;
-import net.minecraft.class_1713;
-import net.minecraft.class_1792;
-import net.minecraft.class_1799;
-import net.minecraft.class_1802;
-import net.minecraft.class_310;
-import net.minecraft.class_636;
-import net.minecraft.class_746;
+import net.minecraft.entity.player.PlayerEntity;
+import net.minecraft.screen.ScreenHandler;
+import net.minecraft.screen.slot.SlotActionType;
+import net.minecraft.item.Item;
+import net.minecraft.item.ItemStack;
+import net.minecraft.item.Items;
+import net.minecraft.client.MinecraftClient;
+import net.minecraft.client.network.ClientPlayerInteractionManager;
+import net.minecraft.client.network.ClientPlayerEntity;
 
 /*
  * Illegal identifiers - consider using --renameillegalidents true

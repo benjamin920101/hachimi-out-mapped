@@ -2,17 +2,17 @@
  * Decompiled with CFR 0.152.
  * 
  * Could not load the following classes:
- *  net.minecraft.class_1657
- *  net.minecraft.class_1703
- *  net.minecraft.class_1707
- *  net.minecraft.class_1713
- *  net.minecraft.class_1733
- *  net.minecraft.class_1735
- *  net.minecraft.class_1792
- *  net.minecraft.class_1799
- *  net.minecraft.class_1802
- *  net.minecraft.class_310
- *  net.minecraft.class_746
+ *  net.minecraft.entity.player.PlayerEntity
+ *  net.minecraft.screen.ScreenHandler
+ *  net.minecraft.screen.GenericContainerScreenHandler
+ *  net.minecraft.screen.slot.SlotActionType
+ *  net.minecraft.screen.ShulkerBoxScreenHandler
+ *  net.minecraft.screen.slot.Slot
+ *  net.minecraft.item.Item
+ *  net.minecraft.item.ItemStack
+ *  net.minecraft.item.Items
+ *  net.minecraft.client.MinecraftClient
+ *  net.minecraft.client.network.ClientPlayerEntity
  */
 package mapped;
 
@@ -54,17 +54,17 @@ import mapped.Class6454;
 import mapped.Class925;
 import mapped.Class926;
 import mapped.Class942;
-import net.minecraft.class_1657;
-import net.minecraft.class_1703;
-import net.minecraft.class_1707;
-import net.minecraft.class_1713;
-import net.minecraft.class_1733;
-import net.minecraft.class_1735;
-import net.minecraft.class_1792;
-import net.minecraft.class_1799;
-import net.minecraft.class_1802;
-import net.minecraft.class_310;
-import net.minecraft.class_746;
+import net.minecraft.entity.player.PlayerEntity;
+import net.minecraft.screen.ScreenHandler;
+import net.minecraft.screen.GenericContainerScreenHandler;
+import net.minecraft.screen.slot.SlotActionType;
+import net.minecraft.screen.ShulkerBoxScreenHandler;
+import net.minecraft.screen.slot.Slot;
+import net.minecraft.item.Item;
+import net.minecraft.item.ItemStack;
+import net.minecraft.item.Items;
+import net.minecraft.client.MinecraftClient;
+import net.minecraft.client.network.ClientPlayerEntity;
 
 /*
  * Illegal identifiers - consider using --renameillegalidents true

@@ -2,8 +2,8 @@
  * Decompiled with CFR 0.152.
  * 
  * Could not load the following classes:
- *  net.minecraft.class_310
- *  net.minecraft.class_315
+ *  net.minecraft.client.MinecraftClient
+ *  net.minecraft.client.option.GameOptions
  *  skidonion.sAnhI.___.____
  */
 package mapped;
@@ -25,8 +25,8 @@ import mapped.Class5836;
 import mapped.Class6009;
 import mapped.Class63;
 import mapped.Class6454;
-import net.minecraft.class_310;
-import net.minecraft.class_315;
+import net.minecraft.client.MinecraftClient;
+import net.minecraft.client.option.GameOptions;
 import skidonion.sAnhI.___;
 import skidonion.sAnhI.___.____;
 

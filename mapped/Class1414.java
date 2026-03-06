@@ -2,11 +2,11 @@
  * Decompiled with CFR 0.152.
  * 
  * Could not load the following classes:
- *  net.minecraft.class_2350
+ *  net.minecraft.util.math.Direction
  */
 package mapped;
 
-import net.minecraft.class_2350;
+import net.minecraft.util.math.Direction;
 
 /*
  * Illegal identifiers - consider using --renameillegalidents true

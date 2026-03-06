@@ -2,14 +2,14 @@
  * Decompiled with CFR 0.152.
  * 
  * Could not load the following classes:
- *  net.minecraft.class_1297
- *  net.minecraft.class_2338
+ *  net.minecraft.entity.Entity
+ *  net.minecraft.util.math.BlockPos
  */
 package mapped;
 
 import mapped.Class3442;
-import net.minecraft.class_1297;
-import net.minecraft.class_2338;
+import net.minecraft.entity.Entity;
+import net.minecraft.util.math.BlockPos;
 
 public class Class5457 {
     private final double field10210;

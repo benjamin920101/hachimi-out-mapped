@@ -2,11 +2,11 @@
  * Decompiled with CFR 0.152.
  * 
  * Could not load the following classes:
- *  net.minecraft.class_1738
- *  net.minecraft.class_1741
- *  net.minecraft.class_1799
- *  net.minecraft.class_1893
- *  net.minecraft.class_5321
+ *  net.minecraft.item.ArmorItem
+ *  net.minecraft.item.ArmorMaterial
+ *  net.minecraft.item.ItemStack
+ *  net.minecraft.enchantment.Enchantments
+ *  net.minecraft.registry.RegistryKey
  */
 package mapped;
 
@@ -15,11 +15,11 @@ import mapped.Class279;
 import mapped.Class4045;
 import mapped.Class529;
 import mapped.Class5659;
-import net.minecraft.class_1738;
-import net.minecraft.class_1741;
-import net.minecraft.class_1799;
-import net.minecraft.class_1893;
-import net.minecraft.class_5321;
+import net.minecraft.item.ArmorItem;
+import net.minecraft.item.ArmorMaterial;
+import net.minecraft.item.ItemStack;
+import net.minecraft.enchantment.Enchantments;
+import net.minecraft.registry.RegistryKey;
 
 /*
  * Illegal identifiers - consider using --renameillegalidents true

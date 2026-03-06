@@ -2,8 +2,8 @@
  * Decompiled with CFR 0.152.
  * 
  * Could not load the following classes:
- *  net.minecraft.class_2960
- *  net.minecraft.class_332
+ *  net.minecraft.util.Identifier
+ *  net.minecraft.client.gui.DrawContext
  */
 package mapped;
 
@@ -13,8 +13,8 @@ import java.lang.invoke.MethodHandles;
 import java.lang.invoke.MethodType;
 import mapped.Class3;
 import mapped.Class8;
-import net.minecraft.class_2960;
-import net.minecraft.class_332;
+import net.minecraft.util.Identifier;
+import net.minecraft.client.gui.DrawContext;
 
 /*
  * Illegal identifiers - consider using --renameillegalidents true

@@ -2,11 +2,11 @@
  * Decompiled with CFR 0.152.
  * 
  * Could not load the following classes:
- *  net.minecraft.class_2378
- *  net.minecraft.class_2960
- *  net.minecraft.class_310
- *  net.minecraft.class_3414
- *  net.minecraft.class_7923
+ *  net.minecraft.registry.Registry
+ *  net.minecraft.util.Identifier
+ *  net.minecraft.client.MinecraftClient
+ *  net.minecraft.sound.SoundEvent
+ *  net.minecraft.registry.Registries
  */
 package mapped;
 
@@ -16,11 +16,11 @@ import java.lang.invoke.MethodHandles;
 import java.lang.invoke.MethodType;
 import mapped.Class4122;
 import net.hachimi.HACHIMI_CLIENT;
-import net.minecraft.class_2378;
-import net.minecraft.class_2960;
-import net.minecraft.class_310;
-import net.minecraft.class_3414;
-import net.minecraft.class_7923;
+import net.minecraft.registry.Registry;
+import net.minecraft.util.Identifier;
+import net.minecraft.client.MinecraftClient;
+import net.minecraft.sound.SoundEvent;
+import net.minecraft.registry.Registries;
 
 /*
  * Illegal identifiers - consider using --renameillegalidents true

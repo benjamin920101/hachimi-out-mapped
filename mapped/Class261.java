@@ -3,7 +3,7 @@
  * 
  * Could not load the following classes:
  *  com.google.gson.JsonObject
- *  net.minecraft.class_332
+ *  net.minecraft.client.gui.DrawContext
  *  skidonion.sAnhI.___.____
  */
 package mapped;
@@ -63,7 +63,7 @@ import mapped.Class6418;
 import mapped.Class6454;
 import mapped.Class694;
 import mapped.Class749;
-import net.minecraft.class_332;
+import net.minecraft.client.gui.DrawContext;
 import skidonion.sAnhI.___;
 import skidonion.sAnhI.___.____;
 

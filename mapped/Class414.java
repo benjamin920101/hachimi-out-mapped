@@ -2,12 +2,12 @@
  * Decompiled with CFR 0.152.
  * 
  * Could not load the following classes:
- *  net.minecraft.class_1268
- *  net.minecraft.class_1297
- *  net.minecraft.class_1657
- *  net.minecraft.class_310
- *  net.minecraft.class_742
- *  net.minecraft.class_746
+ *  net.minecraft.util.Hand
+ *  net.minecraft.entity.Entity
+ *  net.minecraft.entity.player.PlayerEntity
+ *  net.minecraft.client.MinecraftClient
+ *  net.minecraft.client.network.AbstractClientPlayerEntity
+ *  net.minecraft.client.network.ClientPlayerEntity
  */
 package mapped;
 
@@ -27,12 +27,12 @@ import mapped.Class5678;
 import mapped.Class5723;
 import mapped.Class598;
 import mapped.Class6090;
-import net.minecraft.class_1268;
-import net.minecraft.class_1297;
-import net.minecraft.class_1657;
-import net.minecraft.class_310;
-import net.minecraft.class_742;
-import net.minecraft.class_746;
+import net.minecraft.util.Hand;
+import net.minecraft.entity.Entity;
+import net.minecraft.entity.player.PlayerEntity;
+import net.minecraft.client.MinecraftClient;
+import net.minecraft.client.network.AbstractClientPlayerEntity;
+import net.minecraft.client.network.ClientPlayerEntity;
 
 public class Class414
 extends Class411 {

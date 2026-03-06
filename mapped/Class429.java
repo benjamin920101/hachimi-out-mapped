@@ -2,20 +2,20 @@
  * Decompiled with CFR 0.152.
  * 
  * Could not load the following classes:
- *  net.minecraft.class_1268
- *  net.minecraft.class_1297
- *  net.minecraft.class_1657
- *  net.minecraft.class_2246
- *  net.minecraft.class_2248
- *  net.minecraft.class_2338
- *  net.minecraft.class_238
- *  net.minecraft.class_2596
- *  net.minecraft.class_2824
- *  net.minecraft.class_2879
- *  net.minecraft.class_310
- *  net.minecraft.class_3726
- *  net.minecraft.class_4587
- *  net.minecraft.class_746
+ *  net.minecraft.util.Hand
+ *  net.minecraft.entity.Entity
+ *  net.minecraft.entity.player.PlayerEntity
+ *  net.minecraft.block.Blocks
+ *  net.minecraft.block.Block
+ *  net.minecraft.util.math.BlockPos
+ *  net.minecraft.util.math.Box
+ *  net.minecraft.network.packet.Packet
+ *  net.minecraft.network.packet.c2s.play.PlayerInteractEntityC2SPacket
+ *  net.minecraft.network.packet.c2s.play.HandSwingC2SPacket
+ *  net.minecraft.client.MinecraftClient
+ *  net.minecraft.block.ShapeContext
+ *  net.minecraft.client.util.math.MatrixStack
+ *  net.minecraft.client.network.ClientPlayerEntity
  *  skidonion.sAnhI.___.____
  */
 package mapped;
@@ -75,20 +75,20 @@ import mapped.Class6322;
 import mapped.Class6330;
 import mapped.Class6454;
 import mapped.Class95;
-import net.minecraft.class_1268;
-import net.minecraft.class_1297;
-import net.minecraft.class_1657;
-import net.minecraft.class_2246;
-import net.minecraft.class_2248;
-import net.minecraft.class_2338;
-import net.minecraft.class_238;
-import net.minecraft.class_2596;
-import net.minecraft.class_2824;
-import net.minecraft.class_2879;
-import net.minecraft.class_310;
-import net.minecraft.class_3726;
-import net.minecraft.class_4587;
-import net.minecraft.class_746;
+import net.minecraft.util.Hand;
+import net.minecraft.entity.Entity;
+import net.minecraft.entity.player.PlayerEntity;
+import net.minecraft.block.Blocks;
+import net.minecraft.block.Block;
+import net.minecraft.util.math.BlockPos;
+import net.minecraft.util.math.Box;
+import net.minecraft.network.packet.Packet;
+import net.minecraft.network.packet.c2s.play.PlayerInteractEntityC2SPacket;
+import net.minecraft.network.packet.c2s.play.HandSwingC2SPacket;
+import net.minecraft.client.MinecraftClient;
+import net.minecraft.block.ShapeContext;
+import net.minecraft.client.util.math.MatrixStack;
+import net.minecraft.client.network.ClientPlayerEntity;
 import skidonion.sAnhI.___;
 import skidonion.sAnhI.___.____;
 

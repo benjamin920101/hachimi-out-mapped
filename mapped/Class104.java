@@ -2,15 +2,15 @@
  * Decompiled with CFR 0.152.
  * 
  * Could not load the following classes:
- *  net.minecraft.class_2248
- *  net.minecraft.class_2680
+ *  net.minecraft.block.Block
+ *  net.minecraft.block.BlockState
  */
 package mapped;
 
 import mapped.Class3;
 import mapped.Class8;
-import net.minecraft.class_2248;
-import net.minecraft.class_2680;
+import net.minecraft.block.Block;
+import net.minecraft.block.BlockState;
 
 @Class3
 public class Class104

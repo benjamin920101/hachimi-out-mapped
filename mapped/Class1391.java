@@ -8,16 +8,16 @@
  *  it.unimi.dsi.fastutil.objects.ObjectArrayList
  *  it.unimi.dsi.fastutil.objects.ObjectList
  *  it.unimi.dsi.fastutil.objects.ObjectListIterator
- *  net.minecraft.class_286
- *  net.minecraft.class_287
- *  net.minecraft.class_289
- *  net.minecraft.class_290
- *  net.minecraft.class_293$class_5596
- *  net.minecraft.class_2960
- *  net.minecraft.class_310
- *  net.minecraft.class_4587
- *  net.minecraft.class_757
- *  net.minecraft.class_9801
+ *  net.minecraft.client.render.BufferRenderer
+ *  net.minecraft.client.render.BufferBuilder
+ *  net.minecraft.client.render.Tessellator
+ *  net.minecraft.client.render.VertexFormats
+ *  net.minecraft.client.render.VertexFormat$DrawMode
+ *  net.minecraft.util.Identifier
+ *  net.minecraft.client.MinecraftClient
+ *  net.minecraft.client.util.math.MatrixStack
+ *  net.minecraft.client.render.GameRenderer
+ *  net.minecraft.client.render.BuiltBuffer
  *  org.joml.Matrix4f
  */
 package mapped;
@@ -75,16 +75,16 @@ import mapped.Class6454;
 import mapped.Class651;
 import mapped.Class663;
 import mapped.Class892;
-import net.minecraft.class_286;
-import net.minecraft.class_287;
-import net.minecraft.class_289;
-import net.minecraft.class_290;
-import net.minecraft.class_293;
-import net.minecraft.class_2960;
-import net.minecraft.class_310;
-import net.minecraft.class_4587;
-import net.minecraft.class_757;
-import net.minecraft.class_9801;
+import net.minecraft.client.render.BufferRenderer;
+import net.minecraft.client.render.BufferBuilder;
+import net.minecraft.client.render.Tessellator;
+import net.minecraft.client.render.VertexFormats;
+import net.minecraft.client.render.VertexFormat;
+import net.minecraft.util.Identifier;
+import net.minecraft.client.MinecraftClient;
+import net.minecraft.client.util.math.MatrixStack;
+import net.minecraft.client.render.GameRenderer;
+import net.minecraft.client.render.BuiltBuffer;
 import org.joml.Matrix4f;
 
 /*

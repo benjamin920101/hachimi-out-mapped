@@ -2,7 +2,7 @@
  * Decompiled with CFR 0.152.
  * 
  * Could not load the following classes:
- *  net.minecraft.class_1657
+ *  net.minecraft.entity.player.PlayerEntity
  */
 package mapped;
 
@@ -19,7 +19,7 @@ import mapped.Class253;
 import mapped.Class278;
 import mapped.Class3979;
 import mapped.Class556;
-import net.minecraft.class_1657;
+import net.minecraft.entity.player.PlayerEntity;
 
 /*
  * Illegal identifiers - consider using --renameillegalidents true

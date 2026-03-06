@@ -2,16 +2,16 @@
  * Decompiled with CFR 0.152.
  * 
  * Could not load the following classes:
- *  net.minecraft.class_1747
- *  net.minecraft.class_2248
- *  net.minecraft.class_2338
- *  net.minecraft.class_2596
- *  net.minecraft.class_2680
- *  net.minecraft.class_2885
- *  net.minecraft.class_310
- *  net.minecraft.class_3965
- *  net.minecraft.class_638
- *  net.minecraft.class_746
+ *  net.minecraft.item.BlockItem
+ *  net.minecraft.block.Block
+ *  net.minecraft.util.math.BlockPos
+ *  net.minecraft.network.packet.Packet
+ *  net.minecraft.block.BlockState
+ *  net.minecraft.network.packet.c2s.play.PlayerInteractBlockC2SPacket
+ *  net.minecraft.client.MinecraftClient
+ *  net.minecraft.util.hit.BlockHitResult
+ *  net.minecraft.client.world.ClientWorld
+ *  net.minecraft.client.network.ClientPlayerEntity
  */
 package mapped;
 
@@ -29,16 +29,16 @@ import mapped.Class556;
 import mapped.Class5836;
 import mapped.Class6009;
 import mapped.Class6454;
-import net.minecraft.class_1747;
-import net.minecraft.class_2248;
-import net.minecraft.class_2338;
-import net.minecraft.class_2596;
-import net.minecraft.class_2680;
-import net.minecraft.class_2885;
-import net.minecraft.class_310;
-import net.minecraft.class_3965;
-import net.minecraft.class_638;
-import net.minecraft.class_746;
+import net.minecraft.item.BlockItem;
+import net.minecraft.block.Block;
+import net.minecraft.util.math.BlockPos;
+import net.minecraft.network.packet.Packet;
+import net.minecraft.block.BlockState;
+import net.minecraft.network.packet.c2s.play.PlayerInteractBlockC2SPacket;
+import net.minecraft.client.MinecraftClient;
+import net.minecraft.util.hit.BlockHitResult;
+import net.minecraft.client.world.ClientWorld;
+import net.minecraft.client.network.ClientPlayerEntity;
 
 /*
  * Illegal identifiers - consider using --renameillegalidents true

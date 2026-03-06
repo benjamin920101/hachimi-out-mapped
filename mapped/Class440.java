@@ -2,27 +2,27 @@
  * Decompiled with CFR 0.152.
  * 
  * Could not load the following classes:
- *  net.minecraft.class_1268
- *  net.minecraft.class_1297
- *  net.minecraft.class_1304
- *  net.minecraft.class_1657
- *  net.minecraft.class_1738
- *  net.minecraft.class_1740
- *  net.minecraft.class_1770
- *  net.minecraft.class_1792
- *  net.minecraft.class_1799
- *  net.minecraft.class_1802
- *  net.minecraft.class_239
- *  net.minecraft.class_239$class_240
- *  net.minecraft.class_243
- *  net.minecraft.class_2596
- *  net.minecraft.class_2848
- *  net.minecraft.class_2848$class_2849
- *  net.minecraft.class_2886
- *  net.minecraft.class_310
- *  net.minecraft.class_3966
- *  net.minecraft.class_7204
- *  net.minecraft.class_746
+ *  net.minecraft.util.Hand
+ *  net.minecraft.entity.Entity
+ *  net.minecraft.entity.EquipmentSlot
+ *  net.minecraft.entity.player.PlayerEntity
+ *  net.minecraft.item.ArmorItem
+ *  net.minecraft.item.ArmorMaterials
+ *  net.minecraft.item.ElytraItem
+ *  net.minecraft.item.Item
+ *  net.minecraft.item.ItemStack
+ *  net.minecraft.item.Items
+ *  net.minecraft.util.hit.HitResult
+ *  net.minecraft.util.hit.HitResult$Type
+ *  net.minecraft.util.math.Vec3d
+ *  net.minecraft.network.packet.Packet
+ *  net.minecraft.network.packet.c2s.play.ClientCommandC2SPacket
+ *  net.minecraft.network.packet.c2s.play.ClientCommandC2SPacket$Mode
+ *  net.minecraft.network.packet.c2s.play.PlayerInteractItemC2SPacket
+ *  net.minecraft.client.MinecraftClient
+ *  net.minecraft.util.hit.EntityHitResult
+ *  net.minecraft.client.network.SequencedPacketCreator
+ *  net.minecraft.client.network.ClientPlayerEntity
  */
 package mapped;
 
@@ -66,25 +66,25 @@ import mapped.Class6454;
 import mapped.Class68;
 import mapped.Class829;
 import mapped.Class976;
-import net.minecraft.class_1268;
-import net.minecraft.class_1297;
-import net.minecraft.class_1304;
-import net.minecraft.class_1657;
-import net.minecraft.class_1738;
-import net.minecraft.class_1740;
-import net.minecraft.class_1770;
-import net.minecraft.class_1792;
-import net.minecraft.class_1799;
-import net.minecraft.class_1802;
-import net.minecraft.class_239;
-import net.minecraft.class_243;
-import net.minecraft.class_2596;
-import net.minecraft.class_2848;
-import net.minecraft.class_2886;
-import net.minecraft.class_310;
-import net.minecraft.class_3966;
-import net.minecraft.class_7204;
-import net.minecraft.class_746;
+import net.minecraft.util.Hand;
+import net.minecraft.entity.Entity;
+import net.minecraft.entity.EquipmentSlot;
+import net.minecraft.entity.player.PlayerEntity;
+import net.minecraft.item.ArmorItem;
+import net.minecraft.item.ArmorMaterials;
+import net.minecraft.item.ElytraItem;
+import net.minecraft.item.Item;
+import net.minecraft.item.ItemStack;
+import net.minecraft.item.Items;
+import net.minecraft.util.hit.HitResult;
+import net.minecraft.util.math.Vec3d;
+import net.minecraft.network.packet.Packet;
+import net.minecraft.network.packet.c2s.play.ClientCommandC2SPacket;
+import net.minecraft.network.packet.c2s.play.PlayerInteractItemC2SPacket;
+import net.minecraft.client.MinecraftClient;
+import net.minecraft.util.hit.EntityHitResult;
+import net.minecraft.client.network.SequencedPacketCreator;
+import net.minecraft.client.network.ClientPlayerEntity;
 
 /*
  * Illegal identifiers - consider using --renameillegalidents true

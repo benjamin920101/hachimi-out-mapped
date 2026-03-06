@@ -3,42 +3,42 @@
  * 
  * Could not load the following classes:
  *  com.mojang.blaze3d.systems.RenderSystem
- *  net.minecraft.class_1297
- *  net.minecraft.class_1303
- *  net.minecraft.class_1667
- *  net.minecraft.class_1676
- *  net.minecraft.class_1683
- *  net.minecraft.class_1684
- *  net.minecraft.class_1685
- *  net.minecraft.class_1686
- *  net.minecraft.class_1753
- *  net.minecraft.class_1764
- *  net.minecraft.class_1771
- *  net.minecraft.class_1776
- *  net.minecraft.class_1779
- *  net.minecraft.class_1792
- *  net.minecraft.class_1803
- *  net.minecraft.class_1823
- *  net.minecraft.class_1828
- *  net.minecraft.class_1835
- *  net.minecraft.class_2246
- *  net.minecraft.class_2248
- *  net.minecraft.class_2338
- *  net.minecraft.class_2350
- *  net.minecraft.class_238
- *  net.minecraft.class_239$class_240
- *  net.minecraft.class_243
- *  net.minecraft.class_310
- *  net.minecraft.class_3532
- *  net.minecraft.class_3959
- *  net.minecraft.class_3959$class_242
- *  net.minecraft.class_3959$class_3960
- *  net.minecraft.class_3965
- *  net.minecraft.class_3966
- *  net.minecraft.class_4587
- *  net.minecraft.class_638
- *  net.minecraft.class_746
- *  net.minecraft.class_8251
+ *  net.minecraft.entity.Entity
+ *  net.minecraft.entity.ExperienceOrbEntity
+ *  net.minecraft.entity.projectile.ArrowEntity
+ *  net.minecraft.entity.projectile.ProjectileEntity
+ *  net.minecraft.entity.projectile.thrown.ExperienceBottleEntity
+ *  net.minecraft.entity.projectile.thrown.EnderPearlEntity
+ *  net.minecraft.entity.projectile.TridentEntity
+ *  net.minecraft.entity.projectile.thrown.PotionEntity
+ *  net.minecraft.item.BowItem
+ *  net.minecraft.item.CrossbowItem
+ *  net.minecraft.item.EggItem
+ *  net.minecraft.item.EnderPearlItem
+ *  net.minecraft.item.ExperienceBottleItem
+ *  net.minecraft.item.Item
+ *  net.minecraft.item.LingeringPotionItem
+ *  net.minecraft.item.SnowballItem
+ *  net.minecraft.item.SplashPotionItem
+ *  net.minecraft.item.TridentItem
+ *  net.minecraft.block.Blocks
+ *  net.minecraft.block.Block
+ *  net.minecraft.util.math.BlockPos
+ *  net.minecraft.util.math.Direction
+ *  net.minecraft.util.math.Box
+ *  net.minecraft.util.hit.HitResult$Type
+ *  net.minecraft.util.math.Vec3d
+ *  net.minecraft.client.MinecraftClient
+ *  net.minecraft.util.math.MathHelper
+ *  net.minecraft.world.RaycastContext
+ *  net.minecraft.world.RaycastContext$FluidHandling
+ *  net.minecraft.world.RaycastContext$ShapeType
+ *  net.minecraft.util.hit.BlockHitResult
+ *  net.minecraft.util.hit.EntityHitResult
+ *  net.minecraft.client.util.math.MatrixStack
+ *  net.minecraft.client.world.ClientWorld
+ *  net.minecraft.client.network.ClientPlayerEntity
+ *  com.mojang.blaze3d.systems.VertexSorter
  *  org.joml.Matrix4f
  */
 package mapped;
@@ -86,40 +86,40 @@ import mapped.Class6454;
 import mapped.Class685;
 import mapped.Class773;
 import mapped.Class909;
-import net.minecraft.class_1297;
-import net.minecraft.class_1303;
-import net.minecraft.class_1667;
-import net.minecraft.class_1676;
-import net.minecraft.class_1683;
-import net.minecraft.class_1684;
-import net.minecraft.class_1685;
-import net.minecraft.class_1686;
-import net.minecraft.class_1753;
-import net.minecraft.class_1764;
-import net.minecraft.class_1771;
-import net.minecraft.class_1776;
-import net.minecraft.class_1779;
-import net.minecraft.class_1792;
-import net.minecraft.class_1803;
-import net.minecraft.class_1823;
-import net.minecraft.class_1828;
-import net.minecraft.class_1835;
-import net.minecraft.class_2246;
-import net.minecraft.class_2248;
-import net.minecraft.class_2338;
-import net.minecraft.class_2350;
-import net.minecraft.class_238;
-import net.minecraft.class_239;
-import net.minecraft.class_243;
-import net.minecraft.class_310;
-import net.minecraft.class_3532;
-import net.minecraft.class_3959;
-import net.minecraft.class_3965;
-import net.minecraft.class_3966;
-import net.minecraft.class_4587;
-import net.minecraft.class_638;
-import net.minecraft.class_746;
-import net.minecraft.class_8251;
+import net.minecraft.entity.Entity;
+import net.minecraft.entity.ExperienceOrbEntity;
+import net.minecraft.entity.projectile.ArrowEntity;
+import net.minecraft.entity.projectile.ProjectileEntity;
+import net.minecraft.entity.projectile.thrown.ExperienceBottleEntity;
+import net.minecraft.entity.projectile.thrown.EnderPearlEntity;
+import net.minecraft.entity.projectile.TridentEntity;
+import net.minecraft.entity.projectile.thrown.PotionEntity;
+import net.minecraft.item.BowItem;
+import net.minecraft.item.CrossbowItem;
+import net.minecraft.item.EggItem;
+import net.minecraft.item.EnderPearlItem;
+import net.minecraft.item.ExperienceBottleItem;
+import net.minecraft.item.Item;
+import net.minecraft.item.LingeringPotionItem;
+import net.minecraft.item.SnowballItem;
+import net.minecraft.item.SplashPotionItem;
+import net.minecraft.item.TridentItem;
+import net.minecraft.block.Blocks;
+import net.minecraft.block.Block;
+import net.minecraft.util.math.BlockPos;
+import net.minecraft.util.math.Direction;
+import net.minecraft.util.math.Box;
+import net.minecraft.util.hit.HitResult;
+import net.minecraft.util.math.Vec3d;
+import net.minecraft.client.MinecraftClient;
+import net.minecraft.util.math.MathHelper;
+import net.minecraft.world.RaycastContext;
+import net.minecraft.util.hit.BlockHitResult;
+import net.minecraft.util.hit.EntityHitResult;
+import net.minecraft.client.util.math.MatrixStack;
+import net.minecraft.client.world.ClientWorld;
+import net.minecraft.client.network.ClientPlayerEntity;
+import com.mojang.blaze3d.systems.VertexSorter;
 import org.joml.Matrix4f;
 
 /*

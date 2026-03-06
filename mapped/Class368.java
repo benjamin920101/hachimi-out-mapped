@@ -2,11 +2,11 @@
  * Decompiled with CFR 0.152.
  * 
  * Could not load the following classes:
- *  net.minecraft.class_2596
- *  net.minecraft.class_2817
- *  net.minecraft.class_2960
- *  net.minecraft.class_8709
- *  net.minecraft.class_8710
+ *  net.minecraft.network.packet.Packet
+ *  net.minecraft.network.packet.c2s.common.CustomPayloadC2SPacket
+ *  net.minecraft.util.Identifier
+ *  net.minecraft.network.packet.BrandCustomPayload
+ *  net.minecraft.network.packet.CustomPayload
  */
 package mapped;
 
@@ -17,11 +17,11 @@ import mapped.Class5496;
 import mapped.Class556;
 import mapped.Class5723;
 import mapped.Class6009;
-import net.minecraft.class_2596;
-import net.minecraft.class_2817;
-import net.minecraft.class_2960;
-import net.minecraft.class_8709;
-import net.minecraft.class_8710;
+import net.minecraft.network.packet.Packet;
+import net.minecraft.network.packet.c2s.common.CustomPayloadC2SPacket;
+import net.minecraft.util.Identifier;
+import net.minecraft.network.packet.BrandCustomPayload;
+import net.minecraft.network.packet.CustomPayload;
 
 /*
  * Illegal identifiers - consider using --renameillegalidents true

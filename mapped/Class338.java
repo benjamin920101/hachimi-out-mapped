@@ -2,28 +2,28 @@
  * Decompiled with CFR 0.152.
  * 
  * Could not load the following classes:
- *  net.minecraft.class_1294
- *  net.minecraft.class_1297
- *  net.minecraft.class_1309
- *  net.minecraft.class_1498
- *  net.minecraft.class_1500
- *  net.minecraft.class_1501
- *  net.minecraft.class_1922
- *  net.minecraft.class_2338
- *  net.minecraft.class_2350$class_2351
- *  net.minecraft.class_2374
- *  net.minecraft.class_238
- *  net.minecraft.class_243
- *  net.minecraft.class_2596
- *  net.minecraft.class_265
- *  net.minecraft.class_2708
- *  net.minecraft.class_2828$class_2829
- *  net.minecraft.class_310
- *  net.minecraft.class_3532
- *  net.minecraft.class_3726
- *  net.minecraft.class_6880
- *  net.minecraft.class_744
- *  net.minecraft.class_746
+ *  net.minecraft.entity.effect.StatusEffects
+ *  net.minecraft.entity.Entity
+ *  net.minecraft.entity.LivingEntity
+ *  net.minecraft.entity.passive.HorseEntity
+ *  net.minecraft.entity.passive.MuleEntity
+ *  net.minecraft.entity.passive.LlamaEntity
+ *  net.minecraft.world.BlockView
+ *  net.minecraft.util.math.BlockPos
+ *  net.minecraft.util.math.Direction$Axis
+ *  net.minecraft.util.math.Position
+ *  net.minecraft.util.math.Box
+ *  net.minecraft.util.math.Vec3d
+ *  net.minecraft.network.packet.Packet
+ *  net.minecraft.util.shape.VoxelShape
+ *  net.minecraft.network.packet.s2c.play.PlayerPositionLookS2CPacket
+ *  net.minecraft.network.packet.c2s.play.PlayerMoveC2SPacket$PositionAndOnGround
+ *  net.minecraft.client.MinecraftClient
+ *  net.minecraft.util.math.MathHelper
+ *  net.minecraft.block.ShapeContext
+ *  net.minecraft.registry.entry.RegistryEntry
+ *  net.minecraft.client.input.Input
+ *  net.minecraft.client.network.ClientPlayerEntity
  */
 package mapped;
 
@@ -100,28 +100,28 @@ import mapped.Class65;
 import mapped.Class69;
 import mapped.Class925;
 import mapped.Class926;
-import net.minecraft.class_1294;
-import net.minecraft.class_1297;
-import net.minecraft.class_1309;
-import net.minecraft.class_1498;
-import net.minecraft.class_1500;
-import net.minecraft.class_1501;
-import net.minecraft.class_1922;
-import net.minecraft.class_2338;
-import net.minecraft.class_2350;
-import net.minecraft.class_2374;
-import net.minecraft.class_238;
-import net.minecraft.class_243;
-import net.minecraft.class_2596;
-import net.minecraft.class_265;
-import net.minecraft.class_2708;
-import net.minecraft.class_2828;
-import net.minecraft.class_310;
-import net.minecraft.class_3532;
-import net.minecraft.class_3726;
-import net.minecraft.class_6880;
-import net.minecraft.class_744;
-import net.minecraft.class_746;
+import net.minecraft.entity.effect.StatusEffects;
+import net.minecraft.entity.Entity;
+import net.minecraft.entity.LivingEntity;
+import net.minecraft.entity.passive.HorseEntity;
+import net.minecraft.entity.passive.MuleEntity;
+import net.minecraft.entity.passive.LlamaEntity;
+import net.minecraft.world.BlockView;
+import net.minecraft.util.math.BlockPos;
+import net.minecraft.util.math.Direction;
+import net.minecraft.util.math.Position;
+import net.minecraft.util.math.Box;
+import net.minecraft.util.math.Vec3d;
+import net.minecraft.network.packet.Packet;
+import net.minecraft.util.shape.VoxelShape;
+import net.minecraft.network.packet.s2c.play.PlayerPositionLookS2CPacket;
+import net.minecraft.network.packet.c2s.play.PlayerMoveC2SPacket;
+import net.minecraft.client.MinecraftClient;
+import net.minecraft.util.math.MathHelper;
+import net.minecraft.block.ShapeContext;
+import net.minecraft.registry.entry.RegistryEntry;
+import net.minecraft.client.input.Input;
+import net.minecraft.client.network.ClientPlayerEntity;
 
 /*
  * Illegal identifiers - consider using --renameillegalidents true
@@ -378,7 +378,7 @@ lbl33:
                         z = u.method_1019(w);
                         A = q.method_1019(w);
                         B = Class338.field290.field_1724.method_37908().method_8600((class_1297)Class338.field290.field_1724, t);
-                        C = StreamSupport.stream(B.spliterator(), (boolean)Class338.field879[1]).flatMap((Function<class_265, Stream>)LambdaMetafactory.metafactory(null, null, null, (Ljava/lang/Object;)Ljava/lang/Object;, method3223(net.minecraft.class_265 ), (Lnet/minecraft/class_265;)Ljava/util/stream/Stream;)()).iterator();
+                        C = StreamSupport.stream(B.spliterator(), (boolean)Class338.field879[1]).flatMap((Function<class_265, Stream>)LambdaMetafactory.metafactory(null, null, null, (Ljava/lang/Object;)Ljava/lang/Object;, method3223(net.minecraft.util.shape.VoxelShape ), (Lnet/minecraft/class_265;)Ljava/util/stream/Stream;)()).iterator();
                         D = 1.4E-45f;
                         while (C.hasNext()) {
                             m = (class_238)C.next();

@@ -2,8 +2,8 @@
  * Decompiled with CFR 0.152.
  * 
  * Could not load the following classes:
- *  net.minecraft.class_1297
- *  net.minecraft.class_1657
+ *  net.minecraft.entity.Entity
+ *  net.minecraft.entity.player.PlayerEntity
  */
 package mapped;
 
@@ -18,8 +18,8 @@ import mapped.Class278;
 import mapped.Class50;
 import mapped.Class556;
 import mapped.Class5836;
-import net.minecraft.class_1297;
-import net.minecraft.class_1657;
+import net.minecraft.entity.Entity;
+import net.minecraft.entity.player.PlayerEntity;
 
 /*
  * Illegal identifiers - consider using --renameillegalidents true

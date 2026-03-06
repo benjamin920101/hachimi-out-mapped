@@ -2,18 +2,18 @@
  * Decompiled with CFR 0.152.
  * 
  * Could not load the following classes:
- *  net.minecraft.class_241
- *  net.minecraft.class_243
- *  net.minecraft.class_315
- *  net.minecraft.class_743
+ *  net.minecraft.util.math.Vec2f
+ *  net.minecraft.util.math.Vec3d
+ *  net.minecraft.client.option.GameOptions
+ *  net.minecraft.client.input.KeyboardInput
  */
 package mapped;
 
 import mapped.Class365;
-import net.minecraft.class_241;
-import net.minecraft.class_243;
-import net.minecraft.class_315;
-import net.minecraft.class_743;
+import net.minecraft.util.math.Vec2f;
+import net.minecraft.util.math.Vec3d;
+import net.minecraft.client.option.GameOptions;
+import net.minecraft.client.input.KeyboardInput;
 
 /*
  * Illegal identifiers - consider using --renameillegalidents true

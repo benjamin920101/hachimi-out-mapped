@@ -2,9 +2,9 @@
  * Decompiled with CFR 0.152.
  * 
  * Could not load the following classes:
- *  net.minecraft.class_243
- *  net.minecraft.class_310
- *  net.minecraft.class_315
+ *  net.minecraft.util.math.Vec3d
+ *  net.minecraft.client.MinecraftClient
+ *  net.minecraft.client.option.GameOptions
  */
 package mapped;
 
@@ -26,9 +26,9 @@ import mapped.Class5836;
 import mapped.Class6023;
 import mapped.Class6454;
 import mapped.Class72;
-import net.minecraft.class_243;
-import net.minecraft.class_310;
-import net.minecraft.class_315;
+import net.minecraft.util.math.Vec3d;
+import net.minecraft.client.MinecraftClient;
+import net.minecraft.client.option.GameOptions;
 
 /*
  * Illegal identifiers - consider using --renameillegalidents true

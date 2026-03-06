@@ -3,11 +3,11 @@
  * 
  * Could not load the following classes:
  *  com.mojang.authlib.GameProfile
- *  net.minecraft.class_1297
- *  net.minecraft.class_1297$class_5529
- *  net.minecraft.class_1657
- *  net.minecraft.class_310
- *  net.minecraft.class_745
+ *  net.minecraft.entity.Entity
+ *  net.minecraft.entity.Entity$RemovalReason
+ *  net.minecraft.entity.player.PlayerEntity
+ *  net.minecraft.client.MinecraftClient
+ *  net.minecraft.client.network.OtherClientPlayerEntity
  */
 package mapped;
 
@@ -15,10 +15,10 @@ import com.mojang.authlib.GameProfile;
 import java.util.UUID;
 import java.util.concurrent.atomic.AtomicInteger;
 import mapped.Class4122;
-import net.minecraft.class_1297;
-import net.minecraft.class_1657;
-import net.minecraft.class_310;
-import net.minecraft.class_745;
+import net.minecraft.entity.Entity;
+import net.minecraft.entity.player.PlayerEntity;
+import net.minecraft.client.MinecraftClient;
+import net.minecraft.client.network.OtherClientPlayerEntity;
 
 /*
  * Illegal identifiers - consider using --renameillegalidents true

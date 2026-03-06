@@ -2,15 +2,15 @@
  * Decompiled with CFR 0.152.
  * 
  * Could not load the following classes:
- *  net.minecraft.class_1792
- *  net.minecraft.class_1799
+ *  net.minecraft.item.Item
+ *  net.minecraft.item.ItemStack
  */
 package mapped;
 
 import mapped.Class3;
 import mapped.Class8;
-import net.minecraft.class_1792;
-import net.minecraft.class_1799;
+import net.minecraft.item.Item;
+import net.minecraft.item.ItemStack;
 
 @Class3
 public class Class24

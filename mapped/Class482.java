@@ -2,9 +2,9 @@
  * Decompiled with CFR 0.152.
  * 
  * Could not load the following classes:
- *  net.minecraft.class_1268
- *  net.minecraft.class_2596
- *  net.minecraft.class_2879
+ *  net.minecraft.util.Hand
+ *  net.minecraft.network.packet.Packet
+ *  net.minecraft.network.packet.c2s.play.HandSwingC2SPacket
  */
 package mapped;
 
@@ -16,9 +16,9 @@ import java.lang.invoke.MethodType;
 import mapped.Class4122;
 import mapped.Class480;
 import net.hachimi.HACHIMI_CLIENT;
-import net.minecraft.class_1268;
-import net.minecraft.class_2596;
-import net.minecraft.class_2879;
+import net.minecraft.util.Hand;
+import net.minecraft.network.packet.Packet;
+import net.minecraft.network.packet.c2s.play.HandSwingC2SPacket;
 
 /*
  * Illegal identifiers - consider using --renameillegalidents true

@@ -2,7 +2,7 @@
  * Decompiled with CFR 0.152.
  * 
  * Could not load the following classes:
- *  net.minecraft.class_332
+ *  net.minecraft.client.gui.DrawContext
  *  skidonion.sAnhI.___.____
  */
 package mapped;
@@ -10,7 +10,7 @@ package mapped;
 import mapped.Class263;
 import mapped.Class265;
 import net.hachimi.HACHIMI_CLIENT;
-import net.minecraft.class_332;
+import net.minecraft.client.gui.DrawContext;
 import skidonion.sAnhI.___;
 import skidonion.sAnhI.___.____;
 

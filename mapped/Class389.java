@@ -2,23 +2,23 @@
  * Decompiled with CFR 0.152.
  * 
  * Could not load the following classes:
- *  net.minecraft.class_1309
- *  net.minecraft.class_1657
- *  net.minecraft.class_1757
- *  net.minecraft.class_1799
- *  net.minecraft.class_238
- *  net.minecraft.class_243
- *  net.minecraft.class_2596
- *  net.minecraft.class_2602
- *  net.minecraft.class_2708
- *  net.minecraft.class_2828
- *  net.minecraft.class_2828$class_2829
- *  net.minecraft.class_2828$class_2830
- *  net.minecraft.class_2828$class_2831
- *  net.minecraft.class_2828$class_5911
- *  net.minecraft.class_310
- *  net.minecraft.class_4587
- *  net.minecraft.class_746
+ *  net.minecraft.entity.LivingEntity
+ *  net.minecraft.entity.player.PlayerEntity
+ *  net.minecraft.item.ChorusFruitItem
+ *  net.minecraft.item.ItemStack
+ *  net.minecraft.util.math.Box
+ *  net.minecraft.util.math.Vec3d
+ *  net.minecraft.network.packet.Packet
+ *  net.minecraft.network.listener.ClientPlayPacketListener
+ *  net.minecraft.network.packet.s2c.play.PlayerPositionLookS2CPacket
+ *  net.minecraft.network.packet.c2s.play.PlayerMoveC2SPacket
+ *  net.minecraft.network.packet.c2s.play.PlayerMoveC2SPacket$PositionAndOnGround
+ *  net.minecraft.network.packet.c2s.play.PlayerMoveC2SPacket$Full
+ *  net.minecraft.network.packet.c2s.play.PlayerMoveC2SPacket$LookAndOnGround
+ *  net.minecraft.network.packet.c2s.play.PlayerMoveC2SPacket$OnGroundOnly
+ *  net.minecraft.client.MinecraftClient
+ *  net.minecraft.client.util.math.MatrixStack
+ *  net.minecraft.client.network.ClientPlayerEntity
  *  skidonion.sAnhI.___.____
  */
 package mapped;
@@ -42,19 +42,19 @@ import mapped.Class59;
 import mapped.Class6009;
 import mapped.Class63;
 import mapped.Class6454;
-import net.minecraft.class_1309;
-import net.minecraft.class_1657;
-import net.minecraft.class_1757;
-import net.minecraft.class_1799;
-import net.minecraft.class_238;
-import net.minecraft.class_243;
-import net.minecraft.class_2596;
-import net.minecraft.class_2602;
-import net.minecraft.class_2708;
-import net.minecraft.class_2828;
-import net.minecraft.class_310;
-import net.minecraft.class_4587;
-import net.minecraft.class_746;
+import net.minecraft.entity.LivingEntity;
+import net.minecraft.entity.player.PlayerEntity;
+import net.minecraft.item.ChorusFruitItem;
+import net.minecraft.item.ItemStack;
+import net.minecraft.util.math.Box;
+import net.minecraft.util.math.Vec3d;
+import net.minecraft.network.packet.Packet;
+import net.minecraft.network.listener.ClientPlayPacketListener;
+import net.minecraft.network.packet.s2c.play.PlayerPositionLookS2CPacket;
+import net.minecraft.network.packet.c2s.play.PlayerMoveC2SPacket;
+import net.minecraft.client.MinecraftClient;
+import net.minecraft.client.util.math.MatrixStack;
+import net.minecraft.client.network.ClientPlayerEntity;
 import skidonion.sAnhI.___;
 import skidonion.sAnhI.___.____;
 

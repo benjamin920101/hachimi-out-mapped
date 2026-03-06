@@ -2,28 +2,28 @@
  * Decompiled with CFR 0.152.
  * 
  * Could not load the following classes:
- *  net.minecraft.class_1657
- *  net.minecraft.class_1703
- *  net.minecraft.class_1713
- *  net.minecraft.class_1937
- *  net.minecraft.class_2561
- *  net.minecraft.class_2596
- *  net.minecraft.class_2664
- *  net.minecraft.class_2668
- *  net.minecraft.class_2675
- *  net.minecraft.class_2708
- *  net.minecraft.class_2720
- *  net.minecraft.class_2743
- *  net.minecraft.class_2797
- *  net.minecraft.class_2856
- *  net.minecraft.class_2856$class_2857
- *  net.minecraft.class_310
- *  net.minecraft.class_3515$class_7426
- *  net.minecraft.class_636
- *  net.minecraft.class_7438
- *  net.minecraft.class_7439
- *  net.minecraft.class_746
- *  net.minecraft.class_7635$class_7636
+ *  net.minecraft.entity.player.PlayerEntity
+ *  net.minecraft.screen.ScreenHandler
+ *  net.minecraft.screen.slot.SlotActionType
+ *  net.minecraft.world.World
+ *  net.minecraft.text.Text
+ *  net.minecraft.network.packet.Packet
+ *  net.minecraft.network.packet.s2c.play.ExplosionS2CPacket
+ *  net.minecraft.network.packet.s2c.play.GameStateChangeS2CPacket
+ *  net.minecraft.network.packet.s2c.play.ParticleS2CPacket
+ *  net.minecraft.network.packet.s2c.play.PlayerPositionLookS2CPacket
+ *  net.minecraft.network.packet.s2c.common.ResourcePackSendS2CPacket
+ *  net.minecraft.network.packet.s2c.play.EntityVelocityUpdateS2CPacket
+ *  net.minecraft.network.packet.c2s.play.ChatMessageC2SPacket
+ *  net.minecraft.network.packet.c2s.common.ResourcePackStatusC2SPacket
+ *  net.minecraft.network.packet.c2s.common.ResourcePackStatusC2SPacket$Status
+ *  net.minecraft.client.MinecraftClient
+ *  net.minecraft.network.encryption.NetworkEncryptionUtils$SecureRandomUtil
+ *  net.minecraft.client.network.ClientPlayerInteractionManager
+ *  net.minecraft.network.packet.s2c.play.ChatMessageS2CPacket
+ *  net.minecraft.network.packet.s2c.play.GameMessageS2CPacket
+ *  net.minecraft.client.network.ClientPlayerEntity
+ *  net.minecraft.network.message.LastSeenMessageList$Acknowledgment
  */
 package mapped;
 
@@ -69,27 +69,27 @@ import mapped.Class6416;
 import mapped.Class6454;
 import mapped.Class66;
 import mapped.Class967;
-import net.minecraft.class_1657;
-import net.minecraft.class_1703;
-import net.minecraft.class_1713;
-import net.minecraft.class_1937;
-import net.minecraft.class_2561;
-import net.minecraft.class_2596;
-import net.minecraft.class_2664;
-import net.minecraft.class_2668;
-import net.minecraft.class_2675;
-import net.minecraft.class_2708;
-import net.minecraft.class_2720;
-import net.minecraft.class_2743;
-import net.minecraft.class_2797;
-import net.minecraft.class_2856;
-import net.minecraft.class_310;
-import net.minecraft.class_3515;
-import net.minecraft.class_636;
-import net.minecraft.class_7438;
-import net.minecraft.class_7439;
-import net.minecraft.class_746;
-import net.minecraft.class_7635;
+import net.minecraft.entity.player.PlayerEntity;
+import net.minecraft.screen.ScreenHandler;
+import net.minecraft.screen.slot.SlotActionType;
+import net.minecraft.world.World;
+import net.minecraft.text.Text;
+import net.minecraft.network.packet.Packet;
+import net.minecraft.network.packet.s2c.play.ExplosionS2CPacket;
+import net.minecraft.network.packet.s2c.play.GameStateChangeS2CPacket;
+import net.minecraft.network.packet.s2c.play.ParticleS2CPacket;
+import net.minecraft.network.packet.s2c.play.PlayerPositionLookS2CPacket;
+import net.minecraft.network.packet.s2c.common.ResourcePackSendS2CPacket;
+import net.minecraft.network.packet.s2c.play.EntityVelocityUpdateS2CPacket;
+import net.minecraft.network.packet.c2s.play.ChatMessageC2SPacket;
+import net.minecraft.network.packet.c2s.common.ResourcePackStatusC2SPacket;
+import net.minecraft.client.MinecraftClient;
+import net.minecraft.network.encryption.NetworkEncryptionUtils;
+import net.minecraft.client.network.ClientPlayerInteractionManager;
+import net.minecraft.network.packet.s2c.play.ChatMessageS2CPacket;
+import net.minecraft.network.packet.s2c.play.GameMessageS2CPacket;
+import net.minecraft.client.network.ClientPlayerEntity;
+import net.minecraft.network.message.LastSeenMessageList;
 
 /*
  * Illegal identifiers - consider using --renameillegalidents true

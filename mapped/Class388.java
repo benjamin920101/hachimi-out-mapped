@@ -2,10 +2,10 @@
  * Decompiled with CFR 0.152.
  * 
  * Could not load the following classes:
- *  net.minecraft.class_2396
- *  net.minecraft.class_2398
- *  net.minecraft.class_2400
- *  net.minecraft.class_3532
+ *  net.minecraft.particle.ParticleType
+ *  net.minecraft.particle.ParticleTypes
+ *  net.minecraft.particle.SimpleParticleType
+ *  net.minecraft.util.math.MathHelper
  */
 package mapped;
 
@@ -41,10 +41,10 @@ import mapped.Class5794;
 import mapped.Class5836;
 import mapped.Class6143;
 import mapped.Class6322;
-import net.minecraft.class_2396;
-import net.minecraft.class_2398;
-import net.minecraft.class_2400;
-import net.minecraft.class_3532;
+import net.minecraft.particle.ParticleType;
+import net.minecraft.particle.ParticleTypes;
+import net.minecraft.particle.SimpleParticleType;
+import net.minecraft.util.math.MathHelper;
 
 /*
  * Illegal identifiers - consider using --renameillegalidents true

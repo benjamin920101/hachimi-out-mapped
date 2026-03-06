@@ -2,7 +2,7 @@
  * Decompiled with CFR 0.152.
  * 
  * Could not load the following classes:
- *  net.minecraft.class_4587
+ *  net.minecraft.client.util.math.MatrixStack
  */
 package mapped;
 
@@ -12,7 +12,7 @@ import java.lang.invoke.MethodHandles;
 import java.lang.invoke.MethodType;
 import mapped.Class3;
 import mapped.Class8;
-import net.minecraft.class_4587;
+import net.minecraft.client.util.math.MatrixStack;
 
 /*
  * Illegal identifiers - consider using --renameillegalidents true

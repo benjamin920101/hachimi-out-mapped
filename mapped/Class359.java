@@ -2,17 +2,17 @@
  * Decompiled with CFR 0.152.
  * 
  * Could not load the following classes:
- *  net.minecraft.class_1657
- *  net.minecraft.class_2338
- *  net.minecraft.class_2338$class_2339
- *  net.minecraft.class_238
- *  net.minecraft.class_239
- *  net.minecraft.class_2596
- *  net.minecraft.class_3417
- *  net.minecraft.class_3419
- *  net.minecraft.class_3965
- *  net.minecraft.class_7438
- *  net.minecraft.class_7439
+ *  net.minecraft.entity.player.PlayerEntity
+ *  net.minecraft.util.math.BlockPos
+ *  net.minecraft.util.math.BlockPos$Mutable
+ *  net.minecraft.util.math.Box
+ *  net.minecraft.util.hit.HitResult
+ *  net.minecraft.network.packet.Packet
+ *  net.minecraft.sound.SoundEvents
+ *  net.minecraft.sound.SoundCategory
+ *  net.minecraft.util.hit.BlockHitResult
+ *  net.minecraft.network.packet.s2c.play.ChatMessageS2CPacket
+ *  net.minecraft.network.packet.s2c.play.GameMessageS2CPacket
  */
 package mapped;
 
@@ -80,16 +80,16 @@ import mapped.Class6402;
 import mapped.Class6454;
 import mapped.Class648;
 import mapped.Class926;
-import net.minecraft.class_1657;
-import net.minecraft.class_2338;
-import net.minecraft.class_238;
-import net.minecraft.class_239;
-import net.minecraft.class_2596;
-import net.minecraft.class_3417;
-import net.minecraft.class_3419;
-import net.minecraft.class_3965;
-import net.minecraft.class_7438;
-import net.minecraft.class_7439;
+import net.minecraft.entity.player.PlayerEntity;
+import net.minecraft.util.math.BlockPos;
+import net.minecraft.util.math.Box;
+import net.minecraft.util.hit.HitResult;
+import net.minecraft.network.packet.Packet;
+import net.minecraft.sound.SoundEvents;
+import net.minecraft.sound.SoundCategory;
+import net.minecraft.util.hit.BlockHitResult;
+import net.minecraft.network.packet.s2c.play.ChatMessageS2CPacket;
+import net.minecraft.network.packet.s2c.play.GameMessageS2CPacket;
 
 /*
  * Illegal identifiers - consider using --renameillegalidents true

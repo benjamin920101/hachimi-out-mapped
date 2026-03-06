@@ -2,36 +2,36 @@
  * Decompiled with CFR 0.152.
  * 
  * Could not load the following classes:
- *  net.minecraft.class_1297
- *  net.minecraft.class_1309
- *  net.minecraft.class_1657
- *  net.minecraft.class_1792
- *  net.minecraft.class_1799
- *  net.minecraft.class_1934
- *  net.minecraft.class_2338
- *  net.minecraft.class_2338$class_2339
- *  net.minecraft.class_2350
- *  net.minecraft.class_238
- *  net.minecraft.class_239$class_240
- *  net.minecraft.class_243
- *  net.minecraft.class_2560
- *  net.minecraft.class_2596
- *  net.minecraft.class_2680
- *  net.minecraft.class_2828$class_2829
- *  net.minecraft.class_304
- *  net.minecraft.class_310
- *  net.minecraft.class_315
- *  net.minecraft.class_3483
- *  net.minecraft.class_3532
- *  net.minecraft.class_3959
- *  net.minecraft.class_3959$class_242
- *  net.minecraft.class_3959$class_3960
- *  net.minecraft.class_3965
- *  net.minecraft.class_634
- *  net.minecraft.class_638
- *  net.minecraft.class_640
- *  net.minecraft.class_746
- *  net.minecraft.class_757
+ *  net.minecraft.entity.Entity
+ *  net.minecraft.entity.LivingEntity
+ *  net.minecraft.entity.player.PlayerEntity
+ *  net.minecraft.item.Item
+ *  net.minecraft.item.ItemStack
+ *  net.minecraft.world.GameMode
+ *  net.minecraft.util.math.BlockPos
+ *  net.minecraft.util.math.BlockPos$Mutable
+ *  net.minecraft.util.math.Direction
+ *  net.minecraft.util.math.Box
+ *  net.minecraft.util.hit.HitResult$Type
+ *  net.minecraft.util.math.Vec3d
+ *  net.minecraft.block.CobwebBlock
+ *  net.minecraft.network.packet.Packet
+ *  net.minecraft.block.BlockState
+ *  net.minecraft.network.packet.c2s.play.PlayerMoveC2SPacket$PositionAndOnGround
+ *  net.minecraft.client.option.KeyBinding
+ *  net.minecraft.client.MinecraftClient
+ *  net.minecraft.client.option.GameOptions
+ *  net.minecraft.registry.tag.EntityTypeTags
+ *  net.minecraft.util.math.MathHelper
+ *  net.minecraft.world.RaycastContext
+ *  net.minecraft.world.RaycastContext$FluidHandling
+ *  net.minecraft.world.RaycastContext$ShapeType
+ *  net.minecraft.util.hit.BlockHitResult
+ *  net.minecraft.client.network.ClientPlayNetworkHandler
+ *  net.minecraft.client.world.ClientWorld
+ *  net.minecraft.client.network.PlayerListEntry
+ *  net.minecraft.client.network.ClientPlayerEntity
+ *  net.minecraft.client.render.GameRenderer
  *  org.joml.Math
  */
 package mapped;
@@ -79,33 +79,33 @@ import mapped.Class76;
 import mapped.Class803;
 import mapped.Class821;
 import net.hachimi.client.mixin.ac;
-import net.minecraft.class_1297;
-import net.minecraft.class_1309;
-import net.minecraft.class_1657;
-import net.minecraft.class_1792;
-import net.minecraft.class_1799;
-import net.minecraft.class_1934;
-import net.minecraft.class_2338;
-import net.minecraft.class_2350;
-import net.minecraft.class_238;
-import net.minecraft.class_239;
-import net.minecraft.class_243;
-import net.minecraft.class_2560;
-import net.minecraft.class_2596;
-import net.minecraft.class_2680;
-import net.minecraft.class_2828;
-import net.minecraft.class_304;
-import net.minecraft.class_310;
-import net.minecraft.class_315;
-import net.minecraft.class_3483;
-import net.minecraft.class_3532;
-import net.minecraft.class_3959;
-import net.minecraft.class_3965;
-import net.minecraft.class_634;
-import net.minecraft.class_638;
-import net.minecraft.class_640;
-import net.minecraft.class_746;
-import net.minecraft.class_757;
+import net.minecraft.entity.Entity;
+import net.minecraft.entity.LivingEntity;
+import net.minecraft.entity.player.PlayerEntity;
+import net.minecraft.item.Item;
+import net.minecraft.item.ItemStack;
+import net.minecraft.world.GameMode;
+import net.minecraft.util.math.BlockPos;
+import net.minecraft.util.math.Direction;
+import net.minecraft.util.math.Box;
+import net.minecraft.util.hit.HitResult;
+import net.minecraft.util.math.Vec3d;
+import net.minecraft.block.CobwebBlock;
+import net.minecraft.network.packet.Packet;
+import net.minecraft.block.BlockState;
+import net.minecraft.network.packet.c2s.play.PlayerMoveC2SPacket;
+import net.minecraft.client.option.KeyBinding;
+import net.minecraft.client.MinecraftClient;
+import net.minecraft.client.option.GameOptions;
+import net.minecraft.registry.tag.EntityTypeTags;
+import net.minecraft.util.math.MathHelper;
+import net.minecraft.world.RaycastContext;
+import net.minecraft.util.hit.BlockHitResult;
+import net.minecraft.client.network.ClientPlayNetworkHandler;
+import net.minecraft.client.world.ClientWorld;
+import net.minecraft.client.network.PlayerListEntry;
+import net.minecraft.client.network.ClientPlayerEntity;
+import net.minecraft.client.render.GameRenderer;
 
 /*
  * Illegal identifiers - consider using --renameillegalidents true

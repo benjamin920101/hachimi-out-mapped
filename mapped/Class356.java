@@ -2,18 +2,18 @@
  * Decompiled with CFR 0.152.
  * 
  * Could not load the following classes:
- *  net.minecraft.class_1293
- *  net.minecraft.class_1294
- *  net.minecraft.class_1792
- *  net.minecraft.class_1799
- *  net.minecraft.class_1802
- *  net.minecraft.class_1844
- *  net.minecraft.class_1935
- *  net.minecraft.class_310
- *  net.minecraft.class_332
- *  net.minecraft.class_6880
- *  net.minecraft.class_746
- *  net.minecraft.class_9334
+ *  net.minecraft.entity.effect.StatusEffectInstance
+ *  net.minecraft.entity.effect.StatusEffects
+ *  net.minecraft.item.Item
+ *  net.minecraft.item.ItemStack
+ *  net.minecraft.item.Items
+ *  net.minecraft.component.type.PotionContentsComponent
+ *  net.minecraft.item.ItemConvertible
+ *  net.minecraft.client.MinecraftClient
+ *  net.minecraft.client.gui.DrawContext
+ *  net.minecraft.registry.entry.RegistryEntry
+ *  net.minecraft.client.network.ClientPlayerEntity
+ *  net.minecraft.component.DataComponentTypes
  */
 package mapped;
 
@@ -54,18 +54,18 @@ import mapped.Class5980;
 import mapped.Class6009;
 import mapped.Class6322;
 import mapped.Class6454;
-import net.minecraft.class_1293;
-import net.minecraft.class_1294;
-import net.minecraft.class_1792;
-import net.minecraft.class_1799;
-import net.minecraft.class_1802;
-import net.minecraft.class_1844;
-import net.minecraft.class_1935;
-import net.minecraft.class_310;
-import net.minecraft.class_332;
-import net.minecraft.class_6880;
-import net.minecraft.class_746;
-import net.minecraft.class_9334;
+import net.minecraft.entity.effect.StatusEffectInstance;
+import net.minecraft.entity.effect.StatusEffects;
+import net.minecraft.item.Item;
+import net.minecraft.item.ItemStack;
+import net.minecraft.item.Items;
+import net.minecraft.component.type.PotionContentsComponent;
+import net.minecraft.item.ItemConvertible;
+import net.minecraft.client.MinecraftClient;
+import net.minecraft.client.gui.DrawContext;
+import net.minecraft.registry.entry.RegistryEntry;
+import net.minecraft.client.network.ClientPlayerEntity;
+import net.minecraft.component.DataComponentTypes;
 
 /*
  * Illegal identifiers - consider using --renameillegalidents true

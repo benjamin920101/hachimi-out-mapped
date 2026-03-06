@@ -2,14 +2,14 @@
  * Decompiled with CFR 0.152.
  * 
  * Could not load the following classes:
- *  net.minecraft.class_1297
- *  net.minecraft.class_1671
- *  net.minecraft.class_2596
- *  net.minecraft.class_2708
- *  net.minecraft.class_2716
- *  net.minecraft.class_310
- *  net.minecraft.class_6374
- *  net.minecraft.class_638
+ *  net.minecraft.entity.Entity
+ *  net.minecraft.entity.projectile.FireworkRocketEntity
+ *  net.minecraft.network.packet.Packet
+ *  net.minecraft.network.packet.s2c.play.PlayerPositionLookS2CPacket
+ *  net.minecraft.network.packet.s2c.play.EntitiesDestroyS2CPacket
+ *  net.minecraft.client.MinecraftClient
+ *  net.minecraft.network.packet.c2s.common.CommonPongC2SPacket
+ *  net.minecraft.client.world.ClientWorld
  */
 package mapped;
 
@@ -45,14 +45,14 @@ import mapped.Class84;
 import mapped.Class925;
 import mapped.Class926;
 import net.hachimi.client.mixin.au;
-import net.minecraft.class_1297;
-import net.minecraft.class_1671;
-import net.minecraft.class_2596;
-import net.minecraft.class_2708;
-import net.minecraft.class_2716;
-import net.minecraft.class_310;
-import net.minecraft.class_6374;
-import net.minecraft.class_638;
+import net.minecraft.entity.Entity;
+import net.minecraft.entity.projectile.FireworkRocketEntity;
+import net.minecraft.network.packet.Packet;
+import net.minecraft.network.packet.s2c.play.PlayerPositionLookS2CPacket;
+import net.minecraft.network.packet.s2c.play.EntitiesDestroyS2CPacket;
+import net.minecraft.client.MinecraftClient;
+import net.minecraft.network.packet.c2s.common.CommonPongC2SPacket;
+import net.minecraft.client.world.ClientWorld;
 
 /*
  * Illegal identifiers - consider using --renameillegalidents true

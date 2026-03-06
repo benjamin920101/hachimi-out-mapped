@@ -3,19 +3,19 @@
  * 
  * Could not load the following classes:
  *  com.mojang.authlib.GameProfile
- *  net.minecraft.class_1297
- *  net.minecraft.class_1309
- *  net.minecraft.class_1657
- *  net.minecraft.class_1937
- *  net.minecraft.class_2596
- *  net.minecraft.class_2663
- *  net.minecraft.class_2703
- *  net.minecraft.class_2703$class_2705
- *  net.minecraft.class_2703$class_5893
- *  net.minecraft.class_310
- *  net.minecraft.class_640
- *  net.minecraft.class_746
- *  net.minecraft.class_7828
+ *  net.minecraft.entity.Entity
+ *  net.minecraft.entity.LivingEntity
+ *  net.minecraft.entity.player.PlayerEntity
+ *  net.minecraft.world.World
+ *  net.minecraft.network.packet.Packet
+ *  net.minecraft.network.packet.s2c.play.EntityStatusS2CPacket
+ *  net.minecraft.network.packet.s2c.play.PlayerListS2CPacket
+ *  net.minecraft.network.packet.s2c.play.PlayerListS2CPacket$Entry
+ *  net.minecraft.network.packet.s2c.play.PlayerListS2CPacket$Action
+ *  net.minecraft.client.MinecraftClient
+ *  net.minecraft.client.network.PlayerListEntry
+ *  net.minecraft.client.network.ClientPlayerEntity
+ *  net.minecraft.network.packet.s2c.play.PlayerRemoveS2CPacket
  */
 package mapped;
 
@@ -57,17 +57,17 @@ import mapped.Class6454;
 import mapped.Class727;
 import mapped.Class78;
 import mapped.Class799;
-import net.minecraft.class_1297;
-import net.minecraft.class_1309;
-import net.minecraft.class_1657;
-import net.minecraft.class_1937;
-import net.minecraft.class_2596;
-import net.minecraft.class_2663;
-import net.minecraft.class_2703;
-import net.minecraft.class_310;
-import net.minecraft.class_640;
-import net.minecraft.class_746;
-import net.minecraft.class_7828;
+import net.minecraft.entity.Entity;
+import net.minecraft.entity.LivingEntity;
+import net.minecraft.entity.player.PlayerEntity;
+import net.minecraft.world.World;
+import net.minecraft.network.packet.Packet;
+import net.minecraft.network.packet.s2c.play.EntityStatusS2CPacket;
+import net.minecraft.network.packet.s2c.play.PlayerListS2CPacket;
+import net.minecraft.client.MinecraftClient;
+import net.minecraft.client.network.PlayerListEntry;
+import net.minecraft.client.network.ClientPlayerEntity;
+import net.minecraft.network.packet.s2c.play.PlayerRemoveS2CPacket;
 
 /*
  * Illegal identifiers - consider using --renameillegalidents true

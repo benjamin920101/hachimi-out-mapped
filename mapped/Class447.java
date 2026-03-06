@@ -2,33 +2,33 @@
  * Decompiled with CFR 0.152.
  * 
  * Could not load the following classes:
- *  net.minecraft.class_1297
- *  net.minecraft.class_1536
- *  net.minecraft.class_1657
- *  net.minecraft.class_1922
- *  net.minecraft.class_1937
- *  net.minecraft.class_1941
- *  net.minecraft.class_2338
- *  net.minecraft.class_2338$class_2339
- *  net.minecraft.class_2350
- *  net.minecraft.class_2350$class_2352
- *  net.minecraft.class_238
- *  net.minecraft.class_2596
- *  net.minecraft.class_265
- *  net.minecraft.class_2663
- *  net.minecraft.class_2664
- *  net.minecraft.class_2743
- *  net.minecraft.class_2828$class_2830
- *  net.minecraft.class_2846
- *  net.minecraft.class_2846$class_2847
- *  net.minecraft.class_310
- *  net.minecraft.class_3414
- *  net.minecraft.class_3417
- *  net.minecraft.class_3419
- *  net.minecraft.class_5329
- *  net.minecraft.class_638
- *  net.minecraft.class_746
- *  net.minecraft.class_8042
+ *  net.minecraft.entity.Entity
+ *  net.minecraft.entity.projectile.FishingBobberEntity
+ *  net.minecraft.entity.player.PlayerEntity
+ *  net.minecraft.world.BlockView
+ *  net.minecraft.world.World
+ *  net.minecraft.world.CollisionView
+ *  net.minecraft.util.math.BlockPos
+ *  net.minecraft.util.math.BlockPos$Mutable
+ *  net.minecraft.util.math.Direction
+ *  net.minecraft.util.math.Direction$AxisDirection
+ *  net.minecraft.util.math.Box
+ *  net.minecraft.network.packet.Packet
+ *  net.minecraft.util.shape.VoxelShape
+ *  net.minecraft.network.packet.s2c.play.EntityStatusS2CPacket
+ *  net.minecraft.network.packet.s2c.play.ExplosionS2CPacket
+ *  net.minecraft.network.packet.s2c.play.EntityVelocityUpdateS2CPacket
+ *  net.minecraft.network.packet.c2s.play.PlayerMoveC2SPacket$Full
+ *  net.minecraft.network.packet.c2s.play.PlayerActionC2SPacket
+ *  net.minecraft.network.packet.c2s.play.PlayerActionC2SPacket$Action
+ *  net.minecraft.client.MinecraftClient
+ *  net.minecraft.sound.SoundEvent
+ *  net.minecraft.sound.SoundEvents
+ *  net.minecraft.sound.SoundCategory
+ *  net.minecraft.world.BlockCollisionSpliterator
+ *  net.minecraft.client.world.ClientWorld
+ *  net.minecraft.client.network.ClientPlayerEntity
+ *  net.minecraft.network.packet.s2c.play.BundleS2CPacket
  *  skidonion.sAnhI.___.____
  */
 package mapped;
@@ -111,30 +111,30 @@ import mapped.Class942;
 import net.hachimi.client.mixin.bc;
 import net.hachimi.client.mixin.bm;
 import net.hachimi.client.mixin.c;
-import net.minecraft.class_1297;
-import net.minecraft.class_1536;
-import net.minecraft.class_1657;
-import net.minecraft.class_1922;
-import net.minecraft.class_1937;
-import net.minecraft.class_1941;
-import net.minecraft.class_2338;
-import net.minecraft.class_2350;
-import net.minecraft.class_238;
-import net.minecraft.class_2596;
-import net.minecraft.class_265;
-import net.minecraft.class_2663;
-import net.minecraft.class_2664;
-import net.minecraft.class_2743;
-import net.minecraft.class_2828;
-import net.minecraft.class_2846;
-import net.minecraft.class_310;
-import net.minecraft.class_3414;
-import net.minecraft.class_3417;
-import net.minecraft.class_3419;
-import net.minecraft.class_5329;
-import net.minecraft.class_638;
-import net.minecraft.class_746;
-import net.minecraft.class_8042;
+import net.minecraft.entity.Entity;
+import net.minecraft.entity.projectile.FishingBobberEntity;
+import net.minecraft.entity.player.PlayerEntity;
+import net.minecraft.world.BlockView;
+import net.minecraft.world.World;
+import net.minecraft.world.CollisionView;
+import net.minecraft.util.math.BlockPos;
+import net.minecraft.util.math.Direction;
+import net.minecraft.util.math.Box;
+import net.minecraft.network.packet.Packet;
+import net.minecraft.util.shape.VoxelShape;
+import net.minecraft.network.packet.s2c.play.EntityStatusS2CPacket;
+import net.minecraft.network.packet.s2c.play.ExplosionS2CPacket;
+import net.minecraft.network.packet.s2c.play.EntityVelocityUpdateS2CPacket;
+import net.minecraft.network.packet.c2s.play.PlayerMoveC2SPacket;
+import net.minecraft.network.packet.c2s.play.PlayerActionC2SPacket;
+import net.minecraft.client.MinecraftClient;
+import net.minecraft.sound.SoundEvent;
+import net.minecraft.sound.SoundEvents;
+import net.minecraft.sound.SoundCategory;
+import net.minecraft.world.BlockCollisionSpliterator;
+import net.minecraft.client.world.ClientWorld;
+import net.minecraft.client.network.ClientPlayerEntity;
+import net.minecraft.network.packet.s2c.play.BundleS2CPacket;
 import skidonion.sAnhI.___;
 import skidonion.sAnhI.___.____;
 

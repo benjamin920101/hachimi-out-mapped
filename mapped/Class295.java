@@ -3,19 +3,19 @@
  * 
  * Could not load the following classes:
  *  com.google.common.collect.Maps
- *  net.minecraft.class_1657
- *  net.minecraft.class_238
- *  net.minecraft.class_243
- *  net.minecraft.class_2596
- *  net.minecraft.class_2703
- *  net.minecraft.class_2703$class_2705
- *  net.minecraft.class_2703$class_5893
- *  net.minecraft.class_310
- *  net.minecraft.class_4048
- *  net.minecraft.class_4587
- *  net.minecraft.class_746
- *  net.minecraft.class_7828
- *  net.minecraft.class_8042
+ *  net.minecraft.entity.player.PlayerEntity
+ *  net.minecraft.util.math.Box
+ *  net.minecraft.util.math.Vec3d
+ *  net.minecraft.network.packet.Packet
+ *  net.minecraft.network.packet.s2c.play.PlayerListS2CPacket
+ *  net.minecraft.network.packet.s2c.play.PlayerListS2CPacket$Entry
+ *  net.minecraft.network.packet.s2c.play.PlayerListS2CPacket$Action
+ *  net.minecraft.client.MinecraftClient
+ *  net.minecraft.entity.EntityDimensions
+ *  net.minecraft.client.util.math.MatrixStack
+ *  net.minecraft.client.network.ClientPlayerEntity
+ *  net.minecraft.network.packet.s2c.play.PlayerRemoveS2CPacket
+ *  net.minecraft.network.packet.s2c.play.BundleS2CPacket
  */
 package mapped;
 
@@ -63,17 +63,17 @@ import mapped.Class63;
 import mapped.Class6322;
 import mapped.Class6454;
 import mapped.Class996;
-import net.minecraft.class_1657;
-import net.minecraft.class_238;
-import net.minecraft.class_243;
-import net.minecraft.class_2596;
-import net.minecraft.class_2703;
-import net.minecraft.class_310;
-import net.minecraft.class_4048;
-import net.minecraft.class_4587;
-import net.minecraft.class_746;
-import net.minecraft.class_7828;
-import net.minecraft.class_8042;
+import net.minecraft.entity.player.PlayerEntity;
+import net.minecraft.util.math.Box;
+import net.minecraft.util.math.Vec3d;
+import net.minecraft.network.packet.Packet;
+import net.minecraft.network.packet.s2c.play.PlayerListS2CPacket;
+import net.minecraft.client.MinecraftClient;
+import net.minecraft.entity.EntityDimensions;
+import net.minecraft.client.util.math.MatrixStack;
+import net.minecraft.client.network.ClientPlayerEntity;
+import net.minecraft.network.packet.s2c.play.PlayerRemoveS2CPacket;
+import net.minecraft.network.packet.s2c.play.BundleS2CPacket;
 
 /*
  * Illegal identifiers - consider using --renameillegalidents true

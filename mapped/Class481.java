@@ -2,7 +2,7 @@
  * Decompiled with CFR 0.152.
  * 
  * Could not load the following classes:
- *  net.minecraft.class_1268
+ *  net.minecraft.util.Hand
  */
 package mapped;
 
@@ -14,7 +14,7 @@ import java.lang.invoke.MethodType;
 import mapped.Class4122;
 import mapped.Class480;
 import net.hachimi.HACHIMI_CLIENT;
-import net.minecraft.class_1268;
+import net.minecraft.util.Hand;
 
 /*
  * Illegal identifiers - consider using --renameillegalidents true

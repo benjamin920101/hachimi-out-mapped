@@ -5,28 +5,28 @@
  *  it.unimi.dsi.fastutil.longs.Long2ObjectMap
  *  it.unimi.dsi.fastutil.longs.LongBidirectionalIterator
  *  it.unimi.dsi.fastutil.longs.LongSortedSet
- *  net.minecraft.class_1296
- *  net.minecraft.class_1297
- *  net.minecraft.class_1309
- *  net.minecraft.class_1421
- *  net.minecraft.class_1439
- *  net.minecraft.class_1477
- *  net.minecraft.class_1493
- *  net.minecraft.class_1560
- *  net.minecraft.class_1569
- *  net.minecraft.class_1590
- *  net.minecraft.class_1690
- *  net.minecraft.class_1694
- *  net.minecraft.class_1695
- *  net.minecraft.class_1696
- *  net.minecraft.class_238
- *  net.minecraft.class_310
- *  net.minecraft.class_4076
- *  net.minecraft.class_4466
- *  net.minecraft.class_5572
- *  net.minecraft.class_5573
- *  net.minecraft.class_5577
- *  net.minecraft.class_5578
+ *  net.minecraft.entity.passive.PassiveEntity
+ *  net.minecraft.entity.Entity
+ *  net.minecraft.entity.LivingEntity
+ *  net.minecraft.entity.mob.AmbientEntity
+ *  net.minecraft.entity.passive.IronGolemEntity
+ *  net.minecraft.entity.passive.SquidEntity
+ *  net.minecraft.entity.passive.WolfEntity
+ *  net.minecraft.entity.mob.EndermanEntity
+ *  net.minecraft.entity.mob.Monster
+ *  net.minecraft.entity.mob.ZombifiedPiglinEntity
+ *  net.minecraft.entity.vehicle.BoatEntity
+ *  net.minecraft.entity.vehicle.ChestMinecartEntity
+ *  net.minecraft.entity.vehicle.MinecartEntity
+ *  net.minecraft.entity.vehicle.FurnaceMinecartEntity
+ *  net.minecraft.util.math.Box
+ *  net.minecraft.client.MinecraftClient
+ *  net.minecraft.util.math.ChunkSectionPos
+ *  net.minecraft.entity.passive.BeeEntity
+ *  net.minecraft.world.entity.EntityTrackingSection
+ *  net.minecraft.world.entity.SectionedEntityCache
+ *  net.minecraft.world.entity.EntityLookup
+ *  net.minecraft.world.entity.SimpleEntityLookup
  */
 package mapped;
 
@@ -62,28 +62,28 @@ import net.hachimi.client.mixin.aA;
 import net.hachimi.client.mixin.aS;
 import net.hachimi.client.mixin.bE;
 import net.hachimi.client.mixin.bz;
-import net.minecraft.class_1296;
-import net.minecraft.class_1297;
-import net.minecraft.class_1309;
-import net.minecraft.class_1421;
-import net.minecraft.class_1439;
-import net.minecraft.class_1477;
-import net.minecraft.class_1493;
-import net.minecraft.class_1560;
-import net.minecraft.class_1569;
-import net.minecraft.class_1590;
-import net.minecraft.class_1690;
-import net.minecraft.class_1694;
-import net.minecraft.class_1695;
-import net.minecraft.class_1696;
-import net.minecraft.class_238;
-import net.minecraft.class_310;
-import net.minecraft.class_4076;
-import net.minecraft.class_4466;
-import net.minecraft.class_5572;
-import net.minecraft.class_5573;
-import net.minecraft.class_5577;
-import net.minecraft.class_5578;
+import net.minecraft.entity.passive.PassiveEntity;
+import net.minecraft.entity.Entity;
+import net.minecraft.entity.LivingEntity;
+import net.minecraft.entity.mob.AmbientEntity;
+import net.minecraft.entity.passive.IronGolemEntity;
+import net.minecraft.entity.passive.SquidEntity;
+import net.minecraft.entity.passive.WolfEntity;
+import net.minecraft.entity.mob.EndermanEntity;
+import net.minecraft.entity.mob.Monster;
+import net.minecraft.entity.mob.ZombifiedPiglinEntity;
+import net.minecraft.entity.vehicle.BoatEntity;
+import net.minecraft.entity.vehicle.ChestMinecartEntity;
+import net.minecraft.entity.vehicle.MinecartEntity;
+import net.minecraft.entity.vehicle.FurnaceMinecartEntity;
+import net.minecraft.util.math.Box;
+import net.minecraft.client.MinecraftClient;
+import net.minecraft.util.math.ChunkSectionPos;
+import net.minecraft.entity.passive.BeeEntity;
+import net.minecraft.world.entity.EntityTrackingSection;
+import net.minecraft.world.entity.SectionedEntityCache;
+import net.minecraft.world.entity.EntityLookup;
+import net.minecraft.world.entity.SimpleEntityLookup;
 
 /*
  * Illegal identifiers - consider using --renameillegalidents true

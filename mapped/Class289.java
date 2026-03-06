@@ -2,17 +2,17 @@
  * Decompiled with CFR 0.152.
  * 
  * Could not load the following classes:
- *  net.minecraft.class_1268
- *  net.minecraft.class_1297
- *  net.minecraft.class_2338
- *  net.minecraft.class_243
- *  net.minecraft.class_2596
- *  net.minecraft.class_2708
- *  net.minecraft.class_2752
- *  net.minecraft.class_2824
- *  net.minecraft.class_310
- *  net.minecraft.class_744
- *  net.minecraft.class_746
+ *  net.minecraft.util.Hand
+ *  net.minecraft.entity.Entity
+ *  net.minecraft.util.math.BlockPos
+ *  net.minecraft.util.math.Vec3d
+ *  net.minecraft.network.packet.Packet
+ *  net.minecraft.network.packet.s2c.play.PlayerPositionLookS2CPacket
+ *  net.minecraft.network.packet.s2c.play.EntityPassengersSetS2CPacket
+ *  net.minecraft.network.packet.c2s.play.PlayerInteractEntityC2SPacket
+ *  net.minecraft.client.MinecraftClient
+ *  net.minecraft.client.input.Input
+ *  net.minecraft.client.network.ClientPlayerEntity
  */
 package mapped;
 
@@ -35,17 +35,17 @@ import mapped.Class5836;
 import mapped.Class63;
 import mapped.Class925;
 import mapped.Class926;
-import net.minecraft.class_1268;
-import net.minecraft.class_1297;
-import net.minecraft.class_2338;
-import net.minecraft.class_243;
-import net.minecraft.class_2596;
-import net.minecraft.class_2708;
-import net.minecraft.class_2752;
-import net.minecraft.class_2824;
-import net.minecraft.class_310;
-import net.minecraft.class_744;
-import net.minecraft.class_746;
+import net.minecraft.util.Hand;
+import net.minecraft.entity.Entity;
+import net.minecraft.util.math.BlockPos;
+import net.minecraft.util.math.Vec3d;
+import net.minecraft.network.packet.Packet;
+import net.minecraft.network.packet.s2c.play.PlayerPositionLookS2CPacket;
+import net.minecraft.network.packet.s2c.play.EntityPassengersSetS2CPacket;
+import net.minecraft.network.packet.c2s.play.PlayerInteractEntityC2SPacket;
+import net.minecraft.client.MinecraftClient;
+import net.minecraft.client.input.Input;
+import net.minecraft.client.network.ClientPlayerEntity;
 
 /*
  * Illegal identifiers - consider using --renameillegalidents true

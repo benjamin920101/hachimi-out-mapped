@@ -2,7 +2,7 @@
  * Decompiled with CFR 0.152.
  * 
  * Could not load the following classes:
- *  net.minecraft.class_243
+ *  net.minecraft.util.math.Vec3d
  */
 package mapped;
 
@@ -18,7 +18,7 @@ import mapped.Class5735;
 import mapped.Class5836;
 import mapped.Class6316;
 import mapped.Class6322;
-import net.minecraft.class_243;
+import net.minecraft.util.math.Vec3d;
 
 /*
  * Illegal identifiers - consider using --renameillegalidents true

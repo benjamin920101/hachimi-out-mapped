@@ -2,22 +2,22 @@
  * Decompiled with CFR 0.152.
  * 
  * Could not load the following classes:
- *  net.minecraft.class_1297
- *  net.minecraft.class_1511
- *  net.minecraft.class_1542
- *  net.minecraft.class_1657
- *  net.minecraft.class_2189
- *  net.minecraft.class_2246
- *  net.minecraft.class_2248
- *  net.minecraft.class_2338
- *  net.minecraft.class_2338$class_2339
- *  net.minecraft.class_2358
- *  net.minecraft.class_2374
- *  net.minecraft.class_238
- *  net.minecraft.class_243
- *  net.minecraft.class_310
- *  net.minecraft.class_638
- *  net.minecraft.class_746
+ *  net.minecraft.entity.Entity
+ *  net.minecraft.entity.decoration.EndCrystalEntity
+ *  net.minecraft.entity.ItemEntity
+ *  net.minecraft.entity.player.PlayerEntity
+ *  net.minecraft.block.AirBlock
+ *  net.minecraft.block.Blocks
+ *  net.minecraft.block.Block
+ *  net.minecraft.util.math.BlockPos
+ *  net.minecraft.util.math.BlockPos$Mutable
+ *  net.minecraft.block.FireBlock
+ *  net.minecraft.util.math.Position
+ *  net.minecraft.util.math.Box
+ *  net.minecraft.util.math.Vec3d
+ *  net.minecraft.client.MinecraftClient
+ *  net.minecraft.client.world.ClientWorld
+ *  net.minecraft.client.network.ClientPlayerEntity
  */
 package mapped;
 
@@ -75,21 +75,21 @@ import mapped.Class6322;
 import mapped.Class803;
 import mapped.Class85;
 import mapped.Class92;
-import net.minecraft.class_1297;
-import net.minecraft.class_1511;
-import net.minecraft.class_1542;
-import net.minecraft.class_1657;
-import net.minecraft.class_2189;
-import net.minecraft.class_2246;
-import net.minecraft.class_2248;
-import net.minecraft.class_2338;
-import net.minecraft.class_2358;
-import net.minecraft.class_2374;
-import net.minecraft.class_238;
-import net.minecraft.class_243;
-import net.minecraft.class_310;
-import net.minecraft.class_638;
-import net.minecraft.class_746;
+import net.minecraft.entity.Entity;
+import net.minecraft.entity.decoration.EndCrystalEntity;
+import net.minecraft.entity.ItemEntity;
+import net.minecraft.entity.player.PlayerEntity;
+import net.minecraft.block.AirBlock;
+import net.minecraft.block.Blocks;
+import net.minecraft.block.Block;
+import net.minecraft.util.math.BlockPos;
+import net.minecraft.block.FireBlock;
+import net.minecraft.util.math.Position;
+import net.minecraft.util.math.Box;
+import net.minecraft.util.math.Vec3d;
+import net.minecraft.client.MinecraftClient;
+import net.minecraft.client.world.ClientWorld;
+import net.minecraft.client.network.ClientPlayerEntity;
 
 /*
  * Illegal identifiers - consider using --renameillegalidents true
@@ -538,7 +538,7 @@ lbl29:
                         return;
                     }
                     i = Class425.method8407();
-                    Class3493.method17601(this.field2108, (Predicate<class_1297>)LambdaMetafactory.metafactory(null, null, null, (Ljava/lang/Object;)Z, method9197(net.minecraft.class_1297 ), (Lnet/minecraft/class_1297;)Z)((Class435)this), (Class525)Class435.method9231(this).method507(), (int)Class435.field2106[1]);
+                    Class3493.method17601(this.field2108, (Predicate<class_1297>)LambdaMetafactory.metafactory(null, null, null, (Ljava/lang/Object;)Z, method9197(net.minecraft.entity.Entity ), (Lnet/minecraft/class_1297;)Z)((Class435)this), (Class525)Class435.method9231(this).method507(), (int)Class435.field2106[1]);
                     if (this.field2108.isEmpty()) {
                         Class435.method9227(this, null);
                         return;
@@ -758,7 +758,7 @@ lbl140:
                         }
                         break;
                     }
-                    this.field2111.sort(Comparator.comparingDouble((ToDoubleFunction<class_2338>)LambdaMetafactory.metafactory(null, null, null, (Ljava/lang/Object;)D, method9219(net.minecraft.class_2338 ), (Lnet/minecraft/class_2338;)D)((Class435)this)));
+                    this.field2111.sort(Comparator.comparingDouble((ToDoubleFunction<class_2338>)LambdaMetafactory.metafactory(null, null, null, (Ljava/lang/Object;)D, method9219(net.minecraft.util.math.BlockPos ), (Lnet/minecraft/class_2338;)D)((Class435)this)));
                     g = (class_2338)this.field2111.getFirst();
                     if (this.field2111.size() >= (int)Class435.field2106[2] && i.field1893 == null) {
                         i.method8517((class_2338)this.field2111.get((int)Class435.field2106[1]), (Integer)this.field2109.method507());

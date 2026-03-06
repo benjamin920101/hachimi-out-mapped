@@ -2,26 +2,26 @@
  * Decompiled with CFR 0.152.
  * 
  * Could not load the following classes:
- *  net.minecraft.class_1268
- *  net.minecraft.class_1292
- *  net.minecraft.class_1294
- *  net.minecraft.class_1309
- *  net.minecraft.class_1735
- *  net.minecraft.class_1799
- *  net.minecraft.class_1893
- *  net.minecraft.class_1922
- *  net.minecraft.class_2338
- *  net.minecraft.class_2350
- *  net.minecraft.class_2399
- *  net.minecraft.class_2596
- *  net.minecraft.class_2680
- *  net.minecraft.class_2846
- *  net.minecraft.class_2846$class_2847
- *  net.minecraft.class_310
- *  net.minecraft.class_636
- *  net.minecraft.class_638
- *  net.minecraft.class_7204
- *  net.minecraft.class_746
+ *  net.minecraft.util.Hand
+ *  net.minecraft.entity.effect.StatusEffectUtil
+ *  net.minecraft.entity.effect.StatusEffects
+ *  net.minecraft.entity.LivingEntity
+ *  net.minecraft.screen.slot.Slot
+ *  net.minecraft.item.ItemStack
+ *  net.minecraft.enchantment.Enchantments
+ *  net.minecraft.world.BlockView
+ *  net.minecraft.util.math.BlockPos
+ *  net.minecraft.util.math.Direction
+ *  net.minecraft.block.LadderBlock
+ *  net.minecraft.network.packet.Packet
+ *  net.minecraft.block.BlockState
+ *  net.minecraft.network.packet.c2s.play.PlayerActionC2SPacket
+ *  net.minecraft.network.packet.c2s.play.PlayerActionC2SPacket$Action
+ *  net.minecraft.client.MinecraftClient
+ *  net.minecraft.client.network.ClientPlayerInteractionManager
+ *  net.minecraft.client.world.ClientWorld
+ *  net.minecraft.client.network.SequencedPacketCreator
+ *  net.minecraft.client.network.ClientPlayerEntity
  */
 package mapped;
 
@@ -76,25 +76,25 @@ import mapped.Class6454;
 import mapped.Class760;
 import mapped.Class803;
 import mapped.Class926;
-import net.minecraft.class_1268;
-import net.minecraft.class_1292;
-import net.minecraft.class_1294;
-import net.minecraft.class_1309;
-import net.minecraft.class_1735;
-import net.minecraft.class_1799;
-import net.minecraft.class_1893;
-import net.minecraft.class_1922;
-import net.minecraft.class_2338;
-import net.minecraft.class_2350;
-import net.minecraft.class_2399;
-import net.minecraft.class_2596;
-import net.minecraft.class_2680;
-import net.minecraft.class_2846;
-import net.minecraft.class_310;
-import net.minecraft.class_636;
-import net.minecraft.class_638;
-import net.minecraft.class_7204;
-import net.minecraft.class_746;
+import net.minecraft.util.Hand;
+import net.minecraft.entity.effect.StatusEffectUtil;
+import net.minecraft.entity.effect.StatusEffects;
+import net.minecraft.entity.LivingEntity;
+import net.minecraft.screen.slot.Slot;
+import net.minecraft.item.ItemStack;
+import net.minecraft.enchantment.Enchantments;
+import net.minecraft.world.BlockView;
+import net.minecraft.util.math.BlockPos;
+import net.minecraft.util.math.Direction;
+import net.minecraft.block.LadderBlock;
+import net.minecraft.network.packet.Packet;
+import net.minecraft.block.BlockState;
+import net.minecraft.network.packet.c2s.play.PlayerActionC2SPacket;
+import net.minecraft.client.MinecraftClient;
+import net.minecraft.client.network.ClientPlayerInteractionManager;
+import net.minecraft.client.world.ClientWorld;
+import net.minecraft.client.network.SequencedPacketCreator;
+import net.minecraft.client.network.ClientPlayerEntity;
 
 /*
  * Illegal identifiers - consider using --renameillegalidents true
@@ -498,12 +498,12 @@ public class Class5512 {
                     Class1503.method14412(Class5512.method21519(this), a);
                 }
                 if (this.field10398.field1896.method507() == Class554.field2742) {
-                    Class5723.field11048.method21353((class_7204)LambdaMetafactory.metafactory(null, null, null, (I)Lnet/minecraft/class_2596;, method21672(net.minecraft.class_2350 int ), (I)Lnet/minecraft/class_2596;)((Class5512)this, (class_2350)a));
+                    Class5723.field11048.method21353((class_7204)LambdaMetafactory.metafactory(null, null, null, (I)Lnet/minecraft/class_2596;, method21672(net.minecraft.util.math.Direction int ), (I)Lnet/minecraft/class_2596;)((Class5512)this, (class_2350)a));
                 }
-                Class5723.field11048.method21353((class_7204)LambdaMetafactory.metafactory(null, null, null, (I)Lnet/minecraft/class_2596;, method21572(net.minecraft.class_2350 int ), (I)Lnet/minecraft/class_2596;)((Class5512)this, (class_2350)a));
+                Class5723.field11048.method21353((class_7204)LambdaMetafactory.metafactory(null, null, null, (I)Lnet/minecraft/class_2596;, method21572(net.minecraft.util.math.Direction int ), (I)Lnet/minecraft/class_2596;)((Class5512)this, (class_2350)a));
                 if (!((Boolean)Class5512.method21506(this.field10398.field1882)).booleanValue()) break block11;
-                Class5512.method21666().method21353((class_7204)LambdaMetafactory.metafactory(null, null, null, (I)Lnet/minecraft/class_2596;, method21579(net.minecraft.class_2350 int ), (I)Lnet/minecraft/class_2596;)((Class5512)this, (class_2350)a));
-                Class5512.method21529(Class5723.field11048, (class_7204)LambdaMetafactory.metafactory(null, null, null, (I)Lnet/minecraft/class_2596;, method21670(net.minecraft.class_2350 int ), (I)Lnet/minecraft/class_2596;)((Class5512)this, (class_2350)a));
+                Class5512.method21666().method21353((class_7204)LambdaMetafactory.metafactory(null, null, null, (I)Lnet/minecraft/class_2596;, method21579(net.minecraft.util.math.Direction int ), (I)Lnet/minecraft/class_2596;)((Class5512)this, (class_2350)a));
+                Class5512.method21529(Class5723.field11048, (class_7204)LambdaMetafactory.metafactory(null, null, null, (I)Lnet/minecraft/class_2596;, method21670(net.minecraft.util.math.Direction int ), (I)Lnet/minecraft/class_2596;)((Class5512)this, (class_2350)a));
                 if (this.field10398.field1893 == null) ** GOTO lbl-1000
                 if (!Class5512.method21535((Class425)this.field10398).field10394) break block12;
                 v0 = 60779;

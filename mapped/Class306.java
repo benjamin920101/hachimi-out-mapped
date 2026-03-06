@@ -2,9 +2,9 @@
  * Decompiled with CFR 0.152.
  * 
  * Could not load the following classes:
- *  net.minecraft.class_1268
- *  net.minecraft.class_4587
- *  net.minecraft.class_7833
+ *  net.minecraft.util.Hand
+ *  net.minecraft.client.util.math.MatrixStack
+ *  net.minecraft.util.math.RotationAxis
  */
 package mapped;
 
@@ -19,9 +19,9 @@ import mapped.Class556;
 import mapped.Class5836;
 import mapped.Class6062;
 import mapped.Class97;
-import net.minecraft.class_1268;
-import net.minecraft.class_4587;
-import net.minecraft.class_7833;
+import net.minecraft.util.Hand;
+import net.minecraft.client.util.math.MatrixStack;
+import net.minecraft.util.math.RotationAxis;
 
 /*
  * Illegal identifiers - consider using --renameillegalidents true

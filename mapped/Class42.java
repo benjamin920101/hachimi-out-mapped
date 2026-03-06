@@ -2,13 +2,13 @@
  * Decompiled with CFR 0.152.
  * 
  * Could not load the following classes:
- *  net.minecraft.class_2561
+ *  net.minecraft.text.Text
  */
 package mapped;
 
 import mapped.Class3;
 import mapped.Class8;
-import net.minecraft.class_2561;
+import net.minecraft.text.Text;
 
 @Class3
 public class Class42

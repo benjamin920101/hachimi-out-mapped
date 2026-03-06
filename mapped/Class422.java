@@ -2,29 +2,29 @@
  * Decompiled with CFR 0.152.
  * 
  * Could not load the following classes:
- *  net.minecraft.class_1297
- *  net.minecraft.class_1309
- *  net.minecraft.class_1747
- *  net.minecraft.class_1792
- *  net.minecraft.class_1799
- *  net.minecraft.class_1802
- *  net.minecraft.class_2246
- *  net.minecraft.class_2248
- *  net.minecraft.class_2318
- *  net.minecraft.class_2338
- *  net.minecraft.class_2338$class_2339
- *  net.minecraft.class_2350
- *  net.minecraft.class_2350$class_2351
- *  net.minecraft.class_238
- *  net.minecraft.class_243
- *  net.minecraft.class_2561
- *  net.minecraft.class_2665
- *  net.minecraft.class_2680
- *  net.minecraft.class_2769
- *  net.minecraft.class_310
- *  net.minecraft.class_3619
- *  net.minecraft.class_638
- *  net.minecraft.class_742
+ *  net.minecraft.entity.Entity
+ *  net.minecraft.entity.LivingEntity
+ *  net.minecraft.item.BlockItem
+ *  net.minecraft.item.Item
+ *  net.minecraft.item.ItemStack
+ *  net.minecraft.item.Items
+ *  net.minecraft.block.Blocks
+ *  net.minecraft.block.Block
+ *  net.minecraft.block.FacingBlock
+ *  net.minecraft.util.math.BlockPos
+ *  net.minecraft.util.math.BlockPos$Mutable
+ *  net.minecraft.util.math.Direction
+ *  net.minecraft.util.math.Direction$Axis
+ *  net.minecraft.util.math.Box
+ *  net.minecraft.util.math.Vec3d
+ *  net.minecraft.text.Text
+ *  net.minecraft.block.PistonBlock
+ *  net.minecraft.block.BlockState
+ *  net.minecraft.state.property.Property
+ *  net.minecraft.client.MinecraftClient
+ *  net.minecraft.block.piston.PistonBehavior
+ *  net.minecraft.client.world.ClientWorld
+ *  net.minecraft.client.network.AbstractClientPlayerEntity
  */
 package mapped;
 
@@ -92,27 +92,27 @@ import mapped.Class803;
 import mapped.Class924;
 import mapped.Class936;
 import mapped.Class949;
-import net.minecraft.class_1297;
-import net.minecraft.class_1309;
-import net.minecraft.class_1747;
-import net.minecraft.class_1792;
-import net.minecraft.class_1799;
-import net.minecraft.class_1802;
-import net.minecraft.class_2246;
-import net.minecraft.class_2248;
-import net.minecraft.class_2318;
-import net.minecraft.class_2338;
-import net.minecraft.class_2350;
-import net.minecraft.class_238;
-import net.minecraft.class_243;
-import net.minecraft.class_2561;
-import net.minecraft.class_2665;
-import net.minecraft.class_2680;
-import net.minecraft.class_2769;
-import net.minecraft.class_310;
-import net.minecraft.class_3619;
-import net.minecraft.class_638;
-import net.minecraft.class_742;
+import net.minecraft.entity.Entity;
+import net.minecraft.entity.LivingEntity;
+import net.minecraft.item.BlockItem;
+import net.minecraft.item.Item;
+import net.minecraft.item.ItemStack;
+import net.minecraft.item.Items;
+import net.minecraft.block.Blocks;
+import net.minecraft.block.Block;
+import net.minecraft.block.FacingBlock;
+import net.minecraft.util.math.BlockPos;
+import net.minecraft.util.math.Direction;
+import net.minecraft.util.math.Box;
+import net.minecraft.util.math.Vec3d;
+import net.minecraft.text.Text;
+import net.minecraft.block.PistonBlock;
+import net.minecraft.block.BlockState;
+import net.minecraft.state.property.Property;
+import net.minecraft.client.MinecraftClient;
+import net.minecraft.block.piston.PistonBehavior;
+import net.minecraft.client.world.ClientWorld;
+import net.minecraft.client.network.AbstractClientPlayerEntity;
 
 /*
  * Illegal identifiers - consider using --renameillegalidents true

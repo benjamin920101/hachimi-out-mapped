@@ -3,29 +3,29 @@
  * 
  * Could not load the following classes:
  *  com.mojang.blaze3d.systems.RenderSystem
- *  net.minecraft.class_155
- *  net.minecraft.class_156
- *  net.minecraft.class_2561
- *  net.minecraft.class_286
- *  net.minecraft.class_287
- *  net.minecraft.class_289
- *  net.minecraft.class_290
- *  net.minecraft.class_293$class_5596
- *  net.minecraft.class_2960
- *  net.minecraft.class_310
- *  net.minecraft.class_315
- *  net.minecraft.class_332
- *  net.minecraft.class_339
- *  net.minecraft.class_3532
- *  net.minecraft.class_364
- *  net.minecraft.class_4185
- *  net.minecraft.class_429
- *  net.minecraft.class_437
- *  net.minecraft.class_442
- *  net.minecraft.class_500
- *  net.minecraft.class_526
- *  net.minecraft.class_757
- *  net.minecraft.class_9801
+ *  net.minecraft.SharedConstants
+ *  net.minecraft.util.Util
+ *  net.minecraft.text.Text
+ *  net.minecraft.client.render.BufferRenderer
+ *  net.minecraft.client.render.BufferBuilder
+ *  net.minecraft.client.render.Tessellator
+ *  net.minecraft.client.render.VertexFormats
+ *  net.minecraft.client.render.VertexFormat$DrawMode
+ *  net.minecraft.util.Identifier
+ *  net.minecraft.client.MinecraftClient
+ *  net.minecraft.client.option.GameOptions
+ *  net.minecraft.client.gui.DrawContext
+ *  net.minecraft.client.gui.widget.ClickableWidget
+ *  net.minecraft.util.math.MathHelper
+ *  net.minecraft.client.gui.Element
+ *  net.minecraft.client.gui.widget.ButtonWidget
+ *  net.minecraft.client.gui.screen.option.OptionsScreen
+ *  net.minecraft.client.gui.screen.Screen
+ *  net.minecraft.client.gui.screen.TitleScreen
+ *  net.minecraft.client.gui.screen.multiplayer.MultiplayerScreen
+ *  net.minecraft.client.gui.screen.world.SelectWorldScreen
+ *  net.minecraft.client.render.GameRenderer
+ *  net.minecraft.client.render.BuiltBuffer
  *  org.joml.Matrix4f
  *  skidonion.sAnhI.___.____
  */
@@ -65,29 +65,29 @@ import mapped.Class6454;
 import mapped.Class79;
 import mapped.Class925;
 import net.hachimi.client.api.render.satin.ManagedShaderEffect;
-import net.minecraft.class_155;
-import net.minecraft.class_156;
-import net.minecraft.class_2561;
-import net.minecraft.class_286;
-import net.minecraft.class_287;
-import net.minecraft.class_289;
-import net.minecraft.class_290;
-import net.minecraft.class_293;
-import net.minecraft.class_2960;
-import net.minecraft.class_310;
-import net.minecraft.class_315;
-import net.minecraft.class_332;
-import net.minecraft.class_339;
-import net.minecraft.class_3532;
-import net.minecraft.class_364;
-import net.minecraft.class_4185;
-import net.minecraft.class_429;
-import net.minecraft.class_437;
-import net.minecraft.class_442;
-import net.minecraft.class_500;
-import net.minecraft.class_526;
-import net.minecraft.class_757;
-import net.minecraft.class_9801;
+import net.minecraft.SharedConstants;
+import net.minecraft.util.Util;
+import net.minecraft.text.Text;
+import net.minecraft.client.render.BufferRenderer;
+import net.minecraft.client.render.BufferBuilder;
+import net.minecraft.client.render.Tessellator;
+import net.minecraft.client.render.VertexFormats;
+import net.minecraft.client.render.VertexFormat;
+import net.minecraft.util.Identifier;
+import net.minecraft.client.MinecraftClient;
+import net.minecraft.client.option.GameOptions;
+import net.minecraft.client.gui.DrawContext;
+import net.minecraft.client.gui.widget.ClickableWidget;
+import net.minecraft.util.math.MathHelper;
+import net.minecraft.client.gui.Element;
+import net.minecraft.client.gui.widget.ButtonWidget;
+import net.minecraft.client.gui.screen.option.OptionsScreen;
+import net.minecraft.client.gui.screen.Screen;
+import net.minecraft.client.gui.screen.TitleScreen;
+import net.minecraft.client.gui.screen.multiplayer.MultiplayerScreen;
+import net.minecraft.client.gui.screen.world.SelectWorldScreen;
+import net.minecraft.client.render.GameRenderer;
+import net.minecraft.client.render.BuiltBuffer;
 import org.joml.Matrix4f;
 import skidonion.sAnhI.___;
 import skidonion.sAnhI.___.____;

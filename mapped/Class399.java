@@ -2,16 +2,16 @@
  * Decompiled with CFR 0.152.
  * 
  * Could not load the following classes:
- *  net.minecraft.class_1304
- *  net.minecraft.class_1770
- *  net.minecraft.class_1799
- *  net.minecraft.class_1893
- *  net.minecraft.class_241
- *  net.minecraft.class_310
- *  net.minecraft.class_3486
- *  net.minecraft.class_5321
- *  net.minecraft.class_6862
- *  net.minecraft.class_746
+ *  net.minecraft.entity.EquipmentSlot
+ *  net.minecraft.item.ElytraItem
+ *  net.minecraft.item.ItemStack
+ *  net.minecraft.enchantment.Enchantments
+ *  net.minecraft.util.math.Vec2f
+ *  net.minecraft.client.MinecraftClient
+ *  net.minecraft.registry.tag.FluidTags
+ *  net.minecraft.registry.RegistryKey
+ *  net.minecraft.registry.tag.TagKey
+ *  net.minecraft.client.network.ClientPlayerEntity
  */
 package mapped;
 
@@ -37,16 +37,16 @@ import mapped.Class6322;
 import mapped.Class6454;
 import mapped.Class830;
 import mapped.Class871;
-import net.minecraft.class_1304;
-import net.minecraft.class_1770;
-import net.minecraft.class_1799;
-import net.minecraft.class_1893;
-import net.minecraft.class_241;
-import net.minecraft.class_310;
-import net.minecraft.class_3486;
-import net.minecraft.class_5321;
-import net.minecraft.class_6862;
-import net.minecraft.class_746;
+import net.minecraft.entity.EquipmentSlot;
+import net.minecraft.item.ElytraItem;
+import net.minecraft.item.ItemStack;
+import net.minecraft.enchantment.Enchantments;
+import net.minecraft.util.math.Vec2f;
+import net.minecraft.client.MinecraftClient;
+import net.minecraft.registry.tag.FluidTags;
+import net.minecraft.registry.RegistryKey;
+import net.minecraft.registry.tag.TagKey;
+import net.minecraft.client.network.ClientPlayerEntity;
 
 /*
  * Illegal identifiers - consider using --renameillegalidents true

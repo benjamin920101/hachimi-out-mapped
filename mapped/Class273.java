@@ -3,9 +3,9 @@
  * 
  * Could not load the following classes:
  *  com.mojang.blaze3d.systems.RenderSystem
- *  net.minecraft.class_2960
- *  net.minecraft.class_332
- *  net.minecraft.class_3532
+ *  net.minecraft.util.Identifier
+ *  net.minecraft.client.gui.DrawContext
+ *  net.minecraft.util.math.MathHelper
  *  org.apache.commons.lang3.ArrayUtils
  *  skidonion.sAnhI.___.____
  */
@@ -79,9 +79,9 @@ import mapped.Class87;
 import mapped.Class920;
 import mapped.Class925;
 import mapped.Class926;
-import net.minecraft.class_2960;
-import net.minecraft.class_332;
-import net.minecraft.class_3532;
+import net.minecraft.util.Identifier;
+import net.minecraft.client.gui.DrawContext;
+import net.minecraft.util.math.MathHelper;
 import org.apache.commons.lang3.ArrayUtils;
 import skidonion.sAnhI.___;
 import skidonion.sAnhI.___.____;

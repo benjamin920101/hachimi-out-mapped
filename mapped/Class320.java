@@ -2,9 +2,9 @@
  * Decompiled with CFR 0.152.
  * 
  * Could not load the following classes:
- *  net.minecraft.class_1703
- *  net.minecraft.class_2596
- *  net.minecraft.class_2649
+ *  net.minecraft.screen.ScreenHandler
+ *  net.minecraft.network.packet.Packet
+ *  net.minecraft.network.packet.s2c.play.InventoryS2CPacket
  */
 package mapped;
 
@@ -17,9 +17,9 @@ import mapped.Class278;
 import mapped.Class3979;
 import mapped.Class556;
 import net.hachimi.client.mixin.an;
-import net.minecraft.class_1703;
-import net.minecraft.class_2596;
-import net.minecraft.class_2649;
+import net.minecraft.screen.ScreenHandler;
+import net.minecraft.network.packet.Packet;
+import net.minecraft.network.packet.s2c.play.InventoryS2CPacket;
 
 /*
  * Illegal identifiers - consider using --renameillegalidents true

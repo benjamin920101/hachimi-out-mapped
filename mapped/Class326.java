@@ -2,10 +2,10 @@
  * Decompiled with CFR 0.152.
  * 
  * Could not load the following classes:
- *  net.minecraft.class_2596
- *  net.minecraft.class_2828
- *  net.minecraft.class_2848
- *  net.minecraft.class_2848$class_2849
+ *  net.minecraft.network.packet.Packet
+ *  net.minecraft.network.packet.c2s.play.PlayerMoveC2SPacket
+ *  net.minecraft.network.packet.c2s.play.ClientCommandC2SPacket
+ *  net.minecraft.network.packet.c2s.play.ClientCommandC2SPacket$Mode
  */
 package mapped;
 
@@ -16,9 +16,9 @@ import mapped.Class253;
 import mapped.Class278;
 import mapped.Class556;
 import net.hachimi.client.mixin.bH;
-import net.minecraft.class_2596;
-import net.minecraft.class_2828;
-import net.minecraft.class_2848;
+import net.minecraft.network.packet.Packet;
+import net.minecraft.network.packet.c2s.play.PlayerMoveC2SPacket;
+import net.minecraft.network.packet.c2s.play.ClientCommandC2SPacket;
 
 /*
  * Illegal identifiers - consider using --renameillegalidents true

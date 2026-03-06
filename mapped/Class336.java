@@ -2,14 +2,14 @@
  * Decompiled with CFR 0.152.
  * 
  * Could not load the following classes:
- *  net.minecraft.class_1937
- *  net.minecraft.class_238
- *  net.minecraft.class_2596
- *  net.minecraft.class_2828
- *  net.minecraft.class_2828$class_2829
- *  net.minecraft.class_2828$class_2830
- *  net.minecraft.class_310
- *  net.minecraft.class_746
+ *  net.minecraft.world.World
+ *  net.minecraft.util.math.Box
+ *  net.minecraft.network.packet.Packet
+ *  net.minecraft.network.packet.c2s.play.PlayerMoveC2SPacket
+ *  net.minecraft.network.packet.c2s.play.PlayerMoveC2SPacket$PositionAndOnGround
+ *  net.minecraft.network.packet.c2s.play.PlayerMoveC2SPacket$Full
+ *  net.minecraft.client.MinecraftClient
+ *  net.minecraft.client.network.ClientPlayerEntity
  */
 package mapped;
 
@@ -34,12 +34,12 @@ import mapped.Class5880;
 import mapped.Class6023;
 import mapped.Class63;
 import net.hachimi.client.mixin.bH;
-import net.minecraft.class_1937;
-import net.minecraft.class_238;
-import net.minecraft.class_2596;
-import net.minecraft.class_2828;
-import net.minecraft.class_310;
-import net.minecraft.class_746;
+import net.minecraft.world.World;
+import net.minecraft.util.math.Box;
+import net.minecraft.network.packet.Packet;
+import net.minecraft.network.packet.c2s.play.PlayerMoveC2SPacket;
+import net.minecraft.client.MinecraftClient;
+import net.minecraft.client.network.ClientPlayerEntity;
 
 /*
  * Illegal identifiers - consider using --renameillegalidents true

@@ -2,19 +2,19 @@
  * Decompiled with CFR 0.152.
  * 
  * Could not load the following classes:
- *  net.minecraft.class_1294
- *  net.minecraft.class_1297
- *  net.minecraft.class_1309
- *  net.minecraft.class_1313
- *  net.minecraft.class_1531
- *  net.minecraft.class_241
- *  net.minecraft.class_2708
- *  net.minecraft.class_310
- *  net.minecraft.class_3532
- *  net.minecraft.class_638
- *  net.minecraft.class_6880
- *  net.minecraft.class_744
- *  net.minecraft.class_746
+ *  net.minecraft.entity.effect.StatusEffects
+ *  net.minecraft.entity.Entity
+ *  net.minecraft.entity.LivingEntity
+ *  net.minecraft.entity.MovementType
+ *  net.minecraft.entity.decoration.ArmorStandEntity
+ *  net.minecraft.util.math.Vec2f
+ *  net.minecraft.network.packet.s2c.play.PlayerPositionLookS2CPacket
+ *  net.minecraft.client.MinecraftClient
+ *  net.minecraft.util.math.MathHelper
+ *  net.minecraft.client.world.ClientWorld
+ *  net.minecraft.registry.entry.RegistryEntry
+ *  net.minecraft.client.input.Input
+ *  net.minecraft.client.network.ClientPlayerEntity
  */
 package mapped;
 
@@ -124,19 +124,19 @@ import mapped.Class68;
 import mapped.Class724;
 import mapped.Class914;
 import mapped.Class926;
-import net.minecraft.class_1294;
-import net.minecraft.class_1297;
-import net.minecraft.class_1309;
-import net.minecraft.class_1313;
-import net.minecraft.class_1531;
-import net.minecraft.class_241;
-import net.minecraft.class_2708;
-import net.minecraft.class_310;
-import net.minecraft.class_3532;
-import net.minecraft.class_638;
-import net.minecraft.class_6880;
-import net.minecraft.class_744;
-import net.minecraft.class_746;
+import net.minecraft.entity.effect.StatusEffects;
+import net.minecraft.entity.Entity;
+import net.minecraft.entity.LivingEntity;
+import net.minecraft.entity.MovementType;
+import net.minecraft.entity.decoration.ArmorStandEntity;
+import net.minecraft.util.math.Vec2f;
+import net.minecraft.network.packet.s2c.play.PlayerPositionLookS2CPacket;
+import net.minecraft.client.MinecraftClient;
+import net.minecraft.util.math.MathHelper;
+import net.minecraft.client.world.ClientWorld;
+import net.minecraft.registry.entry.RegistryEntry;
+import net.minecraft.client.input.Input;
+import net.minecraft.client.network.ClientPlayerEntity;
 
 /*
  * Illegal identifiers - consider using --renameillegalidents true

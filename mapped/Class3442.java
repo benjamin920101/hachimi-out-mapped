@@ -2,25 +2,25 @@
  * Decompiled with CFR 0.152.
  * 
  * Could not load the following classes:
- *  net.minecraft.class_1268
- *  net.minecraft.class_1297
- *  net.minecraft.class_1511
- *  net.minecraft.class_1747
- *  net.minecraft.class_1792
- *  net.minecraft.class_1799
- *  net.minecraft.class_1802
- *  net.minecraft.class_1922
- *  net.minecraft.class_2246
- *  net.minecraft.class_2248
- *  net.minecraft.class_2338
- *  net.minecraft.class_2350
- *  net.minecraft.class_238
- *  net.minecraft.class_247
- *  net.minecraft.class_259
- *  net.minecraft.class_265
- *  net.minecraft.class_2680
- *  net.minecraft.class_310
- *  net.minecraft.class_3726
+ *  net.minecraft.util.Hand
+ *  net.minecraft.entity.Entity
+ *  net.minecraft.entity.decoration.EndCrystalEntity
+ *  net.minecraft.item.BlockItem
+ *  net.minecraft.item.Item
+ *  net.minecraft.item.ItemStack
+ *  net.minecraft.item.Items
+ *  net.minecraft.world.BlockView
+ *  net.minecraft.block.Blocks
+ *  net.minecraft.block.Block
+ *  net.minecraft.util.math.BlockPos
+ *  net.minecraft.util.math.Direction
+ *  net.minecraft.util.math.Box
+ *  net.minecraft.util.function.BooleanBiFunction
+ *  net.minecraft.util.shape.VoxelShapes
+ *  net.minecraft.util.shape.VoxelShape
+ *  net.minecraft.block.BlockState
+ *  net.minecraft.client.MinecraftClient
+ *  net.minecraft.block.ShapeContext
  *  skidonion.sAnhI.___.____
  */
 package mapped;
@@ -66,25 +66,25 @@ import mapped.Class607;
 import mapped.Class691;
 import mapped.Class71;
 import mapped.Class803;
-import net.minecraft.class_1268;
-import net.minecraft.class_1297;
-import net.minecraft.class_1511;
-import net.minecraft.class_1747;
-import net.minecraft.class_1792;
-import net.minecraft.class_1799;
-import net.minecraft.class_1802;
-import net.minecraft.class_1922;
-import net.minecraft.class_2246;
-import net.minecraft.class_2248;
-import net.minecraft.class_2338;
-import net.minecraft.class_2350;
-import net.minecraft.class_238;
-import net.minecraft.class_247;
-import net.minecraft.class_259;
-import net.minecraft.class_265;
-import net.minecraft.class_2680;
-import net.minecraft.class_310;
-import net.minecraft.class_3726;
+import net.minecraft.util.Hand;
+import net.minecraft.entity.Entity;
+import net.minecraft.entity.decoration.EndCrystalEntity;
+import net.minecraft.item.BlockItem;
+import net.minecraft.item.Item;
+import net.minecraft.item.ItemStack;
+import net.minecraft.item.Items;
+import net.minecraft.world.BlockView;
+import net.minecraft.block.Blocks;
+import net.minecraft.block.Block;
+import net.minecraft.util.math.BlockPos;
+import net.minecraft.util.math.Direction;
+import net.minecraft.util.math.Box;
+import net.minecraft.util.function.BooleanBiFunction;
+import net.minecraft.util.shape.VoxelShapes;
+import net.minecraft.util.shape.VoxelShape;
+import net.minecraft.block.BlockState;
+import net.minecraft.client.MinecraftClient;
+import net.minecraft.block.ShapeContext;
 import skidonion.sAnhI.___;
 import skidonion.sAnhI.___.____;
 

@@ -3,17 +3,17 @@
  * 
  * Could not load the following classes:
  *  com.google.common.collect.Lists
- *  net.minecraft.class_1294
- *  net.minecraft.class_1297
- *  net.minecraft.class_1511
- *  net.minecraft.class_1661
- *  net.minecraft.class_1792
- *  net.minecraft.class_1799
- *  net.minecraft.class_1802
- *  net.minecraft.class_239
- *  net.minecraft.class_310
- *  net.minecraft.class_6880
- *  net.minecraft.class_746
+ *  net.minecraft.entity.effect.StatusEffects
+ *  net.minecraft.entity.Entity
+ *  net.minecraft.entity.decoration.EndCrystalEntity
+ *  net.minecraft.entity.player.PlayerInventory
+ *  net.minecraft.item.Item
+ *  net.minecraft.item.ItemStack
+ *  net.minecraft.item.Items
+ *  net.minecraft.util.hit.HitResult
+ *  net.minecraft.client.MinecraftClient
+ *  net.minecraft.registry.entry.RegistryEntry
+ *  net.minecraft.client.network.ClientPlayerEntity
  */
 package mapped;
 
@@ -58,17 +58,17 @@ import mapped.Class6322;
 import mapped.Class6454;
 import mapped.Class925;
 import mapped.Class926;
-import net.minecraft.class_1294;
-import net.minecraft.class_1297;
-import net.minecraft.class_1511;
-import net.minecraft.class_1661;
-import net.minecraft.class_1792;
-import net.minecraft.class_1799;
-import net.minecraft.class_1802;
-import net.minecraft.class_239;
-import net.minecraft.class_310;
-import net.minecraft.class_6880;
-import net.minecraft.class_746;
+import net.minecraft.entity.effect.StatusEffects;
+import net.minecraft.entity.Entity;
+import net.minecraft.entity.decoration.EndCrystalEntity;
+import net.minecraft.entity.player.PlayerInventory;
+import net.minecraft.item.Item;
+import net.minecraft.item.ItemStack;
+import net.minecraft.item.Items;
+import net.minecraft.util.hit.HitResult;
+import net.minecraft.client.MinecraftClient;
+import net.minecraft.registry.entry.RegistryEntry;
+import net.minecraft.client.network.ClientPlayerEntity;
 
 /*
  * Illegal identifiers - consider using --renameillegalidents true

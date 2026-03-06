@@ -2,10 +2,10 @@
  * Decompiled with CFR 0.152.
  * 
  * Could not load the following classes:
- *  net.minecraft.class_2596
- *  net.minecraft.class_2827
- *  net.minecraft.class_2856
- *  net.minecraft.class_6374
+ *  net.minecraft.network.packet.Packet
+ *  net.minecraft.network.packet.c2s.common.KeepAliveC2SPacket
+ *  net.minecraft.network.packet.c2s.common.ResourcePackStatusC2SPacket
+ *  net.minecraft.network.packet.c2s.common.CommonPongC2SPacket
  */
 package mapped;
 
@@ -28,10 +28,10 @@ import mapped.Class5659;
 import mapped.Class6009;
 import mapped.Class6454;
 import mapped.Class792;
-import net.minecraft.class_2596;
-import net.minecraft.class_2827;
-import net.minecraft.class_2856;
-import net.minecraft.class_6374;
+import net.minecraft.network.packet.Packet;
+import net.minecraft.network.packet.c2s.common.KeepAliveC2SPacket;
+import net.minecraft.network.packet.c2s.common.ResourcePackStatusC2SPacket;
+import net.minecraft.network.packet.c2s.common.CommonPongC2SPacket;
 
 /*
  * Illegal identifiers - consider using --renameillegalidents true

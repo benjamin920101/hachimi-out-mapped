@@ -2,13 +2,13 @@
  * Decompiled with CFR 0.152.
  * 
  * Could not load the following classes:
- *  net.minecraft.class_2394
+ *  net.minecraft.particle.ParticleEffect
  */
 package mapped;
 
 import mapped.Class3;
 import mapped.Class54;
-import net.minecraft.class_2394;
+import net.minecraft.particle.ParticleEffect;
 
 @Class3
 public class Class55

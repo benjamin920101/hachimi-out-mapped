@@ -2,12 +2,12 @@
  * Decompiled with CFR 0.152.
  * 
  * Could not load the following classes:
- *  net.minecraft.class_1268
- *  net.minecraft.class_1292
- *  net.minecraft.class_1294
- *  net.minecraft.class_1309
- *  net.minecraft.class_310
- *  net.minecraft.class_746
+ *  net.minecraft.util.Hand
+ *  net.minecraft.entity.effect.StatusEffectUtil
+ *  net.minecraft.entity.effect.StatusEffects
+ *  net.minecraft.entity.LivingEntity
+ *  net.minecraft.client.MinecraftClient
+ *  net.minecraft.client.network.ClientPlayerEntity
  */
 package mapped;
 
@@ -29,12 +29,12 @@ import mapped.Class6009;
 import mapped.Class622;
 import mapped.Class6454;
 import mapped.Class79;
-import net.minecraft.class_1268;
-import net.minecraft.class_1292;
-import net.minecraft.class_1294;
-import net.minecraft.class_1309;
-import net.minecraft.class_310;
-import net.minecraft.class_746;
+import net.minecraft.util.Hand;
+import net.minecraft.entity.effect.StatusEffectUtil;
+import net.minecraft.entity.effect.StatusEffects;
+import net.minecraft.entity.LivingEntity;
+import net.minecraft.client.MinecraftClient;
+import net.minecraft.client.network.ClientPlayerEntity;
 
 /*
  * Illegal identifiers - consider using --renameillegalidents true

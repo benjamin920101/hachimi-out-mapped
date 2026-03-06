@@ -2,8 +2,8 @@
  * Decompiled with CFR 0.152.
  * 
  * Could not load the following classes:
- *  net.minecraft.class_2338
- *  net.minecraft.class_243
+ *  net.minecraft.util.math.BlockPos
+ *  net.minecraft.util.math.Vec3d
  */
 package mapped;
 
@@ -40,8 +40,8 @@ import mapped.Class6322;
 import mapped.Class6454;
 import mapped.Class711;
 import mapped.Class925;
-import net.minecraft.class_2338;
-import net.minecraft.class_243;
+import net.minecraft.util.math.BlockPos;
+import net.minecraft.util.math.Vec3d;
 
 /*
  * Illegal identifiers - consider using --renameillegalidents true

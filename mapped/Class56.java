@@ -2,24 +2,24 @@
  * Decompiled with CFR 0.152.
  * 
  * Could not load the following classes:
- *  net.minecraft.class_1309
- *  net.minecraft.class_1921
- *  net.minecraft.class_4587
- *  net.minecraft.class_4597
- *  net.minecraft.class_583
- *  net.minecraft.class_922
+ *  net.minecraft.entity.LivingEntity
+ *  net.minecraft.client.render.RenderLayer
+ *  net.minecraft.client.util.math.MatrixStack
+ *  net.minecraft.client.render.VertexConsumerProvider
+ *  net.minecraft.client.render.entity.model.EntityModel
+ *  net.minecraft.client.render.entity.LivingEntityRenderer
  */
 package mapped;
 
 import java.util.List;
 import mapped.Class3;
 import mapped.Class8;
-import net.minecraft.class_1309;
-import net.minecraft.class_1921;
-import net.minecraft.class_4587;
-import net.minecraft.class_4597;
-import net.minecraft.class_583;
-import net.minecraft.class_922;
+import net.minecraft.entity.LivingEntity;
+import net.minecraft.client.render.RenderLayer;
+import net.minecraft.client.util.math.MatrixStack;
+import net.minecraft.client.render.VertexConsumerProvider;
+import net.minecraft.client.render.entity.model.EntityModel;
+import net.minecraft.client.render.entity.LivingEntityRenderer;
 
 @Class3
 public class Class56

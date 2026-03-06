@@ -2,10 +2,10 @@
  * Decompiled with CFR 0.152.
  * 
  * Could not load the following classes:
- *  net.minecraft.class_2338
- *  net.minecraft.class_238
- *  net.minecraft.class_243
- *  net.minecraft.class_4587
+ *  net.minecraft.util.math.BlockPos
+ *  net.minecraft.util.math.Box
+ *  net.minecraft.util.math.Vec3d
+ *  net.minecraft.client.util.math.MatrixStack
  */
 package mapped;
 
@@ -26,10 +26,10 @@ import mapped.Class59;
 import mapped.Class6009;
 import mapped.Class6454;
 import mapped.Class889;
-import net.minecraft.class_2338;
-import net.minecraft.class_238;
-import net.minecraft.class_243;
-import net.minecraft.class_4587;
+import net.minecraft.util.math.BlockPos;
+import net.minecraft.util.math.Box;
+import net.minecraft.util.math.Vec3d;
+import net.minecraft.client.util.math.MatrixStack;
 
 /*
  * Illegal identifiers - consider using --renameillegalidents true

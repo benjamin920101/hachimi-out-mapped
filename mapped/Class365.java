@@ -2,15 +2,15 @@
  * Decompiled with CFR 0.152.
  * 
  * Could not load the following classes:
- *  net.minecraft.class_239
- *  net.minecraft.class_239$class_240
- *  net.minecraft.class_241
- *  net.minecraft.class_243
- *  net.minecraft.class_310
- *  net.minecraft.class_3532
- *  net.minecraft.class_743
- *  net.minecraft.class_746
- *  net.minecraft.class_757
+ *  net.minecraft.util.hit.HitResult
+ *  net.minecraft.util.hit.HitResult$Type
+ *  net.minecraft.util.math.Vec2f
+ *  net.minecraft.util.math.Vec3d
+ *  net.minecraft.client.MinecraftClient
+ *  net.minecraft.util.math.MathHelper
+ *  net.minecraft.client.input.KeyboardInput
+ *  net.minecraft.client.network.ClientPlayerEntity
+ *  net.minecraft.client.render.GameRenderer
  *  skidonion.sAnhI.___.____
  */
 package mapped;
@@ -54,14 +54,14 @@ import mapped.Class760;
 import mapped.Class803;
 import mapped.Class976;
 import mapped.Class98;
-import net.minecraft.class_239;
-import net.minecraft.class_241;
-import net.minecraft.class_243;
-import net.minecraft.class_310;
-import net.minecraft.class_3532;
-import net.minecraft.class_743;
-import net.minecraft.class_746;
-import net.minecraft.class_757;
+import net.minecraft.util.hit.HitResult;
+import net.minecraft.util.math.Vec2f;
+import net.minecraft.util.math.Vec3d;
+import net.minecraft.client.MinecraftClient;
+import net.minecraft.util.math.MathHelper;
+import net.minecraft.client.input.KeyboardInput;
+import net.minecraft.client.network.ClientPlayerEntity;
+import net.minecraft.client.render.GameRenderer;
 import skidonion.sAnhI.___;
 import skidonion.sAnhI.___.____;
 

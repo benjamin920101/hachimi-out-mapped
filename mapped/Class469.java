@@ -2,9 +2,9 @@
  * Decompiled with CFR 0.152.
  * 
  * Could not load the following classes:
- *  net.minecraft.class_1297
- *  net.minecraft.class_1309
- *  net.minecraft.class_243
+ *  net.minecraft.entity.Entity
+ *  net.minecraft.entity.LivingEntity
+ *  net.minecraft.util.math.Vec3d
  */
 package mapped;
 
@@ -28,9 +28,9 @@ import mapped.Class5836;
 import mapped.Class6009;
 import mapped.Class6253;
 import mapped.Class660;
-import net.minecraft.class_1297;
-import net.minecraft.class_1309;
-import net.minecraft.class_243;
+import net.minecraft.entity.Entity;
+import net.minecraft.entity.LivingEntity;
+import net.minecraft.util.math.Vec3d;
 
 /*
  * Illegal identifiers - consider using --renameillegalidents true

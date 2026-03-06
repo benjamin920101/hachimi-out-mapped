@@ -2,10 +2,10 @@
  * Decompiled with CFR 0.152.
  * 
  * Could not load the following classes:
- *  net.minecraft.class_243
- *  net.minecraft.class_2596
- *  net.minecraft.class_2708
- *  net.minecraft.class_6373
+ *  net.minecraft.util.math.Vec3d
+ *  net.minecraft.network.packet.Packet
+ *  net.minecraft.network.packet.s2c.play.PlayerPositionLookS2CPacket
+ *  net.minecraft.network.packet.s2c.common.CommonPingS2CPacket
  */
 package mapped;
 
@@ -20,10 +20,10 @@ import mapped.Class455;
 import mapped.Class6322;
 import mapped.Class659;
 import mapped.Class926;
-import net.minecraft.class_243;
-import net.minecraft.class_2596;
-import net.minecraft.class_2708;
-import net.minecraft.class_6373;
+import net.minecraft.util.math.Vec3d;
+import net.minecraft.network.packet.Packet;
+import net.minecraft.network.packet.s2c.play.PlayerPositionLookS2CPacket;
+import net.minecraft.network.packet.s2c.common.CommonPingS2CPacket;
 
 /*
  * Illegal identifiers - consider using --renameillegalidents true

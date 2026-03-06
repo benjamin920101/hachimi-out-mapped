@@ -2,9 +2,9 @@
  * Decompiled with CFR 0.152.
  * 
  * Could not load the following classes:
- *  net.minecraft.class_1664
- *  net.minecraft.class_310
- *  net.minecraft.class_315
+ *  net.minecraft.entity.player.PlayerModelPart
+ *  net.minecraft.client.MinecraftClient
+ *  net.minecraft.client.option.GameOptions
  */
 package mapped;
 
@@ -26,9 +26,9 @@ import mapped.Class6322;
 import mapped.Class925;
 import mapped.Class926;
 import net.hachimi.client.mixin.d;
-import net.minecraft.class_1664;
-import net.minecraft.class_310;
-import net.minecraft.class_315;
+import net.minecraft.entity.player.PlayerModelPart;
+import net.minecraft.client.MinecraftClient;
+import net.minecraft.client.option.GameOptions;
 
 /*
  * Illegal identifiers - consider using --renameillegalidents true

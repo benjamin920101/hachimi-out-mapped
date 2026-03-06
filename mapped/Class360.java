@@ -2,14 +2,14 @@
  * Decompiled with CFR 0.152.
  * 
  * Could not load the following classes:
- *  net.minecraft.class_1297
- *  net.minecraft.class_1511
- *  net.minecraft.class_1542
- *  net.minecraft.class_1657
- *  net.minecraft.class_238
- *  net.minecraft.class_310
- *  net.minecraft.class_4587
- *  net.minecraft.class_746
+ *  net.minecraft.entity.Entity
+ *  net.minecraft.entity.decoration.EndCrystalEntity
+ *  net.minecraft.entity.ItemEntity
+ *  net.minecraft.entity.player.PlayerEntity
+ *  net.minecraft.util.math.Box
+ *  net.minecraft.client.MinecraftClient
+ *  net.minecraft.client.util.math.MatrixStack
+ *  net.minecraft.client.network.ClientPlayerEntity
  */
 package mapped;
 
@@ -66,14 +66,14 @@ import mapped.Class701;
 import mapped.Class804;
 import mapped.Class807;
 import mapped.Class89;
-import net.minecraft.class_1297;
-import net.minecraft.class_1511;
-import net.minecraft.class_1542;
-import net.minecraft.class_1657;
-import net.minecraft.class_238;
-import net.minecraft.class_310;
-import net.minecraft.class_4587;
-import net.minecraft.class_746;
+import net.minecraft.entity.Entity;
+import net.minecraft.entity.decoration.EndCrystalEntity;
+import net.minecraft.entity.ItemEntity;
+import net.minecraft.entity.player.PlayerEntity;
+import net.minecraft.util.math.Box;
+import net.minecraft.client.MinecraftClient;
+import net.minecraft.client.util.math.MatrixStack;
+import net.minecraft.client.network.ClientPlayerEntity;
 
 /*
  * Illegal identifiers - consider using --renameillegalidents true

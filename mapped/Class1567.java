@@ -4,48 +4,48 @@
  * Could not load the following classes:
  *  com.google.common.base.MoreObjects
  *  com.mojang.blaze3d.systems.RenderSystem
- *  net.minecraft.class_1007
- *  net.minecraft.class_1268
- *  net.minecraft.class_1297
- *  net.minecraft.class_1306
- *  net.minecraft.class_1309
- *  net.minecraft.class_1511
- *  net.minecraft.class_1657
- *  net.minecraft.class_1764
- *  net.minecraft.class_1792
- *  net.minecraft.class_1799
- *  net.minecraft.class_1802
- *  net.minecraft.class_2350
- *  net.minecraft.class_243
- *  net.minecraft.class_2960
- *  net.minecraft.class_310
- *  net.minecraft.class_315
- *  net.minecraft.class_3532
- *  net.minecraft.class_4050
- *  net.minecraft.class_4587
- *  net.minecraft.class_4592
- *  net.minecraft.class_4595
- *  net.minecraft.class_5597
- *  net.minecraft.class_572
- *  net.minecraft.class_572$class_573
- *  net.minecraft.class_578
- *  net.minecraft.class_583
- *  net.minecraft.class_591
- *  net.minecraft.class_596
- *  net.minecraft.class_630
- *  net.minecraft.class_630$class_593
- *  net.minecraft.class_630$class_618
- *  net.minecraft.class_630$class_628
- *  net.minecraft.class_742
- *  net.minecraft.class_746
- *  net.minecraft.class_757
- *  net.minecraft.class_759
- *  net.minecraft.class_7833
- *  net.minecraft.class_8080
- *  net.minecraft.class_892
- *  net.minecraft.class_897
- *  net.minecraft.class_918
- *  net.minecraft.class_922
+ *  net.minecraft.client.render.entity.PlayerEntityRenderer
+ *  net.minecraft.util.Hand
+ *  net.minecraft.entity.Entity
+ *  net.minecraft.util.Arm
+ *  net.minecraft.entity.LivingEntity
+ *  net.minecraft.entity.decoration.EndCrystalEntity
+ *  net.minecraft.entity.player.PlayerEntity
+ *  net.minecraft.item.CrossbowItem
+ *  net.minecraft.item.Item
+ *  net.minecraft.item.ItemStack
+ *  net.minecraft.item.Items
+ *  net.minecraft.util.math.Direction
+ *  net.minecraft.util.math.Vec3d
+ *  net.minecraft.util.Identifier
+ *  net.minecraft.client.MinecraftClient
+ *  net.minecraft.client.option.GameOptions
+ *  net.minecraft.util.math.MathHelper
+ *  net.minecraft.entity.EntityPose
+ *  net.minecraft.client.util.math.MatrixStack
+ *  net.minecraft.client.render.entity.model.AnimalModel
+ *  net.minecraft.client.render.entity.model.CompositeEntityModel
+ *  net.minecraft.client.render.entity.model.SinglePartEntityModel
+ *  net.minecraft.client.render.entity.model.BipedEntityModel
+ *  net.minecraft.client.render.entity.model.BipedEntityModel$ArmPose
+ *  net.minecraft.client.render.entity.model.LlamaEntityModel
+ *  net.minecraft.client.render.entity.model.EntityModel
+ *  net.minecraft.client.render.entity.model.PlayerEntityModel
+ *  net.minecraft.client.render.entity.model.RabbitEntityModel
+ *  net.minecraft.client.model.ModelPart
+ *  net.minecraft.client.model.ModelPart$Quad
+ *  net.minecraft.client.model.ModelPart$Vertex
+ *  net.minecraft.client.model.ModelPart$Cuboid
+ *  net.minecraft.client.network.AbstractClientPlayerEntity
+ *  net.minecraft.client.network.ClientPlayerEntity
+ *  net.minecraft.client.render.GameRenderer
+ *  net.minecraft.client.render.item.HeldItemRenderer
+ *  net.minecraft.util.math.RotationAxis
+ *  net.minecraft.entity.LimbAnimator
+ *  net.minecraft.client.render.entity.EndCrystalEntityRenderer
+ *  net.minecraft.client.render.entity.EntityRenderer
+ *  net.minecraft.client.render.item.ItemRenderer
+ *  net.minecraft.client.render.entity.LivingEntityRenderer
  *  org.joml.Matrix4f
  *  org.joml.Matrix4fc
  *  org.joml.Quaternionf
@@ -125,44 +125,44 @@ import mapped.Class751;
 import mapped.Class803;
 import mapped.Class969;
 import net.hachimi.client.mixin.J;
-import net.minecraft.class_1007;
-import net.minecraft.class_1268;
-import net.minecraft.class_1297;
-import net.minecraft.class_1306;
-import net.minecraft.class_1309;
-import net.minecraft.class_1511;
-import net.minecraft.class_1657;
-import net.minecraft.class_1764;
-import net.minecraft.class_1792;
-import net.minecraft.class_1799;
-import net.minecraft.class_1802;
-import net.minecraft.class_2350;
-import net.minecraft.class_243;
-import net.minecraft.class_2960;
-import net.minecraft.class_310;
-import net.minecraft.class_315;
-import net.minecraft.class_3532;
-import net.minecraft.class_4050;
-import net.minecraft.class_4587;
-import net.minecraft.class_4592;
-import net.minecraft.class_4595;
-import net.minecraft.class_5597;
-import net.minecraft.class_572;
-import net.minecraft.class_578;
-import net.minecraft.class_583;
-import net.minecraft.class_591;
-import net.minecraft.class_596;
-import net.minecraft.class_630;
-import net.minecraft.class_742;
-import net.minecraft.class_746;
-import net.minecraft.class_757;
-import net.minecraft.class_759;
-import net.minecraft.class_7833;
-import net.minecraft.class_8080;
-import net.minecraft.class_892;
-import net.minecraft.class_897;
-import net.minecraft.class_918;
-import net.minecraft.class_922;
+import net.minecraft.client.render.entity.PlayerEntityRenderer;
+import net.minecraft.util.Hand;
+import net.minecraft.entity.Entity;
+import net.minecraft.util.Arm;
+import net.minecraft.entity.LivingEntity;
+import net.minecraft.entity.decoration.EndCrystalEntity;
+import net.minecraft.entity.player.PlayerEntity;
+import net.minecraft.item.CrossbowItem;
+import net.minecraft.item.Item;
+import net.minecraft.item.ItemStack;
+import net.minecraft.item.Items;
+import net.minecraft.util.math.Direction;
+import net.minecraft.util.math.Vec3d;
+import net.minecraft.util.Identifier;
+import net.minecraft.client.MinecraftClient;
+import net.minecraft.client.option.GameOptions;
+import net.minecraft.util.math.MathHelper;
+import net.minecraft.entity.EntityPose;
+import net.minecraft.client.util.math.MatrixStack;
+import net.minecraft.client.render.entity.model.AnimalModel;
+import net.minecraft.client.render.entity.model.CompositeEntityModel;
+import net.minecraft.client.render.entity.model.SinglePartEntityModel;
+import net.minecraft.client.render.entity.model.BipedEntityModel;
+import net.minecraft.client.render.entity.model.LlamaEntityModel;
+import net.minecraft.client.render.entity.model.EntityModel;
+import net.minecraft.client.render.entity.model.PlayerEntityModel;
+import net.minecraft.client.render.entity.model.RabbitEntityModel;
+import net.minecraft.client.model.ModelPart;
+import net.minecraft.client.network.AbstractClientPlayerEntity;
+import net.minecraft.client.network.ClientPlayerEntity;
+import net.minecraft.client.render.GameRenderer;
+import net.minecraft.client.render.item.HeldItemRenderer;
+import net.minecraft.util.math.RotationAxis;
+import net.minecraft.entity.LimbAnimator;
+import net.minecraft.client.render.entity.EndCrystalEntityRenderer;
+import net.minecraft.client.render.entity.EntityRenderer;
+import net.minecraft.client.render.item.ItemRenderer;
+import net.minecraft.client.render.entity.LivingEntityRenderer;
 import org.joml.Matrix4f;
 import org.joml.Matrix4fc;
 import org.joml.Quaternionf;
@@ -983,7 +983,7 @@ lbl111:
                                     h = (class_572)r;
                                     Class1567.method14630(F, h.field_3398, O, P, Q, I, J, K, L, M, N);
                                 } else {
-                                    ((J)l).hookGetHeadParts().forEach((Consumer<class_630>)LambdaMetafactory.metafactory(null, null, null, (Ljava/lang/Object;)V, method14676(net.minecraft.class_4587 double double double int int float boolean boolean boolean net.minecraft.class_630 ), (Lnet/minecraft/class_630;)V)((class_4587)F, (double)O, (double)P, (double)Q, (int)I, (int)J, (float)K, (boolean)L, (boolean)M, (boolean)N));
+                                    ((J)l).hookGetHeadParts().forEach((Consumer<class_630>)LambdaMetafactory.metafactory(null, null, null, (Ljava/lang/Object;)V, method14676(net.minecraft.client.util.math.MatrixStack double double double int int float boolean boolean boolean net.minecraft.client.model.ModelPart ), (Lnet/minecraft/class_630;)V)((class_4587)F, (double)O, (double)P, (double)Q, (int)I, (int)J, (float)K, (boolean)L, (boolean)M, (boolean)N));
                                 }
                                 Class1567.field5873.method_22909();
                                 Class1567.field5873.method_22903();
@@ -1012,8 +1012,8 @@ lbl111:
                                 Class1567.method14582(F, k.field_3397, O, P, Q, I, J, K, L, M, N);
                                 Class1567.method14582(F, Class1567.method14721(k), O, P, Q, I, J, K, L, M, N);
                             } else {
-                                ((J)l).hookGetHeadParts().forEach((Consumer<class_630>)LambdaMetafactory.metafactory(null, null, null, (Ljava/lang/Object;)V, method14681(net.minecraft.class_4587 double double double int int float boolean boolean boolean net.minecraft.class_630 ), (Lnet/minecraft/class_630;)V)((class_4587)F, (double)O, (double)P, (double)Q, (int)I, (int)J, (float)K, (boolean)L, (boolean)M, (boolean)N));
-                                ((J)l).hookGetBodyParts().forEach((Consumer<class_630>)LambdaMetafactory.metafactory(null, null, null, (Ljava/lang/Object;)V, method14670(net.minecraft.class_4587 double double double int int float boolean boolean boolean net.minecraft.class_630 ), (Lnet/minecraft/class_630;)V)((class_4587)F, (double)O, (double)P, (double)Q, (int)I, (int)J, (float)K, (boolean)L, (boolean)M, (boolean)N));
+                                ((J)l).hookGetHeadParts().forEach((Consumer<class_630>)LambdaMetafactory.metafactory(null, null, null, (Ljava/lang/Object;)V, method14681(net.minecraft.client.util.math.MatrixStack double double double int int float boolean boolean boolean net.minecraft.client.model.ModelPart ), (Lnet/minecraft/class_630;)V)((class_4587)F, (double)O, (double)P, (double)Q, (int)I, (int)J, (float)K, (boolean)L, (boolean)M, (boolean)N));
+                                ((J)l).hookGetBodyParts().forEach((Consumer<class_630>)LambdaMetafactory.metafactory(null, null, null, (Ljava/lang/Object;)V, method14670(net.minecraft.client.util.math.MatrixStack double double double int int float boolean boolean boolean net.minecraft.client.model.ModelPart ), (Lnet/minecraft/class_630;)V)((class_4587)F, (double)O, (double)P, (double)Q, (int)I, (int)J, (float)K, (boolean)L, (boolean)M, (boolean)N));
                             }
                             break block42;
                         }
@@ -1043,7 +1043,7 @@ lbl111:
                             }
                         }
                         n = (class_4595)var29_36;
-                        n.method_22960().forEach((Consumer<class_630>)LambdaMetafactory.metafactory(null, null, null, (Ljava/lang/Object;)V, method14625(net.minecraft.class_4587 double double double int int float boolean boolean boolean net.minecraft.class_630 ), (Lnet/minecraft/class_630;)V)((class_4587)F, (double)O, (double)P, (double)Q, (int)I, (int)J, (float)K, (boolean)L, (boolean)M, (boolean)N));
+                        n.method_22960().forEach((Consumer<class_630>)LambdaMetafactory.metafactory(null, null, null, (Ljava/lang/Object;)V, method14625(net.minecraft.client.util.math.MatrixStack double double double int int float boolean boolean boolean net.minecraft.client.model.ModelPart ), (Lnet/minecraft/class_630;)V)((class_4587)F, (double)O, (double)P, (double)Q, (int)I, (int)J, (float)K, (boolean)L, (boolean)M, (boolean)N));
                         break block42;
                     }
                     o = (class_578)var29_36;

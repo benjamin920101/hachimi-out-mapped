@@ -2,34 +2,34 @@
  * Decompiled with CFR 0.152.
  * 
  * Could not load the following classes:
- *  net.minecraft.class_1268
- *  net.minecraft.class_1297
- *  net.minecraft.class_1304
- *  net.minecraft.class_1657
- *  net.minecraft.class_1671
- *  net.minecraft.class_1713
- *  net.minecraft.class_1770
- *  net.minecraft.class_1781
- *  net.minecraft.class_1799
- *  net.minecraft.class_1802
- *  net.minecraft.class_1835
- *  net.minecraft.class_1893
- *  net.minecraft.class_2338
- *  net.minecraft.class_2350
- *  net.minecraft.class_2596
- *  net.minecraft.class_2813
- *  net.minecraft.class_2828$class_2829
- *  net.minecraft.class_2828$class_2830
- *  net.minecraft.class_2846
- *  net.minecraft.class_2846$class_2847
- *  net.minecraft.class_2848
- *  net.minecraft.class_2848$class_2849
- *  net.minecraft.class_2879
- *  net.minecraft.class_2886
- *  net.minecraft.class_310
- *  net.minecraft.class_3532
- *  net.minecraft.class_636
- *  net.minecraft.class_746
+ *  net.minecraft.util.Hand
+ *  net.minecraft.entity.Entity
+ *  net.minecraft.entity.EquipmentSlot
+ *  net.minecraft.entity.player.PlayerEntity
+ *  net.minecraft.entity.projectile.FireworkRocketEntity
+ *  net.minecraft.screen.slot.SlotActionType
+ *  net.minecraft.item.ElytraItem
+ *  net.minecraft.item.FireworkRocketItem
+ *  net.minecraft.item.ItemStack
+ *  net.minecraft.item.Items
+ *  net.minecraft.item.TridentItem
+ *  net.minecraft.enchantment.Enchantments
+ *  net.minecraft.util.math.BlockPos
+ *  net.minecraft.util.math.Direction
+ *  net.minecraft.network.packet.Packet
+ *  net.minecraft.network.packet.c2s.play.ClickSlotC2SPacket
+ *  net.minecraft.network.packet.c2s.play.PlayerMoveC2SPacket$PositionAndOnGround
+ *  net.minecraft.network.packet.c2s.play.PlayerMoveC2SPacket$Full
+ *  net.minecraft.network.packet.c2s.play.PlayerActionC2SPacket
+ *  net.minecraft.network.packet.c2s.play.PlayerActionC2SPacket$Action
+ *  net.minecraft.network.packet.c2s.play.ClientCommandC2SPacket
+ *  net.minecraft.network.packet.c2s.play.ClientCommandC2SPacket$Mode
+ *  net.minecraft.network.packet.c2s.play.HandSwingC2SPacket
+ *  net.minecraft.network.packet.c2s.play.PlayerInteractItemC2SPacket
+ *  net.minecraft.client.MinecraftClient
+ *  net.minecraft.util.math.MathHelper
+ *  net.minecraft.client.network.ClientPlayerInteractionManager
+ *  net.minecraft.client.network.ClientPlayerEntity
  */
 package mapped;
 
@@ -80,31 +80,31 @@ import mapped.Class75;
 import mapped.Class925;
 import mapped.Class926;
 import net.hachimi.client.mixin.au;
-import net.minecraft.class_1268;
-import net.minecraft.class_1297;
-import net.minecraft.class_1304;
-import net.minecraft.class_1657;
-import net.minecraft.class_1671;
-import net.minecraft.class_1713;
-import net.minecraft.class_1770;
-import net.minecraft.class_1781;
-import net.minecraft.class_1799;
-import net.minecraft.class_1802;
-import net.minecraft.class_1835;
-import net.minecraft.class_1893;
-import net.minecraft.class_2338;
-import net.minecraft.class_2350;
-import net.minecraft.class_2596;
-import net.minecraft.class_2813;
-import net.minecraft.class_2828;
-import net.minecraft.class_2846;
-import net.minecraft.class_2848;
-import net.minecraft.class_2879;
-import net.minecraft.class_2886;
-import net.minecraft.class_310;
-import net.minecraft.class_3532;
-import net.minecraft.class_636;
-import net.minecraft.class_746;
+import net.minecraft.util.Hand;
+import net.minecraft.entity.Entity;
+import net.minecraft.entity.EquipmentSlot;
+import net.minecraft.entity.player.PlayerEntity;
+import net.minecraft.entity.projectile.FireworkRocketEntity;
+import net.minecraft.screen.slot.SlotActionType;
+import net.minecraft.item.ElytraItem;
+import net.minecraft.item.FireworkRocketItem;
+import net.minecraft.item.ItemStack;
+import net.minecraft.item.Items;
+import net.minecraft.item.TridentItem;
+import net.minecraft.enchantment.Enchantments;
+import net.minecraft.util.math.BlockPos;
+import net.minecraft.util.math.Direction;
+import net.minecraft.network.packet.Packet;
+import net.minecraft.network.packet.c2s.play.ClickSlotC2SPacket;
+import net.minecraft.network.packet.c2s.play.PlayerMoveC2SPacket;
+import net.minecraft.network.packet.c2s.play.PlayerActionC2SPacket;
+import net.minecraft.network.packet.c2s.play.ClientCommandC2SPacket;
+import net.minecraft.network.packet.c2s.play.HandSwingC2SPacket;
+import net.minecraft.network.packet.c2s.play.PlayerInteractItemC2SPacket;
+import net.minecraft.client.MinecraftClient;
+import net.minecraft.util.math.MathHelper;
+import net.minecraft.client.network.ClientPlayerInteractionManager;
+import net.minecraft.client.network.ClientPlayerEntity;
 
 /*
  * Illegal identifiers - consider using --renameillegalidents true

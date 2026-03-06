@@ -2,13 +2,13 @@
  * Decompiled with CFR 0.152.
  * 
  * Could not load the following classes:
- *  net.minecraft.class_303$class_7590
+ *  net.minecraft.client.gui.hud.ChatHudLine$Visible
  */
 package mapped;
 
 import mapped.Class3;
 import mapped.Class8;
-import net.minecraft.class_303;
+import net.minecraft.client.gui.hud.ChatHudLine;
 
 @Class3
 public class Class189

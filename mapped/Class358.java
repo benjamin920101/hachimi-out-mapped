@@ -2,19 +2,19 @@
  * Decompiled with CFR 0.152.
  * 
  * Could not load the following classes:
- *  net.minecraft.class_1657
- *  net.minecraft.class_1706
- *  net.minecraft.class_1713
- *  net.minecraft.class_1792
- *  net.minecraft.class_1799
- *  net.minecraft.class_1802
- *  net.minecraft.class_310
- *  net.minecraft.class_437
- *  net.minecraft.class_471
- *  net.minecraft.class_636
- *  net.minecraft.class_638
- *  net.minecraft.class_746
- *  net.minecraft.class_9334
+ *  net.minecraft.entity.player.PlayerEntity
+ *  net.minecraft.screen.AnvilScreenHandler
+ *  net.minecraft.screen.slot.SlotActionType
+ *  net.minecraft.item.Item
+ *  net.minecraft.item.ItemStack
+ *  net.minecraft.item.Items
+ *  net.minecraft.client.MinecraftClient
+ *  net.minecraft.client.gui.screen.Screen
+ *  net.minecraft.client.gui.screen.ingame.AnvilScreen
+ *  net.minecraft.client.network.ClientPlayerInteractionManager
+ *  net.minecraft.client.world.ClientWorld
+ *  net.minecraft.client.network.ClientPlayerEntity
+ *  net.minecraft.component.DataComponentTypes
  */
 package mapped;
 
@@ -42,19 +42,19 @@ import mapped.Class6009;
 import mapped.Class6322;
 import mapped.Class6454;
 import mapped.Class924;
-import net.minecraft.class_1657;
-import net.minecraft.class_1706;
-import net.minecraft.class_1713;
-import net.minecraft.class_1792;
-import net.minecraft.class_1799;
-import net.minecraft.class_1802;
-import net.minecraft.class_310;
-import net.minecraft.class_437;
-import net.minecraft.class_471;
-import net.minecraft.class_636;
-import net.minecraft.class_638;
-import net.minecraft.class_746;
-import net.minecraft.class_9334;
+import net.minecraft.entity.player.PlayerEntity;
+import net.minecraft.screen.AnvilScreenHandler;
+import net.minecraft.screen.slot.SlotActionType;
+import net.minecraft.item.Item;
+import net.minecraft.item.ItemStack;
+import net.minecraft.item.Items;
+import net.minecraft.client.MinecraftClient;
+import net.minecraft.client.gui.screen.Screen;
+import net.minecraft.client.gui.screen.ingame.AnvilScreen;
+import net.minecraft.client.network.ClientPlayerInteractionManager;
+import net.minecraft.client.world.ClientWorld;
+import net.minecraft.client.network.ClientPlayerEntity;
+import net.minecraft.component.DataComponentTypes;
 
 /*
  * Illegal identifiers - consider using --renameillegalidents true

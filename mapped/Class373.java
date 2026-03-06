@@ -2,14 +2,14 @@
  * Decompiled with CFR 0.152.
  * 
  * Could not load the following classes:
- *  net.minecraft.class_2394
- *  net.minecraft.class_2398
- *  net.minecraft.class_2596
- *  net.minecraft.class_2668
- *  net.minecraft.class_2761
- *  net.minecraft.class_310
- *  net.minecraft.class_4761
- *  net.minecraft.class_638
+ *  net.minecraft.particle.ParticleEffect
+ *  net.minecraft.particle.ParticleTypes
+ *  net.minecraft.network.packet.Packet
+ *  net.minecraft.network.packet.s2c.play.GameStateChangeS2CPacket
+ *  net.minecraft.network.packet.s2c.play.WorldTimeUpdateS2CPacket
+ *  net.minecraft.client.MinecraftClient
+ *  net.minecraft.world.biome.BiomeParticleConfig
+ *  net.minecraft.client.world.ClientWorld
  */
 package mapped;
 
@@ -40,14 +40,14 @@ import mapped.Class556;
 import mapped.Class5836;
 import mapped.Class63;
 import mapped.Class6454;
-import net.minecraft.class_2394;
-import net.minecraft.class_2398;
-import net.minecraft.class_2596;
-import net.minecraft.class_2668;
-import net.minecraft.class_2761;
-import net.minecraft.class_310;
-import net.minecraft.class_4761;
-import net.minecraft.class_638;
+import net.minecraft.particle.ParticleEffect;
+import net.minecraft.particle.ParticleTypes;
+import net.minecraft.network.packet.Packet;
+import net.minecraft.network.packet.s2c.play.GameStateChangeS2CPacket;
+import net.minecraft.network.packet.s2c.play.WorldTimeUpdateS2CPacket;
+import net.minecraft.client.MinecraftClient;
+import net.minecraft.world.biome.BiomeParticleConfig;
+import net.minecraft.client.world.ClientWorld;
 
 /*
  * Illegal identifiers - consider using --renameillegalidents true

@@ -2,22 +2,22 @@
  * Decompiled with CFR 0.152.
  * 
  * Could not load the following classes:
- *  net.minecraft.class_1297
- *  net.minecraft.class_1303
- *  net.minecraft.class_1542
- *  net.minecraft.class_1657
- *  net.minecraft.class_1667
- *  net.minecraft.class_2338
- *  net.minecraft.class_238
- *  net.minecraft.class_2382
- *  net.minecraft.class_2596
- *  net.minecraft.class_2626
- *  net.minecraft.class_2680
- *  net.minecraft.class_310
- *  net.minecraft.class_3726
- *  net.minecraft.class_638
- *  net.minecraft.class_746
- *  net.minecraft.class_8042
+ *  net.minecraft.entity.Entity
+ *  net.minecraft.entity.ExperienceOrbEntity
+ *  net.minecraft.entity.ItemEntity
+ *  net.minecraft.entity.player.PlayerEntity
+ *  net.minecraft.entity.projectile.ArrowEntity
+ *  net.minecraft.util.math.BlockPos
+ *  net.minecraft.util.math.Box
+ *  net.minecraft.util.math.Vec3i
+ *  net.minecraft.network.packet.Packet
+ *  net.minecraft.network.packet.s2c.play.BlockUpdateS2CPacket
+ *  net.minecraft.block.BlockState
+ *  net.minecraft.client.MinecraftClient
+ *  net.minecraft.block.ShapeContext
+ *  net.minecraft.client.world.ClientWorld
+ *  net.minecraft.client.network.ClientPlayerEntity
+ *  net.minecraft.network.packet.s2c.play.BundleS2CPacket
  */
 package mapped;
 
@@ -71,22 +71,22 @@ import mapped.Class803;
 import mapped.Class827;
 import mapped.Class890;
 import mapped.Class914;
-import net.minecraft.class_1297;
-import net.minecraft.class_1303;
-import net.minecraft.class_1542;
-import net.minecraft.class_1657;
-import net.minecraft.class_1667;
-import net.minecraft.class_2338;
-import net.minecraft.class_238;
-import net.minecraft.class_2382;
-import net.minecraft.class_2596;
-import net.minecraft.class_2626;
-import net.minecraft.class_2680;
-import net.minecraft.class_310;
-import net.minecraft.class_3726;
-import net.minecraft.class_638;
-import net.minecraft.class_746;
-import net.minecraft.class_8042;
+import net.minecraft.entity.Entity;
+import net.minecraft.entity.ExperienceOrbEntity;
+import net.minecraft.entity.ItemEntity;
+import net.minecraft.entity.player.PlayerEntity;
+import net.minecraft.entity.projectile.ArrowEntity;
+import net.minecraft.util.math.BlockPos;
+import net.minecraft.util.math.Box;
+import net.minecraft.util.math.Vec3i;
+import net.minecraft.network.packet.Packet;
+import net.minecraft.network.packet.s2c.play.BlockUpdateS2CPacket;
+import net.minecraft.block.BlockState;
+import net.minecraft.client.MinecraftClient;
+import net.minecraft.block.ShapeContext;
+import net.minecraft.client.world.ClientWorld;
+import net.minecraft.client.network.ClientPlayerEntity;
+import net.minecraft.network.packet.s2c.play.BundleS2CPacket;
 
 public class Class430
 extends Class428 {

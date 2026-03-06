@@ -2,13 +2,13 @@
  * Decompiled with CFR 0.152.
  * 
  * Could not load the following classes:
- *  net.minecraft.class_1452
+ *  net.minecraft.entity.passive.PigEntity
  */
 package mapped;
 
 import mapped.Class3;
 import mapped.Class8;
-import net.minecraft.class_1452;
+import net.minecraft.entity.passive.PigEntity;
 
 @Class3
 public class Class184

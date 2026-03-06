@@ -9,14 +9,14 @@
  *  com.mojang.brigadier.context.CommandContext
  *  com.mojang.brigadier.exceptions.CommandSyntaxException
  *  com.mojang.brigadier.suggestion.SuggestionsBuilder
- *  net.minecraft.class_1299
- *  net.minecraft.class_1792
- *  net.minecraft.class_1802
- *  net.minecraft.class_2246
- *  net.minecraft.class_2248
- *  net.minecraft.class_2960
- *  net.minecraft.class_7922
- *  net.minecraft.class_7923
+ *  net.minecraft.entity.EntityType
+ *  net.minecraft.item.Item
+ *  net.minecraft.item.Items
+ *  net.minecraft.block.Blocks
+ *  net.minecraft.block.Block
+ *  net.minecraft.util.Identifier
+ *  net.minecraft.registry.DefaultedRegistry
+ *  net.minecraft.registry.Registries
  */
 package mapped;
 
@@ -37,14 +37,14 @@ import mapped.Class258;
 import mapped.Class5836;
 import mapped.Class6009;
 import mapped.Class6322;
-import net.minecraft.class_1299;
-import net.minecraft.class_1792;
-import net.minecraft.class_1802;
-import net.minecraft.class_2246;
-import net.minecraft.class_2248;
-import net.minecraft.class_2960;
-import net.minecraft.class_7922;
-import net.minecraft.class_7923;
+import net.minecraft.entity.EntityType;
+import net.minecraft.item.Item;
+import net.minecraft.item.Items;
+import net.minecraft.block.Blocks;
+import net.minecraft.block.Block;
+import net.minecraft.util.Identifier;
+import net.minecraft.registry.DefaultedRegistry;
+import net.minecraft.registry.Registries;
 
 /*
  * Illegal identifiers - consider using --renameillegalidents true

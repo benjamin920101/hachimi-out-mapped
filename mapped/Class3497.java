@@ -4,8 +4,8 @@
  * Could not load the following classes:
  *  com.mojang.blaze3d.platform.GlStateManager
  *  com.mojang.blaze3d.systems.RenderSystem
- *  net.minecraft.class_276
- *  net.minecraft.class_310
+ *  net.minecraft.client.gl.Framebuffer
+ *  net.minecraft.client.MinecraftClient
  *  org.jetbrains.annotations.NotNull
  *  org.lwjgl.opengl.GL30
  */
@@ -17,8 +17,8 @@ import java.util.HashMap;
 import java.util.Map;
 import mapped.Class1503;
 import mapped.Class5836;
-import net.minecraft.class_276;
-import net.minecraft.class_310;
+import net.minecraft.client.gl.Framebuffer;
+import net.minecraft.client.MinecraftClient;
 import org.jetbrains.annotations.NotNull;
 import org.lwjgl.opengl.GL30;
 

@@ -2,9 +2,9 @@
  * Decompiled with CFR 0.152.
  * 
  * Could not load the following classes:
- *  net.minecraft.class_2596
- *  net.minecraft.class_2639
- *  net.minecraft.class_2805
+ *  net.minecraft.network.packet.Packet
+ *  net.minecraft.network.packet.s2c.play.CommandSuggestionsS2CPacket
+ *  net.minecraft.network.packet.c2s.play.RequestCommandCompletionsC2SPacket
  */
 package mapped;
 
@@ -21,9 +21,9 @@ import mapped.Class5836;
 import mapped.Class63;
 import mapped.Class925;
 import mapped.Class926;
-import net.minecraft.class_2596;
-import net.minecraft.class_2639;
-import net.minecraft.class_2805;
+import net.minecraft.network.packet.Packet;
+import net.minecraft.network.packet.s2c.play.CommandSuggestionsS2CPacket;
+import net.minecraft.network.packet.c2s.play.RequestCommandCompletionsC2SPacket;
 
 /*
  * Illegal identifiers - consider using --renameillegalidents true

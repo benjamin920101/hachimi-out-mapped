@@ -2,14 +2,14 @@
  * Decompiled with CFR 0.152.
  * 
  * Could not load the following classes:
- *  net.minecraft.class_1657
- *  net.minecraft.class_1922
- *  net.minecraft.class_1937
- *  net.minecraft.class_2338
- *  net.minecraft.class_2350
- *  net.minecraft.class_238
- *  net.minecraft.class_265
- *  net.minecraft.class_638
+ *  net.minecraft.entity.player.PlayerEntity
+ *  net.minecraft.world.BlockView
+ *  net.minecraft.world.World
+ *  net.minecraft.util.math.BlockPos
+ *  net.minecraft.util.math.Direction
+ *  net.minecraft.util.math.Box
+ *  net.minecraft.util.shape.VoxelShape
+ *  net.minecraft.client.world.ClientWorld
  *  org.jetbrains.annotations.Nullable
  */
 package mapped;
@@ -39,14 +39,14 @@ import mapped.Class6039;
 import mapped.Class6132;
 import mapped.Class6454;
 import mapped.Class657;
-import net.minecraft.class_1657;
-import net.minecraft.class_1922;
-import net.minecraft.class_1937;
-import net.minecraft.class_2338;
-import net.minecraft.class_2350;
-import net.minecraft.class_238;
-import net.minecraft.class_265;
-import net.minecraft.class_638;
+import net.minecraft.entity.player.PlayerEntity;
+import net.minecraft.world.BlockView;
+import net.minecraft.world.World;
+import net.minecraft.util.math.BlockPos;
+import net.minecraft.util.math.Direction;
+import net.minecraft.util.math.Box;
+import net.minecraft.util.shape.VoxelShape;
+import net.minecraft.client.world.ClientWorld;
 import org.jetbrains.annotations.Nullable;
 
 /*

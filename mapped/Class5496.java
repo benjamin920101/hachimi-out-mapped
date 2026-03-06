@@ -2,16 +2,16 @@
  * Decompiled with CFR 0.152.
  * 
  * Could not load the following classes:
- *  net.minecraft.class_2596
- *  net.minecraft.class_2896
- *  net.minecraft.class_310
- *  net.minecraft.class_635
- *  net.minecraft.class_638
- *  net.minecraft.class_639
- *  net.minecraft.class_640
- *  net.minecraft.class_642
- *  net.minecraft.class_7202
- *  net.minecraft.class_7204
+ *  net.minecraft.network.packet.Packet
+ *  net.minecraft.network.listener.ClientLoginPacketListener
+ *  net.minecraft.client.MinecraftClient
+ *  net.minecraft.client.network.ClientLoginNetworkHandler
+ *  net.minecraft.client.world.ClientWorld
+ *  net.minecraft.client.network.ServerAddress
+ *  net.minecraft.client.network.PlayerListEntry
+ *  net.minecraft.client.network.ServerInfo
+ *  net.minecraft.client.network.PendingUpdateManager
+ *  net.minecraft.client.network.SequencedPacketCreator
  */
 package mapped;
 
@@ -32,16 +32,16 @@ import mapped.Class4122;
 import mapped.Class6009;
 import mapped.Class6454;
 import net.hachimi.client.mixin.bm;
-import net.minecraft.class_2596;
-import net.minecraft.class_2896;
-import net.minecraft.class_310;
-import net.minecraft.class_635;
-import net.minecraft.class_638;
-import net.minecraft.class_639;
-import net.minecraft.class_640;
-import net.minecraft.class_642;
-import net.minecraft.class_7202;
-import net.minecraft.class_7204;
+import net.minecraft.network.packet.Packet;
+import net.minecraft.network.listener.ClientLoginPacketListener;
+import net.minecraft.client.MinecraftClient;
+import net.minecraft.client.network.ClientLoginNetworkHandler;
+import net.minecraft.client.world.ClientWorld;
+import net.minecraft.client.network.ServerAddress;
+import net.minecraft.client.network.PlayerListEntry;
+import net.minecraft.client.network.ServerInfo;
+import net.minecraft.client.network.PendingUpdateManager;
+import net.minecraft.client.network.SequencedPacketCreator;
 
 /*
  * Illegal identifiers - consider using --renameillegalidents true

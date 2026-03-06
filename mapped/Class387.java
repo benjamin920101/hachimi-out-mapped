@@ -2,10 +2,10 @@
  * Decompiled with CFR 0.152.
  * 
  * Could not load the following classes:
- *  net.minecraft.class_2596
- *  net.minecraft.class_2815
- *  net.minecraft.class_310
- *  net.minecraft.class_746
+ *  net.minecraft.network.packet.Packet
+ *  net.minecraft.network.packet.c2s.play.CloseHandledScreenC2SPacket
+ *  net.minecraft.client.MinecraftClient
+ *  net.minecraft.client.network.ClientPlayerEntity
  */
 package mapped;
 
@@ -20,10 +20,10 @@ import mapped.Class253;
 import mapped.Class278;
 import mapped.Class556;
 import mapped.Class5836;
-import net.minecraft.class_2596;
-import net.minecraft.class_2815;
-import net.minecraft.class_310;
-import net.minecraft.class_746;
+import net.minecraft.network.packet.Packet;
+import net.minecraft.network.packet.c2s.play.CloseHandledScreenC2SPacket;
+import net.minecraft.client.MinecraftClient;
+import net.minecraft.client.network.ClientPlayerEntity;
 
 /*
  * Illegal identifiers - consider using --renameillegalidents true

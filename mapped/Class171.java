@@ -2,10 +2,10 @@
  * Decompiled with CFR 0.152.
  * 
  * Could not load the following classes:
- *  net.minecraft.class_1309
- *  net.minecraft.class_4587
- *  net.minecraft.class_4588
- *  net.minecraft.class_583
+ *  net.minecraft.entity.LivingEntity
+ *  net.minecraft.client.util.math.MatrixStack
+ *  net.minecraft.client.render.VertexConsumer
+ *  net.minecraft.client.render.entity.model.EntityModel
  */
 package mapped;
 
@@ -15,10 +15,10 @@ import java.lang.invoke.MethodHandles;
 import java.lang.invoke.MethodType;
 import mapped.Class3;
 import mapped.Class8;
-import net.minecraft.class_1309;
-import net.minecraft.class_4587;
-import net.minecraft.class_4588;
-import net.minecraft.class_583;
+import net.minecraft.entity.LivingEntity;
+import net.minecraft.client.util.math.MatrixStack;
+import net.minecraft.client.render.VertexConsumer;
+import net.minecraft.client.render.entity.model.EntityModel;
 
 /*
  * Illegal identifiers - consider using --renameillegalidents true

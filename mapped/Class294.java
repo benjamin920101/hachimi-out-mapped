@@ -2,20 +2,20 @@
  * Decompiled with CFR 0.152.
  * 
  * Could not load the following classes:
- *  net.minecraft.class_2793
- *  net.minecraft.class_2813
- *  net.minecraft.class_2824
- *  net.minecraft.class_2827
- *  net.minecraft.class_2828
- *  net.minecraft.class_2838
- *  net.minecraft.class_2840
- *  net.minecraft.class_2851
- *  net.minecraft.class_2868
- *  net.minecraft.class_2873
- *  net.minecraft.class_2879
- *  net.minecraft.class_2885
- *  net.minecraft.class_2886
- *  net.minecraft.class_6374
+ *  net.minecraft.network.packet.c2s.play.TeleportConfirmC2SPacket
+ *  net.minecraft.network.packet.c2s.play.ClickSlotC2SPacket
+ *  net.minecraft.network.packet.c2s.play.PlayerInteractEntityC2SPacket
+ *  net.minecraft.network.packet.c2s.common.KeepAliveC2SPacket
+ *  net.minecraft.network.packet.c2s.play.PlayerMoveC2SPacket
+ *  net.minecraft.network.packet.c2s.play.PickFromInventoryC2SPacket
+ *  net.minecraft.network.packet.c2s.play.CraftRequestC2SPacket
+ *  net.minecraft.network.packet.c2s.play.PlayerInputC2SPacket
+ *  net.minecraft.network.packet.c2s.play.UpdateSelectedSlotC2SPacket
+ *  net.minecraft.network.packet.c2s.play.CreativeInventoryActionC2SPacket
+ *  net.minecraft.network.packet.c2s.play.HandSwingC2SPacket
+ *  net.minecraft.network.packet.c2s.play.PlayerInteractBlockC2SPacket
+ *  net.minecraft.network.packet.c2s.play.PlayerInteractItemC2SPacket
+ *  net.minecraft.network.packet.c2s.common.CommonPongC2SPacket
  */
 package mapped;
 
@@ -40,20 +40,20 @@ import mapped.Class5984;
 import mapped.Class6009;
 import mapped.Class6454;
 import mapped.Class96;
-import net.minecraft.class_2793;
-import net.minecraft.class_2813;
-import net.minecraft.class_2824;
-import net.minecraft.class_2827;
-import net.minecraft.class_2828;
-import net.minecraft.class_2838;
-import net.minecraft.class_2840;
-import net.minecraft.class_2851;
-import net.minecraft.class_2868;
-import net.minecraft.class_2873;
-import net.minecraft.class_2879;
-import net.minecraft.class_2885;
-import net.minecraft.class_2886;
-import net.minecraft.class_6374;
+import net.minecraft.network.packet.c2s.play.TeleportConfirmC2SPacket;
+import net.minecraft.network.packet.c2s.play.ClickSlotC2SPacket;
+import net.minecraft.network.packet.c2s.play.PlayerInteractEntityC2SPacket;
+import net.minecraft.network.packet.c2s.common.KeepAliveC2SPacket;
+import net.minecraft.network.packet.c2s.play.PlayerMoveC2SPacket;
+import net.minecraft.network.packet.c2s.play.PickFromInventoryC2SPacket;
+import net.minecraft.network.packet.c2s.play.CraftRequestC2SPacket;
+import net.minecraft.network.packet.c2s.play.PlayerInputC2SPacket;
+import net.minecraft.network.packet.c2s.play.UpdateSelectedSlotC2SPacket;
+import net.minecraft.network.packet.c2s.play.CreativeInventoryActionC2SPacket;
+import net.minecraft.network.packet.c2s.play.HandSwingC2SPacket;
+import net.minecraft.network.packet.c2s.play.PlayerInteractBlockC2SPacket;
+import net.minecraft.network.packet.c2s.play.PlayerInteractItemC2SPacket;
+import net.minecraft.network.packet.c2s.common.CommonPongC2SPacket;
 
 /*
  * Illegal identifiers - consider using --renameillegalidents true

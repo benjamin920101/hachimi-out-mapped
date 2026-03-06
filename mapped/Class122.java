@@ -2,7 +2,7 @@
  * Decompiled with CFR 0.152.
  * 
  * Could not load the following classes:
- *  net.minecraft.class_1309
+ *  net.minecraft.entity.LivingEntity
  */
 package mapped;
 
@@ -11,7 +11,7 @@ import java.lang.invoke.ConstantCallSite;
 import java.lang.invoke.MethodHandles;
 import java.lang.invoke.MethodType;
 import mapped.Class8;
-import net.minecraft.class_1309;
+import net.minecraft.entity.LivingEntity;
 
 /*
  * Illegal identifiers - consider using --renameillegalidents true

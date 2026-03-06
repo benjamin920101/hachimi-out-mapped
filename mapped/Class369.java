@@ -2,22 +2,22 @@
  * Decompiled with CFR 0.152.
  * 
  * Could not load the following classes:
- *  net.minecraft.class_2281
- *  net.minecraft.class_2338
- *  net.minecraft.class_2350
- *  net.minecraft.class_238
- *  net.minecraft.class_243
- *  net.minecraft.class_2586
- *  net.minecraft.class_2595
- *  net.minecraft.class_2611
- *  net.minecraft.class_2614
- *  net.minecraft.class_2627
- *  net.minecraft.class_2680
- *  net.minecraft.class_2745
- *  net.minecraft.class_2769
- *  net.minecraft.class_3532
- *  net.minecraft.class_3866
- *  net.minecraft.class_4587
+ *  net.minecraft.block.ChestBlock
+ *  net.minecraft.util.math.BlockPos
+ *  net.minecraft.util.math.Direction
+ *  net.minecraft.util.math.Box
+ *  net.minecraft.util.math.Vec3d
+ *  net.minecraft.block.entity.BlockEntity
+ *  net.minecraft.block.entity.ChestBlockEntity
+ *  net.minecraft.block.entity.EnderChestBlockEntity
+ *  net.minecraft.block.entity.HopperBlockEntity
+ *  net.minecraft.block.entity.ShulkerBoxBlockEntity
+ *  net.minecraft.block.BlockState
+ *  net.minecraft.block.enums.ChestType
+ *  net.minecraft.state.property.Property
+ *  net.minecraft.util.math.MathHelper
+ *  net.minecraft.block.entity.FurnaceBlockEntity
+ *  net.minecraft.client.util.math.MatrixStack
  */
 package mapped;
 
@@ -52,22 +52,22 @@ import mapped.Class6454;
 import mapped.Class691;
 import mapped.Class73;
 import mapped.Class821;
-import net.minecraft.class_2281;
-import net.minecraft.class_2338;
-import net.minecraft.class_2350;
-import net.minecraft.class_238;
-import net.minecraft.class_243;
-import net.minecraft.class_2586;
-import net.minecraft.class_2595;
-import net.minecraft.class_2611;
-import net.minecraft.class_2614;
-import net.minecraft.class_2627;
-import net.minecraft.class_2680;
-import net.minecraft.class_2745;
-import net.minecraft.class_2769;
-import net.minecraft.class_3532;
-import net.minecraft.class_3866;
-import net.minecraft.class_4587;
+import net.minecraft.block.ChestBlock;
+import net.minecraft.util.math.BlockPos;
+import net.minecraft.util.math.Direction;
+import net.minecraft.util.math.Box;
+import net.minecraft.util.math.Vec3d;
+import net.minecraft.block.entity.BlockEntity;
+import net.minecraft.block.entity.ChestBlockEntity;
+import net.minecraft.block.entity.EnderChestBlockEntity;
+import net.minecraft.block.entity.HopperBlockEntity;
+import net.minecraft.block.entity.ShulkerBoxBlockEntity;
+import net.minecraft.block.BlockState;
+import net.minecraft.block.enums.ChestType;
+import net.minecraft.state.property.Property;
+import net.minecraft.util.math.MathHelper;
+import net.minecraft.block.entity.FurnaceBlockEntity;
+import net.minecraft.client.util.math.MatrixStack;
 
 /*
  * Illegal identifiers - consider using --renameillegalidents true

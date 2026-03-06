@@ -2,15 +2,15 @@
  * Decompiled with CFR 0.152.
  * 
  * Could not load the following classes:
- *  net.minecraft.class_1802
- *  net.minecraft.class_2561
- *  net.minecraft.class_2596
- *  net.minecraft.class_2797
- *  net.minecraft.class_310
- *  net.minecraft.class_3515$class_7426
- *  net.minecraft.class_742
- *  net.minecraft.class_746
- *  net.minecraft.class_7635$class_7636
+ *  net.minecraft.item.Items
+ *  net.minecraft.text.Text
+ *  net.minecraft.network.packet.Packet
+ *  net.minecraft.network.packet.c2s.play.ChatMessageC2SPacket
+ *  net.minecraft.client.MinecraftClient
+ *  net.minecraft.network.encryption.NetworkEncryptionUtils$SecureRandomUtil
+ *  net.minecraft.client.network.AbstractClientPlayerEntity
+ *  net.minecraft.client.network.ClientPlayerEntity
+ *  net.minecraft.network.message.LastSeenMessageList$Acknowledgment
  */
 package mapped;
 
@@ -50,15 +50,15 @@ import mapped.Class6417;
 import mapped.Class685;
 import mapped.Class925;
 import mapped.Class926;
-import net.minecraft.class_1802;
-import net.minecraft.class_2561;
-import net.minecraft.class_2596;
-import net.minecraft.class_2797;
-import net.minecraft.class_310;
-import net.minecraft.class_3515;
-import net.minecraft.class_742;
-import net.minecraft.class_746;
-import net.minecraft.class_7635;
+import net.minecraft.item.Items;
+import net.minecraft.text.Text;
+import net.minecraft.network.packet.Packet;
+import net.minecraft.network.packet.c2s.play.ChatMessageC2SPacket;
+import net.minecraft.client.MinecraftClient;
+import net.minecraft.network.encryption.NetworkEncryptionUtils;
+import net.minecraft.client.network.AbstractClientPlayerEntity;
+import net.minecraft.client.network.ClientPlayerEntity;
+import net.minecraft.network.message.LastSeenMessageList;
 
 /*
  * Illegal identifiers - consider using --renameillegalidents true

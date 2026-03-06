@@ -3,41 +3,41 @@
  * 
  * Could not load the following classes:
  *  com.google.common.collect.Lists
- *  net.minecraft.class_1268
- *  net.minecraft.class_1297
- *  net.minecraft.class_1297$class_5529
- *  net.minecraft.class_1309
- *  net.minecraft.class_1511
- *  net.minecraft.class_1542
- *  net.minecraft.class_1657
- *  net.minecraft.class_1774
- *  net.minecraft.class_1799
- *  net.minecraft.class_1802
- *  net.minecraft.class_1937
- *  net.minecraft.class_2246
- *  net.minecraft.class_2248
- *  net.minecraft.class_2338
- *  net.minecraft.class_2350
- *  net.minecraft.class_2374
- *  net.minecraft.class_238
- *  net.minecraft.class_2382
- *  net.minecraft.class_243
- *  net.minecraft.class_2480
- *  net.minecraft.class_2596
- *  net.minecraft.class_2664
- *  net.minecraft.class_2680
- *  net.minecraft.class_2716
- *  net.minecraft.class_2767
- *  net.minecraft.class_2824
- *  net.minecraft.class_2868
- *  net.minecraft.class_2885
- *  net.minecraft.class_310
- *  net.minecraft.class_3417
- *  net.minecraft.class_3419
- *  net.minecraft.class_3965
- *  net.minecraft.class_638
- *  net.minecraft.class_746
- *  net.minecraft.class_8042
+ *  net.minecraft.util.Hand
+ *  net.minecraft.entity.Entity
+ *  net.minecraft.entity.Entity$RemovalReason
+ *  net.minecraft.entity.LivingEntity
+ *  net.minecraft.entity.decoration.EndCrystalEntity
+ *  net.minecraft.entity.ItemEntity
+ *  net.minecraft.entity.player.PlayerEntity
+ *  net.minecraft.item.EndCrystalItem
+ *  net.minecraft.item.ItemStack
+ *  net.minecraft.item.Items
+ *  net.minecraft.world.World
+ *  net.minecraft.block.Blocks
+ *  net.minecraft.block.Block
+ *  net.minecraft.util.math.BlockPos
+ *  net.minecraft.util.math.Direction
+ *  net.minecraft.util.math.Position
+ *  net.minecraft.util.math.Box
+ *  net.minecraft.util.math.Vec3i
+ *  net.minecraft.util.math.Vec3d
+ *  net.minecraft.block.ShulkerBoxBlock
+ *  net.minecraft.network.packet.Packet
+ *  net.minecraft.network.packet.s2c.play.ExplosionS2CPacket
+ *  net.minecraft.block.BlockState
+ *  net.minecraft.network.packet.s2c.play.EntitiesDestroyS2CPacket
+ *  net.minecraft.network.packet.s2c.play.PlaySoundS2CPacket
+ *  net.minecraft.network.packet.c2s.play.PlayerInteractEntityC2SPacket
+ *  net.minecraft.network.packet.c2s.play.UpdateSelectedSlotC2SPacket
+ *  net.minecraft.network.packet.c2s.play.PlayerInteractBlockC2SPacket
+ *  net.minecraft.client.MinecraftClient
+ *  net.minecraft.sound.SoundEvents
+ *  net.minecraft.sound.SoundCategory
+ *  net.minecraft.util.hit.BlockHitResult
+ *  net.minecraft.client.world.ClientWorld
+ *  net.minecraft.client.network.ClientPlayerEntity
+ *  net.minecraft.network.packet.s2c.play.BundleS2CPacket
  *  skidonion.sAnhI.___.____
  */
 package mapped;
@@ -212,40 +212,40 @@ import mapped.Class924;
 import mapped.Class925;
 import mapped.Class926;
 import mapped.Class956;
-import net.minecraft.class_1268;
-import net.minecraft.class_1297;
-import net.minecraft.class_1309;
-import net.minecraft.class_1511;
-import net.minecraft.class_1542;
-import net.minecraft.class_1657;
-import net.minecraft.class_1774;
-import net.minecraft.class_1799;
-import net.minecraft.class_1802;
-import net.minecraft.class_1937;
-import net.minecraft.class_2246;
-import net.minecraft.class_2248;
-import net.minecraft.class_2338;
-import net.minecraft.class_2350;
-import net.minecraft.class_2374;
-import net.minecraft.class_238;
-import net.minecraft.class_2382;
-import net.minecraft.class_243;
-import net.minecraft.class_2480;
-import net.minecraft.class_2596;
-import net.minecraft.class_2664;
-import net.minecraft.class_2680;
-import net.minecraft.class_2716;
-import net.minecraft.class_2767;
-import net.minecraft.class_2824;
-import net.minecraft.class_2868;
-import net.minecraft.class_2885;
-import net.minecraft.class_310;
-import net.minecraft.class_3417;
-import net.minecraft.class_3419;
-import net.minecraft.class_3965;
-import net.minecraft.class_638;
-import net.minecraft.class_746;
-import net.minecraft.class_8042;
+import net.minecraft.util.Hand;
+import net.minecraft.entity.Entity;
+import net.minecraft.entity.LivingEntity;
+import net.minecraft.entity.decoration.EndCrystalEntity;
+import net.minecraft.entity.ItemEntity;
+import net.minecraft.entity.player.PlayerEntity;
+import net.minecraft.item.EndCrystalItem;
+import net.minecraft.item.ItemStack;
+import net.minecraft.item.Items;
+import net.minecraft.world.World;
+import net.minecraft.block.Blocks;
+import net.minecraft.block.Block;
+import net.minecraft.util.math.BlockPos;
+import net.minecraft.util.math.Direction;
+import net.minecraft.util.math.Position;
+import net.minecraft.util.math.Box;
+import net.minecraft.util.math.Vec3i;
+import net.minecraft.util.math.Vec3d;
+import net.minecraft.block.ShulkerBoxBlock;
+import net.minecraft.network.packet.Packet;
+import net.minecraft.network.packet.s2c.play.ExplosionS2CPacket;
+import net.minecraft.block.BlockState;
+import net.minecraft.network.packet.s2c.play.EntitiesDestroyS2CPacket;
+import net.minecraft.network.packet.s2c.play.PlaySoundS2CPacket;
+import net.minecraft.network.packet.c2s.play.PlayerInteractEntityC2SPacket;
+import net.minecraft.network.packet.c2s.play.UpdateSelectedSlotC2SPacket;
+import net.minecraft.network.packet.c2s.play.PlayerInteractBlockC2SPacket;
+import net.minecraft.client.MinecraftClient;
+import net.minecraft.sound.SoundEvents;
+import net.minecraft.sound.SoundCategory;
+import net.minecraft.util.hit.BlockHitResult;
+import net.minecraft.client.world.ClientWorld;
+import net.minecraft.client.network.ClientPlayerEntity;
+import net.minecraft.network.packet.s2c.play.BundleS2CPacket;
 import skidonion.sAnhI.___;
 import skidonion.sAnhI.___.____;
 

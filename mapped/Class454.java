@@ -2,16 +2,16 @@
  * Decompiled with CFR 0.152.
  * 
  * Could not load the following classes:
- *  net.minecraft.class_1293
- *  net.minecraft.class_1799
- *  net.minecraft.class_1812
- *  net.minecraft.class_1833
- *  net.minecraft.class_1844
- *  net.minecraft.class_310
- *  net.minecraft.class_638
- *  net.minecraft.class_746
- *  net.minecraft.class_9331
- *  net.minecraft.class_9334
+ *  net.minecraft.entity.effect.StatusEffectInstance
+ *  net.minecraft.item.ItemStack
+ *  net.minecraft.item.PotionItem
+ *  net.minecraft.item.TippedArrowItem
+ *  net.minecraft.component.type.PotionContentsComponent
+ *  net.minecraft.client.MinecraftClient
+ *  net.minecraft.client.world.ClientWorld
+ *  net.minecraft.client.network.ClientPlayerEntity
+ *  net.minecraft.component.ComponentType
+ *  net.minecraft.component.DataComponentTypes
  *  org.apache.commons.io.IOUtils
  */
 package mapped;
@@ -50,16 +50,16 @@ import mapped.Class6139;
 import mapped.Class673;
 import mapped.Class923;
 import mapped.Class942;
-import net.minecraft.class_1293;
-import net.minecraft.class_1799;
-import net.minecraft.class_1812;
-import net.minecraft.class_1833;
-import net.minecraft.class_1844;
-import net.minecraft.class_310;
-import net.minecraft.class_638;
-import net.minecraft.class_746;
-import net.minecraft.class_9331;
-import net.minecraft.class_9334;
+import net.minecraft.entity.effect.StatusEffectInstance;
+import net.minecraft.item.ItemStack;
+import net.minecraft.item.PotionItem;
+import net.minecraft.item.TippedArrowItem;
+import net.minecraft.component.type.PotionContentsComponent;
+import net.minecraft.client.MinecraftClient;
+import net.minecraft.client.world.ClientWorld;
+import net.minecraft.client.network.ClientPlayerEntity;
+import net.minecraft.component.ComponentType;
+import net.minecraft.component.DataComponentTypes;
 import org.apache.commons.io.IOUtils;
 
 /*

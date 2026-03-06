@@ -3,19 +3,19 @@
  * 
  * Could not load the following classes:
  *  com.mojang.blaze3d.systems.RenderSystem
- *  net.minecraft.class_243
- *  net.minecraft.class_286
- *  net.minecraft.class_287
- *  net.minecraft.class_289
- *  net.minecraft.class_290
- *  net.minecraft.class_293
- *  net.minecraft.class_293$class_5596
- *  net.minecraft.class_310
- *  net.minecraft.class_3532
- *  net.minecraft.class_4587
- *  net.minecraft.class_5253$class_5254
- *  net.minecraft.class_757
- *  net.minecraft.class_9801
+ *  net.minecraft.util.math.Vec3d
+ *  net.minecraft.client.render.BufferRenderer
+ *  net.minecraft.client.render.BufferBuilder
+ *  net.minecraft.client.render.Tessellator
+ *  net.minecraft.client.render.VertexFormats
+ *  net.minecraft.client.render.VertexFormat
+ *  net.minecraft.client.render.VertexFormat$DrawMode
+ *  net.minecraft.client.MinecraftClient
+ *  net.minecraft.util.math.MathHelper
+ *  net.minecraft.client.util.math.MatrixStack
+ *  net.minecraft.util.math.ColorHelper$Argb
+ *  net.minecraft.client.render.GameRenderer
+ *  net.minecraft.client.render.BuiltBuffer
  *  org.joml.Matrix3f
  *  org.joml.Matrix4d
  *  org.joml.Matrix4f
@@ -31,18 +31,18 @@ import mapped.Class3979;
 import mapped.Class5659;
 import mapped.Class5836;
 import mapped.Class6009;
-import net.minecraft.class_243;
-import net.minecraft.class_286;
-import net.minecraft.class_287;
-import net.minecraft.class_289;
-import net.minecraft.class_290;
-import net.minecraft.class_293;
-import net.minecraft.class_310;
-import net.minecraft.class_3532;
-import net.minecraft.class_4587;
-import net.minecraft.class_5253;
-import net.minecraft.class_757;
-import net.minecraft.class_9801;
+import net.minecraft.util.math.Vec3d;
+import net.minecraft.client.render.BufferRenderer;
+import net.minecraft.client.render.BufferBuilder;
+import net.minecraft.client.render.Tessellator;
+import net.minecraft.client.render.VertexFormats;
+import net.minecraft.client.render.VertexFormat;
+import net.minecraft.client.MinecraftClient;
+import net.minecraft.util.math.MathHelper;
+import net.minecraft.client.util.math.MatrixStack;
+import net.minecraft.util.math.ColorHelper;
+import net.minecraft.client.render.GameRenderer;
+import net.minecraft.client.render.BuiltBuffer;
 import org.joml.Matrix3f;
 import org.joml.Matrix4d;
 import org.joml.Matrix4f;

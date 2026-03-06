@@ -2,17 +2,17 @@
  * Decompiled with CFR 0.152.
  * 
  * Could not load the following classes:
- *  net.minecraft.class_243
- *  net.minecraft.class_3414
- *  net.minecraft.class_3419
+ *  net.minecraft.util.math.Vec3d
+ *  net.minecraft.sound.SoundEvent
+ *  net.minecraft.sound.SoundCategory
  */
 package mapped;
 
 import mapped.Class3;
 import mapped.Class8;
-import net.minecraft.class_243;
-import net.minecraft.class_3414;
-import net.minecraft.class_3419;
+import net.minecraft.util.math.Vec3d;
+import net.minecraft.sound.SoundEvent;
+import net.minecraft.sound.SoundCategory;
 
 @Class3
 public class Class143

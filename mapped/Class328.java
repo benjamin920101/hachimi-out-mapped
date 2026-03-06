@@ -2,18 +2,18 @@
  * Decompiled with CFR 0.152.
  * 
  * Could not load the following classes:
- *  net.minecraft.class_1297
- *  net.minecraft.class_1501
- *  net.minecraft.class_243
- *  net.minecraft.class_2596
- *  net.minecraft.class_2833
- *  net.minecraft.class_2848
- *  net.minecraft.class_2848$class_2849
- *  net.minecraft.class_310
- *  net.minecraft.class_3532
- *  net.minecraft.class_4970$class_4971
- *  net.minecraft.class_744
- *  net.minecraft.class_746
+ *  net.minecraft.entity.Entity
+ *  net.minecraft.entity.passive.LlamaEntity
+ *  net.minecraft.util.math.Vec3d
+ *  net.minecraft.network.packet.Packet
+ *  net.minecraft.network.packet.c2s.play.VehicleMoveC2SPacket
+ *  net.minecraft.network.packet.c2s.play.ClientCommandC2SPacket
+ *  net.minecraft.network.packet.c2s.play.ClientCommandC2SPacket$Mode
+ *  net.minecraft.client.MinecraftClient
+ *  net.minecraft.util.math.MathHelper
+ *  net.minecraft.block.AbstractBlock$AbstractBlockState
+ *  net.minecraft.client.input.Input
+ *  net.minecraft.client.network.ClientPlayerEntity
  */
 package mapped;
 
@@ -55,17 +55,17 @@ import mapped.Class6373;
 import mapped.Class6454;
 import mapped.Class803;
 import net.hachimi.client.mixin.bH;
-import net.minecraft.class_1297;
-import net.minecraft.class_1501;
-import net.minecraft.class_243;
-import net.minecraft.class_2596;
-import net.minecraft.class_2833;
-import net.minecraft.class_2848;
-import net.minecraft.class_310;
-import net.minecraft.class_3532;
-import net.minecraft.class_4970;
-import net.minecraft.class_744;
-import net.minecraft.class_746;
+import net.minecraft.entity.Entity;
+import net.minecraft.entity.passive.LlamaEntity;
+import net.minecraft.util.math.Vec3d;
+import net.minecraft.network.packet.Packet;
+import net.minecraft.network.packet.c2s.play.VehicleMoveC2SPacket;
+import net.minecraft.network.packet.c2s.play.ClientCommandC2SPacket;
+import net.minecraft.client.MinecraftClient;
+import net.minecraft.util.math.MathHelper;
+import net.minecraft.block.AbstractBlock;
+import net.minecraft.client.input.Input;
+import net.minecraft.client.network.ClientPlayerEntity;
 
 /*
  * Illegal identifiers - consider using --renameillegalidents true

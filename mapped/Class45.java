@@ -2,7 +2,7 @@
  * Decompiled with CFR 0.152.
  * 
  * Could not load the following classes:
- *  net.minecraft.class_243
+ *  net.minecraft.util.math.Vec3d
  */
 package mapped;
 
@@ -15,7 +15,7 @@ import java.lang.invoke.MethodType;
 import mapped.Class3355;
 import mapped.Class8;
 import net.hachimi.HACHIMI_CLIENT;
-import net.minecraft.class_243;
+import net.minecraft.util.math.Vec3d;
 
 /*
  * Illegal identifiers - consider using --renameillegalidents true

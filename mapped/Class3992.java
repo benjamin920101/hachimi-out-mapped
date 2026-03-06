@@ -3,22 +3,22 @@
  * 
  * Could not load the following classes:
  *  com.mojang.blaze3d.systems.RenderSystem
- *  net.minecraft.class_2561
- *  net.minecraft.class_286
- *  net.minecraft.class_287
- *  net.minecraft.class_289
- *  net.minecraft.class_290
- *  net.minecraft.class_293$class_5596
- *  net.minecraft.class_310
- *  net.minecraft.class_327
- *  net.minecraft.class_332
- *  net.minecraft.class_3532
- *  net.minecraft.class_4264
- *  net.minecraft.class_4587
- *  net.minecraft.class_5250
- *  net.minecraft.class_6382
- *  net.minecraft.class_757
- *  net.minecraft.class_9801
+ *  net.minecraft.text.Text
+ *  net.minecraft.client.render.BufferRenderer
+ *  net.minecraft.client.render.BufferBuilder
+ *  net.minecraft.client.render.Tessellator
+ *  net.minecraft.client.render.VertexFormats
+ *  net.minecraft.client.render.VertexFormat$DrawMode
+ *  net.minecraft.client.MinecraftClient
+ *  net.minecraft.client.font.TextRenderer
+ *  net.minecraft.client.gui.DrawContext
+ *  net.minecraft.util.math.MathHelper
+ *  net.minecraft.client.gui.widget.PressableWidget
+ *  net.minecraft.client.util.math.MatrixStack
+ *  net.minecraft.text.MutableText
+ *  net.minecraft.client.gui.screen.narration.NarrationMessageBuilder
+ *  net.minecraft.client.render.GameRenderer
+ *  net.minecraft.client.render.BuiltBuffer
  *  org.joml.Matrix4f
  *  skidonion.sAnhI.___.____
  */
@@ -45,22 +45,22 @@ import mapped.Class6435;
 import mapped.Class6454;
 import mapped.Class708;
 import mapped.Class926;
-import net.minecraft.class_2561;
-import net.minecraft.class_286;
-import net.minecraft.class_287;
-import net.minecraft.class_289;
-import net.minecraft.class_290;
-import net.minecraft.class_293;
-import net.minecraft.class_310;
-import net.minecraft.class_327;
-import net.minecraft.class_332;
-import net.minecraft.class_3532;
-import net.minecraft.class_4264;
-import net.minecraft.class_4587;
-import net.minecraft.class_5250;
-import net.minecraft.class_6382;
-import net.minecraft.class_757;
-import net.minecraft.class_9801;
+import net.minecraft.text.Text;
+import net.minecraft.client.render.BufferRenderer;
+import net.minecraft.client.render.BufferBuilder;
+import net.minecraft.client.render.Tessellator;
+import net.minecraft.client.render.VertexFormats;
+import net.minecraft.client.render.VertexFormat;
+import net.minecraft.client.MinecraftClient;
+import net.minecraft.client.font.TextRenderer;
+import net.minecraft.client.gui.DrawContext;
+import net.minecraft.util.math.MathHelper;
+import net.minecraft.client.gui.widget.PressableWidget;
+import net.minecraft.client.util.math.MatrixStack;
+import net.minecraft.text.MutableText;
+import net.minecraft.client.gui.screen.narration.NarrationMessageBuilder;
+import net.minecraft.client.render.GameRenderer;
+import net.minecraft.client.render.BuiltBuffer;
 import org.joml.Matrix4f;
 import skidonion.sAnhI.___;
 import skidonion.sAnhI.___.____;

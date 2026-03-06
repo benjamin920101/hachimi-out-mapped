@@ -2,14 +2,14 @@
  * Decompiled with CFR 0.152.
  * 
  * Could not load the following classes:
- *  net.minecraft.class_243
- *  net.minecraft.class_2596
- *  net.minecraft.class_2708
- *  net.minecraft.class_2709
- *  net.minecraft.class_2793
- *  net.minecraft.class_2828$class_2830
- *  net.minecraft.class_310
- *  net.minecraft.class_746
+ *  net.minecraft.util.math.Vec3d
+ *  net.minecraft.network.packet.Packet
+ *  net.minecraft.network.packet.s2c.play.PlayerPositionLookS2CPacket
+ *  net.minecraft.network.packet.s2c.play.PositionFlag
+ *  net.minecraft.network.packet.c2s.play.TeleportConfirmC2SPacket
+ *  net.minecraft.network.packet.c2s.play.PlayerMoveC2SPacket$Full
+ *  net.minecraft.client.MinecraftClient
+ *  net.minecraft.client.network.ClientPlayerEntity
  */
 package mapped;
 
@@ -32,14 +32,14 @@ import mapped.Class5723;
 import mapped.Class6009;
 import mapped.Class6454;
 import mapped.Class760;
-import net.minecraft.class_243;
-import net.minecraft.class_2596;
-import net.minecraft.class_2708;
-import net.minecraft.class_2709;
-import net.minecraft.class_2793;
-import net.minecraft.class_2828;
-import net.minecraft.class_310;
-import net.minecraft.class_746;
+import net.minecraft.util.math.Vec3d;
+import net.minecraft.network.packet.Packet;
+import net.minecraft.network.packet.s2c.play.PlayerPositionLookS2CPacket;
+import net.minecraft.network.packet.s2c.play.PositionFlag;
+import net.minecraft.network.packet.c2s.play.TeleportConfirmC2SPacket;
+import net.minecraft.network.packet.c2s.play.PlayerMoveC2SPacket;
+import net.minecraft.client.MinecraftClient;
+import net.minecraft.client.network.ClientPlayerEntity;
 
 /*
  * Illegal identifiers - consider using --renameillegalidents true

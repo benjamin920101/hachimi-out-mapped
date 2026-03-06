@@ -2,12 +2,12 @@
  * Decompiled with CFR 0.152.
  * 
  * Could not load the following classes:
- *  net.minecraft.class_243
+ *  net.minecraft.util.math.Vec3d
  */
 package mapped;
 
 import mapped.Class8;
-import net.minecraft.class_243;
+import net.minecraft.util.math.Vec3d;
 
 public class Class44
 extends Class8 {

@@ -2,17 +2,17 @@
  * Decompiled with CFR 0.152.
  * 
  * Could not load the following classes:
- *  net.minecraft.class_1268
- *  net.minecraft.class_3965
- *  net.minecraft.class_746
+ *  net.minecraft.util.Hand
+ *  net.minecraft.util.hit.BlockHitResult
+ *  net.minecraft.client.network.ClientPlayerEntity
  */
 package mapped;
 
 import mapped.Class3;
 import mapped.Class8;
-import net.minecraft.class_1268;
-import net.minecraft.class_3965;
-import net.minecraft.class_746;
+import net.minecraft.util.Hand;
+import net.minecraft.util.hit.BlockHitResult;
+import net.minecraft.client.network.ClientPlayerEntity;
 
 @Class3
 public class Class222

@@ -2,19 +2,19 @@
  * Decompiled with CFR 0.152.
  * 
  * Could not load the following classes:
- *  net.minecraft.class_1268
- *  net.minecraft.class_1297
- *  net.minecraft.class_1495
- *  net.minecraft.class_1498
- *  net.minecraft.class_1500
- *  net.minecraft.class_1501
- *  net.minecraft.class_1506
- *  net.minecraft.class_1657
- *  net.minecraft.class_2596
- *  net.minecraft.class_310
- *  net.minecraft.class_636
- *  net.minecraft.class_638
- *  net.minecraft.class_746
+ *  net.minecraft.util.Hand
+ *  net.minecraft.entity.Entity
+ *  net.minecraft.entity.passive.DonkeyEntity
+ *  net.minecraft.entity.passive.HorseEntity
+ *  net.minecraft.entity.passive.MuleEntity
+ *  net.minecraft.entity.passive.LlamaEntity
+ *  net.minecraft.entity.mob.SkeletonHorseEntity
+ *  net.minecraft.entity.player.PlayerEntity
+ *  net.minecraft.network.packet.Packet
+ *  net.minecraft.client.MinecraftClient
+ *  net.minecraft.client.network.ClientPlayerInteractionManager
+ *  net.minecraft.client.world.ClientWorld
+ *  net.minecraft.client.network.ClientPlayerEntity
  */
 package mapped;
 
@@ -39,19 +39,19 @@ import mapped.Class5836;
 import mapped.Class606;
 import mapped.Class6454;
 import mapped.Class789;
-import net.minecraft.class_1268;
-import net.minecraft.class_1297;
-import net.minecraft.class_1495;
-import net.minecraft.class_1498;
-import net.minecraft.class_1500;
-import net.minecraft.class_1501;
-import net.minecraft.class_1506;
-import net.minecraft.class_1657;
-import net.minecraft.class_2596;
-import net.minecraft.class_310;
-import net.minecraft.class_636;
-import net.minecraft.class_638;
-import net.minecraft.class_746;
+import net.minecraft.util.Hand;
+import net.minecraft.entity.Entity;
+import net.minecraft.entity.passive.DonkeyEntity;
+import net.minecraft.entity.passive.HorseEntity;
+import net.minecraft.entity.passive.MuleEntity;
+import net.minecraft.entity.passive.LlamaEntity;
+import net.minecraft.entity.mob.SkeletonHorseEntity;
+import net.minecraft.entity.player.PlayerEntity;
+import net.minecraft.network.packet.Packet;
+import net.minecraft.client.MinecraftClient;
+import net.minecraft.client.network.ClientPlayerInteractionManager;
+import net.minecraft.client.world.ClientWorld;
+import net.minecraft.client.network.ClientPlayerEntity;
 
 /*
  * Illegal identifiers - consider using --renameillegalidents true

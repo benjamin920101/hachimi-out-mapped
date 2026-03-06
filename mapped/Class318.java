@@ -2,17 +2,17 @@
  * Decompiled with CFR 0.152.
  * 
  * Could not load the following classes:
- *  net.minecraft.class_1747
- *  net.minecraft.class_1792
- *  net.minecraft.class_1799
- *  net.minecraft.class_1806
- *  net.minecraft.class_1937
- *  net.minecraft.class_22
- *  net.minecraft.class_2480
- *  net.minecraft.class_332
- *  net.minecraft.class_4597
- *  net.minecraft.class_9209
- *  net.minecraft.class_9334
+ *  net.minecraft.item.BlockItem
+ *  net.minecraft.item.Item
+ *  net.minecraft.item.ItemStack
+ *  net.minecraft.item.FilledMapItem
+ *  net.minecraft.world.World
+ *  net.minecraft.item.map.MapState
+ *  net.minecraft.block.ShulkerBoxBlock
+ *  net.minecraft.client.gui.DrawContext
+ *  net.minecraft.client.render.VertexConsumerProvider
+ *  net.minecraft.component.type.MapIdComponent
+ *  net.minecraft.component.DataComponentTypes
  */
 package mapped;
 
@@ -32,17 +32,17 @@ import mapped.Class6195;
 import mapped.Class64;
 import mapped.Class6454;
 import mapped.Class812;
-import net.minecraft.class_1747;
-import net.minecraft.class_1792;
-import net.minecraft.class_1799;
-import net.minecraft.class_1806;
-import net.minecraft.class_1937;
-import net.minecraft.class_22;
-import net.minecraft.class_2480;
-import net.minecraft.class_332;
-import net.minecraft.class_4597;
-import net.minecraft.class_9209;
-import net.minecraft.class_9334;
+import net.minecraft.item.BlockItem;
+import net.minecraft.item.Item;
+import net.minecraft.item.ItemStack;
+import net.minecraft.item.FilledMapItem;
+import net.minecraft.world.World;
+import net.minecraft.item.map.MapState;
+import net.minecraft.block.ShulkerBoxBlock;
+import net.minecraft.client.gui.DrawContext;
+import net.minecraft.client.render.VertexConsumerProvider;
+import net.minecraft.component.type.MapIdComponent;
+import net.minecraft.component.DataComponentTypes;
 
 /*
  * Illegal identifiers - consider using --renameillegalidents true

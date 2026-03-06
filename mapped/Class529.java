@@ -2,8 +2,8 @@
  * Decompiled with CFR 0.152.
  * 
  * Could not load the following classes:
- *  net.minecraft.class_1893
- *  net.minecraft.class_5321
+ *  net.minecraft.enchantment.Enchantments
+ *  net.minecraft.registry.RegistryKey
  */
 package mapped;
 
@@ -11,8 +11,8 @@ import java.lang.invoke.CallSite;
 import java.lang.invoke.ConstantCallSite;
 import java.lang.invoke.MethodHandles;
 import java.lang.invoke.MethodType;
-import net.minecraft.class_1893;
-import net.minecraft.class_5321;
+import net.minecraft.enchantment.Enchantments;
+import net.minecraft.registry.RegistryKey;
 
 /*
  * Illegal identifiers - consider using --renameillegalidents true

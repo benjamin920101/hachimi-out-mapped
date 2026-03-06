@@ -2,18 +2,18 @@
  * Decompiled with CFR 0.152.
  * 
  * Could not load the following classes:
- *  net.minecraft.class_1297
- *  net.minecraft.class_2246
- *  net.minecraft.class_2248
- *  net.minecraft.class_2338
- *  net.minecraft.class_238
- *  net.minecraft.class_2399
- *  net.minecraft.class_243
- *  net.minecraft.class_2596
- *  net.minecraft.class_310
- *  net.minecraft.class_5892
- *  net.minecraft.class_744
- *  net.minecraft.class_746
+ *  net.minecraft.entity.Entity
+ *  net.minecraft.block.Blocks
+ *  net.minecraft.block.Block
+ *  net.minecraft.util.math.BlockPos
+ *  net.minecraft.util.math.Box
+ *  net.minecraft.block.LadderBlock
+ *  net.minecraft.util.math.Vec3d
+ *  net.minecraft.network.packet.Packet
+ *  net.minecraft.client.MinecraftClient
+ *  net.minecraft.network.packet.s2c.play.DeathMessageS2CPacket
+ *  net.minecraft.client.input.Input
+ *  net.minecraft.client.network.ClientPlayerEntity
  */
 package mapped;
 
@@ -51,18 +51,18 @@ import mapped.Class6009;
 import mapped.Class607;
 import mapped.Class6161;
 import mapped.Class6322;
-import net.minecraft.class_1297;
-import net.minecraft.class_2246;
-import net.minecraft.class_2248;
-import net.minecraft.class_2338;
-import net.minecraft.class_238;
-import net.minecraft.class_2399;
-import net.minecraft.class_243;
-import net.minecraft.class_2596;
-import net.minecraft.class_310;
-import net.minecraft.class_5892;
-import net.minecraft.class_744;
-import net.minecraft.class_746;
+import net.minecraft.entity.Entity;
+import net.minecraft.block.Blocks;
+import net.minecraft.block.Block;
+import net.minecraft.util.math.BlockPos;
+import net.minecraft.util.math.Box;
+import net.minecraft.block.LadderBlock;
+import net.minecraft.util.math.Vec3d;
+import net.minecraft.network.packet.Packet;
+import net.minecraft.client.MinecraftClient;
+import net.minecraft.network.packet.s2c.play.DeathMessageS2CPacket;
+import net.minecraft.client.input.Input;
+import net.minecraft.client.network.ClientPlayerEntity;
 
 /*
  * Illegal identifiers - consider using --renameillegalidents true

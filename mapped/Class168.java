@@ -2,13 +2,13 @@
  * Decompiled with CFR 0.152.
  * 
  * Could not load the following classes:
- *  net.minecraft.class_1297
+ *  net.minecraft.entity.Entity
  */
 package mapped;
 
 import mapped.Class3;
 import mapped.Class8;
-import net.minecraft.class_1297;
+import net.minecraft.entity.Entity;
 
 @Class3
 public class Class168

@@ -2,24 +2,24 @@
  * Decompiled with CFR 0.152.
  * 
  * Could not load the following classes:
- *  net.minecraft.class_1297
- *  net.minecraft.class_241
- *  net.minecraft.class_243
- *  net.minecraft.class_2596
- *  net.minecraft.class_2708
- *  net.minecraft.class_2709
- *  net.minecraft.class_2793
- *  net.minecraft.class_2828
- *  net.minecraft.class_2828$class_2829
- *  net.minecraft.class_304
- *  net.minecraft.class_310
- *  net.minecraft.class_315
- *  net.minecraft.class_418
- *  net.minecraft.class_434
- *  net.minecraft.class_437
- *  net.minecraft.class_638
- *  net.minecraft.class_744
- *  net.minecraft.class_746
+ *  net.minecraft.entity.Entity
+ *  net.minecraft.util.math.Vec2f
+ *  net.minecraft.util.math.Vec3d
+ *  net.minecraft.network.packet.Packet
+ *  net.minecraft.network.packet.s2c.play.PlayerPositionLookS2CPacket
+ *  net.minecraft.network.packet.s2c.play.PositionFlag
+ *  net.minecraft.network.packet.c2s.play.TeleportConfirmC2SPacket
+ *  net.minecraft.network.packet.c2s.play.PlayerMoveC2SPacket
+ *  net.minecraft.network.packet.c2s.play.PlayerMoveC2SPacket$PositionAndOnGround
+ *  net.minecraft.client.option.KeyBinding
+ *  net.minecraft.client.MinecraftClient
+ *  net.minecraft.client.option.GameOptions
+ *  net.minecraft.client.gui.screen.DeathScreen
+ *  net.minecraft.client.gui.screen.DownloadingTerrainScreen
+ *  net.minecraft.client.gui.screen.Screen
+ *  net.minecraft.client.world.ClientWorld
+ *  net.minecraft.client.input.Input
+ *  net.minecraft.client.network.ClientPlayerEntity
  */
 package mapped;
 
@@ -88,23 +88,23 @@ import mapped.Class694;
 import mapped.Class71;
 import mapped.Class803;
 import net.hachimi.client.mixin.E;
-import net.minecraft.class_1297;
-import net.minecraft.class_241;
-import net.minecraft.class_243;
-import net.minecraft.class_2596;
-import net.minecraft.class_2708;
-import net.minecraft.class_2709;
-import net.minecraft.class_2793;
-import net.minecraft.class_2828;
-import net.minecraft.class_304;
-import net.minecraft.class_310;
-import net.minecraft.class_315;
-import net.minecraft.class_418;
-import net.minecraft.class_434;
-import net.minecraft.class_437;
-import net.minecraft.class_638;
-import net.minecraft.class_744;
-import net.minecraft.class_746;
+import net.minecraft.entity.Entity;
+import net.minecraft.util.math.Vec2f;
+import net.minecraft.util.math.Vec3d;
+import net.minecraft.network.packet.Packet;
+import net.minecraft.network.packet.s2c.play.PlayerPositionLookS2CPacket;
+import net.minecraft.network.packet.s2c.play.PositionFlag;
+import net.minecraft.network.packet.c2s.play.TeleportConfirmC2SPacket;
+import net.minecraft.network.packet.c2s.play.PlayerMoveC2SPacket;
+import net.minecraft.client.option.KeyBinding;
+import net.minecraft.client.MinecraftClient;
+import net.minecraft.client.option.GameOptions;
+import net.minecraft.client.gui.screen.DeathScreen;
+import net.minecraft.client.gui.screen.DownloadingTerrainScreen;
+import net.minecraft.client.gui.screen.Screen;
+import net.minecraft.client.world.ClientWorld;
+import net.minecraft.client.input.Input;
+import net.minecraft.client.network.ClientPlayerEntity;
 
 /*
  * Illegal identifiers - consider using --renameillegalidents true

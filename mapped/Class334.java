@@ -3,18 +3,18 @@
  * 
  * Could not load the following classes:
  *  com.mojang.blaze3d.systems.RenderSystem
- *  net.minecraft.class_1297
- *  net.minecraft.class_1542
- *  net.minecraft.class_1657
- *  net.minecraft.class_243
- *  net.minecraft.class_2561
- *  net.minecraft.class_310
- *  net.minecraft.class_315
- *  net.minecraft.class_3532
- *  net.minecraft.class_4184
- *  net.minecraft.class_4587
- *  net.minecraft.class_746
- *  net.minecraft.class_8251
+ *  net.minecraft.entity.Entity
+ *  net.minecraft.entity.ItemEntity
+ *  net.minecraft.entity.player.PlayerEntity
+ *  net.minecraft.util.math.Vec3d
+ *  net.minecraft.text.Text
+ *  net.minecraft.client.MinecraftClient
+ *  net.minecraft.client.option.GameOptions
+ *  net.minecraft.util.math.MathHelper
+ *  net.minecraft.client.render.Camera
+ *  net.minecraft.client.util.math.MatrixStack
+ *  net.minecraft.client.network.ClientPlayerEntity
+ *  com.mojang.blaze3d.systems.VertexSorter
  *  org.joml.Matrix4f
  */
 package mapped;
@@ -55,18 +55,18 @@ import mapped.Class617;
 import mapped.Class6322;
 import mapped.Class6454;
 import net.hachimi.client.mixin.ap;
-import net.minecraft.class_1297;
-import net.minecraft.class_1542;
-import net.minecraft.class_1657;
-import net.minecraft.class_243;
-import net.minecraft.class_2561;
-import net.minecraft.class_310;
-import net.minecraft.class_315;
-import net.minecraft.class_3532;
-import net.minecraft.class_4184;
-import net.minecraft.class_4587;
-import net.minecraft.class_746;
-import net.minecraft.class_8251;
+import net.minecraft.entity.Entity;
+import net.minecraft.entity.ItemEntity;
+import net.minecraft.entity.player.PlayerEntity;
+import net.minecraft.util.math.Vec3d;
+import net.minecraft.text.Text;
+import net.minecraft.client.MinecraftClient;
+import net.minecraft.client.option.GameOptions;
+import net.minecraft.util.math.MathHelper;
+import net.minecraft.client.render.Camera;
+import net.minecraft.client.util.math.MatrixStack;
+import net.minecraft.client.network.ClientPlayerEntity;
+import com.mojang.blaze3d.systems.VertexSorter;
 import org.joml.Matrix4f;
 
 /*

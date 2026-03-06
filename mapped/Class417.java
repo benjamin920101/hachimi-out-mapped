@@ -2,31 +2,31 @@
  * Decompiled with CFR 0.152.
  * 
  * Could not load the following classes:
- *  net.minecraft.class_1268
- *  net.minecraft.class_1297
- *  net.minecraft.class_1303
- *  net.minecraft.class_1309
- *  net.minecraft.class_1533
- *  net.minecraft.class_1534
- *  net.minecraft.class_1542
- *  net.minecraft.class_1657
- *  net.minecraft.class_1667
- *  net.minecraft.class_1683
- *  net.minecraft.class_1795
- *  net.minecraft.class_1799
- *  net.minecraft.class_1802
- *  net.minecraft.class_2338
- *  net.minecraft.class_2338$class_2339
- *  net.minecraft.class_2350
- *  net.minecraft.class_238
- *  net.minecraft.class_243
- *  net.minecraft.class_2596
- *  net.minecraft.class_2680
- *  net.minecraft.class_2824
- *  net.minecraft.class_310
- *  net.minecraft.class_3736
- *  net.minecraft.class_638
- *  net.minecraft.class_746
+ *  net.minecraft.util.Hand
+ *  net.minecraft.entity.Entity
+ *  net.minecraft.entity.ExperienceOrbEntity
+ *  net.minecraft.entity.LivingEntity
+ *  net.minecraft.entity.decoration.ItemFrameEntity
+ *  net.minecraft.entity.decoration.painting.PaintingEntity
+ *  net.minecraft.entity.ItemEntity
+ *  net.minecraft.entity.player.PlayerEntity
+ *  net.minecraft.entity.projectile.ArrowEntity
+ *  net.minecraft.entity.projectile.thrown.ExperienceBottleEntity
+ *  net.minecraft.item.ItemFrameItem
+ *  net.minecraft.item.ItemStack
+ *  net.minecraft.item.Items
+ *  net.minecraft.util.math.BlockPos
+ *  net.minecraft.util.math.BlockPos$Mutable
+ *  net.minecraft.util.math.Direction
+ *  net.minecraft.util.math.Box
+ *  net.minecraft.util.math.Vec3d
+ *  net.minecraft.network.packet.Packet
+ *  net.minecraft.block.BlockState
+ *  net.minecraft.network.packet.c2s.play.PlayerInteractEntityC2SPacket
+ *  net.minecraft.client.MinecraftClient
+ *  net.minecraft.block.ScaffoldingBlock
+ *  net.minecraft.client.world.ClientWorld
+ *  net.minecraft.client.network.ClientPlayerEntity
  *  skidonion.sAnhI.___.____
  */
 package mapped;
@@ -88,30 +88,30 @@ import mapped.Class803;
 import mapped.Class91;
 import mapped.Class926;
 import mapped.Class969;
-import net.minecraft.class_1268;
-import net.minecraft.class_1297;
-import net.minecraft.class_1303;
-import net.minecraft.class_1309;
-import net.minecraft.class_1533;
-import net.minecraft.class_1534;
-import net.minecraft.class_1542;
-import net.minecraft.class_1657;
-import net.minecraft.class_1667;
-import net.minecraft.class_1683;
-import net.minecraft.class_1795;
-import net.minecraft.class_1799;
-import net.minecraft.class_1802;
-import net.minecraft.class_2338;
-import net.minecraft.class_2350;
-import net.minecraft.class_238;
-import net.minecraft.class_243;
-import net.minecraft.class_2596;
-import net.minecraft.class_2680;
-import net.minecraft.class_2824;
-import net.minecraft.class_310;
-import net.minecraft.class_3736;
-import net.minecraft.class_638;
-import net.minecraft.class_746;
+import net.minecraft.util.Hand;
+import net.minecraft.entity.Entity;
+import net.minecraft.entity.ExperienceOrbEntity;
+import net.minecraft.entity.LivingEntity;
+import net.minecraft.entity.decoration.ItemFrameEntity;
+import net.minecraft.entity.decoration.painting.PaintingEntity;
+import net.minecraft.entity.ItemEntity;
+import net.minecraft.entity.player.PlayerEntity;
+import net.minecraft.entity.projectile.ArrowEntity;
+import net.minecraft.entity.projectile.thrown.ExperienceBottleEntity;
+import net.minecraft.item.ItemFrameItem;
+import net.minecraft.item.ItemStack;
+import net.minecraft.item.Items;
+import net.minecraft.util.math.BlockPos;
+import net.minecraft.util.math.Direction;
+import net.minecraft.util.math.Box;
+import net.minecraft.util.math.Vec3d;
+import net.minecraft.network.packet.Packet;
+import net.minecraft.block.BlockState;
+import net.minecraft.network.packet.c2s.play.PlayerInteractEntityC2SPacket;
+import net.minecraft.client.MinecraftClient;
+import net.minecraft.block.ScaffoldingBlock;
+import net.minecraft.client.world.ClientWorld;
+import net.minecraft.client.network.ClientPlayerEntity;
 import skidonion.sAnhI.___;
 import skidonion.sAnhI.___.____;
 
@@ -799,7 +799,7 @@ lbl41:
             return;
         }
         this.field1602.clear();
-        Class3493.method17601(this.field1602, (Predicate<class_1297>)LambdaMetafactory.metafactory(null, null, null, (Ljava/lang/Object;)Z, method6955(net.minecraft.class_1297 ), (Lnet/minecraft/class_1297;)Z)((Class417)this), (Class525)this.field1596.method507(), (Integer)this.field1608.method507());
+        Class3493.method17601(this.field1602, (Predicate<class_1297>)LambdaMetafactory.metafactory(null, null, null, (Ljava/lang/Object;)Z, method6955(net.minecraft.entity.Entity ), (Lnet/minecraft/class_1297;)Z)((Class417)this), (Class525)this.field1596.method507(), (Integer)this.field1608.method507());
         block12: for (class_1297 G : this.field1602) {
             block40: {
                 block41: {
@@ -876,7 +876,7 @@ lbl34:
                                 }
                                 if (!((Boolean)this.field1611.method507()).booleanValue() || !Class417.field290.field_1687.method_22347(G.method_24515())) break block37;
                                 p = this.method6881(new class_238(G.method_24515()));
-                                if (!((Boolean)Class417.method6959(this).method507()).booleanValue() && p != null || !(l = Class417.method6861(new Class3812((Predicate<class_1799>)LambdaMetafactory.metafactory(null, null, null, (Ljava/lang/Object;)Z, method6968(net.minecraft.class_1799 ), (Lnet/minecraft/class_1799;)Z)(), (Class607)Class417.method6907(this.field1617)))).method18523()) break block38;
+                                if (!((Boolean)Class417.method6959(this).method507()).booleanValue() && p != null || !(l = Class417.method6861(new Class3812((Predicate<class_1799>)LambdaMetafactory.metafactory(null, null, null, (Ljava/lang/Object;)Z, method6968(net.minecraft.item.ItemStack ), (Lnet/minecraft/class_1799;)Z)(), (Class607)Class417.method6907(this.field1617)))).method18523()) break block38;
                                 j = G.method_24515().method_10074();
                                 k = Class417.field290.field_1724.method_33571().method_1022(j.method_61082().method_1031(0.0, 1.0, 0.0));
                                 if (!(k <= (Double)this.field1612.method507())) break block38;

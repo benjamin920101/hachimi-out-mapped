@@ -2,7 +2,7 @@
  * Decompiled with CFR 0.152.
  * 
  * Could not load the following classes:
- *  net.minecraft.class_2561
+ *  net.minecraft.text.Text
  */
 package mapped;
 
@@ -25,7 +25,7 @@ import mapped.Class5836;
 import mapped.Class6322;
 import mapped.Class6454;
 import mapped.Class77;
-import net.minecraft.class_2561;
+import net.minecraft.text.Text;
 
 /*
  * Illegal identifiers - consider using --renameillegalidents true

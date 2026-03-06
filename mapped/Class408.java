@@ -2,15 +2,15 @@
  * Decompiled with CFR 0.152.
  * 
  * Could not load the following classes:
- *  net.minecraft.class_1657
- *  net.minecraft.class_1713
- *  net.minecraft.class_1799
- *  net.minecraft.class_310
- *  net.minecraft.class_476
- *  net.minecraft.class_490
- *  net.minecraft.class_495
- *  net.minecraft.class_636
- *  net.minecraft.class_746
+ *  net.minecraft.entity.player.PlayerEntity
+ *  net.minecraft.screen.slot.SlotActionType
+ *  net.minecraft.item.ItemStack
+ *  net.minecraft.client.MinecraftClient
+ *  net.minecraft.client.gui.screen.ingame.GenericContainerScreen
+ *  net.minecraft.client.gui.screen.ingame.InventoryScreen
+ *  net.minecraft.client.gui.screen.ingame.ShulkerBoxScreen
+ *  net.minecraft.client.network.ClientPlayerInteractionManager
+ *  net.minecraft.client.network.ClientPlayerEntity
  */
 package mapped;
 
@@ -38,15 +38,15 @@ import mapped.Class5840;
 import mapped.Class6053;
 import mapped.Class925;
 import mapped.Class926;
-import net.minecraft.class_1657;
-import net.minecraft.class_1713;
-import net.minecraft.class_1799;
-import net.minecraft.class_310;
-import net.minecraft.class_476;
-import net.minecraft.class_490;
-import net.minecraft.class_495;
-import net.minecraft.class_636;
-import net.minecraft.class_746;
+import net.minecraft.entity.player.PlayerEntity;
+import net.minecraft.screen.slot.SlotActionType;
+import net.minecraft.item.ItemStack;
+import net.minecraft.client.MinecraftClient;
+import net.minecraft.client.gui.screen.ingame.GenericContainerScreen;
+import net.minecraft.client.gui.screen.ingame.InventoryScreen;
+import net.minecraft.client.gui.screen.ingame.ShulkerBoxScreen;
+import net.minecraft.client.network.ClientPlayerInteractionManager;
+import net.minecraft.client.network.ClientPlayerEntity;
 
 /*
  * Illegal identifiers - consider using --renameillegalidents true

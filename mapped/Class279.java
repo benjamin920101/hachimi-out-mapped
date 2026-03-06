@@ -2,18 +2,18 @@
  * Decompiled with CFR 0.152.
  * 
  * Could not load the following classes:
- *  net.minecraft.class_1738
- *  net.minecraft.class_1792
- *  net.minecraft.class_1799
- *  net.minecraft.class_1802
- *  net.minecraft.class_1893
- *  net.minecraft.class_310
- *  net.minecraft.class_490
- *  net.minecraft.class_5321
- *  net.minecraft.class_6880
- *  net.minecraft.class_746
- *  net.minecraft.class_9304
- *  net.minecraft.class_9334
+ *  net.minecraft.item.ArmorItem
+ *  net.minecraft.item.Item
+ *  net.minecraft.item.ItemStack
+ *  net.minecraft.item.Items
+ *  net.minecraft.enchantment.Enchantments
+ *  net.minecraft.client.MinecraftClient
+ *  net.minecraft.client.gui.screen.ingame.InventoryScreen
+ *  net.minecraft.registry.RegistryKey
+ *  net.minecraft.registry.entry.RegistryEntry
+ *  net.minecraft.client.network.ClientPlayerEntity
+ *  net.minecraft.component.type.ItemEnchantmentsComponent
+ *  net.minecraft.component.DataComponentTypes
  */
 package mapped;
 
@@ -52,18 +52,18 @@ import mapped.Class6322;
 import mapped.Class64;
 import mapped.Class6417;
 import mapped.Class6454;
-import net.minecraft.class_1738;
-import net.minecraft.class_1792;
-import net.minecraft.class_1799;
-import net.minecraft.class_1802;
-import net.minecraft.class_1893;
-import net.minecraft.class_310;
-import net.minecraft.class_490;
-import net.minecraft.class_5321;
-import net.minecraft.class_6880;
-import net.minecraft.class_746;
-import net.minecraft.class_9304;
-import net.minecraft.class_9334;
+import net.minecraft.item.ArmorItem;
+import net.minecraft.item.Item;
+import net.minecraft.item.ItemStack;
+import net.minecraft.item.Items;
+import net.minecraft.enchantment.Enchantments;
+import net.minecraft.client.MinecraftClient;
+import net.minecraft.client.gui.screen.ingame.InventoryScreen;
+import net.minecraft.registry.RegistryKey;
+import net.minecraft.registry.entry.RegistryEntry;
+import net.minecraft.client.network.ClientPlayerEntity;
+import net.minecraft.component.type.ItemEnchantmentsComponent;
+import net.minecraft.component.DataComponentTypes;
 
 /*
  * Illegal identifiers - consider using --renameillegalidents true

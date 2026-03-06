@@ -2,10 +2,10 @@
  * Decompiled with CFR 0.152.
  * 
  * Could not load the following classes:
- *  net.minecraft.class_1297
- *  net.minecraft.class_1657
- *  net.minecraft.class_238
- *  net.minecraft.class_243
+ *  net.minecraft.entity.Entity
+ *  net.minecraft.entity.player.PlayerEntity
+ *  net.minecraft.util.math.Box
+ *  net.minecraft.util.math.Vec3d
  */
 package mapped;
 
@@ -33,10 +33,10 @@ import mapped.Class6190;
 import mapped.Class63;
 import mapped.Class6332;
 import mapped.Class6454;
-import net.minecraft.class_1297;
-import net.minecraft.class_1657;
-import net.minecraft.class_238;
-import net.minecraft.class_243;
+import net.minecraft.entity.Entity;
+import net.minecraft.entity.player.PlayerEntity;
+import net.minecraft.util.math.Box;
+import net.minecraft.util.math.Vec3d;
 
 /*
  * Illegal identifiers - consider using --renameillegalidents true

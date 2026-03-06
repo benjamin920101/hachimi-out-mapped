@@ -2,22 +2,22 @@
  * Decompiled with CFR 0.152.
  * 
  * Could not load the following classes:
- *  net.minecraft.class_1268
- *  net.minecraft.class_1297
- *  net.minecraft.class_1657
- *  net.minecraft.class_1792
- *  net.minecraft.class_1799
- *  net.minecraft.class_1802
- *  net.minecraft.class_2338
- *  net.minecraft.class_2350
- *  net.minecraft.class_2382
- *  net.minecraft.class_243
- *  net.minecraft.class_2680
- *  net.minecraft.class_2769
- *  net.minecraft.class_310
- *  net.minecraft.class_4969
- *  net.minecraft.class_638
- *  net.minecraft.class_746
+ *  net.minecraft.util.Hand
+ *  net.minecraft.entity.Entity
+ *  net.minecraft.entity.player.PlayerEntity
+ *  net.minecraft.item.Item
+ *  net.minecraft.item.ItemStack
+ *  net.minecraft.item.Items
+ *  net.minecraft.util.math.BlockPos
+ *  net.minecraft.util.math.Direction
+ *  net.minecraft.util.math.Vec3i
+ *  net.minecraft.util.math.Vec3d
+ *  net.minecraft.block.BlockState
+ *  net.minecraft.state.property.Property
+ *  net.minecraft.client.MinecraftClient
+ *  net.minecraft.block.RespawnAnchorBlock
+ *  net.minecraft.client.world.ClientWorld
+ *  net.minecraft.client.network.ClientPlayerEntity
  */
 package mapped;
 
@@ -83,22 +83,22 @@ import mapped.Class702;
 import mapped.Class803;
 import mapped.Class925;
 import mapped.Class926;
-import net.minecraft.class_1268;
-import net.minecraft.class_1297;
-import net.minecraft.class_1657;
-import net.minecraft.class_1792;
-import net.minecraft.class_1799;
-import net.minecraft.class_1802;
-import net.minecraft.class_2338;
-import net.minecraft.class_2350;
-import net.minecraft.class_2382;
-import net.minecraft.class_243;
-import net.minecraft.class_2680;
-import net.minecraft.class_2769;
-import net.minecraft.class_310;
-import net.minecraft.class_4969;
-import net.minecraft.class_638;
-import net.minecraft.class_746;
+import net.minecraft.util.Hand;
+import net.minecraft.entity.Entity;
+import net.minecraft.entity.player.PlayerEntity;
+import net.minecraft.item.Item;
+import net.minecraft.item.ItemStack;
+import net.minecraft.item.Items;
+import net.minecraft.util.math.BlockPos;
+import net.minecraft.util.math.Direction;
+import net.minecraft.util.math.Vec3i;
+import net.minecraft.util.math.Vec3d;
+import net.minecraft.block.BlockState;
+import net.minecraft.state.property.Property;
+import net.minecraft.client.MinecraftClient;
+import net.minecraft.block.RespawnAnchorBlock;
+import net.minecraft.client.world.ClientWorld;
+import net.minecraft.client.network.ClientPlayerEntity;
 
 /*
  * Illegal identifiers - consider using --renameillegalidents true

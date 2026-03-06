@@ -5,9 +5,9 @@
  *  com.google.gson.JsonArray
  *  com.google.gson.JsonElement
  *  com.google.gson.JsonObject
- *  net.minecraft.class_1299
- *  net.minecraft.class_2960
- *  net.minecraft.class_7923
+ *  net.minecraft.entity.EntityType
+ *  net.minecraft.util.Identifier
+ *  net.minecraft.registry.Registries
  *  skidonion.sAnhI.___.____
  */
 package mapped;
@@ -27,9 +27,9 @@ import mapped.Class3815;
 import mapped.Class543;
 import mapped.Class5659;
 import mapped.Class68;
-import net.minecraft.class_1299;
-import net.minecraft.class_2960;
-import net.minecraft.class_7923;
+import net.minecraft.entity.EntityType;
+import net.minecraft.util.Identifier;
+import net.minecraft.registry.Registries;
 import skidonion.sAnhI.___;
 import skidonion.sAnhI.___.____;
 

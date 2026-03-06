@@ -7,7 +7,7 @@
  *  com.mojang.brigadier.context.CommandContext
  *  com.mojang.brigadier.exceptions.CommandSyntaxException
  *  com.mojang.brigadier.suggestion.SuggestionsBuilder
- *  net.minecraft.class_640
+ *  net.minecraft.client.network.PlayerListEntry
  */
 package mapped;
 
@@ -21,7 +21,7 @@ import java.util.concurrent.CompletableFuture;
 import mapped.Class4036;
 import mapped.Class4122;
 import mapped.Class4146;
-import net.minecraft.class_640;
+import net.minecraft.client.network.PlayerListEntry;
 
 /*
  * Illegal identifiers - consider using --renameillegalidents true

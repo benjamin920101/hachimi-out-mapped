@@ -3,16 +3,16 @@
  * 
  * Could not load the following classes:
  *  com.mojang.blaze3d.systems.RenderSystem
- *  net.minecraft.class_1297
- *  net.minecraft.class_1657
- *  net.minecraft.class_1667
- *  net.minecraft.class_1683
- *  net.minecraft.class_1684
- *  net.minecraft.class_243
- *  net.minecraft.class_310
- *  net.minecraft.class_3532
- *  net.minecraft.class_4587
- *  net.minecraft.class_638
+ *  net.minecraft.entity.Entity
+ *  net.minecraft.entity.player.PlayerEntity
+ *  net.minecraft.entity.projectile.ArrowEntity
+ *  net.minecraft.entity.projectile.thrown.ExperienceBottleEntity
+ *  net.minecraft.entity.projectile.thrown.EnderPearlEntity
+ *  net.minecraft.util.math.Vec3d
+ *  net.minecraft.client.MinecraftClient
+ *  net.minecraft.util.math.MathHelper
+ *  net.minecraft.client.util.math.MatrixStack
+ *  net.minecraft.client.world.ClientWorld
  */
 package mapped;
 
@@ -47,16 +47,16 @@ import mapped.Class6322;
 import mapped.Class6454;
 import mapped.Class658;
 import mapped.Class78;
-import net.minecraft.class_1297;
-import net.minecraft.class_1657;
-import net.minecraft.class_1667;
-import net.minecraft.class_1683;
-import net.minecraft.class_1684;
-import net.minecraft.class_243;
-import net.minecraft.class_310;
-import net.minecraft.class_3532;
-import net.minecraft.class_4587;
-import net.minecraft.class_638;
+import net.minecraft.entity.Entity;
+import net.minecraft.entity.player.PlayerEntity;
+import net.minecraft.entity.projectile.ArrowEntity;
+import net.minecraft.entity.projectile.thrown.ExperienceBottleEntity;
+import net.minecraft.entity.projectile.thrown.EnderPearlEntity;
+import net.minecraft.util.math.Vec3d;
+import net.minecraft.client.MinecraftClient;
+import net.minecraft.util.math.MathHelper;
+import net.minecraft.client.util.math.MatrixStack;
+import net.minecraft.client.world.ClientWorld;
 
 /*
  * Illegal identifiers - consider using --renameillegalidents true

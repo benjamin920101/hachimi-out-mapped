@@ -3,13 +3,13 @@
  * 
  * Could not load the following classes:
  *  it.unimi.dsi.fastutil.objects.ReferenceOpenHashSet
- *  net.minecraft.class_2189
- *  net.minecraft.class_2246
- *  net.minecraft.class_2248
- *  net.minecraft.class_2338
- *  net.minecraft.class_2680
- *  net.minecraft.class_310
- *  net.minecraft.class_638
+ *  net.minecraft.block.AirBlock
+ *  net.minecraft.block.Blocks
+ *  net.minecraft.block.Block
+ *  net.minecraft.util.math.BlockPos
+ *  net.minecraft.block.BlockState
+ *  net.minecraft.client.MinecraftClient
+ *  net.minecraft.client.world.ClientWorld
  */
 package mapped;
 
@@ -17,13 +17,13 @@ import it.unimi.dsi.fastutil.objects.ReferenceOpenHashSet;
 import java.util.Set;
 import mapped.Class1807;
 import mapped.Class4122;
-import net.minecraft.class_2189;
-import net.minecraft.class_2246;
-import net.minecraft.class_2248;
-import net.minecraft.class_2338;
-import net.minecraft.class_2680;
-import net.minecraft.class_310;
-import net.minecraft.class_638;
+import net.minecraft.block.AirBlock;
+import net.minecraft.block.Blocks;
+import net.minecraft.block.Block;
+import net.minecraft.util.math.BlockPos;
+import net.minecraft.block.BlockState;
+import net.minecraft.client.MinecraftClient;
+import net.minecraft.client.world.ClientWorld;
 
 /*
  * Illegal identifiers - consider using --renameillegalidents true

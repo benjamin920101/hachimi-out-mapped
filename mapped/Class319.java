@@ -2,12 +2,12 @@
  * Decompiled with CFR 0.152.
  * 
  * Could not load the following classes:
- *  net.minecraft.class_1297
- *  net.minecraft.class_2189
- *  net.minecraft.class_2246
- *  net.minecraft.class_2248
- *  net.minecraft.class_2338
- *  net.minecraft.class_238
+ *  net.minecraft.entity.Entity
+ *  net.minecraft.block.AirBlock
+ *  net.minecraft.block.Blocks
+ *  net.minecraft.block.Block
+ *  net.minecraft.util.math.BlockPos
+ *  net.minecraft.util.math.Box
  */
 package mapped;
 
@@ -51,12 +51,12 @@ import mapped.Class6322;
 import mapped.Class6454;
 import mapped.Class691;
 import mapped.Class74;
-import net.minecraft.class_1297;
-import net.minecraft.class_2189;
-import net.minecraft.class_2246;
-import net.minecraft.class_2248;
-import net.minecraft.class_2338;
-import net.minecraft.class_238;
+import net.minecraft.entity.Entity;
+import net.minecraft.block.AirBlock;
+import net.minecraft.block.Blocks;
+import net.minecraft.block.Block;
+import net.minecraft.util.math.BlockPos;
+import net.minecraft.util.math.Box;
 
 /*
  * Illegal identifiers - consider using --renameillegalidents true

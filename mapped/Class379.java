@@ -2,24 +2,24 @@
  * Decompiled with CFR 0.152.
  * 
  * Could not load the following classes:
- *  net.minecraft.class_1268
- *  net.minecraft.class_1297
- *  net.minecraft.class_1747
- *  net.minecraft.class_1799
- *  net.minecraft.class_2338
- *  net.minecraft.class_2350
- *  net.minecraft.class_2374
- *  net.minecraft.class_238
- *  net.minecraft.class_239
- *  net.minecraft.class_2596
- *  net.minecraft.class_2846
- *  net.minecraft.class_2846$class_2847
- *  net.minecraft.class_2879
- *  net.minecraft.class_310
- *  net.minecraft.class_3965
- *  net.minecraft.class_4587
- *  net.minecraft.class_636
- *  net.minecraft.class_746
+ *  net.minecraft.util.Hand
+ *  net.minecraft.entity.Entity
+ *  net.minecraft.item.BlockItem
+ *  net.minecraft.item.ItemStack
+ *  net.minecraft.util.math.BlockPos
+ *  net.minecraft.util.math.Direction
+ *  net.minecraft.util.math.Position
+ *  net.minecraft.util.math.Box
+ *  net.minecraft.util.hit.HitResult
+ *  net.minecraft.network.packet.Packet
+ *  net.minecraft.network.packet.c2s.play.PlayerActionC2SPacket
+ *  net.minecraft.network.packet.c2s.play.PlayerActionC2SPacket$Action
+ *  net.minecraft.network.packet.c2s.play.HandSwingC2SPacket
+ *  net.minecraft.client.MinecraftClient
+ *  net.minecraft.util.hit.BlockHitResult
+ *  net.minecraft.client.util.math.MatrixStack
+ *  net.minecraft.client.network.ClientPlayerInteractionManager
+ *  net.minecraft.client.network.ClientPlayerEntity
  */
 package mapped;
 
@@ -49,23 +49,23 @@ import mapped.Class619;
 import mapped.Class63;
 import mapped.Class6454;
 import net.hachimi.client.mixin.bh;
-import net.minecraft.class_1268;
-import net.minecraft.class_1297;
-import net.minecraft.class_1747;
-import net.minecraft.class_1799;
-import net.minecraft.class_2338;
-import net.minecraft.class_2350;
-import net.minecraft.class_2374;
-import net.minecraft.class_238;
-import net.minecraft.class_239;
-import net.minecraft.class_2596;
-import net.minecraft.class_2846;
-import net.minecraft.class_2879;
-import net.minecraft.class_310;
-import net.minecraft.class_3965;
-import net.minecraft.class_4587;
-import net.minecraft.class_636;
-import net.minecraft.class_746;
+import net.minecraft.util.Hand;
+import net.minecraft.entity.Entity;
+import net.minecraft.item.BlockItem;
+import net.minecraft.item.ItemStack;
+import net.minecraft.util.math.BlockPos;
+import net.minecraft.util.math.Direction;
+import net.minecraft.util.math.Position;
+import net.minecraft.util.math.Box;
+import net.minecraft.util.hit.HitResult;
+import net.minecraft.network.packet.Packet;
+import net.minecraft.network.packet.c2s.play.PlayerActionC2SPacket;
+import net.minecraft.network.packet.c2s.play.HandSwingC2SPacket;
+import net.minecraft.client.MinecraftClient;
+import net.minecraft.util.hit.BlockHitResult;
+import net.minecraft.client.util.math.MatrixStack;
+import net.minecraft.client.network.ClientPlayerInteractionManager;
+import net.minecraft.client.network.ClientPlayerEntity;
 
 /*
  * Illegal identifiers - consider using --renameillegalidents true

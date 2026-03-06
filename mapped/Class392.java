@@ -4,23 +4,23 @@
  * Could not load the following classes:
  *  com.google.common.collect.Sets
  *  io.netty.buffer.Unpooled
- *  net.minecraft.class_1917
- *  net.minecraft.class_1923
- *  net.minecraft.class_1937
- *  net.minecraft.class_2246
- *  net.minecraft.class_2338
- *  net.minecraft.class_238
- *  net.minecraft.class_2382
- *  net.minecraft.class_2540
- *  net.minecraft.class_2586
- *  net.minecraft.class_2636
- *  net.minecraft.class_2672
- *  net.minecraft.class_2680
- *  net.minecraft.class_2818
- *  net.minecraft.class_310
- *  net.minecraft.class_4587
- *  net.minecraft.class_5321
- *  net.minecraft.class_638
+ *  net.minecraft.block.spawner.MobSpawnerLogic
+ *  net.minecraft.util.math.ChunkPos
+ *  net.minecraft.world.World
+ *  net.minecraft.block.Blocks
+ *  net.minecraft.util.math.BlockPos
+ *  net.minecraft.util.math.Box
+ *  net.minecraft.util.math.Vec3i
+ *  net.minecraft.network.PacketByteBuf
+ *  net.minecraft.block.entity.BlockEntity
+ *  net.minecraft.block.entity.MobSpawnerBlockEntity
+ *  net.minecraft.network.packet.s2c.play.ChunkDataS2CPacket
+ *  net.minecraft.block.BlockState
+ *  net.minecraft.world.chunk.WorldChunk
+ *  net.minecraft.client.MinecraftClient
+ *  net.minecraft.client.util.math.MatrixStack
+ *  net.minecraft.registry.RegistryKey
+ *  net.minecraft.client.world.ClientWorld
  */
 package mapped;
 
@@ -92,23 +92,23 @@ import mapped.Class689;
 import mapped.Class70;
 import mapped.Class702;
 import mapped.Class727;
-import net.minecraft.class_1917;
-import net.minecraft.class_1923;
-import net.minecraft.class_1937;
-import net.minecraft.class_2246;
-import net.minecraft.class_2338;
-import net.minecraft.class_238;
-import net.minecraft.class_2382;
-import net.minecraft.class_2540;
-import net.minecraft.class_2586;
-import net.minecraft.class_2636;
-import net.minecraft.class_2672;
-import net.minecraft.class_2680;
-import net.minecraft.class_2818;
-import net.minecraft.class_310;
-import net.minecraft.class_4587;
-import net.minecraft.class_5321;
-import net.minecraft.class_638;
+import net.minecraft.block.spawner.MobSpawnerLogic;
+import net.minecraft.util.math.ChunkPos;
+import net.minecraft.world.World;
+import net.minecraft.block.Blocks;
+import net.minecraft.util.math.BlockPos;
+import net.minecraft.util.math.Box;
+import net.minecraft.util.math.Vec3i;
+import net.minecraft.network.PacketByteBuf;
+import net.minecraft.block.entity.BlockEntity;
+import net.minecraft.block.entity.MobSpawnerBlockEntity;
+import net.minecraft.network.packet.s2c.play.ChunkDataS2CPacket;
+import net.minecraft.block.BlockState;
+import net.minecraft.world.chunk.WorldChunk;
+import net.minecraft.client.MinecraftClient;
+import net.minecraft.client.util.math.MatrixStack;
+import net.minecraft.registry.RegistryKey;
+import net.minecraft.client.world.ClientWorld;
 
 /*
  * Illegal identifiers - consider using --renameillegalidents true

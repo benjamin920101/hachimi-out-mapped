@@ -2,8 +2,8 @@
  * Decompiled with CFR 0.152.
  * 
  * Could not load the following classes:
- *  net.minecraft.class_2561
- *  net.minecraft.class_7919
+ *  net.minecraft.text.Text
+ *  net.minecraft.client.gui.tooltip.Tooltip
  *  org.jetbrains.annotations.Nullable
  */
 package mapped;
@@ -15,8 +15,8 @@ import java.lang.invoke.MethodType;
 import mapped.Class1104;
 import mapped.Class3868;
 import mapped.Class3992;
-import net.minecraft.class_2561;
-import net.minecraft.class_7919;
+import net.minecraft.text.Text;
+import net.minecraft.client.gui.tooltip.Tooltip;
 import org.jetbrains.annotations.Nullable;
 
 /*

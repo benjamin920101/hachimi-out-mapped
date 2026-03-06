@@ -2,12 +2,12 @@
  * Decompiled with CFR 0.152.
  * 
  * Could not load the following classes:
- *  net.minecraft.class_1267
+ *  net.minecraft.world.Difficulty
  */
 package mapped;
 
 import net.hachimi.HACHIMI_CLIENT;
-import net.minecraft.class_1267;
+import net.minecraft.world.Difficulty;
 
 /*
  * Illegal identifiers - consider using --renameillegalidents true

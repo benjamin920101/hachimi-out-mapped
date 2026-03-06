@@ -3,10 +3,10 @@
  * 
  * Could not load the following classes:
  *  com.google.common.collect.ImmutableMap
- *  net.minecraft.class_124
- *  net.minecraft.class_2561
- *  net.minecraft.class_2583
- *  net.minecraft.class_5481
+ *  net.minecraft.util.Formatting
+ *  net.minecraft.text.Text
+ *  net.minecraft.text.Style
+ *  net.minecraft.text.OrderedText
  */
 package mapped;
 
@@ -33,10 +33,10 @@ import mapped.Class5984;
 import mapped.Class606;
 import mapped.Class6305;
 import mapped.Class803;
-import net.minecraft.class_124;
-import net.minecraft.class_2561;
-import net.minecraft.class_2583;
-import net.minecraft.class_5481;
+import net.minecraft.util.Formatting;
+import net.minecraft.text.Text;
+import net.minecraft.text.Style;
+import net.minecraft.text.OrderedText;
 
 /*
  * Illegal identifiers - consider using --renameillegalidents true

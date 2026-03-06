@@ -2,9 +2,9 @@
  * Decompiled with CFR 0.152.
  * 
  * Could not load the following classes:
- *  net.minecraft.class_1297
- *  net.minecraft.class_238
- *  net.minecraft.class_4587
+ *  net.minecraft.entity.Entity
+ *  net.minecraft.util.math.Box
+ *  net.minecraft.client.util.math.MatrixStack
  */
 package mapped;
 
@@ -41,9 +41,9 @@ import mapped.Class6283;
 import mapped.Class6454;
 import mapped.Class839;
 import mapped.Class966;
-import net.minecraft.class_1297;
-import net.minecraft.class_238;
-import net.minecraft.class_4587;
+import net.minecraft.entity.Entity;
+import net.minecraft.util.math.Box;
+import net.minecraft.client.util.math.MatrixStack;
 
 /*
  * Illegal identifiers - consider using --renameillegalidents true

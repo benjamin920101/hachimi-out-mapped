@@ -3,16 +3,16 @@
  * 
  * Could not load the following classes:
  *  com.google.common.collect.Lists
- *  net.minecraft.class_1297
- *  net.minecraft.class_1297$class_5529
- *  net.minecraft.class_1299
- *  net.minecraft.class_1542
- *  net.minecraft.class_1685
- *  net.minecraft.class_1687
- *  net.minecraft.class_1792
- *  net.minecraft.class_1802
- *  net.minecraft.class_3486
- *  net.minecraft.class_434
+ *  net.minecraft.entity.Entity
+ *  net.minecraft.entity.Entity$RemovalReason
+ *  net.minecraft.entity.EntityType
+ *  net.minecraft.entity.ItemEntity
+ *  net.minecraft.entity.projectile.TridentEntity
+ *  net.minecraft.entity.projectile.WitherSkullEntity
+ *  net.minecraft.item.Item
+ *  net.minecraft.item.Items
+ *  net.minecraft.registry.tag.FluidTags
+ *  net.minecraft.client.gui.screen.DownloadingTerrainScreen
  */
 package mapped;
 
@@ -91,15 +91,15 @@ import mapped.Class92;
 import mapped.Class96;
 import mapped.Class99;
 import net.hachimi.client.mixin.au;
-import net.minecraft.class_1297;
-import net.minecraft.class_1299;
-import net.minecraft.class_1542;
-import net.minecraft.class_1685;
-import net.minecraft.class_1687;
-import net.minecraft.class_1792;
-import net.minecraft.class_1802;
-import net.minecraft.class_3486;
-import net.minecraft.class_434;
+import net.minecraft.entity.Entity;
+import net.minecraft.entity.EntityType;
+import net.minecraft.entity.ItemEntity;
+import net.minecraft.entity.projectile.TridentEntity;
+import net.minecraft.entity.projectile.WitherSkullEntity;
+import net.minecraft.item.Item;
+import net.minecraft.item.Items;
+import net.minecraft.registry.tag.FluidTags;
+import net.minecraft.client.gui.screen.DownloadingTerrainScreen;
 
 /*
  * Illegal identifiers - consider using --renameillegalidents true

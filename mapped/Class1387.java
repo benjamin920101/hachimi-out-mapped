@@ -2,12 +2,12 @@
  * Decompiled with CFR 0.152.
  * 
  * Could not load the following classes:
- *  net.minecraft.class_1297
- *  net.minecraft.class_2596
- *  net.minecraft.class_2848
- *  net.minecraft.class_2848$class_2849
- *  net.minecraft.class_310
- *  net.minecraft.class_746
+ *  net.minecraft.entity.Entity
+ *  net.minecraft.network.packet.Packet
+ *  net.minecraft.network.packet.c2s.play.ClientCommandC2SPacket
+ *  net.minecraft.network.packet.c2s.play.ClientCommandC2SPacket$Mode
+ *  net.minecraft.client.MinecraftClient
+ *  net.minecraft.client.network.ClientPlayerEntity
  */
 package mapped;
 
@@ -20,11 +20,11 @@ import mapped.Class5496;
 import mapped.Class5723;
 import mapped.Class63;
 import mapped.Class85;
-import net.minecraft.class_1297;
-import net.minecraft.class_2596;
-import net.minecraft.class_2848;
-import net.minecraft.class_310;
-import net.minecraft.class_746;
+import net.minecraft.entity.Entity;
+import net.minecraft.network.packet.Packet;
+import net.minecraft.network.packet.c2s.play.ClientCommandC2SPacket;
+import net.minecraft.client.MinecraftClient;
+import net.minecraft.client.network.ClientPlayerEntity;
 
 /*
  * Illegal identifiers - consider using --renameillegalidents true

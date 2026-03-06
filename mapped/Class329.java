@@ -2,8 +2,8 @@
  * Decompiled with CFR 0.152.
  * 
  * Could not load the following classes:
- *  net.minecraft.class_2246
- *  net.minecraft.class_2248
+ *  net.minecraft.block.Blocks
+ *  net.minecraft.block.Block
  */
 package mapped;
 
@@ -13,8 +13,8 @@ import mapped.Class253;
 import mapped.Class257;
 import mapped.Class278;
 import mapped.Class556;
-import net.minecraft.class_2246;
-import net.minecraft.class_2248;
+import net.minecraft.block.Blocks;
+import net.minecraft.block.Block;
 
 /*
  * Illegal identifiers - consider using --renameillegalidents true

@@ -2,35 +2,35 @@
  * Decompiled with CFR 0.152.
  * 
  * Could not load the following classes:
- *  net.minecraft.class_1268
- *  net.minecraft.class_1297
- *  net.minecraft.class_1308
- *  net.minecraft.class_1309
- *  net.minecraft.class_1429
- *  net.minecraft.class_1493
- *  net.minecraft.class_1560
- *  net.minecraft.class_1590
- *  net.minecraft.class_1621
- *  net.minecraft.class_1646
- *  net.minecraft.class_1657
- *  net.minecraft.class_1743
- *  net.minecraft.class_1799
- *  net.minecraft.class_1829
- *  net.minecraft.class_1835
- *  net.minecraft.class_1934
- *  net.minecraft.class_238
- *  net.minecraft.class_243
- *  net.minecraft.class_2596
- *  net.minecraft.class_2824
- *  net.minecraft.class_2848
- *  net.minecraft.class_2848$class_2849
- *  net.minecraft.class_2868
- *  net.minecraft.class_310
- *  net.minecraft.class_3989
- *  net.minecraft.class_6025
- *  net.minecraft.class_634
- *  net.minecraft.class_746
- *  net.minecraft.class_9362
+ *  net.minecraft.util.Hand
+ *  net.minecraft.entity.Entity
+ *  net.minecraft.entity.mob.MobEntity
+ *  net.minecraft.entity.LivingEntity
+ *  net.minecraft.entity.passive.AnimalEntity
+ *  net.minecraft.entity.passive.WolfEntity
+ *  net.minecraft.entity.mob.EndermanEntity
+ *  net.minecraft.entity.mob.ZombifiedPiglinEntity
+ *  net.minecraft.entity.mob.SlimeEntity
+ *  net.minecraft.entity.passive.VillagerEntity
+ *  net.minecraft.entity.player.PlayerEntity
+ *  net.minecraft.item.AxeItem
+ *  net.minecraft.item.ItemStack
+ *  net.minecraft.item.SwordItem
+ *  net.minecraft.item.TridentItem
+ *  net.minecraft.world.GameMode
+ *  net.minecraft.util.math.Box
+ *  net.minecraft.util.math.Vec3d
+ *  net.minecraft.network.packet.Packet
+ *  net.minecraft.network.packet.c2s.play.PlayerInteractEntityC2SPacket
+ *  net.minecraft.network.packet.c2s.play.ClientCommandC2SPacket
+ *  net.minecraft.network.packet.c2s.play.ClientCommandC2SPacket$Mode
+ *  net.minecraft.network.packet.c2s.play.UpdateSelectedSlotC2SPacket
+ *  net.minecraft.client.MinecraftClient
+ *  net.minecraft.entity.passive.WanderingTraderEntity
+ *  net.minecraft.entity.Tameable
+ *  net.minecraft.client.network.ClientPlayNetworkHandler
+ *  net.minecraft.client.network.ClientPlayerEntity
+ *  net.minecraft.item.MaceItem
  */
 package mapped;
 
@@ -103,34 +103,34 @@ import mapped.Class760;
 import mapped.Class803;
 import mapped.Class926;
 import mapped.Class971;
-import net.minecraft.class_1268;
-import net.minecraft.class_1297;
-import net.minecraft.class_1308;
-import net.minecraft.class_1309;
-import net.minecraft.class_1429;
-import net.minecraft.class_1493;
-import net.minecraft.class_1560;
-import net.minecraft.class_1590;
-import net.minecraft.class_1621;
-import net.minecraft.class_1646;
-import net.minecraft.class_1657;
-import net.minecraft.class_1743;
-import net.minecraft.class_1799;
-import net.minecraft.class_1829;
-import net.minecraft.class_1835;
-import net.minecraft.class_1934;
-import net.minecraft.class_238;
-import net.minecraft.class_243;
-import net.minecraft.class_2596;
-import net.minecraft.class_2824;
-import net.minecraft.class_2848;
-import net.minecraft.class_2868;
-import net.minecraft.class_310;
-import net.minecraft.class_3989;
-import net.minecraft.class_6025;
-import net.minecraft.class_634;
-import net.minecraft.class_746;
-import net.minecraft.class_9362;
+import net.minecraft.util.Hand;
+import net.minecraft.entity.Entity;
+import net.minecraft.entity.mob.MobEntity;
+import net.minecraft.entity.LivingEntity;
+import net.minecraft.entity.passive.AnimalEntity;
+import net.minecraft.entity.passive.WolfEntity;
+import net.minecraft.entity.mob.EndermanEntity;
+import net.minecraft.entity.mob.ZombifiedPiglinEntity;
+import net.minecraft.entity.mob.SlimeEntity;
+import net.minecraft.entity.passive.VillagerEntity;
+import net.minecraft.entity.player.PlayerEntity;
+import net.minecraft.item.AxeItem;
+import net.minecraft.item.ItemStack;
+import net.minecraft.item.SwordItem;
+import net.minecraft.item.TridentItem;
+import net.minecraft.world.GameMode;
+import net.minecraft.util.math.Box;
+import net.minecraft.util.math.Vec3d;
+import net.minecraft.network.packet.Packet;
+import net.minecraft.network.packet.c2s.play.PlayerInteractEntityC2SPacket;
+import net.minecraft.network.packet.c2s.play.ClientCommandC2SPacket;
+import net.minecraft.network.packet.c2s.play.UpdateSelectedSlotC2SPacket;
+import net.minecraft.client.MinecraftClient;
+import net.minecraft.entity.passive.WanderingTraderEntity;
+import net.minecraft.entity.Tameable;
+import net.minecraft.client.network.ClientPlayNetworkHandler;
+import net.minecraft.client.network.ClientPlayerEntity;
+import net.minecraft.item.MaceItem;
 
 /*
  * Illegal identifiers - consider using --renameillegalidents true

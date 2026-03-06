@@ -2,11 +2,11 @@
  * Decompiled with CFR 0.152.
  * 
  * Could not load the following classes:
- *  net.minecraft.class_1799
- *  net.minecraft.class_1893
- *  net.minecraft.class_2680
- *  net.minecraft.class_310
- *  net.minecraft.class_746
+ *  net.minecraft.item.ItemStack
+ *  net.minecraft.enchantment.Enchantments
+ *  net.minecraft.block.BlockState
+ *  net.minecraft.client.MinecraftClient
+ *  net.minecraft.client.network.ClientPlayerEntity
  */
 package mapped;
 
@@ -20,11 +20,11 @@ import mapped.Class18;
 import mapped.Class278;
 import mapped.Class4045;
 import mapped.Class556;
-import net.minecraft.class_1799;
-import net.minecraft.class_1893;
-import net.minecraft.class_2680;
-import net.minecraft.class_310;
-import net.minecraft.class_746;
+import net.minecraft.item.ItemStack;
+import net.minecraft.enchantment.Enchantments;
+import net.minecraft.block.BlockState;
+import net.minecraft.client.MinecraftClient;
+import net.minecraft.client.network.ClientPlayerEntity;
 
 /*
  * Illegal identifiers - consider using --renameillegalidents true

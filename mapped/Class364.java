@@ -2,14 +2,14 @@
  * Decompiled with CFR 0.152.
  * 
  * Could not load the following classes:
- *  net.minecraft.class_1268
- *  net.minecraft.class_1702
- *  net.minecraft.class_1799
- *  net.minecraft.class_1802
- *  net.minecraft.class_304
- *  net.minecraft.class_315
- *  net.minecraft.class_4174
- *  net.minecraft.class_9334
+ *  net.minecraft.util.Hand
+ *  net.minecraft.entity.player.HungerManager
+ *  net.minecraft.item.ItemStack
+ *  net.minecraft.item.Items
+ *  net.minecraft.client.option.KeyBinding
+ *  net.minecraft.client.option.GameOptions
+ *  net.minecraft.component.type.FoodComponent
+ *  net.minecraft.component.DataComponentTypes
  */
 package mapped;
 
@@ -31,14 +31,14 @@ import mapped.Class5659;
 import mapped.Class5723;
 import mapped.Class6188;
 import mapped.Class63;
-import net.minecraft.class_1268;
-import net.minecraft.class_1702;
-import net.minecraft.class_1799;
-import net.minecraft.class_1802;
-import net.minecraft.class_304;
-import net.minecraft.class_315;
-import net.minecraft.class_4174;
-import net.minecraft.class_9334;
+import net.minecraft.util.Hand;
+import net.minecraft.entity.player.HungerManager;
+import net.minecraft.item.ItemStack;
+import net.minecraft.item.Items;
+import net.minecraft.client.option.KeyBinding;
+import net.minecraft.client.option.GameOptions;
+import net.minecraft.component.type.FoodComponent;
+import net.minecraft.component.DataComponentTypes;
 
 /*
  * Illegal identifiers - consider using --renameillegalidents true

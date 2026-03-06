@@ -5,8 +5,8 @@
  *  com.google.gson.JsonArray
  *  com.google.gson.JsonElement
  *  com.google.gson.JsonObject
- *  net.minecraft.class_310
- *  net.minecraft.class_638
+ *  net.minecraft.client.MinecraftClient
+ *  net.minecraft.client.world.ClientWorld
  *  skidonion.sAnhI.___.____
  */
 package mapped;
@@ -60,8 +60,8 @@ import mapped.Class5836;
 import mapped.Class696;
 import mapped.Class717;
 import mapped.Class947;
-import net.minecraft.class_310;
-import net.minecraft.class_638;
+import net.minecraft.client.MinecraftClient;
+import net.minecraft.client.world.ClientWorld;
 import skidonion.sAnhI.___;
 import skidonion.sAnhI.___.____;
 

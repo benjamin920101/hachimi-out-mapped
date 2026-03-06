@@ -3,23 +3,23 @@
  * 
  * Could not load the following classes:
  *  com.mojang.blaze3d.systems.RenderSystem
- *  net.minecraft.class_124
- *  net.minecraft.class_1297
- *  net.minecraft.class_1657
- *  net.minecraft.class_1922
- *  net.minecraft.class_2246
- *  net.minecraft.class_2248
- *  net.minecraft.class_2338
- *  net.minecraft.class_238
- *  net.minecraft.class_243
- *  net.minecraft.class_265
- *  net.minecraft.class_2680
- *  net.minecraft.class_2818
- *  net.minecraft.class_3532
- *  net.minecraft.class_4184
- *  net.minecraft.class_4587
- *  net.minecraft.class_5253$class_5254
- *  net.minecraft.class_8251
+ *  net.minecraft.util.Formatting
+ *  net.minecraft.entity.Entity
+ *  net.minecraft.entity.player.PlayerEntity
+ *  net.minecraft.world.BlockView
+ *  net.minecraft.block.Blocks
+ *  net.minecraft.block.Block
+ *  net.minecraft.util.math.BlockPos
+ *  net.minecraft.util.math.Box
+ *  net.minecraft.util.math.Vec3d
+ *  net.minecraft.util.shape.VoxelShape
+ *  net.minecraft.block.BlockState
+ *  net.minecraft.world.chunk.WorldChunk
+ *  net.minecraft.util.math.MathHelper
+ *  net.minecraft.client.render.Camera
+ *  net.minecraft.client.util.math.MatrixStack
+ *  net.minecraft.util.math.ColorHelper$Argb
+ *  com.mojang.blaze3d.systems.VertexSorter
  *  org.joml.Matrix4f
  */
 package mapped;
@@ -75,23 +75,23 @@ import mapped.Class68;
 import mapped.Class91;
 import mapped.Class93;
 import net.hachimi.client.mixin.ap;
-import net.minecraft.class_124;
-import net.minecraft.class_1297;
-import net.minecraft.class_1657;
-import net.minecraft.class_1922;
-import net.minecraft.class_2246;
-import net.minecraft.class_2248;
-import net.minecraft.class_2338;
-import net.minecraft.class_238;
-import net.minecraft.class_243;
-import net.minecraft.class_265;
-import net.minecraft.class_2680;
-import net.minecraft.class_2818;
-import net.minecraft.class_3532;
-import net.minecraft.class_4184;
-import net.minecraft.class_4587;
-import net.minecraft.class_5253;
-import net.minecraft.class_8251;
+import net.minecraft.util.Formatting;
+import net.minecraft.entity.Entity;
+import net.minecraft.entity.player.PlayerEntity;
+import net.minecraft.world.BlockView;
+import net.minecraft.block.Blocks;
+import net.minecraft.block.Block;
+import net.minecraft.util.math.BlockPos;
+import net.minecraft.util.math.Box;
+import net.minecraft.util.math.Vec3d;
+import net.minecraft.util.shape.VoxelShape;
+import net.minecraft.block.BlockState;
+import net.minecraft.world.chunk.WorldChunk;
+import net.minecraft.util.math.MathHelper;
+import net.minecraft.client.render.Camera;
+import net.minecraft.client.util.math.MatrixStack;
+import net.minecraft.util.math.ColorHelper;
+import com.mojang.blaze3d.systems.VertexSorter;
 import org.joml.Matrix4f;
 
 /*

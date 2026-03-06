@@ -4,26 +4,26 @@
  * Could not load the following classes:
  *  com.mojang.blaze3d.platform.GlStateManager
  *  com.mojang.blaze3d.platform.TextureUtil
- *  net.minecraft.class_1297
- *  net.minecraft.class_1309
- *  net.minecraft.class_1511
- *  net.minecraft.class_1542
- *  net.minecraft.class_1657
- *  net.minecraft.class_1683
- *  net.minecraft.class_1684
- *  net.minecraft.class_243
- *  net.minecraft.class_2586
- *  net.minecraft.class_2595
- *  net.minecraft.class_2611
- *  net.minecraft.class_2627
- *  net.minecraft.class_2960
- *  net.minecraft.class_310
- *  net.minecraft.class_3298
- *  net.minecraft.class_3532
- *  net.minecraft.class_4587
- *  net.minecraft.class_4597
- *  net.minecraft.class_746
- *  net.minecraft.class_757
+ *  net.minecraft.entity.Entity
+ *  net.minecraft.entity.LivingEntity
+ *  net.minecraft.entity.decoration.EndCrystalEntity
+ *  net.minecraft.entity.ItemEntity
+ *  net.minecraft.entity.player.PlayerEntity
+ *  net.minecraft.entity.projectile.thrown.ExperienceBottleEntity
+ *  net.minecraft.entity.projectile.thrown.EnderPearlEntity
+ *  net.minecraft.util.math.Vec3d
+ *  net.minecraft.block.entity.BlockEntity
+ *  net.minecraft.block.entity.ChestBlockEntity
+ *  net.minecraft.block.entity.EnderChestBlockEntity
+ *  net.minecraft.block.entity.ShulkerBoxBlockEntity
+ *  net.minecraft.util.Identifier
+ *  net.minecraft.client.MinecraftClient
+ *  net.minecraft.resource.Resource
+ *  net.minecraft.util.math.MathHelper
+ *  net.minecraft.client.util.math.MatrixStack
+ *  net.minecraft.client.render.VertexConsumerProvider
+ *  net.minecraft.client.network.ClientPlayerEntity
+ *  net.minecraft.client.render.GameRenderer
  *  org.lwjgl.opengl.GL32C
  *  org.lwjgl.stb.STBImage
  *  org.lwjgl.system.MemoryStack
@@ -128,26 +128,26 @@ import net.hachimi.client.api.render.satin.ManagedShaderEffect;
 import net.hachimi.client.api.render.shader.ShaderManager;
 import net.hachimi.client.mixin.C;
 import net.hachimi.client.mixin.k;
-import net.minecraft.class_1297;
-import net.minecraft.class_1309;
-import net.minecraft.class_1511;
-import net.minecraft.class_1542;
-import net.minecraft.class_1657;
-import net.minecraft.class_1683;
-import net.minecraft.class_1684;
-import net.minecraft.class_243;
-import net.minecraft.class_2586;
-import net.minecraft.class_2595;
-import net.minecraft.class_2611;
-import net.minecraft.class_2627;
-import net.minecraft.class_2960;
-import net.minecraft.class_310;
-import net.minecraft.class_3298;
-import net.minecraft.class_3532;
-import net.minecraft.class_4587;
-import net.minecraft.class_4597;
-import net.minecraft.class_746;
-import net.minecraft.class_757;
+import net.minecraft.entity.Entity;
+import net.minecraft.entity.LivingEntity;
+import net.minecraft.entity.decoration.EndCrystalEntity;
+import net.minecraft.entity.ItemEntity;
+import net.minecraft.entity.player.PlayerEntity;
+import net.minecraft.entity.projectile.thrown.ExperienceBottleEntity;
+import net.minecraft.entity.projectile.thrown.EnderPearlEntity;
+import net.minecraft.util.math.Vec3d;
+import net.minecraft.block.entity.BlockEntity;
+import net.minecraft.block.entity.ChestBlockEntity;
+import net.minecraft.block.entity.EnderChestBlockEntity;
+import net.minecraft.block.entity.ShulkerBoxBlockEntity;
+import net.minecraft.util.Identifier;
+import net.minecraft.client.MinecraftClient;
+import net.minecraft.resource.Resource;
+import net.minecraft.util.math.MathHelper;
+import net.minecraft.client.util.math.MatrixStack;
+import net.minecraft.client.render.VertexConsumerProvider;
+import net.minecraft.client.network.ClientPlayerEntity;
+import net.minecraft.client.render.GameRenderer;
 import org.lwjgl.opengl.GL32C;
 import org.lwjgl.stb.STBImage;
 import org.lwjgl.system.MemoryStack;

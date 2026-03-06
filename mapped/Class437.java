@@ -2,18 +2,18 @@
  * Decompiled with CFR 0.152.
  * 
  * Could not load the following classes:
- *  net.minecraft.class_1802
- *  net.minecraft.class_2248
- *  net.minecraft.class_2318
- *  net.minecraft.class_2338
- *  net.minecraft.class_2350
- *  net.minecraft.class_2480
- *  net.minecraft.class_2586
- *  net.minecraft.class_2627
- *  net.minecraft.class_2769
- *  net.minecraft.class_310
- *  net.minecraft.class_3532
- *  net.minecraft.class_746
+ *  net.minecraft.item.Items
+ *  net.minecraft.block.Block
+ *  net.minecraft.block.FacingBlock
+ *  net.minecraft.util.math.BlockPos
+ *  net.minecraft.util.math.Direction
+ *  net.minecraft.block.ShulkerBoxBlock
+ *  net.minecraft.block.entity.BlockEntity
+ *  net.minecraft.block.entity.ShulkerBoxBlockEntity
+ *  net.minecraft.state.property.Property
+ *  net.minecraft.client.MinecraftClient
+ *  net.minecraft.util.math.MathHelper
+ *  net.minecraft.client.network.ClientPlayerEntity
  */
 package mapped;
 
@@ -45,18 +45,18 @@ import mapped.Class6009;
 import mapped.Class607;
 import mapped.Class6322;
 import mapped.Class6454;
-import net.minecraft.class_1802;
-import net.minecraft.class_2248;
-import net.minecraft.class_2318;
-import net.minecraft.class_2338;
-import net.minecraft.class_2350;
-import net.minecraft.class_2480;
-import net.minecraft.class_2586;
-import net.minecraft.class_2627;
-import net.minecraft.class_2769;
-import net.minecraft.class_310;
-import net.minecraft.class_3532;
-import net.minecraft.class_746;
+import net.minecraft.item.Items;
+import net.minecraft.block.Block;
+import net.minecraft.block.FacingBlock;
+import net.minecraft.util.math.BlockPos;
+import net.minecraft.util.math.Direction;
+import net.minecraft.block.ShulkerBoxBlock;
+import net.minecraft.block.entity.BlockEntity;
+import net.minecraft.block.entity.ShulkerBoxBlockEntity;
+import net.minecraft.state.property.Property;
+import net.minecraft.client.MinecraftClient;
+import net.minecraft.util.math.MathHelper;
+import net.minecraft.client.network.ClientPlayerEntity;
 
 /*
  * Illegal identifiers - consider using --renameillegalidents true

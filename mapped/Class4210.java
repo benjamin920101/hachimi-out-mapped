@@ -2,7 +2,7 @@
  * Decompiled with CFR 0.152.
  * 
  * Could not load the following classes:
- *  net.minecraft.class_332
+ *  net.minecraft.client.gui.DrawContext
  */
 package mapped;
 
@@ -28,7 +28,7 @@ import mapped.Class6322;
 import mapped.Class6336;
 import mapped.Class6454;
 import mapped.Class687;
-import net.minecraft.class_332;
+import net.minecraft.client.gui.DrawContext;
 
 /*
  * Illegal identifiers - consider using --renameillegalidents true

@@ -2,12 +2,12 @@
  * Decompiled with CFR 0.152.
  * 
  * Could not load the following classes:
- *  net.minecraft.class_2596
- *  net.minecraft.class_2735
- *  net.minecraft.class_2868
- *  net.minecraft.class_310
- *  net.minecraft.class_634
- *  net.minecraft.class_746
+ *  net.minecraft.network.packet.Packet
+ *  net.minecraft.network.packet.s2c.play.UpdateSelectedSlotS2CPacket
+ *  net.minecraft.network.packet.c2s.play.UpdateSelectedSlotC2SPacket
+ *  net.minecraft.client.MinecraftClient
+ *  net.minecraft.client.network.ClientPlayNetworkHandler
+ *  net.minecraft.client.network.ClientPlayerEntity
  */
 package mapped;
 
@@ -26,12 +26,12 @@ import mapped.Class5723;
 import mapped.Class5836;
 import mapped.Class6454;
 import mapped.Class926;
-import net.minecraft.class_2596;
-import net.minecraft.class_2735;
-import net.minecraft.class_2868;
-import net.minecraft.class_310;
-import net.minecraft.class_634;
-import net.minecraft.class_746;
+import net.minecraft.network.packet.Packet;
+import net.minecraft.network.packet.s2c.play.UpdateSelectedSlotS2CPacket;
+import net.minecraft.network.packet.c2s.play.UpdateSelectedSlotC2SPacket;
+import net.minecraft.client.MinecraftClient;
+import net.minecraft.client.network.ClientPlayNetworkHandler;
+import net.minecraft.client.network.ClientPlayerEntity;
 
 /*
  * Illegal identifiers - consider using --renameillegalidents true

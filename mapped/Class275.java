@@ -2,9 +2,9 @@
  * Decompiled with CFR 0.152.
  * 
  * Could not load the following classes:
- *  net.minecraft.class_332
- *  net.minecraft.class_3532
- *  net.minecraft.class_437
+ *  net.minecraft.client.gui.DrawContext
+ *  net.minecraft.util.math.MathHelper
+ *  net.minecraft.client.gui.screen.Screen
  *  skidonion.sAnhI.___.____
  */
 package mapped;
@@ -32,9 +32,9 @@ import mapped.Class6283;
 import mapped.Class6454;
 import mapped.Class803;
 import mapped.Class804;
-import net.minecraft.class_332;
-import net.minecraft.class_3532;
-import net.minecraft.class_437;
+import net.minecraft.client.gui.DrawContext;
+import net.minecraft.util.math.MathHelper;
+import net.minecraft.client.gui.screen.Screen;
 import skidonion.sAnhI.___;
 import skidonion.sAnhI.___.____;
 

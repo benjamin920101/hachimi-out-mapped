@@ -6,8 +6,8 @@
  *  com.google.gson.JsonElement
  *  com.google.gson.JsonObject
  *  com.google.gson.JsonParser
- *  net.minecraft.class_310
- *  net.minecraft.class_640
+ *  net.minecraft.client.MinecraftClient
+ *  net.minecraft.client.network.PlayerListEntry
  *  org.apache.commons.io.IOUtils
  */
 package mapped;
@@ -37,8 +37,8 @@ import mapped.Class4146;
 import mapped.Class5836;
 import mapped.Class6009;
 import mapped.Class6322;
-import net.minecraft.class_310;
-import net.minecraft.class_640;
+import net.minecraft.client.MinecraftClient;
+import net.minecraft.client.network.PlayerListEntry;
 import org.apache.commons.io.IOUtils;
 
 /*

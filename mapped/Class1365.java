@@ -2,13 +2,13 @@
  * Decompiled with CFR 0.152.
  * 
  * Could not load the following classes:
- *  net.minecraft.class_124
- *  net.minecraft.class_1657
- *  net.minecraft.class_2561
- *  net.minecraft.class_310
- *  net.minecraft.class_329
- *  net.minecraft.class_746
- *  net.minecraft.class_7591
+ *  net.minecraft.util.Formatting
+ *  net.minecraft.entity.player.PlayerEntity
+ *  net.minecraft.text.Text
+ *  net.minecraft.client.MinecraftClient
+ *  net.minecraft.client.gui.hud.InGameHud
+ *  net.minecraft.client.network.ClientPlayerEntity
+ *  net.minecraft.client.gui.hud.MessageIndicator
  */
 package mapped;
 
@@ -21,13 +21,13 @@ import mapped.Class4087;
 import mapped.Class4122;
 import mapped.Class457;
 import mapped.Class5836;
-import net.minecraft.class_124;
-import net.minecraft.class_1657;
-import net.minecraft.class_2561;
-import net.minecraft.class_310;
-import net.minecraft.class_329;
-import net.minecraft.class_746;
-import net.minecraft.class_7591;
+import net.minecraft.util.Formatting;
+import net.minecraft.entity.player.PlayerEntity;
+import net.minecraft.text.Text;
+import net.minecraft.client.MinecraftClient;
+import net.minecraft.client.gui.hud.InGameHud;
+import net.minecraft.client.network.ClientPlayerEntity;
+import net.minecraft.client.gui.hud.MessageIndicator;
 
 public class Class1365 {
     public static final String field5264 = "\u00a7s[Hachimi] \u00a7r";

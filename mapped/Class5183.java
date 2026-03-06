@@ -2,26 +2,26 @@
  * Decompiled with CFR 0.152.
  * 
  * Could not load the following classes:
- *  net.minecraft.class_1294
- *  net.minecraft.class_1297
- *  net.minecraft.class_1299
- *  net.minecraft.class_1304
- *  net.minecraft.class_1306
- *  net.minecraft.class_1309
- *  net.minecraft.class_1313
- *  net.minecraft.class_1432
- *  net.minecraft.class_1799
- *  net.minecraft.class_1937
- *  net.minecraft.class_2246
- *  net.minecraft.class_2248
- *  net.minecraft.class_2338
- *  net.minecraft.class_241
- *  net.minecraft.class_243
- *  net.minecraft.class_2680
- *  net.minecraft.class_310
- *  net.minecraft.class_3486
- *  net.minecraft.class_3532
- *  net.minecraft.class_5134
+ *  net.minecraft.entity.effect.StatusEffects
+ *  net.minecraft.entity.Entity
+ *  net.minecraft.entity.EntityType
+ *  net.minecraft.entity.EquipmentSlot
+ *  net.minecraft.util.Arm
+ *  net.minecraft.entity.LivingEntity
+ *  net.minecraft.entity.MovementType
+ *  net.minecraft.entity.Flutterer
+ *  net.minecraft.item.ItemStack
+ *  net.minecraft.world.World
+ *  net.minecraft.block.Blocks
+ *  net.minecraft.block.Block
+ *  net.minecraft.util.math.BlockPos
+ *  net.minecraft.util.math.Vec2f
+ *  net.minecraft.util.math.Vec3d
+ *  net.minecraft.block.BlockState
+ *  net.minecraft.client.MinecraftClient
+ *  net.minecraft.registry.tag.FluidTags
+ *  net.minecraft.util.math.MathHelper
+ *  net.minecraft.entity.attribute.EntityAttributes
  *  skidonion.sAnhI.___.____
  */
 package mapped;
@@ -55,26 +55,26 @@ import mapped.Class6435;
 import mapped.Class6454;
 import mapped.Class698;
 import mapped.Class729;
-import net.minecraft.class_1294;
-import net.minecraft.class_1297;
-import net.minecraft.class_1299;
-import net.minecraft.class_1304;
-import net.minecraft.class_1306;
-import net.minecraft.class_1309;
-import net.minecraft.class_1313;
-import net.minecraft.class_1432;
-import net.minecraft.class_1799;
-import net.minecraft.class_1937;
-import net.minecraft.class_2246;
-import net.minecraft.class_2248;
-import net.minecraft.class_2338;
-import net.minecraft.class_241;
-import net.minecraft.class_243;
-import net.minecraft.class_2680;
-import net.minecraft.class_310;
-import net.minecraft.class_3486;
-import net.minecraft.class_3532;
-import net.minecraft.class_5134;
+import net.minecraft.entity.effect.StatusEffects;
+import net.minecraft.entity.Entity;
+import net.minecraft.entity.EntityType;
+import net.minecraft.entity.EquipmentSlot;
+import net.minecraft.util.Arm;
+import net.minecraft.entity.LivingEntity;
+import net.minecraft.entity.MovementType;
+import net.minecraft.entity.Flutterer;
+import net.minecraft.item.ItemStack;
+import net.minecraft.world.World;
+import net.minecraft.block.Blocks;
+import net.minecraft.block.Block;
+import net.minecraft.util.math.BlockPos;
+import net.minecraft.util.math.Vec2f;
+import net.minecraft.util.math.Vec3d;
+import net.minecraft.block.BlockState;
+import net.minecraft.client.MinecraftClient;
+import net.minecraft.registry.tag.FluidTags;
+import net.minecraft.util.math.MathHelper;
+import net.minecraft.entity.attribute.EntityAttributes;
 import skidonion.sAnhI.___;
 import skidonion.sAnhI.___.____;
 

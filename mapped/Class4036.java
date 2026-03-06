@@ -2,7 +2,7 @@
  * Decompiled with CFR 0.152.
  * 
  * Could not load the following classes:
- *  net.minecraft.class_2960
+ *  net.minecraft.util.Identifier
  */
 package mapped;
 
@@ -15,7 +15,7 @@ import mapped.Class4122;
 import net.hachimi.HACHIMI_CLIENT;
 import net.hachimi.client.api.render.satin.ManagedShaderEffect;
 import net.hachimi.client.api.render.satin.ShaderEffectManager;
-import net.minecraft.class_2960;
+import net.minecraft.util.Identifier;
 
 public class Class4036 {
     public static final ManagedShaderEffect field9296;

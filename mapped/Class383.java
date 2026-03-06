@@ -3,27 +3,27 @@
  * 
  * Could not load the following classes:
  *  com.google.common.collect.Lists
- *  net.minecraft.class_1294
- *  net.minecraft.class_1297
- *  net.minecraft.class_1657
- *  net.minecraft.class_1713
- *  net.minecraft.class_1770
- *  net.minecraft.class_1799
- *  net.minecraft.class_238
- *  net.minecraft.class_241
- *  net.minecraft.class_243
- *  net.minecraft.class_2596
- *  net.minecraft.class_265
- *  net.minecraft.class_2708
- *  net.minecraft.class_2848
- *  net.minecraft.class_2848$class_2849
- *  net.minecraft.class_310
- *  net.minecraft.class_434
- *  net.minecraft.class_437
- *  net.minecraft.class_634
- *  net.minecraft.class_638
- *  net.minecraft.class_6880
- *  net.minecraft.class_746
+ *  net.minecraft.entity.effect.StatusEffects
+ *  net.minecraft.entity.Entity
+ *  net.minecraft.entity.player.PlayerEntity
+ *  net.minecraft.screen.slot.SlotActionType
+ *  net.minecraft.item.ElytraItem
+ *  net.minecraft.item.ItemStack
+ *  net.minecraft.util.math.Box
+ *  net.minecraft.util.math.Vec2f
+ *  net.minecraft.util.math.Vec3d
+ *  net.minecraft.network.packet.Packet
+ *  net.minecraft.util.shape.VoxelShape
+ *  net.minecraft.network.packet.s2c.play.PlayerPositionLookS2CPacket
+ *  net.minecraft.network.packet.c2s.play.ClientCommandC2SPacket
+ *  net.minecraft.network.packet.c2s.play.ClientCommandC2SPacket$Mode
+ *  net.minecraft.client.MinecraftClient
+ *  net.minecraft.client.gui.screen.DownloadingTerrainScreen
+ *  net.minecraft.client.gui.screen.Screen
+ *  net.minecraft.client.network.ClientPlayNetworkHandler
+ *  net.minecraft.client.world.ClientWorld
+ *  net.minecraft.registry.entry.RegistryEntry
+ *  net.minecraft.client.network.ClientPlayerEntity
  */
 package mapped;
 
@@ -89,26 +89,26 @@ import mapped.Class686;
 import mapped.Class851;
 import mapped.Class881;
 import mapped.Class91;
-import net.minecraft.class_1294;
-import net.minecraft.class_1297;
-import net.minecraft.class_1657;
-import net.minecraft.class_1713;
-import net.minecraft.class_1770;
-import net.minecraft.class_1799;
-import net.minecraft.class_238;
-import net.minecraft.class_241;
-import net.minecraft.class_243;
-import net.minecraft.class_2596;
-import net.minecraft.class_265;
-import net.minecraft.class_2708;
-import net.minecraft.class_2848;
-import net.minecraft.class_310;
-import net.minecraft.class_434;
-import net.minecraft.class_437;
-import net.minecraft.class_634;
-import net.minecraft.class_638;
-import net.minecraft.class_6880;
-import net.minecraft.class_746;
+import net.minecraft.entity.effect.StatusEffects;
+import net.minecraft.entity.Entity;
+import net.minecraft.entity.player.PlayerEntity;
+import net.minecraft.screen.slot.SlotActionType;
+import net.minecraft.item.ElytraItem;
+import net.minecraft.item.ItemStack;
+import net.minecraft.util.math.Box;
+import net.minecraft.util.math.Vec2f;
+import net.minecraft.util.math.Vec3d;
+import net.minecraft.network.packet.Packet;
+import net.minecraft.util.shape.VoxelShape;
+import net.minecraft.network.packet.s2c.play.PlayerPositionLookS2CPacket;
+import net.minecraft.network.packet.c2s.play.ClientCommandC2SPacket;
+import net.minecraft.client.MinecraftClient;
+import net.minecraft.client.gui.screen.DownloadingTerrainScreen;
+import net.minecraft.client.gui.screen.Screen;
+import net.minecraft.client.network.ClientPlayNetworkHandler;
+import net.minecraft.client.world.ClientWorld;
+import net.minecraft.registry.entry.RegistryEntry;
+import net.minecraft.client.network.ClientPlayerEntity;
 
 /*
  * Illegal identifiers - consider using --renameillegalidents true

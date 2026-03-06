@@ -2,9 +2,9 @@
  * Decompiled with CFR 0.152.
  * 
  * Could not load the following classes:
- *  net.minecraft.class_2561
- *  net.minecraft.class_332
- *  net.minecraft.class_437
+ *  net.minecraft.text.Text
+ *  net.minecraft.client.gui.DrawContext
+ *  net.minecraft.client.gui.screen.Screen
  */
 package mapped;
 
@@ -15,9 +15,9 @@ import mapped.Class333;
 import mapped.Class3860;
 import mapped.Class447;
 import mapped.Class803;
-import net.minecraft.class_2561;
-import net.minecraft.class_332;
-import net.minecraft.class_437;
+import net.minecraft.text.Text;
+import net.minecraft.client.gui.DrawContext;
+import net.minecraft.client.gui.screen.Screen;
 
 /*
  * Illegal identifiers - consider using --renameillegalidents true

@@ -3,34 +3,34 @@
  * 
  * Could not load the following classes:
  *  com.mojang.blaze3d.systems.RenderSystem
- *  net.minecraft.class_1041
- *  net.minecraft.class_1291
- *  net.minecraft.class_1293
- *  net.minecraft.class_1294
- *  net.minecraft.class_1309
- *  net.minecraft.class_1799
- *  net.minecraft.class_1802
- *  net.minecraft.class_1935
- *  net.minecraft.class_1937
- *  net.minecraft.class_2281
- *  net.minecraft.class_2350$class_2352
- *  net.minecraft.class_2586
- *  net.minecraft.class_2595
- *  net.minecraft.class_2745
- *  net.minecraft.class_2769
- *  net.minecraft.class_2960
- *  net.minecraft.class_310
- *  net.minecraft.class_327
- *  net.minecraft.class_332
- *  net.minecraft.class_3486
- *  net.minecraft.class_3532
- *  net.minecraft.class_3544
- *  net.minecraft.class_408
- *  net.minecraft.class_5321
- *  net.minecraft.class_634
- *  net.minecraft.class_638
- *  net.minecraft.class_6880
- *  net.minecraft.class_746
+ *  net.minecraft.client.util.Window
+ *  net.minecraft.entity.effect.StatusEffect
+ *  net.minecraft.entity.effect.StatusEffectInstance
+ *  net.minecraft.entity.effect.StatusEffects
+ *  net.minecraft.entity.LivingEntity
+ *  net.minecraft.item.ItemStack
+ *  net.minecraft.item.Items
+ *  net.minecraft.item.ItemConvertible
+ *  net.minecraft.world.World
+ *  net.minecraft.block.ChestBlock
+ *  net.minecraft.util.math.Direction$AxisDirection
+ *  net.minecraft.block.entity.BlockEntity
+ *  net.minecraft.block.entity.ChestBlockEntity
+ *  net.minecraft.block.enums.ChestType
+ *  net.minecraft.state.property.Property
+ *  net.minecraft.util.Identifier
+ *  net.minecraft.client.MinecraftClient
+ *  net.minecraft.client.font.TextRenderer
+ *  net.minecraft.client.gui.DrawContext
+ *  net.minecraft.registry.tag.FluidTags
+ *  net.minecraft.util.math.MathHelper
+ *  net.minecraft.util.StringHelper
+ *  net.minecraft.client.gui.screen.ChatScreen
+ *  net.minecraft.registry.RegistryKey
+ *  net.minecraft.client.network.ClientPlayNetworkHandler
+ *  net.minecraft.client.world.ClientWorld
+ *  net.minecraft.registry.entry.RegistryEntry
+ *  net.minecraft.client.network.ClientPlayerEntity
  */
 package mapped;
 
@@ -162,34 +162,34 @@ import mapped.Class84;
 import mapped.Class858;
 import mapped.Class925;
 import mapped.Class926;
-import net.minecraft.class_1041;
-import net.minecraft.class_1291;
-import net.minecraft.class_1293;
-import net.minecraft.class_1294;
-import net.minecraft.class_1309;
-import net.minecraft.class_1799;
-import net.minecraft.class_1802;
-import net.minecraft.class_1935;
-import net.minecraft.class_1937;
-import net.minecraft.class_2281;
-import net.minecraft.class_2350;
-import net.minecraft.class_2586;
-import net.minecraft.class_2595;
-import net.minecraft.class_2745;
-import net.minecraft.class_2769;
-import net.minecraft.class_2960;
-import net.minecraft.class_310;
-import net.minecraft.class_327;
-import net.minecraft.class_332;
-import net.minecraft.class_3486;
-import net.minecraft.class_3532;
-import net.minecraft.class_3544;
-import net.minecraft.class_408;
-import net.minecraft.class_5321;
-import net.minecraft.class_634;
-import net.minecraft.class_638;
-import net.minecraft.class_6880;
-import net.minecraft.class_746;
+import net.minecraft.client.util.Window;
+import net.minecraft.entity.effect.StatusEffect;
+import net.minecraft.entity.effect.StatusEffectInstance;
+import net.minecraft.entity.effect.StatusEffects;
+import net.minecraft.entity.LivingEntity;
+import net.minecraft.item.ItemStack;
+import net.minecraft.item.Items;
+import net.minecraft.item.ItemConvertible;
+import net.minecraft.world.World;
+import net.minecraft.block.ChestBlock;
+import net.minecraft.util.math.Direction;
+import net.minecraft.block.entity.BlockEntity;
+import net.minecraft.block.entity.ChestBlockEntity;
+import net.minecraft.block.enums.ChestType;
+import net.minecraft.state.property.Property;
+import net.minecraft.util.Identifier;
+import net.minecraft.client.MinecraftClient;
+import net.minecraft.client.font.TextRenderer;
+import net.minecraft.client.gui.DrawContext;
+import net.minecraft.registry.tag.FluidTags;
+import net.minecraft.util.math.MathHelper;
+import net.minecraft.util.StringHelper;
+import net.minecraft.client.gui.screen.ChatScreen;
+import net.minecraft.registry.RegistryKey;
+import net.minecraft.client.network.ClientPlayNetworkHandler;
+import net.minecraft.client.world.ClientWorld;
+import net.minecraft.registry.entry.RegistryEntry;
+import net.minecraft.client.network.ClientPlayerEntity;
 
 /*
  * Illegal identifiers - consider using --renameillegalidents true

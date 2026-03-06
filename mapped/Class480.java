@@ -2,7 +2,7 @@
  * Decompiled with CFR 0.152.
  * 
  * Could not load the following classes:
- *  net.minecraft.class_1268
+ *  net.minecraft.util.Hand
  */
 package mapped;
 
@@ -10,7 +10,7 @@ import mapped.Class481;
 import mapped.Class482;
 import mapped.Class483;
 import mapped.Class484;
-import net.minecraft.class_1268;
+import net.minecraft.util.Hand;
 
 public abstract sealed class Class480
 extends Enum

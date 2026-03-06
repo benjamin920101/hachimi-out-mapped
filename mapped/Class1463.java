@@ -8,7 +8,7 @@
  *  com.mojang.brigadier.context.CommandContext
  *  com.mojang.brigadier.exceptions.CommandSyntaxException
  *  com.mojang.brigadier.suggestion.SuggestionsBuilder
- *  net.minecraft.class_2172
+ *  net.minecraft.command.CommandSource
  */
 package mapped;
 
@@ -23,7 +23,7 @@ import java.util.concurrent.CompletableFuture;
 import mapped.Class244;
 import mapped.Class277;
 import mapped.Class5723;
-import net.minecraft.class_2172;
+import net.minecraft.command.CommandSource;
 
 /*
  * Illegal identifiers - consider using --renameillegalidents true

@@ -2,11 +2,11 @@
  * Decompiled with CFR 0.152.
  * 
  * Could not load the following classes:
- *  net.minecraft.class_2596
- *  net.minecraft.class_2765
- *  net.minecraft.class_2767
- *  net.minecraft.class_3414
- *  net.minecraft.class_3417
+ *  net.minecraft.network.packet.Packet
+ *  net.minecraft.network.packet.s2c.play.PlaySoundFromEntityS2CPacket
+ *  net.minecraft.network.packet.s2c.play.PlaySoundS2CPacket
+ *  net.minecraft.sound.SoundEvent
+ *  net.minecraft.sound.SoundEvents
  */
 package mapped;
 
@@ -17,11 +17,11 @@ import mapped.Class1745;
 import mapped.Class278;
 import mapped.Class556;
 import net.hachimi.HACHIMI_CLIENT;
-import net.minecraft.class_2596;
-import net.minecraft.class_2765;
-import net.minecraft.class_2767;
-import net.minecraft.class_3414;
-import net.minecraft.class_3417;
+import net.minecraft.network.packet.Packet;
+import net.minecraft.network.packet.s2c.play.PlaySoundFromEntityS2CPacket;
+import net.minecraft.network.packet.s2c.play.PlaySoundS2CPacket;
+import net.minecraft.sound.SoundEvent;
+import net.minecraft.sound.SoundEvents;
 
 /*
  * Illegal identifiers - consider using --renameillegalidents true

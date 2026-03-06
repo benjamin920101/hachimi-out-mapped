@@ -3,35 +3,35 @@
  * 
  * Could not load the following classes:
  *  it.unimi.dsi.fastutil.objects.Object2IntMap$Entry
- *  net.minecraft.class_124
- *  net.minecraft.class_1297
- *  net.minecraft.class_1321
- *  net.minecraft.class_1496
- *  net.minecraft.class_1542
- *  net.minecraft.class_1657
- *  net.minecraft.class_1684
- *  net.minecraft.class_1738
- *  net.minecraft.class_1799
- *  net.minecraft.class_1802
- *  net.minecraft.class_1887
- *  net.minecraft.class_1890
- *  net.minecraft.class_1937
- *  net.minecraft.class_243
- *  net.minecraft.class_2561
- *  net.minecraft.class_310
- *  net.minecraft.class_327
- *  net.minecraft.class_327$class_6415
- *  net.minecraft.class_3414
- *  net.minecraft.class_4184
- *  net.minecraft.class_4587
- *  net.minecraft.class_4597
- *  net.minecraft.class_4597$class_4598
- *  net.minecraft.class_4608
- *  net.minecraft.class_640
- *  net.minecraft.class_6880
- *  net.minecraft.class_746
- *  net.minecraft.class_7833
- *  net.minecraft.class_811
+ *  net.minecraft.util.Formatting
+ *  net.minecraft.entity.Entity
+ *  net.minecraft.entity.passive.TameableEntity
+ *  net.minecraft.entity.passive.AbstractHorseEntity
+ *  net.minecraft.entity.ItemEntity
+ *  net.minecraft.entity.player.PlayerEntity
+ *  net.minecraft.entity.projectile.thrown.EnderPearlEntity
+ *  net.minecraft.item.ArmorItem
+ *  net.minecraft.item.ItemStack
+ *  net.minecraft.item.Items
+ *  net.minecraft.enchantment.Enchantment
+ *  net.minecraft.enchantment.EnchantmentHelper
+ *  net.minecraft.world.World
+ *  net.minecraft.util.math.Vec3d
+ *  net.minecraft.text.Text
+ *  net.minecraft.client.MinecraftClient
+ *  net.minecraft.client.font.TextRenderer
+ *  net.minecraft.client.font.TextRenderer$TextLayerType
+ *  net.minecraft.sound.SoundEvent
+ *  net.minecraft.client.render.Camera
+ *  net.minecraft.client.util.math.MatrixStack
+ *  net.minecraft.client.render.VertexConsumerProvider
+ *  net.minecraft.client.render.VertexConsumerProvider$Immediate
+ *  net.minecraft.client.render.OverlayTexture
+ *  net.minecraft.client.network.PlayerListEntry
+ *  net.minecraft.registry.entry.RegistryEntry
+ *  net.minecraft.client.network.ClientPlayerEntity
+ *  net.minecraft.util.math.RotationAxis
+ *  net.minecraft.client.render.model.json.ModelTransformationMode
  *  org.lwjgl.opengl.GL11
  */
 package mapped;
@@ -122,33 +122,33 @@ import mapped.Class736;
 import mapped.Class821;
 import mapped.Class999;
 import net.hachimi.client.mixin.bC;
-import net.minecraft.class_124;
-import net.minecraft.class_1297;
-import net.minecraft.class_1321;
-import net.minecraft.class_1496;
-import net.minecraft.class_1542;
-import net.minecraft.class_1657;
-import net.minecraft.class_1684;
-import net.minecraft.class_1738;
-import net.minecraft.class_1799;
-import net.minecraft.class_1802;
-import net.minecraft.class_1887;
-import net.minecraft.class_1890;
-import net.minecraft.class_1937;
-import net.minecraft.class_243;
-import net.minecraft.class_2561;
-import net.minecraft.class_310;
-import net.minecraft.class_327;
-import net.minecraft.class_3414;
-import net.minecraft.class_4184;
-import net.minecraft.class_4587;
-import net.minecraft.class_4597;
-import net.minecraft.class_4608;
-import net.minecraft.class_640;
-import net.minecraft.class_6880;
-import net.minecraft.class_746;
-import net.minecraft.class_7833;
-import net.minecraft.class_811;
+import net.minecraft.util.Formatting;
+import net.minecraft.entity.Entity;
+import net.minecraft.entity.passive.TameableEntity;
+import net.minecraft.entity.passive.AbstractHorseEntity;
+import net.minecraft.entity.ItemEntity;
+import net.minecraft.entity.player.PlayerEntity;
+import net.minecraft.entity.projectile.thrown.EnderPearlEntity;
+import net.minecraft.item.ArmorItem;
+import net.minecraft.item.ItemStack;
+import net.minecraft.item.Items;
+import net.minecraft.enchantment.Enchantment;
+import net.minecraft.enchantment.EnchantmentHelper;
+import net.minecraft.world.World;
+import net.minecraft.util.math.Vec3d;
+import net.minecraft.text.Text;
+import net.minecraft.client.MinecraftClient;
+import net.minecraft.client.font.TextRenderer;
+import net.minecraft.sound.SoundEvent;
+import net.minecraft.client.render.Camera;
+import net.minecraft.client.util.math.MatrixStack;
+import net.minecraft.client.render.VertexConsumerProvider;
+import net.minecraft.client.render.OverlayTexture;
+import net.minecraft.client.network.PlayerListEntry;
+import net.minecraft.registry.entry.RegistryEntry;
+import net.minecraft.client.network.ClientPlayerEntity;
+import net.minecraft.util.math.RotationAxis;
+import net.minecraft.client.render.model.json.ModelTransformationMode;
 import org.lwjgl.opengl.GL11;
 
 /*
@@ -825,7 +825,7 @@ extends Class278 {
                         if (!h.method_6079().method_7960()) {
                             i.add(h.method_6079());
                         }
-                        h.method_31548().field_7548.forEach((Consumer<class_1799>)LambdaMetafactory.metafactory(null, null, null, (Ljava/lang/Object;)V, method1573(java.util.List net.minecraft.class_1799 ), (Lnet/minecraft/class_1799;)V)(i));
+                        h.method_31548().field_7548.forEach((Consumer<class_1799>)LambdaMetafactory.metafactory(null, null, null, (Ljava/lang/Object;)V, method1573(java.util.List net.minecraft.item.ItemStack ), (Lnet/minecraft/class_1799;)V)(i));
                         if (h.method_6047().method_7960()) break block21;
                         v0 = 44253;
                         ** GOTO lbl14

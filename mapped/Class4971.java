@@ -3,11 +3,11 @@
  * 
  * Could not load the following classes:
  *  io.netty.util.internal.ConcurrentSet
- *  net.minecraft.class_2338
- *  net.minecraft.class_2382
- *  net.minecraft.class_243
- *  net.minecraft.class_310
- *  net.minecraft.class_746
+ *  net.minecraft.util.math.BlockPos
+ *  net.minecraft.util.math.Vec3i
+ *  net.minecraft.util.math.Vec3d
+ *  net.minecraft.client.MinecraftClient
+ *  net.minecraft.client.network.ClientPlayerEntity
  */
 package mapped;
 
@@ -47,11 +47,11 @@ import mapped.Class628;
 import mapped.Class63;
 import mapped.Class6322;
 import mapped.Class6454;
-import net.minecraft.class_2338;
-import net.minecraft.class_2382;
-import net.minecraft.class_243;
-import net.minecraft.class_310;
-import net.minecraft.class_746;
+import net.minecraft.util.math.BlockPos;
+import net.minecraft.util.math.Vec3i;
+import net.minecraft.util.math.Vec3d;
+import net.minecraft.client.MinecraftClient;
+import net.minecraft.client.network.ClientPlayerEntity;
 
 /*
  * Illegal identifiers - consider using --renameillegalidents true

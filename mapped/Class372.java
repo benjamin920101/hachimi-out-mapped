@@ -2,16 +2,16 @@
  * Decompiled with CFR 0.152.
  * 
  * Could not load the following classes:
- *  net.minecraft.class_1268
- *  net.minecraft.class_1799
- *  net.minecraft.class_2596
- *  net.minecraft.class_2846
- *  net.minecraft.class_2846$class_2847
- *  net.minecraft.class_2886
- *  net.minecraft.class_310
- *  net.minecraft.class_746
- *  net.minecraft.class_9331
- *  net.minecraft.class_9334
+ *  net.minecraft.util.Hand
+ *  net.minecraft.item.ItemStack
+ *  net.minecraft.network.packet.Packet
+ *  net.minecraft.network.packet.c2s.play.PlayerActionC2SPacket
+ *  net.minecraft.network.packet.c2s.play.PlayerActionC2SPacket$Action
+ *  net.minecraft.network.packet.c2s.play.PlayerInteractItemC2SPacket
+ *  net.minecraft.client.MinecraftClient
+ *  net.minecraft.client.network.ClientPlayerEntity
+ *  net.minecraft.component.ComponentType
+ *  net.minecraft.component.DataComponentTypes
  */
 package mapped;
 
@@ -25,15 +25,15 @@ import mapped.Class278;
 import mapped.Class556;
 import mapped.Class5723;
 import mapped.Class924;
-import net.minecraft.class_1268;
-import net.minecraft.class_1799;
-import net.minecraft.class_2596;
-import net.minecraft.class_2846;
-import net.minecraft.class_2886;
-import net.minecraft.class_310;
-import net.minecraft.class_746;
-import net.minecraft.class_9331;
-import net.minecraft.class_9334;
+import net.minecraft.util.Hand;
+import net.minecraft.item.ItemStack;
+import net.minecraft.network.packet.Packet;
+import net.minecraft.network.packet.c2s.play.PlayerActionC2SPacket;
+import net.minecraft.network.packet.c2s.play.PlayerInteractItemC2SPacket;
+import net.minecraft.client.MinecraftClient;
+import net.minecraft.client.network.ClientPlayerEntity;
+import net.minecraft.component.ComponentType;
+import net.minecraft.component.DataComponentTypes;
 
 /*
  * Illegal identifiers - consider using --renameillegalidents true

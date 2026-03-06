@@ -2,8 +2,8 @@
  * Decompiled with CFR 0.152.
  * 
  * Could not load the following classes:
- *  net.minecraft.class_310
- *  net.minecraft.class_315
+ *  net.minecraft.client.MinecraftClient
+ *  net.minecraft.client.option.GameOptions
  */
 package mapped;
 
@@ -13,8 +13,8 @@ import mapped.Class278;
 import mapped.Class298;
 import mapped.Class556;
 import mapped.Class6188;
-import net.minecraft.class_310;
-import net.minecraft.class_315;
+import net.minecraft.client.MinecraftClient;
+import net.minecraft.client.option.GameOptions;
 
 /*
  * Illegal identifiers - consider using --renameillegalidents true
