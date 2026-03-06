@@ -8,7 +8,7 @@ import mapped.Class212;
 import mapped.Class265;
 import mapped.Class3596;
 import mapped.Class411;
-import mapped.Class418;
+import mapped.AutoTrap;
 import mapped.Class587;
 import mapped.Class6060;
 import mapped.Class637;
@@ -25,7 +25,7 @@ public class Class1222 {
         return n4 + ((n2 ^ 0x14CF5D7E) & ~n4);
     }
 
-    public static int method13289(int n2, int n3, Class418 class418, Class265 class265) {
+    public static int method13289(int n2, int n3, AutoTrap class418, Class265 class265) {
         int n4 = n2;
         return n4 & 0xCF1B7C23 | 0x30E483DC & ~n4;
     }

@@ -5,7 +5,7 @@ package mapped;
 
 import mapped.Class118;
 import mapped.Class3234;
-import mapped.Class343;
+import mapped.AutoReconnect;
 import mapped.Class3556;
 import mapped.Class3879;
 import mapped.Class4074;
@@ -33,7 +33,7 @@ public class Class3612 {
         return n2 ^ 0xE56B8AFA ^ n3;
     }
 
-    public static int method17912(int n2, int n3, Class343 class343, Class773 class773) {
+    public static int method17912(int n2, int n3, AutoReconnect class343, Class773 class773) {
         int n4 = n2;
         return (0x487FED8 | ~n4) - ~n4;
     }

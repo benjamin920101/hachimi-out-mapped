@@ -13,8 +13,8 @@ import mapped.Class186;
 import mapped.Class22;
 import mapped.Class235;
 import mapped.Class278;
-import mapped.Class354;
-import mapped.Class379;
+import mapped.ElytraTweaks;
+import mapped.AirPlace;
 import mapped.Class3792;
 import mapped.Class3880;
 import mapped.Class4218;
@@ -48,7 +48,7 @@ public class Class3638 {
         return n4 + ((n2 ^ 0xE1E94BE4) & ~n4);
     }
 
-    public static int method17975(int n2, int n3, Class73 class73, Class354 class354) {
+    public static int method17975(int n2, int n3, Class73 class73, ElytraTweaks class354) {
         int n4 = n2;
         return (0x32100936 | ~n4) - ~n4;
     }
@@ -63,7 +63,7 @@ public class Class3638 {
         return (0x7FC56F8 | ~n4) - ~n4;
     }
 
-    public static int method17978(int n2, int n3, Class1316 class1316, Class379 class379) {
+    public static int method17978(int n2, int n3, Class1316 class1316, AirPlace class379) {
         return n2 ^ 0x96A28F20 ^ n3;
     }
 

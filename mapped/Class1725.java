@@ -4,7 +4,7 @@
 package mapped;
 
 import mapped.Class148;
-import mapped.Class301;
+import mapped.ScreenKeeper;
 import mapped.Class5790;
 import mapped.Class588;
 import net.hachimi.HACHIMI_CLIENT;
@@ -16,7 +16,7 @@ public class Class1725 {
         return (0x1E728D14 | ~n4) - ~n4;
     }
 
-    public static int method15482(int n2, int n3, Class148 class148, Class301 class301) {
+    public static int method15482(int n2, int n3, Class148 class148, ScreenKeeper class301) {
         return 562032637 + (n2 & 0xDE801002);
     }
 }

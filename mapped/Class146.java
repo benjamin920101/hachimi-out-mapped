@@ -12,7 +12,7 @@ import java.lang.invoke.ConstantCallSite;
 import java.lang.invoke.MethodHandle;
 import java.lang.invoke.MethodHandles;
 import java.lang.invoke.MethodType;
-import mapped.Class447;
+import mapped.Velocity;
 import mapped.Class8;
 import net.hachimi.HACHIMI_CLIENT;
 import net.minecraft.util.math.BlockPos;
@@ -30,7 +30,7 @@ extends Class8 {
         int c2 = a2.method_10260() >> (int)field190[0];
         if (b2 == this.field191.method_12004().field_9181) {
             if (c2 != this.field191.method_12004().field_9180) {
-                return Class447.method10252();
+                return Velocity.method10252();
             }
             n2 = (int)field190[1];
         } else {

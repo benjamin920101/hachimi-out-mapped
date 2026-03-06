@@ -37,21 +37,21 @@ import mapped.Class3571;
 import mapped.Class3596;
 import mapped.Class3659;
 import mapped.Class3696;
-import mapped.Class377;
+import mapped.Parkour;
 import mapped.Class3780;
 import mapped.Class3793;
-import mapped.Class382;
+import mapped.Notification;
 import mapped.Class3976;
-import mapped.Class404;
-import mapped.Class406;
+import mapped.MainHand;
+import mapped.Spammer;
 import mapped.Class4134;
-import mapped.Class417;
+import mapped.AntiPhase;
 import mapped.Class4218;
 import mapped.Class4225;
-import mapped.Class426;
+import mapped.Flatten;
 import mapped.Class428;
-import mapped.Class434;
-import mapped.Class445;
+import mapped.Aura;
+import mapped.Phase;
 import mapped.Class461;
 import mapped.Class48;
 import mapped.Class49;
@@ -88,7 +88,7 @@ public class Class1694 {
         return (n3 | ~n4) - ~n4;
     }
 
-    public static int method15365(int n2, int n3, Class434 class434, Class3793 class3793) {
+    public static int method15365(int n2, int n3, Aura class434, Class3793 class3793) {
         int n4 = n2 ^ 0x262E448;
         int n5 = n3;
         return (n4 | n5) & (~n5 | ~n4);
@@ -116,7 +116,7 @@ public class Class1694 {
         return (n3 | ~n4) - ~n4;
     }
 
-    public static int method15370(int n2, int n3, Class404 class404, Class127 class127) {
+    public static int method15370(int n2, int n3, MainHand class404, Class127 class127) {
         int n4 = n2 ^ 0xAC170F16;
         return (n3 | ~n4) - ~n4;
     }
@@ -141,7 +141,7 @@ public class Class1694 {
         return (0x2F96F0E7 | ~n4) - ~n4;
     }
 
-    public static int method15375(int n2, int n3, Class445 class445, Class197 class197) {
+    public static int method15375(int n2, int n3, Phase class445, Class197 class197) {
         return n2 ^ 0xE41B9900 ^ n3;
     }
 
@@ -188,7 +188,7 @@ public class Class1694 {
         return n4 & 0xE81CC520 | 0x17E33ADF & ~n4;
     }
 
-    public static int method15385(int n2, int n3, Class3780 class3780, Class417 class417) {
+    public static int method15385(int n2, int n3, Class3780 class3780, AntiPhase class417) {
         int n4 = n2;
         return (0x3BE1B4D | ~n4) - ~n4;
     }
@@ -228,7 +228,7 @@ public class Class1694 {
         return 742052143 + (n2 & 0xD3C52ED0);
     }
 
-    public static int method15393(int n2, int n3, Class377 class377, Class406 class406) {
+    public static int method15393(int n2, int n3, Parkour class377, Spammer class406) {
         int n4 = n3;
         return n4 + ((n2 ^ 0x9FFFF36D) & ~n4);
     }
@@ -242,7 +242,7 @@ public class Class1694 {
         return (n3 | ~n4) - ~n4;
     }
 
-    public static int method15396(int n2, int n3, Class1570 class1570, Class426 class426) {
+    public static int method15396(int n2, int n3, Class1570 class1570, Flatten class426) {
         int n4 = n2 ^ 0x8140;
         int n5 = n3;
         return n4 & ~n5 | n5 & ~n4;
@@ -258,7 +258,7 @@ public class Class1694 {
         return n2 ^ 0x4A389612 ^ n3;
     }
 
-    public static int method15399(int n2, int n3, Class570 class570, Class382 class382) {
+    public static int method15399(int n2, int n3, Class570 class570, Notification class382) {
         return 496188910 + (n2 & 0xE26CC211);
     }
 

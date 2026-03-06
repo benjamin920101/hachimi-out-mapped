@@ -10,7 +10,7 @@ import mapped.Class145;
 import mapped.Class1450;
 import mapped.Class1561;
 import mapped.Class274;
-import mapped.Class435;
+import mapped.AutoMine;
 import mapped.Class487;
 import mapped.Class520;
 import mapped.Class5473;
@@ -47,7 +47,7 @@ public class Class1485 {
         return n4 + ((n2 ^ 0xEACA0484) & ~n4);
     }
 
-    public static int method14408(int n2, int n3, Class6253 class6253, Class435 class435) {
+    public static int method14408(int n2, int n3, Class6253 class6253, AutoMine class435) {
         int n4 = n2 ^ 0x1C5921FD;
         return (n3 | ~n4) - ~n4;
     }

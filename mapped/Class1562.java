@@ -14,18 +14,18 @@ import mapped.Class2299;
 import mapped.Class231;
 import mapped.Class237;
 import mapped.Class243;
-import mapped.Class281;
-import mapped.Class312;
+import mapped.FreeLook;
+import mapped.SkinBlink;
 import mapped.Class3285;
 import mapped.Class3293;
 import mapped.Class3332;
-import mapped.Class334;
-import mapped.Class369;
+import mapped.Tracers;
+import mapped.StorageESP;
 import mapped.Class3979;
 import mapped.Class3989;
-import mapped.Class429;
-import mapped.Class434;
-import mapped.Class447;
+import mapped.HoleFill;
+import mapped.Aura;
+import mapped.Velocity;
 import mapped.Class4971;
 import mapped.Class5473;
 import mapped.Class553;
@@ -46,7 +46,7 @@ import mapped.Class85;
 import mapped.Class98;
 
 public class Class1562 {
-    public static int method14534(int n2, int n3, Class281 class281, Class694 class694) {
+    public static int method14534(int n2, int n3, FreeLook class281, Class694 class694) {
         int n4 = n2;
         return (0xE75B18A | ~n4) - ~n4;
     }
@@ -74,7 +74,7 @@ public class Class1562 {
         return n4 & 0xC4BF68D9 | 0x3B409726 & ~n4;
     }
 
-    public static int method14540(int n2, int n3, Class553 class553, Class434 class434) {
+    public static int method14540(int n2, int n3, Class553 class553, Aura class434) {
         return n2 ^ 0x31619E79;
     }
 
@@ -97,7 +97,7 @@ public class Class1562 {
         return 61657062 + (n2 & 0xFC533019);
     }
 
-    public static int method14545(int n2, int n3, Class115 class115, Class429 class429) {
+    public static int method14545(int n2, int n3, Class115 class115, HoleFill class429) {
         int n4 = n2 ^ 0x413C3054;
         return (n3 | ~n4) - ~n4;
     }
@@ -116,7 +116,7 @@ public class Class1562 {
         return (n3 | ~n4) - ~n4;
     }
 
-    public static int method14549(int n2, int n3, Class158 class158, Class447 class447) {
+    public static int method14549(int n2, int n3, Class158 class158, Velocity class447) {
         int n4 = n2 ^ 0x995B293F;
         int n5 = n3;
         return n4 & ~n5 | n5 & ~n4;
@@ -130,11 +130,11 @@ public class Class1562 {
         return 566194567 + (n2 & 0xDE408E78);
     }
 
-    public static int method14552(int n2, int n3, Class3989 class3989, Class312 class312) {
+    public static int method14552(int n2, int n3, Class3989 class3989, SkinBlink class312) {
         return n2 ^ 0xC382BC15 ^ n3;
     }
 
-    public static int method14553(int n2, int n3, Class181 class181, Class369 class369) {
+    public static int method14553(int n2, int n3, Class181 class181, StorageESP class369) {
         return n2 ^ 0x20043000 ^ n3;
     }
 
@@ -142,7 +142,7 @@ public class Class1562 {
         return 864264891 + (n2 & 0xCC7C5D44);
     }
 
-    public static int method14555(int n2, int n3, Class85 class85, Class334 class334) {
+    public static int method14555(int n2, int n3, Class85 class85, Tracers class334) {
         return 794171605 + (n2 & 0xD0A9E72A);
     }
 }

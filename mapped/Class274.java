@@ -22,8 +22,8 @@ import mapped.Class252;
 import mapped.Class261;
 import mapped.Class268;
 import mapped.Class276;
-import mapped.Class298;
-import mapped.Class333;
+import mapped.Chams;
+import mapped.ClickGui;
 import mapped.Class4036;
 import mapped.Class4146;
 import mapped.Class50;
@@ -213,7 +213,7 @@ lbl61:
         }
     }
 
-    private static int method1085(Class333 class333) {
+    private static int method1085(ClickGui class333) {
         return class333.method2999();
     }
 
@@ -246,7 +246,7 @@ lbl61:
     }
 
     private static void method1090() {
-        Class298.method1924();
+        Chams.method1924();
     }
 
     public static boolean method1091() {
@@ -296,7 +296,7 @@ lbl9:
                         }
                         this.field380 = (int)Class274.field384[3];
                     }
-                    if (!Class333.method2989().method3011()) break block6;
+                    if (!ClickGui.method2989().method3011()) break block6;
                     Class5723.field11041.method22448(Class5693.field10948);
                     break block6;
                 }
@@ -409,7 +409,7 @@ lbl9:
         return class274.field380;
     }
 
-    private static int method1114(Class333 class333, int n2) {
+    private static int method1114(ClickGui class333, int n2) {
         return class333.method3021(n2);
     }
 
@@ -588,7 +588,7 @@ lbl9:
                 block22: {
                     block21: {
                         block19: {
-                            this.method753(Class6454.method24637() + Class274.method1085(Class333.method2989()));
+                            this.method753(Class6454.method24637() + Class274.method1085(ClickGui.method2989()));
                             this.field340 = o2;
                             this.field337 = p2;
                             boolean t2 = this.method740(q2, r2);
@@ -658,14 +658,14 @@ lbl9:
                 }
             }
             float l2 = (((Number)this.field354.method507()).floatValue() - v2.floatValue()) / (w2.floatValue() - v2.floatValue());
-            this.method763(n2, o2, p2, l2 * this.field341 * 1.0f, this.field339 * 1.0f, Class274.method1114(Class333.method2989(), (int)field384[1] + u2));
+            this.method763(n2, o2, p2, l2 * this.field341 * 1.0f, this.field339 * 1.0f, Class274.method1114(ClickGui.method2989(), (int)field384[1] + u2));
         }
         int x2 = (int)field384[0];
         if (!this.field380) {
             Class274.method1104();
             return;
         }
-        this.method771(n2, new String(this.field383) + this.method1133(), o2 + 2.0f, p2 + Class333.method2989().method3018() * Class274.method1138(), x2);
+        this.method771(n2, new String(this.field383) + this.method1133(), o2 + 2.0f, p2 + ClickGui.method2989().method3018() * Class274.method1138(), x2);
         float y2 = (float)Class6454.method24719(this.field354.method512()) * 1.0f;
         int n4 = Class274.method1128(this) ? 17977 : 17976;
         block10: while (true) {
@@ -676,7 +676,7 @@ lbl9:
                 }
                 case 17976: {
                     int m2 = (int)field384[2];
-                    this.method771(n2, " " + String.valueOf(this.field354.method507()), o2 + 2.0f + y2, p2 + Class333.method2989().method3018() * 1.0f, m2);
+                    this.method771(n2, " " + String.valueOf(this.field354.method507()), o2 + 2.0f + y2, p2 + ClickGui.method2989().method3018() * 1.0f, m2);
                     return;
                 }
             }

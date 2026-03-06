@@ -6,9 +6,9 @@ package mapped;
 import mapped.Class12;
 import mapped.Class1565;
 import mapped.Class205;
-import mapped.Class337;
-import mapped.Class348;
-import mapped.Class388;
+import mapped.AutoRespawn;
+import mapped.BlockHighlight;
+import mapped.Particles;
 import mapped.Class537;
 import mapped.Class54;
 import mapped.Class5686;
@@ -36,13 +36,13 @@ public class Class3794 {
         return (0x2AF8A05F | ~n4) - ~n4;
     }
 
-    public static int method18390(int n2, int n3, Class348 class348, Class712 class712) {
+    public static int method18390(int n2, int n3, BlockHighlight class348, Class712 class712) {
         int n4 = n2 ^ 0xEFDF3DF6;
         int n5 = n3;
         return n4 & ~n5 | n5 & ~n4;
     }
 
-    public static int method18391(int n2, int n3, Class388 class388, Class337 class337) {
+    public static int method18391(int n2, int n3, Particles class388, AutoRespawn class337) {
         int n4 = n3;
         return n4 + ((n2 ^ 0xDB6FBEF7) & ~n4);
     }

@@ -6,8 +6,8 @@ package mapped;
 import mapped.Class135;
 import mapped.Class1725;
 import mapped.Class204;
-import mapped.Class421;
-import mapped.Class438;
+import mapped.PistonCrystal;
+import mapped.InventoryTweaks;
 import mapped.Class5449;
 import mapped.Class5711;
 import mapped.Class572;
@@ -17,7 +17,7 @@ import mapped.Class71;
 import mapped.Class75;
 
 public class Class3915 {
-    public static int method19304(int n2, int n3, Class438 class438, Class5723 class5723) {
+    public static int method19304(int n2, int n3, InventoryTweaks class438, Class5723 class5723) {
         return n2 ^ 0xA4C88DC0 ^ n3;
     }
 
@@ -25,7 +25,7 @@ public class Class3915 {
         return 962867346 + (n2 & 0xC69BCF6D);
     }
 
-    public static int method19306(int n2, int n3, Class75 class75, Class421 class421) {
+    public static int method19306(int n2, int n3, Class75 class75, PistonCrystal class421) {
         int n4 = n2;
         return (0xBA96848 | ~n4) - ~n4;
     }

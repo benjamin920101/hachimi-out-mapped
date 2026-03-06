@@ -39,21 +39,21 @@ import mapped.Class268;
 import mapped.Class276;
 import mapped.Class3;
 import mapped.Class3306;
-import mapped.Class333;
+import mapped.ClickGui;
 import mapped.Class3717;
 import mapped.Class3815;
 import mapped.Class3979;
 import mapped.Class4002;
 import mapped.Class4036;
 import mapped.Class4054;
-import mapped.Class408;
+import mapped.Replenish;
 import mapped.Class4135;
 import mapped.Class4146;
 import mapped.Class4265;
 import mapped.Class4387;
-import mapped.Class439;
-import mapped.Class447;
-import mapped.Class457;
+import mapped.AntiAim;
+import mapped.Velocity;
+import mapped.Colors;
 import mapped.Class489;
 import mapped.Class540;
 import mapped.Class543;
@@ -116,7 +116,7 @@ extends Class268 {
     }
 
     private static boolean method959() {
-        return Class408.method6431();
+        return Replenish.method6431();
     }
 
     private static void method960() {
@@ -187,7 +187,7 @@ extends Class268 {
     @Override
     public void method825(class_332 x2, float y2, float z2, float A2, float B2, float C2) {
         double u2;
-        this.method753(Class6454.method24637() + Class333.method2989().method2999());
+        this.method753(Class6454.method24637() + ClickGui.method2989().method2999());
         this.field340 = y2;
         this.field337 = z2;
         int D2 = Class273.method988((Class251)this.field354);
@@ -200,14 +200,14 @@ extends Class268 {
         int G2 = Class273.method1062(Class273.method1008(), D2);
         this.method763(x2, y2 + this.field341 * 1.0f - 11.0f, z2, 10.0, 10.0, G2);
         int H2 = (int)field377[5];
-        this.method771(x2, this.field354.method512(), y2 + 2.0f, z2 + Class333.method2989().method3018() * 1.0f, H2);
+        this.method771(x2, this.field354.method512(), y2 + 2.0f, z2 + ClickGui.method2989().method3018() * 1.0f, H2);
         if (!(this.field371.method24281() > (double)0.01f)) {
             this.method1009();
             return;
         }
         Class251 p2 = (Class251)this.field354;
         if (p2.method553()) {
-            Color a2 = Class457.method10620().method10614();
+            Color a2 = Colors.method10620().method10614();
             float[] b2 = Color.RGBtoHSB(a2.getRed(), a2.getGreen(), a2.getBlue(), null);
             float[] fArray = new float[(int)field377[1]];
             fArray[(int)Class273.field377[0]] = b2[(int)field377[0]];
@@ -240,7 +240,7 @@ extends Class268 {
                     break;
                 }
             }
-            if (this.method750(A2, B2, this.field340 + Class273.method983(), this.field337 + this.field339 * 1.0f + Class333.method2989().method3018() * 1.0f + this.field341 * 1.0f, this.field341 * 1.0f - 2.0f, 8.0) && !p2.method553()) {
+            if (this.method750(A2, B2, this.field340 + Class273.method983(), this.field337 + this.field339 * 1.0f + ClickGui.method2989().method3018() * 1.0f + this.field341 * 1.0f, this.field341 * 1.0f - 2.0f, 8.0) && !p2.method553()) {
                 this.field373[(int)Class273.field377[0]] = class_3532.method_15363((float)((A2 - (this.field340 + 1.0f)) / (this.field341 * 1.0f - 1.0f)), (float)0.001f, (float)0.999f);
             }
             if (p2.method556() && this.method750(A2, B2, this.field340 + 1.0f, this.field337 + this.field339 * 1.0f + 15.0f + this.field341 * Class273.method962(), this.field341 * 1.0f - 2.0f, Class4002.field9182 * Class273.method1022())) {
@@ -254,14 +254,14 @@ extends Class268 {
         }
         float[] q2 = this.field373;
         int r2 = Color.HSBtoRGB(q2[(int)field377[0]], 1.0f, 1.0f);
-        boolean s2 = Class333.method2989().method2998();
+        boolean s2 = ClickGui.method2989().method2998();
         if (s2) {
             this.method737(this.field340, this.field337 + this.field339 * 1.0f, this.field340 + this.field341 * 1.0f, this.field337 + this.field339 * 1.0f + this.method1067() * this.method1064());
         }
         float k2 = 0.0f;
         while (true) {
             if (!(k2 < this.field341 * 1.0f - 2.0f)) {
-                this.method763(x2, this.field340 + 1.0f + (this.field341 * 1.0f - 2.0f) * q2[(int)field377[0]], this.field337 + this.field339 * 1.0f + Class333.method2989().method3018() * 1.0f + this.field341 * 1.0f, 1.0, Class5598.field10655 * 1.0f, (int)field377[5]);
+                this.method763(x2, this.field340 + 1.0f + (this.field341 * 1.0f - 2.0f) * q2[(int)field377[0]], this.field337 + this.field339 * 1.0f + ClickGui.method2989().method3018() * 1.0f + this.field341 * 1.0f, 1.0, Class5598.field10655 * 1.0f, (int)field377[5]);
                 this.method738(x2, this.field340 + 1.0f, this.field337 + this.field339 * 1.0f + 2.0f, this.field340 + this.field341 * 1.0f - 1.0f, this.field337 + this.field339 * 1.0f + 2.0f + this.field341 * Class273.method1004(), (int)field377[5], r2, (boolean)field377[4]);
                 this.method738(x2, this.field340 + 1.0f, this.field337 + this.field339 * 1.0f + 2.0f, this.field340 + this.field341 * 1.0f - Class273.method1056(), this.field337 + this.field339 * Class273.method963() + 2.0f + this.field341 * Class273.method961(), (int)field377[0], (int)field377[8], (boolean)field377[0]);
                 this.method763(x2, this.field340 + this.field341 * 1.0f * q2[(int)field377[4]], this.field337 + this.field339 * 1.0f + 1.0f + this.field341 * Class273.method977() * q2[(int)field377[2]], 2.0, 2.0, (int)field377[5]);
@@ -270,7 +270,7 @@ extends Class268 {
                 return;
             }
             float j2 = k2 / (this.field341 * Class273.method1021() - 2.0f);
-            this.method763(x2, this.field340 + 1.0f + k2, this.field337 + this.field339 * 1.0f + Class273.method1003(Class333.method2989()) * 1.0f + this.field341 * Class273.method980(), 1.0, Class4054.field9355 * 1.0f, Color.getHSBColor(j2, 1.0f, 1.0f).getRGB());
+            this.method763(x2, this.field340 + 1.0f + k2, this.field337 + this.field339 * 1.0f + Class273.method1003(ClickGui.method2989()) * 1.0f + this.field341 * Class273.method980(), 1.0, Class4054.field9355 * 1.0f, Color.getHSBColor(j2, 1.0f, 1.0f).getRGB());
             k2 += 1.0f;
         }
         int o2 = (int)field377[0];
@@ -301,7 +301,7 @@ extends Class268 {
         this.method763(x2, this.field340 + 1.0f, this.field337 + this.field339 * Class273.method1019() + (!p2.method556() ? 14.0f : 26.0f) + this.field341 * 1.0f, this.field341 * 1.0f - 17.0f, 12.0, (int)field377[7]);
         double d3 = u2 = Integer.valueOf("Global".toUpperCase().hashCode()).equals(this.field354.method512().toUpperCase().hashCode()) ? 1.0 : Class273.method1049(p2.method516());
         if (u2 > Class5624.field10749) {
-            this.method763(x2, this.field340 + 1.0f + this.field341 * 1.0f - 15.0f, this.field337 + this.field339 * 1.0f + (p2.method556() ? 26.0f : 14.0f) + this.field341 * 1.0f, 13.0f * Class273.method1051(), 12.0, Class273.method1055(Class333.method2989(), (float)u2));
+            this.method763(x2, this.field340 + 1.0f + this.field341 * 1.0f - 15.0f, this.field337 + this.field339 * 1.0f + (p2.method556() ? 26.0f : 14.0f) + this.field341 * 1.0f, 13.0f * Class273.method1051(), 12.0, Class273.method1055(ClickGui.method2989(), (float)u2));
         }
         float v2 = this.field340 + 1.0f + this.field341 * 1.0f - 14.0f;
         float w2 = this.field337 + this.field339 * 1.0f + (p2.method556() ? 27.0f : 15.0f) + this.field341 * 1.0f;
@@ -431,7 +431,7 @@ extends Class268 {
         Class273.method984(class273, cArray);
     }
 
-    private static int method997(int n2, int n3, Class439 class439, Class540 class540) {
+    private static int method997(int n2, int n3, AntiAim class439, Class540 class540) {
         return Class5787.method22735(n2, n3, class439, class540);
     }
 
@@ -455,7 +455,7 @@ extends Class268 {
         Class3979.method19561();
     }
 
-    private static float method1003(Class333 class333) {
+    private static float method1003(ClickGui class333) {
         return class333.method3018();
     }
 
@@ -475,8 +475,8 @@ extends Class268 {
         class273.method1009();
     }
 
-    private static Class333 method1008() {
-        return Class333.method2989();
+    private static ClickGui method1008() {
+        return ClickGui.method2989();
     }
 
     public void method1009() {
@@ -535,7 +535,7 @@ extends Class268 {
     }
 
     private static boolean method1020() {
-        return Class408.method6431();
+        return Replenish.method6431();
     }
 
     public static float method1021() {
@@ -775,7 +775,7 @@ lbl47:
         if (this.method744(d2, e2) && f2 == (int)field377[4]) {
             this.field375 = !this.field375 ? (int)field377[4] : (int)field377[0];
             this.field371.method24284(this.field375);
-            if (Class333.method2989().method3011()) {
+            if (ClickGui.method2989().method3011()) {
                 Class5723.field11041.method22448(Class5693.field10948);
             }
         }
@@ -793,7 +793,7 @@ lbl47:
                     // empty catch block
                 }
                 this.field376 = (int)field377[0];
-                if (Class333.method2989().method3011()) {
+                if (ClickGui.method2989().method3011()) {
                     Class273.method1006().method22448(Class5693.field10948);
                 }
             }
@@ -807,7 +807,7 @@ lbl47:
                 fArray[(int)Class273.field377[2]] = 1.0f - c2[(int)field377[2]];
                 fArray[(int)Class273.field377[3]] = c2[(int)field377[3]];
                 this.field373 = fArray;
-                if (Class333.method2989().method3011()) {
+                if (ClickGui.method2989().method3011()) {
                     Class5723.field11041.method22448(Class5693.field10948);
                 }
             }
@@ -866,7 +866,7 @@ lbl47:
         Class6009.method23559(bl2);
     }
 
-    private static int method1055(Class333 class333, float f2) {
+    private static int method1055(ClickGui class333, float f2) {
         return class333.method2997(f2);
     }
 
@@ -875,7 +875,7 @@ lbl47:
     }
 
     private static boolean method1057() {
-        return Class447.method10252();
+        return Velocity.method10252();
     }
 
     public static Class925 method1058(Class273 class273) {
@@ -894,7 +894,7 @@ lbl47:
         return class251.method553();
     }
 
-    private static int method1062(Class333 class333, int n2) {
+    private static int method1062(ClickGui class333, int n2) {
         return class333.method2990(n2);
     }
 

@@ -7,8 +7,8 @@ import mapped.Class1215;
 import mapped.Class148;
 import mapped.Class198;
 import mapped.Class228;
-import mapped.Class306;
-import mapped.Class338;
+import mapped.ViewModel;
+import mapped.Step;
 import mapped.Class3449;
 import mapped.Class3814;
 import mapped.Class5759;
@@ -29,7 +29,7 @@ public class Class3364 {
         return (n3 | ~n4) - ~n4;
     }
 
-    public static int method17187(int n2, int n3, Class338 class338, Class306 class306) {
+    public static int method17187(int n2, int n3, Step class338, ViewModel class306) {
         int n4 = n2;
         return n4 & 0xE5F01992 | 0x1A0FE66D & ~n4;
     }

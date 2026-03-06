@@ -13,7 +13,7 @@ import java.lang.invoke.ConstantCallSite;
 import java.lang.invoke.MethodHandles;
 import java.lang.invoke.MethodType;
 import mapped.Class244;
-import mapped.Class347;
+import mapped.AutoTool;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.Direction;
 import net.minecraft.block.BlockState;
@@ -35,7 +35,7 @@ public class Class1017 {
     }
 
     public int method12824() {
-        return Class347.method3834(this.method12829());
+        return AutoTool.method3834(this.method12829());
     }
 
     private static String 2dn9I9qojtLFILaC(String string) {

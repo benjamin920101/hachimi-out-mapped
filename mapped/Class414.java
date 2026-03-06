@@ -17,10 +17,10 @@ import mapped.Class1807;
 import mapped.Class248;
 import mapped.Class253;
 import mapped.Class3510;
-import mapped.Class408;
+import mapped.Replenish;
 import mapped.Class411;
 import mapped.Class4196;
-import mapped.Class443;
+import mapped.AntiAFK;
 import mapped.Class5478;
 import mapped.Class556;
 import mapped.Class5678;
@@ -85,7 +85,7 @@ extends Class411 {
         return Class414.field290.field_1687.method_18456().stream().filter(Class414::method6609).filter(arg_0 -> Class414.method6617(a2, arg_0)).filter(Class414::method6627).min(Comparator.comparingDouble(Class414::method6618)).orElse(null);
     }
 
-    private static int method6616(int n2, int n3, Class598 class598, Class443 class443) {
+    private static int method6616(int n2, int n3, Class598 class598, AntiAFK class443) {
         return Class5678.method22374(n2, n3, class598, class443);
     }
 
@@ -133,7 +133,7 @@ lbl9:
     }
 
     private static boolean method6621() {
-        return Class408.method6431();
+        return Replenish.method6431();
     }
 
     private static boolean method6622(Class5478 class5478, String string) {

@@ -15,14 +15,14 @@ import mapped.Class252;
 import mapped.Class271;
 import mapped.Class274;
 import mapped.Class275;
-import mapped.Class323;
-import mapped.Class385;
-import mapped.Class391;
-import mapped.Class392;
-import mapped.Class407;
+import mapped.NoSlotSet;
+import mapped.RocketExtend;
+import mapped.NoGlitch;
+import mapped.NewChunks;
+import mapped.EntityControl;
 import mapped.Class4148;
 import mapped.Class4218;
-import mapped.Class437;
+import mapped.AntiRegear;
 import mapped.Class474;
 import mapped.Class542;
 import mapped.Class559;
@@ -44,16 +44,16 @@ public class Class3535 {
         return n4 & 0xDCD7A33B | 0x23285CC4 & ~n4;
     }
 
-    public static int method17773(int n2, int n3, Class154 class154, Class437 class437) {
+    public static int method17773(int n2, int n3, Class154 class154, AntiRegear class437) {
         return 428775785 + (n2 & 0xE6716696);
     }
 
-    public static int method17774(int n2, int n3, Class1412 class1412, Class391 class391) {
+    public static int method17774(int n2, int n3, Class1412 class1412, NoGlitch class391) {
         int n4 = n2 ^ 0xB3BE869D;
         return (n3 | ~n4) - ~n4;
     }
 
-    public static int method17775(int n2, int n3, Class323 class323, Class274 class274) {
+    public static int method17775(int n2, int n3, NoSlotSet class323, Class274 class274) {
         return n2 ^ 0x243EE1DC;
     }
 
@@ -68,11 +68,11 @@ public class Class3535 {
         return (n4 | 0x2B54A0EE) & (0xD4AB5F11 | ~n4);
     }
 
-    public static int method17778(int n2, int n3, Class392 class392, Class542 class542) {
+    public static int method17778(int n2, int n3, NewChunks class392, Class542 class542) {
         return n2 ^ 0x155ED724;
     }
 
-    public static int method17779(int n2, int n3, Class407 class407, Class474 class474) {
+    public static int method17779(int n2, int n3, EntityControl class407, Class474 class474) {
         int n4 = n2;
         return (0x281A32E7 | ~n4) - ~n4;
     }
@@ -82,7 +82,7 @@ public class Class3535 {
         return n4 & 0xC0094726 | 0x3FF6B8D9 & ~n4;
     }
 
-    public static int method17781(int n2, int n3, Class385 class385, Class559 class559) {
+    public static int method17781(int n2, int n3, RocketExtend class385, Class559 class559) {
         int n4 = n3;
         return n4 + ((n2 ^ 0xF77EBEFD) & ~n4);
     }

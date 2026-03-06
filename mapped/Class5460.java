@@ -19,14 +19,14 @@ import mapped.Class1668;
 import mapped.Class1745;
 import mapped.Class215;
 import mapped.Class248;
-import mapped.Class294;
-import mapped.Class298;
+import mapped.PacketCanceler;
+import mapped.Chams;
 import mapped.Class3539;
-import mapped.Class396;
+import mapped.PhantomView;
 import mapped.Class3979;
 import mapped.Class4045;
 import mapped.Class4146;
-import mapped.Class419;
+import mapped.AutoCrystal;
 import mapped.Class553;
 import mapped.Class5659;
 import mapped.Class5836;
@@ -56,7 +56,7 @@ public class Class5460 {
         Class6009.method23560();
     }
 
-    private static int method21146(int n2, int n3, Class711 class711, Class396 class396) {
+    private static int method21146(int n2, int n3, Class711 class711, PhantomView class396) {
         return Class6060.method23786(n2, n3, class711, class396);
     }
 
@@ -84,11 +84,11 @@ public class Class5460 {
         Class1108.method12918(bl2);
     }
 
-    public static Map method21153(Class419 class419) {
+    public static Map method21153(AutoCrystal class419) {
         return class419.field1750;
     }
 
-    public static class_2338 method21154(Class419 class419) {
+    public static class_2338 method21154(AutoCrystal class419) {
         return class419.field1706;
     }
 
@@ -100,7 +100,7 @@ public class Class5460 {
         return class248.method507();
     }
 
-    public static Class248 method21157(Class419 class419) {
+    public static Class248 method21157(AutoCrystal class419) {
         return class419.field1663;
     }
 
@@ -120,7 +120,7 @@ public class Class5460 {
         return class5460.field10223;
     }
 
-    public static Class248 method21162(Class419 class419) {
+    public static Class248 method21162(AutoCrystal class419) {
         return class419.field1663;
     }
 
@@ -148,7 +148,7 @@ public class Class5460 {
         return class5460.field10222;
     }
 
-    private static int method21169(int n2, int n3, Class6159 class6159, Class294 class294) {
+    private static int method21169(int n2, int n3, Class6159 class6159, PacketCanceler class294) {
         return Class6060.method23771(n2, n3, class6159, class294);
     }
 
@@ -156,7 +156,7 @@ public class Class5460 {
         return class5460.field10223;
     }
 
-    private static Class248 method21171(Class419 class419) {
+    private static Class248 method21171(AutoCrystal class419) {
         return Class5460.method21162(class419);
     }
 
@@ -173,7 +173,7 @@ public class Class5460 {
     }
 
     private static void method21175() {
-        Class298.method1924();
+        Chams.method1924();
     }
 
     private static boolean method21176(Class613 class613) {
@@ -201,7 +201,7 @@ public class Class5460 {
     }
 
     private static void method21182() {
-        Class298.method1924();
+        Chams.method1924();
     }
 
     private static void method21183() {
@@ -213,7 +213,7 @@ public class Class5460 {
      */
     @Class1
     public void method21184(Class59 m2) {
-        Class419 n2 = Class419.method7217();
+        AutoCrystal n2 = AutoCrystal.method7217();
         if (((Class613)((Object)n2.field1732.method507())).method11313()) {
             Class6009.method23560();
             StringBuilder k2 = new StringBuilder();
@@ -292,10 +292,10 @@ public class Class5460 {
     }
 
     private static double method21193(double d2, double d3, double d4) {
-        return Class396.method5737(d2, d3, d4);
+        return PhantomView.method5737(d2, d3, d4);
     }
 
-    public static Class925 method21194(Class419 class419) {
+    public static Class925 method21194(AutoCrystal class419) {
         return class419.field1760;
     }
 
@@ -315,11 +315,11 @@ public class Class5460 {
         class6283.method24284(bl2);
     }
 
-    public static Class248 method21199(Class419 class419) {
+    public static Class248 method21199(AutoCrystal class419) {
         return class419.field1703;
     }
 
-    public static Class925 method21200(Class419 class419) {
+    public static Class925 method21200(AutoCrystal class419) {
         return class419.field1760;
     }
 
@@ -343,7 +343,7 @@ public class Class5460 {
         Class1668.method15147(n2, n3, n4, n5);
     }
 
-    public static Class248 method21206(Class419 class419) {
+    public static Class248 method21206(AutoCrystal class419) {
         return class419.field1698;
     }
 
@@ -351,11 +351,11 @@ public class Class5460 {
         return class248.method507();
     }
 
-    public static Class248 method21208(Class419 class419) {
+    public static Class248 method21208(AutoCrystal class419) {
         return class419.field1731;
     }
 
-    public static Class248 method21209(Class419 class419) {
+    public static Class248 method21209(AutoCrystal class419) {
         return class419.field1663;
     }
 
@@ -363,7 +363,7 @@ public class Class5460 {
         Class5460.method21189(-8272489105025365115L);
     }
 
-    public static Class248 method21210(Class419 class419) {
+    public static Class248 method21210(AutoCrystal class419) {
         return class419.field1732;
     }
 

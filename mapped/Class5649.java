@@ -11,9 +11,9 @@ package mapped;
 import java.util.Arrays;
 import java.util.Iterator;
 import java.util.List;
-import mapped.Class333;
+import mapped.ClickGui;
 import mapped.Class3860;
-import mapped.Class447;
+import mapped.Velocity;
 import mapped.Class803;
 import net.minecraft.text.Text;
 import net.minecraft.client.gui.DrawContext;
@@ -79,7 +79,7 @@ extends class_437 {
                     continue block4;
                 }
                 case 20763: {
-                    this.field_22787.method_1507(Class333.method2989().method3020());
+                    this.field_22787.method_1507(ClickGui.method2989().method3020());
                     break block4;
                 }
             }
@@ -193,7 +193,7 @@ extends class_437 {
     }
 
     private static boolean method22091() {
-        return Class447.method10322();
+        return Velocity.method10322();
     }
 
     private static Object 1(char c2) {

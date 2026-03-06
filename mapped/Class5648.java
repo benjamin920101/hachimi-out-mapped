@@ -10,10 +10,10 @@ import mapped.Class187;
 import mapped.Class193;
 import mapped.Class202;
 import mapped.Class240;
-import mapped.Class341;
-import mapped.Class366;
-import mapped.Class391;
-import mapped.Class418;
+import mapped.TrueSight;
+import mapped.SafeWalk;
+import mapped.NoGlitch;
+import mapped.AutoTrap;
 import mapped.Class43;
 import mapped.Class45;
 import mapped.Class521;
@@ -27,7 +27,7 @@ import mapped.Class586;
 import mapped.Class74;
 
 public class Class5648 {
-    public static int method22065(int n2, int n3, Class366 class366, Class193 class193) {
+    public static int method22065(int n2, int n3, SafeWalk class366, Class193 class193) {
         int n4 = n3;
         return n4 + ((n2 ^ 0x22C21192) & ~n4);
     }
@@ -51,17 +51,17 @@ public class Class5648 {
         return (n3 | ~n4) - ~n4;
     }
 
-    public static int method22070(int n2, int n3, Class5540 class5540, Class391 class391) {
+    public static int method22070(int n2, int n3, Class5540 class5540, NoGlitch class391) {
         int n4 = n2;
         return (0x2362FFAC | ~n4) - ~n4;
     }
 
-    public static int method22071(int n2, int n3, Class341 class341, Class5444 class5444) {
+    public static int method22071(int n2, int n3, TrueSight class341, Class5444 class5444) {
         int n4 = n3;
         return n4 + ((n2 ^ 0x96FD946F) & ~n4);
     }
 
-    public static int method22072(int n2, int n3, Class116 class116, Class418 class418) {
+    public static int method22072(int n2, int n3, Class116 class116, AutoTrap class418) {
         return 114491850 + (n2 & 0xF92CFE35);
     }
 

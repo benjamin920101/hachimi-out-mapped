@@ -16,19 +16,19 @@ import mapped.Class215;
 import mapped.Class248;
 import mapped.Class264;
 import mapped.Class265;
-import mapped.Class280;
+import mapped.Flight;
 import mapped.Class29;
 import mapped.Class34;
-import mapped.Class359;
-import mapped.Class363;
+import mapped.Ping;
+import mapped.TridentTweaks;
 import mapped.Class3814;
 import mapped.Class3913;
 import mapped.Class3957;
 import mapped.Class4132;
 import mapped.Class4218;
-import mapped.Class423;
-import mapped.Class445;
-import mapped.Class453;
+import mapped.Follower;
+import mapped.Phase;
+import mapped.Server;
 import mapped.Class536;
 import mapped.Class547;
 import mapped.Class5496;
@@ -40,7 +40,7 @@ import mapped.Class691;
 import mapped.Class79;
 
 public class Class3793 {
-    public static int method18368(int n2, int n3, Class3913 class3913, Class359 class359) {
+    public static int method18368(int n2, int n3, Class3913 class3913, Ping class359) {
         int n4 = n2;
         return (0x3990325C | ~n4) - ~n4;
     }
@@ -49,7 +49,7 @@ public class Class3793 {
         return n2 ^ 0x50303C3;
     }
 
-    public static int method18370(int n2, int n3, Class280 class280, Class1718 class1718) {
+    public static int method18370(int n2, int n3, Flight class280, Class1718 class1718) {
         return n2 ^ 0xE3BE7FAF ^ n3;
     }
 
@@ -58,7 +58,7 @@ public class Class3793 {
         return (n4 | 0x35238A54) & (0xCADC75AB | ~n4);
     }
 
-    public static int method18372(int n2, int n3, Class6257 class6257, Class445 class445) {
+    public static int method18372(int n2, int n3, Class6257 class6257, Phase class445) {
         int n4 = n2;
         return n4 & 0xCDFE21AF | 0x3201DE50 & ~n4;
     }
@@ -98,11 +98,11 @@ public class Class3793 {
         return (n3 | ~n4) - ~n4;
     }
 
-    public static int method18380(int n2, int n3, Class58 class58, Class453 class453) {
+    public static int method18380(int n2, int n3, Class58 class58, Server class453) {
         return 445632787 + (n2 & 0xE5702EEC);
     }
 
-    public static int method18381(int n2, int n3, Class3814 class3814, Class363 class363) {
+    public static int method18381(int n2, int n3, Class3814 class3814, TridentTweaks class363) {
         int n4 = n3;
         return n4 + ((n2 ^ 0xBAAEA000) & ~n4);
     }
@@ -116,7 +116,7 @@ public class Class3793 {
         return n4 + ((n2 ^ 0xD6D522A0) & ~n4);
     }
 
-    public static int method18384(int n2, int n3, Class423 class423, Class547 class547) {
+    public static int method18384(int n2, int n3, Follower class423, Class547 class547) {
         int n4 = n2 ^ 0xC780CD9F;
         int n5 = n3;
         return n4 & ~n5 | n5 & ~n4;

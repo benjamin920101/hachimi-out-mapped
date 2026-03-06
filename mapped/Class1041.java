@@ -4,7 +4,7 @@
 package mapped;
 
 import mapped.Class153;
-import mapped.Class347;
+import mapped.AutoTool;
 import mapped.Class3797;
 import mapped.Class4146;
 import mapped.Class5595;
@@ -17,7 +17,7 @@ public class Class1041 {
         return n2 ^ 0x40F8DA68 ^ n3;
     }
 
-    public static int method12853(int n2, int n3, Class347 class347, Class3797 class3797) {
+    public static int method12853(int n2, int n3, AutoTool class347, Class3797 class3797) {
         int n4 = n2;
         return (0x11E75456 | ~n4) - ~n4;
     }

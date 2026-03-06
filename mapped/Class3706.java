@@ -8,12 +8,12 @@ import mapped.Class1442;
 import mapped.Class146;
 import mapped.Class206;
 import mapped.Class262;
-import mapped.Class345;
+import mapped.Shulkerception;
 import mapped.Class3741;
 import mapped.Class5736;
 
 public class Class3706 {
-    public static int method18158(int n2, int n3, Class206 class206, Class345 class345) {
+    public static int method18158(int n2, int n3, Class206 class206, Shulkerception class345) {
         int n4 = n2;
         return (n4 | 0x2FC23A45) & (0xD03DC5BA | ~n4);
     }

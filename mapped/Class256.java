@@ -7,12 +7,12 @@ import mapped.Class1170;
 import mapped.Class1503;
 import mapped.Class253;
 import mapped.Class3814;
-import mapped.Class404;
-import mapped.Class454;
+import mapped.MainHand;
+import mapped.Kit;
 
 class Class256
 extends Class253 {
-    final Class454 field317;
+    final Kit field317;
     private static long[] field318 = new long[1];
 
     @Override
@@ -20,7 +20,7 @@ extends Class253 {
         this.method583((Boolean)object);
     }
 
-    private static int method594(int n2, int n3, Class404 class404, Class3814 class3814) {
+    private static int method594(int n2, int n3, MainHand class404, Class3814 class3814) {
         return Class1170.method13160(n2, n3, class404, class3814);
     }
 
@@ -50,12 +50,12 @@ extends Class253 {
         Class1503.method14417(f2, f3);
     }
 
-    Class256(Class454 a2, String b2, String c2, Boolean d2) {
+    Class256(Kit a2, String b2, String c2, Boolean d2) {
         this.field317 = a2;
         super(b2, c2, d2);
     }
 
-    private static void method596(Class454 class454, String string) {
+    private static void method596(Kit class454, String string) {
         class454.method10548(string);
     }
 

@@ -19,19 +19,19 @@ import mapped.Class222;
 import mapped.Class255;
 import mapped.Class271;
 import mapped.Class277;
-import mapped.Class287;
-import mapped.Class297;
-import mapped.Class305;
-import mapped.Class306;
-import mapped.Class316;
-import mapped.Class320;
-import mapped.Class340;
-import mapped.Class368;
+import mapped.Nametags;
+import mapped.AntiWeakness;
+import mapped.PacketFly;
+import mapped.ViewModel;
+import mapped.ExtraTab;
+import mapped.InventorySync;
+import mapped.NoSlow;
+import mapped.ClientSpoof;
 import mapped.Class3766;
-import mapped.Class400;
-import mapped.Class413;
+import mapped.NoMineAnimation;
+import mapped.SelfBow;
 import mapped.Class4132;
-import mapped.Class419;
+import mapped.AutoCrystal;
 import mapped.Class536;
 import mapped.Class547;
 import mapped.Class549;
@@ -54,12 +54,12 @@ import mapped.Class83;
 import mapped.Class89;
 
 public class Class5692 {
-    public static int method22418(int n2, int n3, Class1011 class1011, Class316 class316) {
+    public static int method22418(int n2, int n3, Class1011 class1011, ExtraTab class316) {
         int n4 = n2 ^ 0x20F84C80;
         return (n3 | ~n4) - ~n4;
     }
 
-    public static int method22419(int n2, int n3, Class305 class305, Class368 class368) {
+    public static int method22419(int n2, int n3, PacketFly class305, ClientSpoof class368) {
         int n4 = n2;
         return (0x261DFC89 | ~n4) - ~n4;
     }
@@ -89,12 +89,12 @@ public class Class5692 {
         return (0x27DA7A86 | ~n4) - ~n4;
     }
 
-    public static int method22425(int n2, int n3, Class271 class271, Class287 class287) {
+    public static int method22425(int n2, int n3, Class271 class271, Nametags class287) {
         int n4 = n3;
         return n4 + ((n2 ^ 0xB47C54E0) & ~n4);
     }
 
-    public static int method22426(int n2, int n3, Class83 class83, Class316 class316) {
+    public static int method22426(int n2, int n3, Class83 class83, ExtraTab class316) {
         int n4 = n2 ^ 0x629CBAC3;
         int n5 = n3;
         return n4 & ~n5 | n5 & ~n4;
@@ -130,7 +130,7 @@ public class Class5692 {
         return n4 & ~n5 | n5 & ~n4;
     }
 
-    public static int method22433(int n2, int n3, Class255 class255, Class419 class419) {
+    public static int method22433(int n2, int n3, Class255 class255, AutoCrystal class419) {
         int n4 = n2 ^ 0x380B1026;
         int n5 = n3;
         return (n4 | n5) & (~n5 | ~n4);
@@ -141,11 +141,11 @@ public class Class5692 {
         return (0x3AB1FF15 | ~n4) - ~n4;
     }
 
-    public static int method22435(int n2, int n3, Class400 class400, Class1659 class1659) {
+    public static int method22435(int n2, int n3, NoMineAnimation class400, Class1659 class1659) {
         return n2 ^ 0x394EC297;
     }
 
-    public static int method22436(int n2, int n3, Class320 class320, Class4132 class4132) {
+    public static int method22436(int n2, int n3, InventorySync class320, Class4132 class4132) {
         int n4 = n2;
         return (0x2A5B16FE | ~n4) - ~n4;
     }
@@ -160,7 +160,7 @@ public class Class5692 {
         return n4 + ((n2 ^ 0x1BDF3CB8) & ~n4);
     }
 
-    public static int method22439(int n2, int n3, Class413 class413, Class547 class547) {
+    public static int method22439(int n2, int n3, SelfBow class413, Class547 class547) {
         int n4 = n3;
         return n4 + ((n2 ^ 0xF77BDEAA) & ~n4);
     }
@@ -170,17 +170,17 @@ public class Class5692 {
         return (0x229E7E24 | ~n4) - ~n4;
     }
 
-    public static int method22441(int n2, int n3, Class222 class222, Class306 class306) {
+    public static int method22441(int n2, int n3, Class222 class222, ViewModel class306) {
         int n4 = n3;
         return n4 + ((n2 ^ 0xFFF6FFF3) & ~n4);
     }
 
-    public static int method22442(int n2, int n3, Class584 class584, Class340 class340) {
+    public static int method22442(int n2, int n3, Class584 class584, NoSlow class340) {
         int n4 = n2;
         return (0x2F1DD961 | ~n4) - ~n4;
     }
 
-    public static int method22443(int n2, int n3, Class297 class297, Class125 class125) {
+    public static int method22443(int n2, int n3, AntiWeakness class297, Class125 class125) {
         int n4 = n2 ^ 0x9AA686BA;
         return (n3 | ~n4) - ~n4;
     }

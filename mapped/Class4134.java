@@ -14,11 +14,11 @@ import mapped.Class194;
 import mapped.Class233;
 import mapped.Class238;
 import mapped.Class261;
-import mapped.Class327;
+import mapped.Yaw;
 import mapped.Class33;
 import mapped.Class3341;
 import mapped.Class3493;
-import mapped.Class380;
+import mapped.BreakESP;
 import mapped.Class3880;
 import mapped.Class414;
 import mapped.Class489;
@@ -53,11 +53,11 @@ public class Class4134 {
         return (n4 | n5) & (~n5 | ~n4);
     }
 
-    public static int method20687(int n2, int n3, Class33 class33, Class327 class327) {
+    public static int method20687(int n2, int n3, Class33 class33, Yaw class327) {
         return 1043970747 + (n2 & 0xC1C64544);
     }
 
-    public static int method20688(int n2, int n3, Class380 class380, Class717 class717) {
+    public static int method20688(int n2, int n3, BreakESP class380, Class717 class717) {
         int n4 = n3;
         return n4 + ((n2 ^ 0x8F1F4E36) & ~n4);
     }

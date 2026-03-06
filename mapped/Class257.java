@@ -27,7 +27,7 @@ import mapped.Class3979;
 import mapped.Class4036;
 import mapped.Class4082;
 import mapped.Class4146;
-import mapped.Class446;
+import mapped.AutoXP;
 import mapped.Class543;
 import mapped.Class6259;
 import mapped.Class6454;
@@ -95,7 +95,7 @@ extends Class248 {
         super(a2, b2, new ArrayList<class_2248>(Arrays.asList(d2)), c2);
     }
 
-    private static int method602(int n2, int n3, Class4146 class4146, Class446 class446) {
+    private static int method602(int n2, int n3, Class4146 class4146, AutoXP class446) {
         return Class4082.method20347(n2, n3, class4146, class446);
     }
 

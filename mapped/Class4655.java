@@ -6,12 +6,12 @@ package mapped;
 import mapped.Class2299;
 import mapped.Class25;
 import mapped.Class29;
-import mapped.Class329;
-import mapped.Class360;
+import mapped.XRay;
+import mapped.ESP;
 import mapped.Class4089;
-import mapped.Class423;
-import mapped.Class431;
-import mapped.Class454;
+import mapped.Follower;
+import mapped.Scaffold;
+import mapped.Kit;
 import mapped.Class529;
 import mapped.Class559;
 import mapped.Class571;
@@ -19,17 +19,17 @@ import mapped.Class607;
 import mapped.Class691;
 
 public class Class4655 {
-    public static int method20951(int n2, int n3, Class360 class360, Class423 class423) {
+    public static int method20951(int n2, int n3, ESP class360, Follower class423) {
         int n4 = n2;
         return (n4 | 0x3F2CF2D5) & (0xC0D30D2A | ~n4);
     }
 
-    public static int method20952(int n2, int n3, Class571 class571, Class454 class454) {
+    public static int method20952(int n2, int n3, Class571 class571, Kit class454) {
         int n4 = n2;
         return n4 & 0xD2D09C08 | 0x2D2F63F7 & ~n4;
     }
 
-    public static int method20953(int n2, int n3, Class4089 class4089, Class329 class329) {
+    public static int method20953(int n2, int n3, Class4089 class4089, XRay class329) {
         int n4 = n3;
         return n4 + ((n2 ^ 0x81610050) & ~n4);
     }
@@ -39,7 +39,7 @@ public class Class4655 {
         return (n3 | ~n4) - ~n4;
     }
 
-    public static int method20955(int n2, int n3, Class431 class431, Class529 class529) {
+    public static int method20955(int n2, int n3, Scaffold class431, Class529 class529) {
         return 259008475 + (n2 & 0xF08FD824);
     }
 

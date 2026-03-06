@@ -6,12 +6,12 @@ package mapped;
 import mapped.Class163;
 import mapped.Class1719;
 import mapped.Class1790;
-import mapped.Class290;
+import mapped.Ambience;
 import mapped.Class3263;
-import mapped.Class390;
+import mapped.Disabler;
 import mapped.Class3979;
-import mapped.Class402;
-import mapped.Class404;
+import mapped.Shaders;
+import mapped.MainHand;
 import mapped.Class451;
 import mapped.Class5534;
 import mapped.Class5648;
@@ -49,7 +49,7 @@ public class Class1615 {
         return (0x3D4154E9 | ~n4) - ~n4;
     }
 
-    public static int method14766(int n2, int n3, Class607 class607, Class404 class404) {
+    public static int method14766(int n2, int n3, Class607 class607, MainHand class404) {
         int n4 = n2;
         return (0x304BF210 | ~n4) - ~n4;
     }
@@ -63,11 +63,11 @@ public class Class1615 {
         return n2 ^ 0x1510E07C;
     }
 
-    public static int method14769(int n2, int n3, Class3263 class3263, Class402 class402) {
+    public static int method14769(int n2, int n3, Class3263 class3263, Shaders class402) {
         return 16341423 + (n2 & 0xFF06A650);
     }
 
-    public static int method14770(int n2, int n3, Class390 class390, Class619 class619) {
+    public static int method14770(int n2, int n3, Disabler class390, Class619 class619) {
         int n4 = n2 ^ 0x770F3430;
         int n5 = n3;
         return (n4 | n5) & (~n5 | ~n4);
@@ -77,7 +77,7 @@ public class Class1615 {
         return n2 ^ 0x1978FC39;
     }
 
-    public static int method14772(int n2, int n3, Class290 class290, Class6280 class6280) {
+    public static int method14772(int n2, int n3, Ambience class290, Class6280 class6280) {
         int n4 = n2 ^ 0x9F1FFFA1;
         return (n3 | ~n4) - ~n4;
     }

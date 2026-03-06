@@ -19,20 +19,20 @@ import mapped.Class234;
 import mapped.Class238;
 import mapped.Class249;
 import mapped.Class262;
-import mapped.Class296;
-import mapped.Class315;
-import mapped.Class326;
+import mapped.Font;
+import mapped.HoleESP;
+import mapped.AntiHunger;
 import mapped.Class3332;
 import mapped.Class3336;
-import mapped.Class335;
+import mapped.Timer;
 import mapped.Class3493;
-import mapped.Class366;
+import mapped.SafeWalk;
 import mapped.Class3691;
-import mapped.Class380;
+import mapped.BreakESP;
 import mapped.Class3871;
 import mapped.Class3923;
-import mapped.Class407;
-import mapped.Class421;
+import mapped.EntityControl;
+import mapped.PistonCrystal;
 import mapped.Class5183;
 import mapped.Class520;
 import mapped.Class56;
@@ -68,7 +68,7 @@ public class Class4057 {
         return 228475217 + (n2 & 0xF261BEAE);
     }
 
-    public static int method20136(int n2, int n3, Class83 class83, Class407 class407) {
+    public static int method20136(int n2, int n3, Class83 class83, EntityControl class407) {
         int n4 = n3;
         return n4 + ((n2 ^ 0xF59FFEF7) & ~n4);
     }
@@ -78,7 +78,7 @@ public class Class4057 {
         return n4 + ((n2 ^ 0x188607C1) & ~n4);
     }
 
-    public static int method20138(int n2, int n3, Class249 class249, Class366 class366) {
+    public static int method20138(int n2, int n3, Class249 class249, SafeWalk class366) {
         return n2 ^ 0x74D005B8 ^ n3;
     }
 
@@ -106,7 +106,7 @@ public class Class4057 {
         return (0x2545D893 | ~n4) - ~n4;
     }
 
-    public static int method20144(int n2, int n3, Class380 class380, Class520 class520) {
+    public static int method20144(int n2, int n3, BreakESP class380, Class520 class520) {
         return 149928259 + (n2 & 0xF71046BC);
     }
 
@@ -118,7 +118,7 @@ public class Class4057 {
         return 79346180 + (n2 & 0xFB4545FB);
     }
 
-    public static int method20147(int n2, int n3, Class96 class96, Class335 class335) {
+    public static int method20147(int n2, int n3, Class96 class96, Timer class335) {
         int n4 = n2 ^ 0x5A00810;
         int n5 = n3;
         return n4 & ~n5 | n5 & ~n4;
@@ -134,11 +134,11 @@ public class Class4057 {
         return n4 & 0xFD3C2934 | 0x2C3D6CB & ~n4;
     }
 
-    public static int method20150(int n2, int n3, Class326 class326, Class704 class704) {
+    public static int method20150(int n2, int n3, AntiHunger class326, Class704 class704) {
         return n2 ^ 0x21618E10 ^ n3;
     }
 
-    public static int method20151(int n2, int n3, Class1463 class1463, Class315 class315) {
+    public static int method20151(int n2, int n3, Class1463 class1463, HoleESP class315) {
         int n4 = n2;
         return (0x1E4E1655 | ~n4) - ~n4;
     }
@@ -148,7 +148,7 @@ public class Class4057 {
         return (0x2B74E260 | ~n4) - ~n4;
     }
 
-    public static int method20153(int n2, int n3, Class6257 class6257, Class421 class421) {
+    public static int method20153(int n2, int n3, Class6257 class6257, PistonCrystal class421) {
         int n4 = n2 ^ 0xF9FF1BF7;
         return (n3 | ~n4) - ~n4;
     }
@@ -159,7 +159,7 @@ public class Class4057 {
         return n4 & ~n5 | n5 & ~n4;
     }
 
-    public static int method20155(int n2, int n3, Class296 class296, Class380 class380) {
+    public static int method20155(int n2, int n3, Font class296, BreakESP class380) {
         return 116669811 + (n2 & 0xF90BC28C);
     }
 

@@ -3,7 +3,7 @@
  */
 package mapped;
 
-import mapped.Class298;
+import mapped.Chams;
 import mapped.Class4122;
 
 public class Class5643 {
@@ -19,7 +19,7 @@ public class Class5643 {
         int b2 = (int)field10809[0];
         while (true) {
             if (b2 >= c2) {
-                Class298.method1924();
+                Chams.method1924();
                 return null;
             }
             int a2 = Class4122.field9560.nextInt("0123456789abcdef".length());

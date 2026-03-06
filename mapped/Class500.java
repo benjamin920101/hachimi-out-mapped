@@ -5,7 +5,7 @@ package mapped;
 
 import mapped.Class1503;
 import mapped.Class1679;
-import mapped.Class337;
+import mapped.AutoRespawn;
 import mapped.Class414;
 import mapped.Class489;
 import mapped.Class5659;
@@ -40,7 +40,7 @@ extends Class489 {
         return Class1503.method14426(f2, f3);
     }
 
-    private static int method10817(int n2, int n3, Class337 class337, Class414 class414) {
+    private static int method10817(int n2, int n3, AutoRespawn class337, Class414 class414) {
         return Class905.method12573(n2, n3, class337, class414);
     }
 

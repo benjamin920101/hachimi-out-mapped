@@ -23,15 +23,15 @@ import mapped.Class1503;
 import mapped.Class1745;
 import mapped.Class1807;
 import mapped.Class2298;
-import mapped.Class341;
+import mapped.TrueSight;
 import mapped.Class3684;
 import mapped.Class3720;
 import mapped.Class3979;
 import mapped.Class4036;
 import mapped.Class4146;
 import mapped.Class4196;
-import mapped.Class440;
-import mapped.Class447;
+import mapped.ClickTweaks;
+import mapped.Velocity;
 import mapped.Class520;
 import mapped.Class5530;
 import mapped.Class5659;
@@ -81,7 +81,7 @@ extends Class2298 {
         return Class4196.method20801();
     }
 
-    private static int method15870(int n2, int n3, Class440 class440, Class341 class341) {
+    private static int method15870(int n2, int n3, ClickTweaks class440, TrueSight class341) {
         return Class1195.method13172(n2, n3, class440, class341);
     }
 
@@ -122,7 +122,7 @@ extends Class2298 {
     }
 
     private static boolean method15877() {
-        return Class447.method10252();
+        return Velocity.method10252();
     }
 
     private static void method15878(double d2, double d3, double d4, double d5) {
@@ -264,7 +264,7 @@ extends Class2298 {
     }
 
     private static boolean method15894() {
-        return Class447.method10322();
+        return Velocity.method10322();
     }
 
     private static int method15895(int n2, int n3, Class6132 class6132, Class13 class13) {

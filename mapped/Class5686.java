@@ -31,7 +31,7 @@ import mapped.Class1668;
 import mapped.Class1745;
 import mapped.Class3730;
 import mapped.Class3979;
-import mapped.Class408;
+import mapped.Replenish;
 import mapped.Class4122;
 import mapped.Class5649;
 import mapped.Class5836;
@@ -210,7 +210,7 @@ lbl30:
     public boolean method22392(char a2) {
         if (a2 >= Class5686.method22395(this) && a2 < this.field10919) {
             int n2 = (int)field10917[1];
-            return Class408.method6431();
+            return Replenish.method6431();
         }
         return (int)field10917[0] != 0;
     }
@@ -228,7 +228,7 @@ lbl30:
     }
 
     private static boolean method22396() {
-        return Class408.method6431();
+        return Replenish.method6431();
     }
 
     private static void method22397(float f2, float f3) {

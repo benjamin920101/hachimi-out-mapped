@@ -10,7 +10,7 @@ import mapped.Class149;
 import mapped.Class198;
 import mapped.Class252;
 import mapped.Class33;
-import mapped.Class347;
+import mapped.AutoTool;
 import mapped.Class554;
 import mapped.Class5905;
 
@@ -20,7 +20,7 @@ public class Class5655 {
         return (n3 | ~n4) - ~n4;
     }
 
-    public static int method22093(int n2, int n3, Class5905 class5905, Class347 class347) {
+    public static int method22093(int n2, int n3, Class5905 class5905, AutoTool class347) {
         int n4 = n2;
         return (0x1198ACFA | ~n4) - ~n4;
     }

@@ -26,7 +26,7 @@ import mapped.Class3814;
 import mapped.Class3815;
 import mapped.Class3979;
 import mapped.Class4146;
-import mapped.Class455;
+import mapped.AntiCheat;
 import mapped.Class543;
 import mapped.Class5736;
 import mapped.Class5836;
@@ -76,7 +76,7 @@ extends Class248 {
     @Override
     public native Object method482(JsonObject var1);
 
-    private static int method521(int n2, int n3, Class543 class543, Class455 class455) {
+    private static int method521(int n2, int n3, Class543 class543, AntiCheat class455) {
         return Class3791.method18337(n2, n3, class543, class455);
     }
 

@@ -41,16 +41,16 @@ import mapped.Class1807;
 import mapped.Class1813;
 import mapped.Class191;
 import mapped.Class3224;
-import mapped.Class333;
+import mapped.ClickGui;
 import mapped.Class3497;
 import mapped.Class3740;
 import mapped.Class3793;
-import mapped.Class396;
+import mapped.PhantomView;
 import mapped.Class3979;
 import mapped.Class3992;
 import mapped.Class4122;
 import mapped.Class4255;
-import mapped.Class457;
+import mapped.Colors;
 import mapped.Class489;
 import mapped.Class5659;
 import mapped.Class5723;
@@ -146,7 +146,7 @@ extends class_437 {
         float a2 = (float)((double)j2 * Class5792.field11254);
         float b2 = 50.0f + (a2 - i2);
         float c2 = 50.0f;
-        if (Class333.method2989().method2994()) {
+        if (ClickGui.method2989().method2994()) {
             ManagedShaderEffect g2 = Class5723.field11044.getMenuShaderEffect();
             g2.setUniformValue("resolution", Class4122.field9561.method_22683().method_4486(), Class1668.method15138().method_22683().method_4502());
             g2.setUniformValue("time", (float)field6185.method12592() / 1000.0f);
@@ -304,9 +304,9 @@ extends class_437 {
 
     public static void method15147(int b2, int c2, int d2, int e2) {
         if (b2 != 0 || c2 != 0) {
-            double a2 = Class333.method2989().method2994() ? 0.01 : 0.04;
-            field6183 = Class396.method5737(field6183, (double)b2 / (double)d2, a2);
-            Class1668.method15164(Class396.method5737(Class1668.method15157(), (float)c2 / (float)e2, a2));
+            double a2 = ClickGui.method2989().method2994() ? 0.01 : 0.04;
+            field6183 = PhantomView.method5737(field6183, (double)b2 / (double)d2, a2);
+            Class1668.method15164(PhantomView.method5737(Class1668.method15157(), (float)c2 / (float)e2, a2));
             field6183 = Math.min(field6183, 1.0);
             Class1668.method15140(Math.min(Class1668.method15144(), 1.0));
             field6183 = Math.max(field6183, 0.0);
@@ -492,7 +492,7 @@ lbl10:
         }
         int j2 = this.field_22790 / (int)field6179[8] - (int)field6179[6] - (int)field6179[13];
         RenderSystem.enableBlend();
-        Color k2 = Class457.method10620().method10614();
+        Color k2 = Colors.method10620().method10614();
         d2.method_51422((float)k2.getRed() / 255.0f, (float)k2.getGreen() / 255.0f, (float)k2.getBlue() / 255.0f, h2);
         RenderSystem.setShaderTexture((int)((int)field6179[2]), (class_2960)field6182);
         Class1668.method15136(d2, (int)((double)this.field_22789 / Class6235.field12723 - Class1746.field6558), j2 - (int)field6179[16], 0.0f, 0.0f, 150.0f, Class5822.field11356, 150.0f, 54.0f);

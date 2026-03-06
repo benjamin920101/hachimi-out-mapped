@@ -8,8 +8,8 @@ import mapped.Class1462;
 import mapped.Class198;
 import mapped.Class249;
 import mapped.Class272;
-import mapped.Class298;
-import mapped.Class423;
+import mapped.Chams;
+import mapped.Follower;
 import mapped.Class43;
 import mapped.Class477;
 import mapped.Class611;
@@ -30,12 +30,12 @@ public class Class1198 {
         return (n3 | ~n4) - ~n4;
     }
 
-    public static int method13229(int n2, int n3, Class126 class126, Class298 class298) {
+    public static int method13229(int n2, int n3, Class126 class126, Chams class298) {
         int n4 = n2;
         return (0x1B89E337 | ~n4) - ~n4;
     }
 
-    public static int method13230(int n2, int n3, Class423 class423, Class272 class272) {
+    public static int method13230(int n2, int n3, Follower class423, Class272 class272) {
         int n4 = n3;
         return n4 + ((n2 ^ 0x17195FFC) & ~n4);
     }

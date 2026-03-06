@@ -5,13 +5,13 @@ package mapped;
 
 import mapped.Class184;
 import mapped.Class230;
-import mapped.Class316;
-import mapped.Class347;
-import mapped.Class359;
+import mapped.ExtraTab;
+import mapped.AutoTool;
+import mapped.Ping;
 import mapped.Class3814;
 import mapped.Class4036;
 import mapped.Class428;
-import mapped.Class435;
+import mapped.AutoMine;
 import mapped.Class480;
 import mapped.Class530;
 import mapped.Class571;
@@ -43,12 +43,12 @@ public class Class3879 {
         return n4 + ((n2 ^ 0x815307DB) & ~n4);
     }
 
-    public static int method19226(int n2, int n3, Class359 class359, Class4036 class4036) {
+    public static int method19226(int n2, int n3, Ping class359, Class4036 class4036) {
         int n4 = n2 ^ 0x1AC61420;
         return (n3 | ~n4) - ~n4;
     }
 
-    public static int method19227(int n2, int n3, Class435 class435, Class347 class347) {
+    public static int method19227(int n2, int n3, AutoMine class435, AutoTool class347) {
         int n4 = n2;
         return (0x393628C0 | ~n4) - ~n4;
     }
@@ -63,7 +63,7 @@ public class Class3879 {
         return (n4 | 0x20A88EB3) & (0xDF57714C | ~n4);
     }
 
-    public static int method19230(int n2, int n3, Class316 class316, Class692 class692) {
+    public static int method19230(int n2, int n3, ExtraTab class316, Class692 class692) {
         return n2 ^ 0x30BE761;
     }
 }

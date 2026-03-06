@@ -5,14 +5,14 @@ package mapped;
 
 import mapped.Class1256;
 import mapped.Class31;
-import mapped.Class319;
+import mapped.AntiCrawl;
 import mapped.Class3221;
-import mapped.Class343;
+import mapped.AutoReconnect;
 import mapped.Class3493;
-import mapped.Class393;
-import mapped.Class396;
+import mapped.Crasher;
+import mapped.PhantomView;
 import mapped.Class4056;
-import mapped.Class449;
+import mapped.FakePlayer;
 import mapped.Class54;
 import mapped.Class553;
 import mapped.Class5693;
@@ -31,18 +31,18 @@ public class Class1804 {
         return (0x3F274590 | ~n4) - ~n4;
     }
 
-    public static int method15724(int n2, int n3, Class319 class319, Class1256 class1256) {
+    public static int method15724(int n2, int n3, AntiCrawl class319, Class1256 class1256) {
         int n4 = n2 ^ 0xE10A52ED;
         int n5 = n3;
         return n4 & ~n5 | n5 & ~n4;
     }
 
-    public static int method15725(int n2, int n3, Class449 class449, Class553 class553) {
+    public static int method15725(int n2, int n3, FakePlayer class449, Class553 class553) {
         int n4 = n2 ^ 0x7EFFDFDC;
         return (n3 | ~n4) - ~n4;
     }
 
-    public static int method15726(int n2, int n3, Class396 class396, Class3221 class3221) {
+    public static int method15726(int n2, int n3, PhantomView class396, Class3221 class3221) {
         int n4 = n2;
         return (n4 | 0x35D5C900) & (0xCA2A36FF | ~n4);
     }
@@ -51,7 +51,7 @@ public class Class1804 {
         return 1058420435 + (n2 & 0xC0E9C92C);
     }
 
-    public static int method15728(int n2, int n3, Class343 class343, Class393 class393) {
+    public static int method15728(int n2, int n3, AutoReconnect class343, Crasher class393) {
         int n4 = n3;
         return n4 + ((n2 ^ 0x18339BD6) & ~n4);
     }

@@ -42,21 +42,21 @@ import mapped.Class1503;
 import mapped.Class1668;
 import mapped.Class1745;
 import mapped.Class214;
-import mapped.Class296;
-import mapped.Class298;
-import mapped.Class301;
+import mapped.Font;
+import mapped.Chams;
+import mapped.ScreenKeeper;
 import mapped.Class3209;
-import mapped.Class359;
+import mapped.Ping;
 import mapped.Class3767;
 import mapped.Class3936;
 import mapped.Class4036;
 import mapped.Class4045;
-import mapped.Class409;
+import mapped.Zoom;
 import mapped.Class4122;
 import mapped.Class4146;
-import mapped.Class447;
-import mapped.Class457;
-import mapped.Class458;
+import mapped.Velocity;
+import mapped.Colors;
+import mapped.Socials;
 import mapped.Class5077;
 import mapped.Class5550;
 import mapped.Class5643;
@@ -102,7 +102,7 @@ implements Closeable {
     private int field5367;
     private final float field5368;
 
-    private static int method14010(int n2, int n3, Class409 class409, Class214 class214) {
+    private static int method14010(int n2, int n3, Zoom class409, Class214 class214) {
         return Class5670.method22332(n2, n3, class409, class214);
     }
 
@@ -188,11 +188,11 @@ implements Closeable {
                 return Class5550.method21885();
             }
             case 's': {
-                n2 = Class1391.method14087(Class457.method10620());
+                n2 = Class1391.method14087(Colors.method10620());
                 break;
             }
             case 'g': {
-                int n7 = Class458.method10623().method10627();
+                int n7 = Socials.method10623().method10627();
                 return Class1391.method14090(1185897646);
             }
             default: {
@@ -210,8 +210,8 @@ implements Closeable {
         Class4146.method20697();
     }
 
-    private static Class296 method14017() {
-        return Class296.method1855();
+    private static Font method14017() {
+        return Font.method1855();
     }
 
     /*
@@ -246,7 +246,7 @@ implements Closeable {
         int T2 = (int)field5365[0];
         int U2 = (int)field5365[0];
         this.field5363.clear();
-        float V2 = Class296.method1855().method1843();
+        float V2 = Font.method1855().method1843();
         Map map = Class1391.method14060(this);
         synchronized (map) {
             for (int g2 = (int)field5365[0]; g2 < Q2.length; ++g2) {
@@ -329,7 +329,7 @@ implements Closeable {
                                 float u2 = (float)(o2.method11494() + Class1391.method14058(o2)) / (float)p2.method22417();
                                 float v2 = (float)(o2.method11489() + o2.method11492()) / (float)p2.method22384();
                                 if (J2) {
-                                    float i2 = Class296.method1855().method1836();
+                                    float i2 = Font.method1855().method1836();
                                     x2.method_22918(P2, j2 + i2, k2 + r2 + i2, 0.0f).method_22915(l2 * V2, m2 * V2, n3 * V2, I2).method_22913(s2, v2);
                                     x2.method_22918(P2, j2 + q2 + i2, k2 + r2 + i2, 0.0f).method_22915(l2 * V2, m2 * V2, n3 * V2, I2).method_22913(u2, v2);
                                     x2.method_22918(P2, j2 + q2 + i2, k2 + i2, 0.0f).method_22915(l2 * V2, m2 * V2, n3 * V2, I2).method_22913(u2, t2);
@@ -591,7 +591,7 @@ implements Closeable {
         return Class1391.method14074();
     }
 
-    private static int method14051(int n2, int n3, Class3209 class3209, Class359 class359) {
+    private static int method14051(int n2, int n3, Class3209 class3209, Ping class359) {
         return Class5670.method22297(n2, n3, class3209, class359);
     }
 
@@ -599,7 +599,7 @@ implements Closeable {
         Class6454.method24594();
     }
 
-    private static float method14053(Class296 class296) {
+    private static float method14053(Font class296) {
         return class296.method1836();
     }
 
@@ -664,7 +664,7 @@ implements Closeable {
     }
 
     private static void method14064() {
-        Class298.method1924();
+        Chams.method1924();
     }
 
     private static String method14065(String string) {
@@ -752,14 +752,14 @@ implements Closeable {
                     if (a2.method22392(b2)) {
                         return a2.method22404(b2);
                     }
-                    Class298.method1924();
+                    Chams.method1924();
                     return null;
                 }
             }
             break;
         }
         int c2 = (int)field5365[17] * (int)Math.floor((double)b2 / Class1364.field5256);
-        Class5686 d2 = new Class5686((char)c2, (char)(c2 + (int)field5365[17]), this.field5364, Class1391.method14086(this), (int)field5365[16], Class296.method1855().method1837(), Class296.method1855().method1849());
+        Class5686 d2 = new Class5686((char)c2, (char)(c2 + (int)field5365[17]), this.field5364, Class1391.method14086(this), (int)field5365[16], Font.method1855().method1837(), Font.method1855().method1849());
         Class1391.method14073(this).add((Object)d2);
         return d2.method22404(b2);
     }
@@ -796,7 +796,7 @@ implements Closeable {
         return class1391.method14110();
     }
 
-    private static Integer method14087(Class457 class457) {
+    private static Integer method14087(Colors class457) {
         return class457.method10621();
     }
 
@@ -928,7 +928,7 @@ implements Closeable {
                     float s2 = (float)n2.method11489() / (float)Class1391.method14113(o2);
                     float t2 = (float)(n2.method11494() + n2.method11491()) / (float)o2.method22417();
                     float u2 = (float)(n2.method11489() + n2.method11492()) / (float)o2.method22384();
-                    float v2 = Class1391.method14053(Class296.method1855());
+                    float v2 = Class1391.method14053(Font.method1855());
                     x2.method_22918(O2, i2 + v2, j2 + q2 + v2, 0.0f).method_22915(k2 * U2, l2 * U2, m2 * U2, I2).method_22913(r2, u2);
                     x2.method_22918(O2, i2 + p2 + v2, j2 + q2 + v2, 0.0f).method_22915(k2 * U2, l2 * U2, m2 * U2, I2).method_22913(t2, u2);
                     x2.method_22918(O2, i2 + p2 + v2, j2 + v2, 0.0f).method_22915(k2 * U2, l2 * U2, m2 * U2, I2).method_22913(t2, s2);
@@ -984,7 +984,7 @@ implements Closeable {
         Class5659.method22184();
     }
 
-    private static int method14104(int n2, int n3, Class301 class301, Class447 class447) {
+    private static int method14104(int n2, int n3, ScreenKeeper class301, Velocity class447) {
         return Class5670.method22296(n2, n3, class301, class447);
     }
 

@@ -12,18 +12,18 @@ import mapped.Class14;
 import mapped.Class148;
 import mapped.Class248;
 import mapped.Class251;
-import mapped.Class312;
+import mapped.SkinBlink;
 import mapped.Class3293;
 import mapped.Class34;
-import mapped.Class343;
-import mapped.Class347;
+import mapped.AutoReconnect;
+import mapped.AutoTool;
 import mapped.Class3493;
 import mapped.Class3497;
 import mapped.Class3812;
 import mapped.Class3907;
-import mapped.Class404;
-import mapped.Class415;
-import mapped.Class456;
+import mapped.MainHand;
+import mapped.PearlBlocker;
+import mapped.Rotations;
 import mapped.Class5460;
 import mapped.Class555;
 import mapped.Class571;
@@ -46,7 +46,7 @@ public class Class461 {
         return n4 & 0xDB69CFB7 | 0x24963048 & ~n4;
     }
 
-    public static int method10635(int n2, int n3, Class148 class148, Class415 class415) {
+    public static int method10635(int n2, int n3, Class148 class148, PearlBlocker class415) {
         int n4 = n3;
         return n4 + ((n2 ^ 0x532364A5) & ~n4);
     }
@@ -55,7 +55,7 @@ public class Class461 {
         return 397971659 + (n2 & 0xE8476F34);
     }
 
-    public static int method10637(int n2, int n3, Class404 class404, Class5460 class5460) {
+    public static int method10637(int n2, int n3, MainHand class404, Class5460 class5460) {
         return 812759982 + (n2 & 0xCF8E4451);
     }
 
@@ -64,11 +64,11 @@ public class Class461 {
         return n4 + ((n2 ^ 0xC0C607) & ~n4);
     }
 
-    public static int method10639(int n2, int n3, Class343 class343, Class312 class312) {
+    public static int method10639(int n2, int n3, AutoReconnect class343, SkinBlink class312) {
         return 16734582 + (n2 & 0xFF00A689);
     }
 
-    public static int method10640(int n2, int n3, Class456 class456, Class347 class347) {
+    public static int method10640(int n2, int n3, Rotations class456, AutoTool class347) {
         int n4 = n3;
         return n4 + ((n2 ^ 0xD66F68BE) & ~n4);
     }

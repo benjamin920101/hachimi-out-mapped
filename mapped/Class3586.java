@@ -9,7 +9,7 @@
  */
 package mapped;
 
-import mapped.Class365;
+import mapped.Freecam;
 import net.minecraft.util.math.Vec2f;
 import net.minecraft.util.math.Vec3d;
 import net.minecraft.client.option.GameOptions;
@@ -22,9 +22,9 @@ public class Class3586
 extends class_743 {
     private static long[] field7976 = new long[1];
     public final class_315 field7977;
-    final Class365 field7978;
+    final Freecam field7978;
 
-    public static Class365 method17842(Class3586 class3586) {
+    public static Freecam method17842(Class3586 class3586) {
         return class3586.field7978;
     }
 
@@ -71,7 +71,7 @@ extends class_743 {
         return class3586.field7977;
     }
 
-    public static void method17847(Class365 class365, class_243 class_2432) {
+    public static void method17847(Freecam class365, class_243 class_2432) {
         class365.field1185 = class_2432;
     }
 
@@ -79,21 +79,21 @@ extends class_743 {
         Class3586.field7976[0] = l2 ^ 0x60EEAB5D401ADE17L;
     }
 
-    public static Class365 method17849(Class3586 class3586) {
+    public static Freecam method17849(Class3586 class3586) {
         return class3586.field7978;
     }
 
-    public static Class365 method17850(Class3586 class3586) {
+    public static Freecam method17850(Class3586 class3586) {
         return class3586.field7978;
     }
 
-    public Class3586(Class365 a2, class_315 b2) {
+    public Class3586(Freecam a2, class_315 b2) {
         this.field7978 = a2;
         super(b2);
         this.field7977 = b2;
     }
 
-    private static void method17851(Class365 class365, class_243 class_2432) {
+    private static void method17851(Freecam class365, class_243 class_2432) {
         Class3586.method17847(class365, class_2432);
     }
 

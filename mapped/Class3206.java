@@ -10,23 +10,23 @@ import mapped.Class1737;
 import mapped.Class196;
 import mapped.Class224;
 import mapped.Class248;
-import mapped.Class381;
+import mapped.NoJumpDelay;
 import mapped.Class3921;
-import mapped.Class402;
+import mapped.Shaders;
 import mapped.Class4045;
 import mapped.Class4056;
-import mapped.Class420;
+import mapped.Nuker;
 import mapped.Class486;
 import mapped.Class5496;
 import mapped.Class5759;
 
 public class Class3206 {
-    public static int method16009(int n2, int n3, Class4045 class4045, Class402 class402) {
+    public static int method16009(int n2, int n3, Class4045 class4045, Shaders class402) {
         int n4 = n2;
         return (0x20D1110C | ~n4) - ~n4;
     }
 
-    public static int method16010(int n2, int n3, Class420 class420, Class5496 class5496) {
+    public static int method16010(int n2, int n3, Nuker class420, Class5496 class5496) {
         int n4 = n3;
         return n4 + ((n2 ^ 0x250C0001) & ~n4);
     }
@@ -36,7 +36,7 @@ public class Class3206 {
         return (0x1092590A | ~n4) - ~n4;
     }
 
-    public static int method16012(int n2, int n3, Class381 class381, Class111 class111) {
+    public static int method16012(int n2, int n3, NoJumpDelay class381, Class111 class111) {
         int n4 = n2;
         return (0x2BC87208 | ~n4) - ~n4;
     }

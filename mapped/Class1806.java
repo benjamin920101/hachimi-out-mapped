@@ -11,7 +11,7 @@ import mapped.Class252;
 import mapped.Class264;
 import mapped.Class3878;
 import mapped.Class3915;
-import mapped.Class394;
+import mapped.NoPacketKick;
 import mapped.Class411;
 import mapped.Class5582;
 import mapped.Class570;
@@ -19,7 +19,7 @@ import mapped.Class6004;
 import mapped.Class717;
 
 public class Class1806 {
-    public static int method15729(int n2, int n3, Class394 class394, Class252 class252) {
+    public static int method15729(int n2, int n3, NoPacketKick class394, Class252 class252) {
         return n2 ^ 0x216133BE;
     }
 

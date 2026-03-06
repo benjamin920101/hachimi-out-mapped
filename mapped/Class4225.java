@@ -19,18 +19,18 @@ import mapped.Class24;
 import mapped.Class25;
 import mapped.Class259;
 import mapped.Class268;
-import mapped.Class300;
-import mapped.Class323;
-import mapped.Class327;
+import mapped.Debug;
+import mapped.NoSlotSet;
+import mapped.Yaw;
 import mapped.Class3271;
 import mapped.Class3392;
 import mapped.Class3497;
 import mapped.Class3546;
 import mapped.Class3596;
-import mapped.Class377;
+import mapped.Parkour;
 import mapped.Class3814;
-import mapped.Class383;
-import mapped.Class385;
+import mapped.LongJump;
+import mapped.RocketExtend;
 import mapped.Class39;
 import mapped.Class3937;
 import mapped.Class3977;
@@ -60,18 +60,18 @@ public class Class4225 {
         return 555177342 + (n2 & 0xDEE8AA81);
     }
 
-    public static int method20898(int n2, int n3, Class189 class189, Class385 class385) {
+    public static int method20898(int n2, int n3, Class189 class189, RocketExtend class385) {
         int n4 = n3;
         return n4 + ((n2 ^ 0xBE5B8FD7) & ~n4);
     }
 
-    public static int method20899(int n2, int n3, Class383 class383, Class39 class39) {
+    public static int method20899(int n2, int n3, LongJump class383, Class39 class39) {
         int n4 = n2 ^ 0x1A90762A;
         int n5 = n3;
         return (n4 | n5) & (~n5 | ~n4);
     }
 
-    public static int method20900(int n2, int n3, Class3977 class3977, Class377 class377) {
+    public static int method20900(int n2, int n3, Class3977 class3977, Parkour class377) {
         int n4 = n2;
         return n4 & 0xFDA2C698 | 0x25D3967 & ~n4;
     }
@@ -80,7 +80,7 @@ public class Class4225 {
         return n2 ^ 0x201080 | n3;
     }
 
-    public static int method20902(int n2, int n3, Class5759 class5759, Class300 class300) {
+    public static int method20902(int n2, int n3, Class5759 class5759, Debug class300) {
         return 736688144 + (n2 & 0xD41707EF);
     }
 
@@ -107,7 +107,7 @@ public class Class4225 {
         return (n4 | n5) & (~n5 | ~n4);
     }
 
-    public static int method20908(int n2, int n3, Class259 class259, Class327 class327) {
+    public static int method20908(int n2, int n3, Class259 class259, Yaw class327) {
         int n4 = n2 ^ 0xF7CFFDEF;
         int n5 = n3;
         return n4 & ~n5 | n5 & ~n4;
@@ -136,7 +136,7 @@ public class Class4225 {
         return (0x19C41B41 | ~n4) - ~n4;
     }
 
-    public static int method20914(int n2, int n3, Class323 class323, Class25 class25) {
+    public static int method20914(int n2, int n3, NoSlotSet class323, Class25 class25) {
         int n4 = n3;
         return n4 + ((n2 ^ 0x87DA6EBA) & ~n4);
     }

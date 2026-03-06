@@ -4,8 +4,8 @@
 package mapped;
 
 import mapped.Class1665;
-import mapped.Class279;
-import mapped.Class395;
+import mapped.AutoArmor;
+import mapped.Fullbright;
 import mapped.Class598;
 import net.hachimi.HACHIMI_CLIENT;
 
@@ -15,7 +15,7 @@ public class Class3448 {
         return 1047610102 + (n2 & 0xC18EBD09);
     }
 
-    public static int method17493(int n2, int n3, Class279 class279, Class395 class395) {
+    public static int method17493(int n2, int n3, AutoArmor class279, Fullbright class395) {
         return 1014189418 + (n2 & 0xC38CB295);
     }
 }

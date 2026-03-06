@@ -38,15 +38,15 @@ import java.util.Arrays;
 import mapped.Class1503;
 import mapped.Class1807;
 import mapped.Class266;
-import mapped.Class286;
-import mapped.Class298;
+import mapped.NoRotate;
+import mapped.Chams;
 import mapped.Class3687;
 import mapped.Class3780;
 import mapped.Class3979;
 import mapped.Class4036;
 import mapped.Class4122;
 import mapped.Class4196;
-import mapped.Class447;
+import mapped.Velocity;
 import mapped.Class5659;
 import mapped.Class5836;
 import mapped.Class6322;
@@ -87,7 +87,7 @@ extends class_495 {
     private final class_2960 field4916 = class_2960.method_60654((String)"textures/gui/container/shulker_box.png");
     private final class_1799[] field4917;
 
-    private static int method13546(int n2, int n3, Class266 class266, Class286 class286) {
+    private static int method13546(int n2, int n3, Class266 class266, NoRotate class286) {
         return Class3780.method18322(n2, n3, class266, class286);
     }
 
@@ -257,7 +257,7 @@ extends class_495 {
     }
 
     private static void method13558() {
-        Class298.method1924();
+        Chams.method1924();
     }
 
     public static void method13559(class_1799 h2, class_1799[] i2) {
@@ -324,12 +324,12 @@ extends class_495 {
     }
 
     private static boolean method13566() {
-        return Class447.method10322();
+        return Velocity.method10322();
     }
 
     public boolean method_25404(int a2, int b2, int c2) {
         if (a2 == (int)field4915[5]) {
-            return Class447.method10322();
+            return Velocity.method10322();
         }
         if (Class1256.method13563().field_1690.field_1822.method_1417(a2, b2)) {
             this.method_25419();
@@ -343,7 +343,7 @@ extends class_495 {
     }
 
     private static boolean method13568() {
-        return Class447.method10252();
+        return Velocity.method10252();
     }
 
     private static Object 1(char c2) {

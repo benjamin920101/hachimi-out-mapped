@@ -18,20 +18,20 @@ import mapped.Class215;
 import mapped.Class229;
 import mapped.Class258;
 import mapped.Class260;
-import mapped.Class283;
-import mapped.Class297;
+import mapped.BetterHotbar;
+import mapped.AntiWeakness;
 import mapped.Class3323;
 import mapped.Class3332;
-import mapped.Class334;
+import mapped.Tracers;
 import mapped.Class3466;
-import mapped.Class349;
+import mapped.NoHitDelay;
 import mapped.Class3546;
 import mapped.Class3593;
 import mapped.Class3596;
 import mapped.Class3978;
 import mapped.Class3989;
-import mapped.Class413;
-import mapped.Class440;
+import mapped.SelfBow;
+import mapped.ClickTweaks;
 import mapped.Class534;
 import mapped.Class537;
 import mapped.Class604;
@@ -41,7 +41,7 @@ import mapped.Class714;
 import mapped.Class778;
 
 public class Class1217 {
-    public static int method13269(int n2, int n3, Class258 class258, Class349 class349) {
+    public static int method13269(int n2, int n3, Class258 class258, NoHitDelay class349) {
         int n4 = n3;
         return n4 + ((n2 ^ 0x12020008) & ~n4);
     }
@@ -51,7 +51,7 @@ public class Class1217 {
         return n4 + ((n2 ^ 0xA1224904) & ~n4);
     }
 
-    public static int method13271(int n2, int n3, Class1440 class1440, Class440 class440) {
+    public static int method13271(int n2, int n3, Class1440 class1440, ClickTweaks class440) {
         return 1065145781 + (n2 & 0xC0832A4A);
     }
 
@@ -63,7 +63,7 @@ public class Class1217 {
         return 69925377 + (n2 & 0xFBD505FE);
     }
 
-    public static int method13274(int n2, int n3, Class283 class283, Class196 class196) {
+    public static int method13274(int n2, int n3, BetterHotbar class283, Class196 class196) {
         int n4 = n2;
         return (0x11116932 | ~n4) - ~n4;
     }
@@ -76,7 +76,7 @@ public class Class1217 {
         return 751534885 + (n2 & 0xD3347CDA);
     }
 
-    public static int method13277(int n2, int n3, Class6098 class6098, Class297 class297) {
+    public static int method13277(int n2, int n3, Class6098 class6098, AntiWeakness class297) {
         int n4 = n2;
         return (n4 | 0x104C5A9D) & (0xEFB3A562 | ~n4);
     }
@@ -96,7 +96,7 @@ public class Class1217 {
         return (n4 | 0x2C3FEAA4) & (0xD3C0155B | ~n4);
     }
 
-    public static int method13281(int n2, int n3, Class3978 class3978, Class413 class413) {
+    public static int method13281(int n2, int n3, Class3978 class3978, SelfBow class413) {
         int n4 = n2 ^ 0xFA7AA9E9;
         return (n3 | ~n4) - ~n4;
     }
@@ -114,7 +114,7 @@ public class Class1217 {
         return n4 + ((n2 ^ 0x7201AA4B) & ~n4);
     }
 
-    public static int method13285(int n2, int n3, Class778 class778, Class334 class334) {
+    public static int method13285(int n2, int n3, Class778 class778, Tracers class334) {
         int n4 = n3;
         return n4 + ((n2 ^ 0x98A0EA7D) & ~n4);
     }

@@ -16,7 +16,7 @@ import java.util.function.Supplier;
 import mapped.Class1804;
 import mapped.Class246;
 import mapped.Class248;
-import mapped.Class298;
+import mapped.Chams;
 import mapped.Class31;
 import mapped.Class54;
 import mapped.Class5723;
@@ -71,7 +71,7 @@ extends Class248 {
     }
 
     private static void method626() {
-        Class298.method1924();
+        Chams.method1924();
     }
 
     private static int method627(Class259 class259) {

@@ -8,7 +8,7 @@ import mapped.Class1320;
 import mapped.Class141;
 import mapped.Class1567;
 import mapped.Class173;
-import mapped.Class381;
+import mapped.NoJumpDelay;
 import mapped.Class3814;
 import mapped.Class39;
 import mapped.Class3957;
@@ -31,7 +31,7 @@ public class Class3722 {
         return n2 ^ 0x16341361;
     }
 
-    public static int method18181(int n2, int n3, Class141 class141, Class381 class381) {
+    public static int method18181(int n2, int n3, Class141 class141, NoJumpDelay class381) {
         int n4 = n2 ^ 0x108400C0;
         return (n3 | ~n4) - ~n4;
     }

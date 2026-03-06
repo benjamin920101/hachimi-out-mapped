@@ -12,19 +12,19 @@ import mapped.Class185;
 import mapped.Class196;
 import mapped.Class208;
 import mapped.Class225;
-import mapped.Class281;
-import mapped.Class290;
-import mapped.Class323;
+import mapped.FreeLook;
+import mapped.Ambience;
+import mapped.NoSlotSet;
 import mapped.Class3491;
 import mapped.Class3585;
-import mapped.Class361;
+import mapped.PenisBuilder;
 import mapped.Class3708;
 import mapped.Class3850;
-import mapped.Class400;
-import mapped.Class409;
+import mapped.NoMineAnimation;
+import mapped.Zoom;
 import mapped.Class4146;
 import mapped.Class4259;
-import mapped.Class435;
+import mapped.AutoMine;
 import mapped.Class479;
 import mapped.Class480;
 import mapped.Class525;
@@ -68,7 +68,7 @@ public class Class3223 {
         return 348809689 + (n2 & 0xEB359626);
     }
 
-    public static int method16259(int n2, int n3, Class208 class208, Class361 class361) {
+    public static int method16259(int n2, int n3, Class208 class208, PenisBuilder class361) {
         int n4 = n3;
         return n4 + ((n2 ^ 0xD8C622C4) & ~n4);
     }
@@ -94,7 +94,7 @@ public class Class3223 {
         return n4 + ((n2 ^ 0x2C67B238) & ~n4);
     }
 
-    public static int method16264(int n2, int n3, Class435 class435, Class480 class480) {
+    public static int method16264(int n2, int n3, AutoMine class435, Class480 class480) {
         int n4 = n2;
         return n4 & 0xFFA5B1F2 | 0x5A4E0D & ~n4;
     }
@@ -119,7 +119,7 @@ public class Class3223 {
         return n4 & 0xCC6D8E3A | 0x339271C5 & ~n4;
     }
 
-    public static int method16269(int n2, int n3, Class3708 class3708, Class290 class290) {
+    public static int method16269(int n2, int n3, Class3708 class3708, Ambience class290) {
         int n4 = n2;
         return (n4 | 0x276E29EF) & (0xD891D610 | ~n4);
     }
@@ -129,20 +129,20 @@ public class Class3223 {
         return n4 + ((n2 ^ 0x5030C1) & ~n4);
     }
 
-    public static int method16271(int n2, int n3, Class281 class281, Class854 class854) {
+    public static int method16271(int n2, int n3, FreeLook class281, Class854 class854) {
         return n2 ^ 0xDC5B2EA3 ^ n3;
     }
 
-    public static int method16272(int n2, int n3, Class5837 class5837, Class400 class400) {
+    public static int method16272(int n2, int n3, Class5837 class5837, NoMineAnimation class400) {
         int n4 = n2;
         return (0x6CF4EF6 | ~n4) - ~n4;
     }
 
-    public static int method16273(int n2, int n3, Class409 class409, Class6053 class6053) {
+    public static int method16273(int n2, int n3, Zoom class409, Class6053 class6053) {
         return 910457925 + (n2 & 0xC9BB83BA);
     }
 
-    public static int method16274(int n2, int n3, Class3850 class3850, Class323 class323) {
+    public static int method16274(int n2, int n3, Class3850 class3850, NoSlotSet class323) {
         int n4 = n2 ^ 0xFFFDF77F;
         return (n3 | ~n4) - ~n4;
     }

@@ -19,24 +19,24 @@ import mapped.Class209;
 import mapped.Class228;
 import mapped.Class237;
 import mapped.Class269;
-import mapped.Class280;
-import mapped.Class281;
-import mapped.Class289;
-import mapped.Class297;
+import mapped.Flight;
+import mapped.FreeLook;
+import mapped.EntitySpeed;
+import mapped.AntiWeakness;
 import mapped.Class3209;
-import mapped.Class335;
+import mapped.Timer;
 import mapped.Class34;
 import mapped.Class3473;
-import mapped.Class363;
-import mapped.Class370;
-import mapped.Class376;
-import mapped.Class380;
+import mapped.TridentTweaks;
+import mapped.PMSound;
+import mapped.Blink;
+import mapped.BreakESP;
 import mapped.Class3814;
 import mapped.Class3871;
 import mapped.Class4244;
-import mapped.Class429;
-import mapped.Class450;
-import mapped.Class456;
+import mapped.HoleFill;
+import mapped.ChatNotifier;
+import mapped.Rotations;
 import mapped.Class461;
 import mapped.Class526;
 import mapped.Class527;
@@ -62,12 +62,12 @@ public class Class5668 {
         return n4 + ((n2 ^ 0xCD5D6070) & ~n4);
     }
 
-    public static int method22232(int n2, int n3, Class281 class281, Class34 class34) {
+    public static int method22232(int n2, int n3, FreeLook class281, Class34 class34) {
         int n4 = n2;
         return n4 & 0xD85CA705 | 0x27A358FA & ~n4;
     }
 
-    public static int method22233(int n2, int n3, Class456 class456, Class3473 class3473) {
+    public static int method22233(int n2, int n3, Rotations class456, Class3473 class3473) {
         int n4 = n3;
         return n4 + ((n2 ^ 0xA022091) & ~n4);
     }
@@ -78,7 +78,7 @@ public class Class5668 {
         return n4 & ~n5 | n5 & ~n4;
     }
 
-    public static int method22235(int n2, int n3, Class363 class363, Class335 class335) {
+    public static int method22235(int n2, int n3, TridentTweaks class363, Timer class335) {
         return n2 ^ 0xD58149E9 | n3;
     }
 
@@ -93,7 +93,7 @@ public class Class5668 {
         return (n4 | n5) & (~n5 | ~n4);
     }
 
-    public static int method22238(int n2, int n3, Class450 class450, Class3871 class3871) {
+    public static int method22238(int n2, int n3, ChatNotifier class450, Class3871 class3871) {
         return 257827282 + (n2 & 0xF0A1DE2D);
     }
 
@@ -102,7 +102,7 @@ public class Class5668 {
         return n4 + ((n2 ^ 0x808086C0) & ~n4);
     }
 
-    public static int method22240(int n2, int n3, Class6134 class6134, Class370 class370) {
+    public static int method22240(int n2, int n3, Class6134 class6134, PMSound class370) {
         int n4 = n2 ^ 0x2282C10E;
         int n5 = n3;
         return (n4 | n5) & (~n5 | ~n4);
@@ -118,7 +118,7 @@ public class Class5668 {
         return (n3 | ~n4) - ~n4;
     }
 
-    public static int method22243(int n2, int n3, Class297 class297, Class4244 class4244) {
+    public static int method22243(int n2, int n3, AntiWeakness class297, Class4244 class4244) {
         return 41730196 + (n2 & 0xFD833F6B);
     }
 
@@ -131,12 +131,12 @@ public class Class5668 {
         return 6388078 + (n2 & 0xFF9E8691);
     }
 
-    public static int method22246(int n2, int n3, Class280 class280, Class206 class206) {
+    public static int method22246(int n2, int n3, Flight class280, Class206 class206) {
         int n4 = n2;
         return (0x832B3E0 | ~n4) - ~n4;
     }
 
-    public static int method22247(int n2, int n3, Class376 class376, Class429 class429) {
+    public static int method22247(int n2, int n3, Blink class376, HoleFill class429) {
         int n4 = n2;
         return (0x3A674984 | ~n4) - ~n4;
     }
@@ -149,7 +149,7 @@ public class Class5668 {
         return n2 ^ 0xE9712C22 | n3;
     }
 
-    public static int method22250(int n2, int n3, Class894 class894, Class380 class380) {
+    public static int method22250(int n2, int n3, Class894 class894, BreakESP class380) {
         return 537347034 + (n2 & 0xDFF8BC25);
     }
 
@@ -158,7 +158,7 @@ public class Class5668 {
         return (0x298C769B | ~n4) - ~n4;
     }
 
-    public static int method22252(int n2, int n3, Class3209 class3209, Class289 class289) {
+    public static int method22252(int n2, int n3, Class3209 class3209, EntitySpeed class289) {
         int n4 = n2 ^ 0x628B5F4E;
         return (n3 | ~n4) - ~n4;
     }

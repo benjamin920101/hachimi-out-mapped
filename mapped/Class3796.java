@@ -29,22 +29,22 @@ import mapped.Class237;
 import mapped.Class255;
 import mapped.Class267;
 import mapped.Class27;
-import mapped.Class286;
-import mapped.Class308;
-import mapped.Class314;
+import mapped.NoRotate;
+import mapped.AntiLevitation;
+import mapped.TrueDurability;
 import mapped.Class3263;
 import mapped.Class3341;
 import mapped.Class3419;
-import mapped.Class348;
-import mapped.Class353;
-import mapped.Class356;
+import mapped.BlockHighlight;
+import mapped.Animations;
+import mapped.CombatHUD;
 import mapped.Class38;
 import mapped.Class3880;
 import mapped.Class41;
-import mapped.Class412;
+import mapped.InventoryManager;
 import mapped.Class4134;
-import mapped.Class416;
-import mapped.Class422;
+import mapped.Surround;
+import mapped.PistonKick;
 import mapped.Class4225;
 import mapped.Class461;
 import mapped.Class533;
@@ -73,7 +73,7 @@ import mapped.Class942;
 import mapped.Class949;
 
 public class Class3796 {
-    public static int method18392(int n2, int n3, Class348 class348, Class267 class267) {
+    public static int method18392(int n2, int n3, BlockHighlight class348, Class267 class267) {
         int n4 = n2;
         return n4 & 0xD170C11C | 0x2E8F3EE3 & ~n4;
     }
@@ -92,13 +92,13 @@ public class Class3796 {
         return n2 ^ 0x7C8864A ^ n3;
     }
 
-    public static int method18396(int n2, int n3, Class422 class422, Class416 class416) {
+    public static int method18396(int n2, int n3, PistonKick class422, Surround class416) {
         int n4 = n2 ^ 0xA92E1B20;
         int n5 = n3;
         return n4 & ~n5 | n5 & ~n4;
     }
 
-    public static int method18397(int n2, int n3, Class308 class308, Class5490 class5490) {
+    public static int method18397(int n2, int n3, AntiLevitation class308, Class5490 class5490) {
         int n4 = n3;
         return n4 + ((n2 ^ 0x99016080) & ~n4);
     }
@@ -109,18 +109,18 @@ public class Class3796 {
         return n4 & ~n5 | n5 & ~n4;
     }
 
-    public static int method18399(int n2, int n3, Class412 class412, Class212 class212) {
+    public static int method18399(int n2, int n3, InventoryManager class412, Class212 class212) {
         int n4 = n2 ^ 0x5AA341FE;
         int n5 = n3;
         return n4 & ~n5 | n5 & ~n4;
     }
 
-    public static int method18400(int n2, int n3, Class681 class681, Class314 class314) {
+    public static int method18400(int n2, int n3, Class681 class681, TrueDurability class314) {
         int n4 = n2 ^ 0x6A9192F4;
         return (n3 | ~n4) - ~n4;
     }
 
-    public static int method18401(int n2, int n3, Class286 class286, Class1468 class1468) {
+    public static int method18401(int n2, int n3, NoRotate class286, Class1468 class1468) {
         int n4 = n2 ^ 0xCA3CE24D;
         return (n3 | ~n4) - ~n4;
     }
@@ -145,7 +145,7 @@ public class Class3796 {
         return (n4 | 0x1256F4) & (0xFFEDA90B | ~n4);
     }
 
-    public static int method18406(int n2, int n3, Class575 class575, Class353 class353) {
+    public static int method18406(int n2, int n3, Class575 class575, Animations class353) {
         return n2 ^ 0xA7FDFEFF ^ n3;
     }
 
@@ -168,7 +168,7 @@ public class Class3796 {
         return (n4 | 0x29F85357) & (0xD607ACA8 | ~n4);
     }
 
-    public static int method18411(int n2, int n3, Class633 class633, Class356 class356) {
+    public static int method18411(int n2, int n3, Class633 class633, CombatHUD class356) {
         int n4 = n2;
         return (n4 | 0x3F7AE64D) & (0xC08519B2 | ~n4);
     }

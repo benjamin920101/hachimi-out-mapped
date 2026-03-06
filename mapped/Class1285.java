@@ -5,7 +5,7 @@ package mapped;
 
 import mapped.Class1044;
 import mapped.Class1308;
-import mapped.Class364;
+import mapped.AutoEat;
 import mapped.Class3990;
 import mapped.Class4070;
 import mapped.Class4148;
@@ -22,7 +22,7 @@ public class Class1285 {
         return n4 + ((n2 ^ 0xB52A9637) & ~n4);
     }
 
-    public static int method13610(int n2, int n3, Class364 class364, Class4070 class4070) {
+    public static int method13610(int n2, int n3, AutoEat class364, Class4070 class4070) {
         int n4 = n3;
         return n4 + ((n2 ^ 0x74580920) & ~n4);
     }

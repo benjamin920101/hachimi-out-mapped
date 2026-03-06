@@ -12,14 +12,14 @@ import mapped.Class205;
 import mapped.Class221;
 import mapped.Class230;
 import mapped.Class269;
-import mapped.Class322;
-import mapped.Class375;
+import mapped.MaceSpoof;
+import mapped.CrystalModel;
 import mapped.Class3814;
-import mapped.Class391;
+import mapped.NoGlitch;
 import mapped.Class3979;
 import mapped.Class4132;
-import mapped.Class435;
-import mapped.Class453;
+import mapped.AutoMine;
+import mapped.Server;
 import mapped.Class480;
 import mapped.Class5477;
 import mapped.Class5659;
@@ -38,7 +38,7 @@ public class Class3907 {
         return n4 & 0xF77452B9 | 0x88BAD46 & ~n4;
     }
 
-    public static int method19289(int n2, int n3, Class391 class391, Class198 class198) {
+    public static int method19289(int n2, int n3, NoGlitch class391, Class198 class198) {
         return 135847009 + (n2 & 0xF7E7239E);
     }
 
@@ -57,7 +57,7 @@ public class Class3907 {
         return (n3 | ~n4) - ~n4;
     }
 
-    public static int method19293(int n2, int n3, Class435 class435, Class3979 class3979) {
+    public static int method19293(int n2, int n3, AutoMine class435, Class3979 class3979) {
         int n4 = n2 ^ 0x5D9266F7;
         int n5 = n3;
         return (n4 | n5) & (~n5 | ~n4);
@@ -67,7 +67,7 @@ public class Class3907 {
         return n2 ^ 0xF95D5560 ^ n3;
     }
 
-    public static int method19295(int n2, int n3, Class230 class230, Class453 class453) {
+    public static int method19295(int n2, int n3, Class230 class230, Server class453) {
         int n4 = n2;
         return (n4 | 0x363C7757) & (0xC9C388A8 | ~n4);
     }
@@ -89,11 +89,11 @@ public class Class3907 {
         return 736790048 + (n2 & 0xD41579DF);
     }
 
-    public static int method19300(int n2, int n3, Class5659 class5659, Class375 class375) {
+    public static int method19300(int n2, int n3, Class5659 class5659, CrystalModel class375) {
         return n2 ^ 0x357C264E;
     }
 
-    public static int method19301(int n2, int n3, Class480 class480, Class322 class322) {
+    public static int method19301(int n2, int n3, Class480 class480, MaceSpoof class322) {
         return 935059497 + (n2 & 0xC8441FD6);
     }
 }

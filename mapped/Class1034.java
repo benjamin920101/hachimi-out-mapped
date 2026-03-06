@@ -9,7 +9,7 @@ import mapped.Class1790;
 import mapped.Class182;
 import mapped.Class195;
 import mapped.Class3341;
-import mapped.Class369;
+import mapped.StorageESP;
 import mapped.Class522;
 import mapped.Class690;
 
@@ -23,7 +23,7 @@ public class Class1034 {
         return 265996154 + (n2 & 0xF0253885);
     }
 
-    public static int method12843(int n2, int n3, Class369 class369, Class195 class195) {
+    public static int method12843(int n2, int n3, StorageESP class369, Class195 class195) {
         int n4 = n2;
         return (n4 | 0x2A3BCBFE) & (0xD5C43401 | ~n4);
     }

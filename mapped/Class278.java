@@ -15,7 +15,7 @@ import mapped.Class255;
 import mapped.Class259;
 import mapped.Class277;
 import mapped.Class374;
-import mapped.Class382;
+import mapped.Notification;
 import mapped.Class489;
 import mapped.Class556;
 import mapped.Class6283;
@@ -86,7 +86,7 @@ implements Class374 {
         this.field402.method505((boolean)field403[0]);
         this.method1274();
         if (((Boolean)this.field401.method507()).booleanValue()) {
-            if (Class278.field290.field_1687 != null && Class382.INSTANCE.method1265()) {
+            if (Class278.field290.field_1687 != null && Notification.INSTANCE.method1265()) {
                 Class1365.method13948("\u00a72[+] \u00a7f" + this.method446(), this.hashCode());
             }
         }

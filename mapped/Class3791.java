@@ -11,16 +11,16 @@ import mapped.Class186;
 import mapped.Class188;
 import mapped.Class249;
 import mapped.Class25;
-import mapped.Class289;
-import mapped.Class291;
+import mapped.EntitySpeed;
+import mapped.FastProjectile;
 import mapped.Class3257;
-import mapped.Class335;
-import mapped.Class376;
+import mapped.Timer;
+import mapped.Blink;
 import mapped.Class3806;
 import mapped.Class3921;
 import mapped.Class4011;
 import mapped.Class4082;
-import mapped.Class455;
+import mapped.AntiCheat;
 import mapped.Class522;
 import mapped.Class543;
 import mapped.Class5736;
@@ -40,7 +40,7 @@ public class Class3791 {
         return (0x23E2D13 | ~n4) - ~n4;
     }
 
-    public static int method18337(int n2, int n3, Class543 class543, Class455 class455) {
+    public static int method18337(int n2, int n3, Class543 class543, AntiCheat class455) {
         int n4 = n2;
         return (n4 | 0x30841066) & (0xCF7BEF99 | ~n4);
     }
@@ -49,7 +49,7 @@ public class Class3791 {
         return n2 ^ 0x756D48E5 ^ n3;
     }
 
-    public static int method18339(int n2, int n3, Class291 class291, Class857 class857) {
+    public static int method18339(int n2, int n3, FastProjectile class291, Class857 class857) {
         int n4 = n2;
         return (0x3BA657D5 | ~n4) - ~n4;
     }
@@ -64,7 +64,7 @@ public class Class3791 {
         return n4 + ((n2 ^ 0x88183B68) & ~n4);
     }
 
-    public static int method18342(int n2, int n3, Class4082 class4082, Class376 class376) {
+    public static int method18342(int n2, int n3, Class4082 class4082, Blink class376) {
         int n4 = n2 ^ 0xD7ED1AFE;
         int n5 = n3;
         return (n4 | n5) & (~n5 | ~n4);
@@ -81,7 +81,7 @@ public class Class3791 {
         return (n3 | ~n4) - ~n4;
     }
 
-    public static int method18345(int n2, int n3, Class289 class289, Class703 class703) {
+    public static int method18345(int n2, int n3, EntitySpeed class289, Class703 class703) {
         int n4 = n2 ^ 0x14049508;
         int n5 = n3;
         return (n4 | n5) & (~n5 | ~n4);
@@ -107,7 +107,7 @@ public class Class3791 {
         return (0x1238AE22 | ~n4) - ~n4;
     }
 
-    public static int method18350(int n2, int n3, Class335 class335, Class186 class186) {
+    public static int method18350(int n2, int n3, Timer class335, Class186 class186) {
         int n4 = n3;
         return n4 + ((n2 ^ 0x9A9896C7) & ~n4);
     }

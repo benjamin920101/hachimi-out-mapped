@@ -21,8 +21,8 @@ import mapped.Class261;
 import mapped.Class268;
 import mapped.Class275;
 import mapped.Class276;
-import mapped.Class291;
-import mapped.Class333;
+import mapped.FastProjectile;
+import mapped.ClickGui;
 import mapped.Class3740;
 import mapped.Class3979;
 import mapped.Class4036;
@@ -93,7 +93,7 @@ extends Class268 {
         } else {
             this.field358 = (int)field359[3];
         }
-        int n2 = !Class333.method2989().method3011() ? 21910 : 21909;
+        int n2 = !ClickGui.method2989().method3011() ? 21910 : 21909;
         block4: while (true) {
             switch (n2) {
                 case 21910: {
@@ -136,7 +136,7 @@ extends Class268 {
 
     @Override
     public void method825(class_332 a2, float b2, float c2, float d2, float e2, float f2) {
-        this.method753(Class6454.method24637() + Class333.method2989().method2999());
+        this.method753(Class6454.method24637() + ClickGui.method2989().method2999());
         this.field340 = b2;
         this.field337 = c2;
         int g2 = (int)field359[1];
@@ -147,7 +147,7 @@ extends Class268 {
         int i2 = (int)(Class3740.field8456 * class_3532.method_15350((double)this.field345.method24281(), (double)0.0, (double)1.0));
         this.method742(a2, new Color((int)field359[0], (int)field359[0], (int)field359[0], i2).getRGB());
         String j2 = this.field358 ? new String(Class270.method884(this)) + this.method876() : Class270.method866(this.field354) + String.valueOf(class_124.field_1080) + " " + new String(this.field357);
-        this.method771(a2, j2, b2 + 2.0f, c2 + Class333.method2989().method3018() * 1.0f, g2);
+        this.method771(a2, j2, b2 + 2.0f, c2 + ClickGui.method2989().method3018() * 1.0f, g2);
     }
 
     private static int method873(int n2, int n3, Class275 class275, Class5183 class5183) {
@@ -266,7 +266,7 @@ extends Class268 {
         Class5836.method22897();
     }
 
-    private static int method890(int n2, int n3, Class291 class291, Class683 class683) {
+    private static int method890(int n2, int n3, FastProjectile class291, Class683 class683) {
         return Class1530.method14460(n2, n3, class291, class683);
     }
 

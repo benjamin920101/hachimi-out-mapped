@@ -12,17 +12,17 @@ import mapped.Class1561;
 import mapped.Class205;
 import mapped.Class24;
 import mapped.Class267;
-import mapped.Class280;
-import mapped.Class289;
-import mapped.Class291;
-import mapped.Class306;
-import mapped.Class328;
+import mapped.Flight;
+import mapped.EntitySpeed;
+import mapped.FastProjectile;
+import mapped.ViewModel;
+import mapped.BoatFly;
 import mapped.Class3510;
-import mapped.Class381;
+import mapped.NoJumpDelay;
 import mapped.Class3980;
 import mapped.Class4028;
-import mapped.Class407;
-import mapped.Class431;
+import mapped.EntityControl;
+import mapped.Scaffold;
 import mapped.Class451;
 import mapped.Class533;
 import mapped.Class5587;
@@ -47,7 +47,7 @@ public class Class1796 {
         return n4 & ~n5 | n5 & ~n4;
     }
 
-    public static int method15708(int n2, int n3, Class431 class431, Class633 class633) {
+    public static int method15708(int n2, int n3, Scaffold class431, Class633 class633) {
         int n4 = n3;
         return n4 + ((n2 ^ 0x42651FB7) & ~n4);
     }
@@ -57,12 +57,12 @@ public class Class1796 {
         return n4 + ((n2 ^ 0xC879C2C2) & ~n4);
     }
 
-    public static int method15710(int n2, int n3, Class804 class804, Class306 class306) {
+    public static int method15710(int n2, int n3, Class804 class804, ViewModel class306) {
         int n4 = n2 ^ 0xA7FBA7EF;
         return (n3 | ~n4) - ~n4;
     }
 
-    public static int method15711(int n2, int n3, Class685 class685, Class381 class381) {
+    public static int method15711(int n2, int n3, Class685 class685, NoJumpDelay class381) {
         int n4 = n2;
         return (0x3DBDDB49 | ~n4) - ~n4;
     }
@@ -72,12 +72,12 @@ public class Class1796 {
         return n4 + ((n2 ^ 0xCAD7BF88) & ~n4);
     }
 
-    public static int method15713(int n2, int n3, Class328 class328, Class4028 class4028) {
+    public static int method15713(int n2, int n3, BoatFly class328, Class4028 class4028) {
         int n4 = n2 ^ 0x7E4CB158;
         return (n3 | ~n4) - ~n4;
     }
 
-    public static int method15714(int n2, int n3, Class688 class688, Class407 class407) {
+    public static int method15714(int n2, int n3, Class688 class688, EntityControl class407) {
         int n4 = n2;
         return (n4 | 0xA3DF333) & (0xF5C20CCC | ~n4);
     }
@@ -102,7 +102,7 @@ public class Class1796 {
         return (n3 | ~n4) - ~n4;
     }
 
-    public static int method15719(int n2, int n3, Class24 class24, Class280 class280) {
+    public static int method15719(int n2, int n3, Class24 class24, Flight class280) {
         int n4 = n3;
         return n4 + ((n2 ^ 0x1A736960) & ~n4);
     }
@@ -112,7 +112,7 @@ public class Class1796 {
         return n4 + ((n2 ^ 0xCB106FDA) & ~n4);
     }
 
-    public static int method15721(int n2, int n3, Class289 class289, Class291 class291) {
+    public static int method15721(int n2, int n3, EntitySpeed class289, FastProjectile class291) {
         return n2 ^ 0x33EB6211;
     }
 }

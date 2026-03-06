@@ -18,24 +18,24 @@ import mapped.Class214;
 import mapped.Class244;
 import mapped.Class262;
 import mapped.Class276;
-import mapped.Class292;
-import mapped.Class293;
+import mapped.KillEffects;
+import mapped.Reach;
 import mapped.Class3;
-import mapped.Class307;
-import mapped.Class322;
+import mapped.Criticals;
+import mapped.MaceSpoof;
 import mapped.Class3285;
-import mapped.Class358;
-import mapped.Class362;
+import mapped.AnvilRename;
+import mapped.BetterChat;
 import mapped.Class4026;
-import mapped.Class407;
-import mapped.Class416;
-import mapped.Class418;
+import mapped.EntityControl;
+import mapped.Surround;
+import mapped.AutoTrap;
 import mapped.Class4257;
-import mapped.Class434;
-import mapped.Class443;
-import mapped.Class449;
-import mapped.Class450;
-import mapped.Class456;
+import mapped.Aura;
+import mapped.AntiAFK;
+import mapped.FakePlayer;
+import mapped.ChatNotifier;
+import mapped.Rotations;
 import mapped.Class519;
 import mapped.Class533;
 import mapped.Class5460;
@@ -56,12 +56,12 @@ public class Class4079 {
         return (n3 | ~n4) - ~n4;
     }
 
-    public static int method20324(int n2, int n3, Class450 class450, Class533 class533) {
+    public static int method20324(int n2, int n3, ChatNotifier class450, Class533 class533) {
         int n4 = n2 ^ 0x658C9017;
         return (n3 | ~n4) - ~n4;
     }
 
-    public static int method20325(int n2, int n3, Class307 class307, Class449 class449) {
+    public static int method20325(int n2, int n3, Criticals class307, FakePlayer class449) {
         int n4 = n2 ^ 0xCFFF6CF7;
         int n5 = n3;
         return n4 & ~n5 | n5 & ~n4;
@@ -83,7 +83,7 @@ public class Class4079 {
         return (n4 | n5) & (~n5 | ~n4);
     }
 
-    public static int method20329(int n2, int n3, Class244 class244, Class322 class322) {
+    public static int method20329(int n2, int n3, Class244 class244, MaceSpoof class322) {
         int n4 = n3;
         return n4 + ((n2 ^ 0x4218A0AD) & ~n4);
     }
@@ -98,11 +98,11 @@ public class Class4079 {
         return (n4 | n5) & (~n5 | ~n4);
     }
 
-    public static int method20332(int n2, int n3, Class292 class292, Class547 class547) {
+    public static int method20332(int n2, int n3, KillEffects class292, Class547 class547) {
         return n2 ^ 0x20200063 ^ n3;
     }
 
-    public static int method20333(int n2, int n3, Class4026 class4026, Class416 class416) {
+    public static int method20333(int n2, int n3, Class4026 class4026, Surround class416) {
         int n4 = n2;
         return n4 & 0xC7C7AF01 | 0x383850FE & ~n4;
     }
@@ -111,12 +111,12 @@ public class Class4079 {
         return n2 ^ 0xA804D9E0 ^ n3;
     }
 
-    public static int method20335(int n2, int n3, Class519 class519, Class418 class418) {
+    public static int method20335(int n2, int n3, Class519 class519, AutoTrap class418) {
         int n4 = n2;
         return (0x39CAC28D | ~n4) - ~n4;
     }
 
-    public static int method20336(int n2, int n3, Class61 class61, Class293 class293) {
+    public static int method20336(int n2, int n3, Class61 class61, Reach class293) {
         int n4 = n2;
         return n4 & 0xC15A8F81 | 0x3EA5707E & ~n4;
     }
@@ -137,17 +137,17 @@ public class Class4079 {
         return (n4 | n5) & (~n5 | ~n4);
     }
 
-    public static int method20340(int n2, int n3, Class407 class407, Class1017 class1017) {
+    public static int method20340(int n2, int n3, EntityControl class407, Class1017 class1017) {
         int n4 = n2 ^ 0xB0A4AAEC;
         return (n3 | ~n4) - ~n4;
     }
 
-    public static int method20341(int n2, int n3, Class434 class434, Class276 class276) {
+    public static int method20341(int n2, int n3, Aura class434, Class276 class276) {
         int n4 = n2;
         return (0x5A99C88 | ~n4) - ~n4;
     }
 
-    public static int method20342(int n2, int n3, Class362 class362, Class443 class443) {
+    public static int method20342(int n2, int n3, BetterChat class362, AntiAFK class443) {
         return 180599376 + (n2 & 0xF53C45AF);
     }
 
@@ -156,7 +156,7 @@ public class Class4079 {
         return n4 + ((n2 ^ 0x89D553CA) & ~n4);
     }
 
-    public static int method20344(int n2, int n3, Class456 class456, Class358 class358) {
+    public static int method20344(int n2, int n3, Rotations class456, AnvilRename class358) {
         int n4 = n2 ^ 0x44C10A8;
         int n5 = n3;
         return n4 & ~n5 | n5 & ~n4;

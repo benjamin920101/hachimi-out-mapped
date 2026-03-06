@@ -30,14 +30,14 @@ import mapped.Class250;
 import mapped.Class255;
 import mapped.Class261;
 import mapped.Class269;
-import mapped.Class296;
-import mapped.Class301;
-import mapped.Class302;
-import mapped.Class306;
-import mapped.Class308;
-import mapped.Class333;
+import mapped.Font;
+import mapped.ScreenKeeper;
+import mapped.Avoid;
+import mapped.ViewModel;
+import mapped.AntiLevitation;
+import mapped.ClickGui;
 import mapped.Class3466;
-import mapped.Class350;
+import mapped.FastLatency;
 import mapped.Class3806;
 import mapped.Class3815;
 import mapped.Class3817;
@@ -47,13 +47,13 @@ import mapped.Class3907;
 import mapped.Class3915;
 import mapped.Class3933;
 import mapped.Class4084;
-import mapped.Class410;
+import mapped.MultiTask;
 import mapped.Class4110;
 import mapped.Class414;
 import mapped.Class4146;
-import mapped.Class420;
+import mapped.Nuker;
 import mapped.Class451;
-import mapped.Class457;
+import mapped.Colors;
 import mapped.Class538;
 import mapped.Class5473;
 import mapped.Class56;
@@ -96,7 +96,7 @@ public class Class1357 {
         return n4 + ((n2 ^ 0xFD57B5D6) & ~n4);
     }
 
-    public static int method13884(int n2, int n3, Class308 class308, Class255 class255) {
+    public static int method13884(int n2, int n3, AntiLevitation class308, Class255 class255) {
         int n4 = n2 ^ 0x1004A200;
         return (n3 | ~n4) - ~n4;
     }
@@ -127,7 +127,7 @@ public class Class1357 {
         return (n4 | n5) & (~n5 | ~n4);
     }
 
-    public static int method13890(int n2, int n3, Class296 class296, Class141 class141) {
+    public static int method13890(int n2, int n3, Font class296, Class141 class141) {
         return 979459372 + (n2 & 0xC59EA2D3);
     }
 
@@ -160,7 +160,7 @@ public class Class1357 {
         return (n3 | ~n4) - ~n4;
     }
 
-    public static int method13897(int n2, int n3, Class213 class213, Class301 class301) {
+    public static int method13897(int n2, int n3, Class213 class213, ScreenKeeper class301) {
         int n4 = n2;
         return (n4 | 0x9BCFEF7) & (0xF6430108 | ~n4);
     }
@@ -183,16 +183,16 @@ public class Class1357 {
         return n2 ^ 0x8419ACB;
     }
 
-    public static int method13902(int n2, int n3, Class410 class410, Class6154 class6154) {
+    public static int method13902(int n2, int n3, MultiTask class410, Class6154 class6154) {
         int n4 = n2;
         return (0x2E058F25 | ~n4) - ~n4;
     }
 
-    public static int method13903(int n2, int n3, Class350 class350, Class574 class574) {
+    public static int method13903(int n2, int n3, FastLatency class350, Class574 class574) {
         return 1202716 + (n2 & 0xFFEDA5E3);
     }
 
-    public static int method13904(int n2, int n3, Class704 class704, Class306 class306) {
+    public static int method13904(int n2, int n3, Class704 class704, ViewModel class306) {
         int n4 = n3;
         return n4 + ((n2 ^ 0x6C58CD35) & ~n4);
     }
@@ -216,7 +216,7 @@ public class Class1357 {
         return 264449230 + (n2 & 0xF03CD331);
     }
 
-    public static int method13909(int n2, int n3, Class420 class420, Class1256 class1256) {
+    public static int method13909(int n2, int n3, Nuker class420, Class1256 class1256) {
         int n4 = n2;
         return (0x197D7E62 | ~n4) - ~n4;
     }
@@ -225,7 +225,7 @@ public class Class1357 {
         return 541914404 + (n2 & 0xDFB30ADB);
     }
 
-    public static int method13911(int n2, int n3, Class457 class457, Class302 class302) {
+    public static int method13911(int n2, int n3, Colors class457, Avoid class302) {
         int n4 = n2;
         return (0x1DA1C538 | ~n4) - ~n4;
     }
@@ -239,7 +239,7 @@ public class Class1357 {
         return n4 & 0xCD3CDAA8 | 0x32C32557 & ~n4;
     }
 
-    public static int method13914(int n2, int n3, Class333 class333, Class56 class56) {
+    public static int method13914(int n2, int n3, ClickGui class333, Class56 class56) {
         int n4 = n2;
         return (0x3DD53BAB | ~n4) - ~n4;
     }

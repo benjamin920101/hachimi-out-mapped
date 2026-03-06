@@ -10,7 +10,7 @@ import mapped.Class1503;
 import mapped.Class244;
 import mapped.Class3404;
 import mapped.Class3979;
-import mapped.Class431;
+import mapped.Scaffold;
 import mapped.Class5432;
 import mapped.Class5455;
 import mapped.Class560;
@@ -25,7 +25,7 @@ import net.minecraft.util.math.Vec3d;
  */
 final class Class563
 extends Class560 {
-    private static int method11064(int n2, int n3, Class6316 class6316, Class431 class431) {
+    private static int method11064(int n2, int n3, Class6316 class6316, Scaffold class431) {
         return Class3404.method17212(n2, n3, class6316, class431);
     }
 

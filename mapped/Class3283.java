@@ -27,35 +27,35 @@ import mapped.Class2298;
 import mapped.Class231;
 import mapped.Class264;
 import mapped.Class275;
-import mapped.Class302;
-import mapped.Class315;
-import mapped.Class321;
+import mapped.Avoid;
+import mapped.HoleESP;
+import mapped.AspectRatio;
 import mapped.Class3263;
 import mapped.Class3271;
-import mapped.Class329;
+import mapped.XRay;
 import mapped.Class3341;
 import mapped.Class3364;
 import mapped.Class3377;
-import mapped.Class344;
+import mapped.ChestStealer;
 import mapped.Class35;
-import mapped.Class359;
+import mapped.Ping;
 import mapped.Class3596;
-import mapped.Class383;
+import mapped.LongJump;
 import mapped.Class3833;
 import mapped.Class3850;
 import mapped.Class3872;
 import mapped.Class3878;
 import mapped.Class3913;
-import mapped.Class393;
+import mapped.Crasher;
 import mapped.Class40;
-import mapped.Class402;
+import mapped.Shaders;
 import mapped.Class4089;
 import mapped.Class4148;
 import mapped.Class4156;
 import mapped.Class4218;
 import mapped.Class4225;
-import mapped.Class434;
-import mapped.Class453;
+import mapped.Aura;
+import mapped.Server;
 import mapped.Class4971;
 import mapped.Class51;
 import mapped.Class541;
@@ -101,7 +101,7 @@ public class Class3283 {
         return (n3 | ~n4) - ~n4;
     }
 
-    public static int method16781(int n2, int n3, Class393 class393, Class1316 class1316) {
+    public static int method16781(int n2, int n3, Crasher class393, Class1316 class1316) {
         int n4 = n3;
         return n4 + ((n2 ^ 0x1000180) & ~n4);
     }
@@ -132,7 +132,7 @@ public class Class3283 {
         return 922490091 + (n2 & 0xC903EB14);
     }
 
-    public static int method16788(int n2, int n3, Class130 class130, Class402 class402) {
+    public static int method16788(int n2, int n3, Class130 class130, Shaders class402) {
         int n4 = n2 ^ 0x96162D58;
         int n5 = n3;
         return (n4 | n5) & (~n5 | ~n4);
@@ -143,7 +143,7 @@ public class Class3283 {
         return n4 + ((n2 ^ 0x36CBBCCA) & ~n4);
     }
 
-    public static int method16790(int n2, int n3, Class329 class329, Class618 class618) {
+    public static int method16790(int n2, int n3, XRay class329, Class618 class618) {
         int n4 = n2;
         return n4 & 0xE37B576E | 0x1C84A891 & ~n4;
     }
@@ -168,7 +168,7 @@ public class Class3283 {
         return n4 + ((n2 ^ 0x4BBB124A) & ~n4);
     }
 
-    public static int method16795(int n2, int n3, Class62 class62, Class302 class302) {
+    public static int method16795(int n2, int n3, Class62 class62, Avoid class302) {
         return 267313009 + (n2 & 0xF011208E);
     }
 
@@ -206,7 +206,7 @@ public class Class3283 {
         return (n4 | n5) & (~n5 | ~n4);
     }
 
-    public static int method16803(int n2, int n3, Class1519 class1519, Class383 class383) {
+    public static int method16803(int n2, int n3, Class1519 class1519, LongJump class383) {
         return 890314012 + (n2 & 0xCAEEE2E3);
     }
 
@@ -219,17 +219,17 @@ public class Class3283 {
         return (n3 | ~n4) - ~n4;
     }
 
-    public static int method16806(int n2, int n3, Class6017 class6017, Class359 class359) {
+    public static int method16806(int n2, int n3, Class6017 class6017, Ping class359) {
         int n4 = n2;
         return (n4 | 0x3266D8E1) & (0xCD99271E | ~n4);
     }
 
-    public static int method16807(int n2, int n3, Class81 class81, Class453 class453) {
+    public static int method16807(int n2, int n3, Class81 class81, Server class453) {
         int n4 = n2 ^ 0x1882613;
         return (n3 | ~n4) - ~n4;
     }
 
-    public static int method16808(int n2, int n3, Class344 class344, Class321 class321) {
+    public static int method16808(int n2, int n3, ChestStealer class344, AspectRatio class321) {
         int n4 = n3;
         return n4 + ((n2 ^ 0x4A89EDB) & ~n4);
     }
@@ -258,7 +258,7 @@ public class Class3283 {
         return n4 & ~n5 | n5 & ~n4;
     }
 
-    public static int method16814(int n2, int n3, Class3271 class3271, Class315 class315) {
+    public static int method16814(int n2, int n3, Class3271 class3271, HoleESP class315) {
         int n4 = n2 ^ 0x748FF7DD;
         int n5 = n3;
         return n4 & ~n5 | n5 & ~n4;
@@ -275,7 +275,7 @@ public class Class3283 {
         return (0x1A267CB | ~n4) - ~n4;
     }
 
-    public static int method16817(int n2, int n3, Class113 class113, Class434 class434) {
+    public static int method16817(int n2, int n3, Class113 class113, Aura class434) {
         return n2 ^ 0x427B3C34 ^ n3;
     }
 

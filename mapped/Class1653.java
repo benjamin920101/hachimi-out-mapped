@@ -8,20 +8,20 @@ import mapped.Class1681;
 import mapped.Class188;
 import mapped.Class210;
 import mapped.Class257;
-import mapped.Class312;
+import mapped.SkinBlink;
 import mapped.Class3878;
-import mapped.Class390;
-import mapped.Class439;
+import mapped.Disabler;
+import mapped.AntiAim;
 import mapped.Class571;
 import mapped.Class6454;
 import mapped.Class850;
 
 public class Class1653 {
-    public static int method15023(int n2, int n3, Class6454 class6454, Class390 class390) {
+    public static int method15023(int n2, int n3, Class6454 class6454, Disabler class390) {
         return 100263294 + (n2 & 0xFA061A81);
     }
 
-    public static int method15024(int n2, int n3, Class312 class312, Class850 class850) {
+    public static int method15024(int n2, int n3, SkinBlink class312, Class850 class850) {
         return n2 ^ 0x4FB86FF;
     }
 
@@ -35,7 +35,7 @@ public class Class1653 {
         return (0x3C909B58 | ~n4) - ~n4;
     }
 
-    public static int method15027(int n2, int n3, Class439 class439, Class210 class210) {
+    public static int method15027(int n2, int n3, AntiAim class439, Class210 class210) {
         int n4 = n3;
         return n4 + ((n2 ^ 0xF63FFFBC) & ~n4);
     }

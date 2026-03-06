@@ -13,8 +13,8 @@ import mapped.Class196;
 import mapped.Class200;
 import mapped.Class246;
 import mapped.Class247;
-import mapped.Class400;
-import mapped.Class455;
+import mapped.NoMineAnimation;
+import mapped.AntiCheat;
 import mapped.Class489;
 import mapped.Class522;
 import mapped.Class556;
@@ -57,13 +57,13 @@ public class Class1167 {
         return (n3 | ~n4) - ~n4;
     }
 
-    public static int method13154(int n2, int n3, Class150 class150, Class455 class455) {
+    public static int method13154(int n2, int n3, Class150 class150, AntiCheat class455) {
         int n4 = n2 ^ 0x59B1A10;
         int n5 = n3;
         return n4 & ~n5 | n5 & ~n4;
     }
 
-    public static int method13155(int n2, int n3, Class17 class17, Class400 class400) {
+    public static int method13155(int n2, int n3, Class17 class17, NoMineAnimation class400) {
         return n2 ^ 0x220100 | n3;
     }
 

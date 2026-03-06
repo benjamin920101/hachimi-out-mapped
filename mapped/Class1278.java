@@ -25,21 +25,21 @@ import mapped.Class243;
 import mapped.Class246;
 import mapped.Class247;
 import mapped.Class271;
-import mapped.Class283;
-import mapped.Class285;
-import mapped.Class322;
-import mapped.Class325;
-import mapped.Class326;
-import mapped.Class365;
-import mapped.Class371;
-import mapped.Class379;
+import mapped.BetterHotbar;
+import mapped.Crosshair;
+import mapped.MaceSpoof;
+import mapped.TextRadar;
+import mapped.AntiHunger;
+import mapped.Freecam;
+import mapped.TickShift;
+import mapped.AirPlace;
 import mapped.Class3880;
 import mapped.Class39;
-import mapped.Class396;
+import mapped.PhantomView;
 import mapped.Class40;
-import mapped.Class410;
-import mapped.Class438;
-import mapped.Class442;
+import mapped.MultiTask;
+import mapped.InventoryTweaks;
+import mapped.Sprint;
 import mapped.Class489;
 import mapped.Class525;
 import mapped.Class5444;
@@ -69,7 +69,7 @@ public class Class1278 {
         return n4 & ~n5 | n5 & ~n4;
     }
 
-    public static int method13578(int n2, int n3, Class616 class616, Class410 class410) {
+    public static int method13578(int n2, int n3, Class616 class616, MultiTask class410) {
         return n2 ^ 0x1521B2F7;
     }
 
@@ -78,12 +78,12 @@ public class Class1278 {
         return (0x34BEBB6 | ~n4) - ~n4;
     }
 
-    public static int method13580(int n2, int n3, Class371 class371, Class285 class285) {
+    public static int method13580(int n2, int n3, TickShift class371, Crosshair class285) {
         int n4 = n3;
         return n4 + ((n2 ^ 0xE9C20104) & ~n4);
     }
 
-    public static int method13581(int n2, int n3, Class365 class365, Class586 class586) {
+    public static int method13581(int n2, int n3, Freecam class365, Class586 class586) {
         int n4 = n2 ^ 0x57BFFFFF;
         int n5 = n3;
         return n4 & ~n5 | n5 & ~n4;
@@ -114,7 +114,7 @@ public class Class1278 {
         return (n4 | n5) & (~n5 | ~n4);
     }
 
-    public static int method13587(int n2, int n3, Class326 class326, Class127 class127) {
+    public static int method13587(int n2, int n3, AntiHunger class326, Class127 class127) {
         return 394456468 + (n2 & 0xE87D126B);
     }
 
@@ -122,11 +122,11 @@ public class Class1278 {
         return n2 ^ 0xA9F7FDBA ^ n3;
     }
 
-    public static int method13589(int n2, int n3, Class525 class525, Class379 class379) {
+    public static int method13589(int n2, int n3, Class525 class525, AirPlace class379) {
         return n2 ^ 0xFE93FEFF ^ n3;
     }
 
-    public static int method13590(int n2, int n3, Class271 class271, Class438 class438) {
+    public static int method13590(int n2, int n3, Class271 class271, InventoryTweaks class438) {
         int n4 = n3;
         return n4 + ((n2 ^ 0x7DFFFFFE) & ~n4);
     }
@@ -154,7 +154,7 @@ public class Class1278 {
         return n4 & 0xFF02A1F0 | 0xFD5E0F & ~n4;
     }
 
-    public static int method13596(int n2, int n3, Class396 class396, Class5843 class5843) {
+    public static int method13596(int n2, int n3, PhantomView class396, Class5843 class5843) {
         return 269323477 + (n2 & 0xEFF2732A);
     }
 
@@ -163,7 +163,7 @@ public class Class1278 {
         return n4 & 0xE23400CE | 0x1DCBFF31 & ~n4;
     }
 
-    public static int method13598(int n2, int n3, Class682 class682, Class442 class442) {
+    public static int method13598(int n2, int n3, Class682 class682, Sprint class442) {
         int n4 = n2 ^ 0xE5C7FE7B;
         return (n3 | ~n4) - ~n4;
     }
@@ -178,7 +178,7 @@ public class Class1278 {
         return n4 & 0xDB6F2032 | 0x2490DFCD & ~n4;
     }
 
-    public static int method13601(int n2, int n3, Class1610 class1610, Class283 class283) {
+    public static int method13601(int n2, int n3, Class1610 class1610, BetterHotbar class283) {
         int n4 = n2 ^ 0x4B52C058;
         int n5 = n3;
         return (n4 | n5) & (~n5 | ~n4);
@@ -202,7 +202,7 @@ public class Class1278 {
         return n2 ^ 0x2F623CDA;
     }
 
-    public static int method13606(int n2, int n3, Class325 class325, Class322 class322) {
+    public static int method13606(int n2, int n3, TextRadar class325, MaceSpoof class322) {
         int n4 = n2;
         return n4 & 0xE5E928B8 | 0x1A16D747 & ~n4;
     }

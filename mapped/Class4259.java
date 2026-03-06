@@ -7,11 +7,11 @@ import mapped.Class164;
 import mapped.Class224;
 import mapped.Class244;
 import mapped.Class3263;
-import mapped.Class341;
+import mapped.TrueSight;
 import mapped.Class3666;
-import mapped.Class377;
+import mapped.Parkour;
 import mapped.Class3989;
-import mapped.Class418;
+import mapped.AutoTrap;
 import mapped.Class5534;
 import mapped.Class5692;
 import mapped.Class767;
@@ -27,7 +27,7 @@ public class Class4259 {
         return n2 ^ 0xECD7FB9B ^ n3;
     }
 
-    public static int method20947(int n2, int n3, Class377 class377, Class341 class341) {
+    public static int method20947(int n2, int n3, Parkour class377, TrueSight class341) {
         int n4 = n2;
         return n4 & 0xF615756E | 0x9EA8A91 & ~n4;
     }
@@ -37,7 +37,7 @@ public class Class4259 {
         return n4 + ((n2 ^ 0xE5EFA1CA) & ~n4);
     }
 
-    public static int method20949(int n2, int n3, Class3666 class3666, Class418 class418) {
+    public static int method20949(int n2, int n3, Class3666 class3666, AutoTrap class418) {
         return 49294135 + (n2 & 0xFD0FD4C8);
     }
 

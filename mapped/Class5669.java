@@ -21,24 +21,24 @@ import mapped.Class224;
 import mapped.Class2299;
 import mapped.Class235;
 import mapped.Class241;
-import mapped.Class287;
-import mapped.Class307;
-import mapped.Class308;
+import mapped.Nametags;
+import mapped.Criticals;
+import mapped.AntiLevitation;
 import mapped.Class31;
-import mapped.Class318;
+import mapped.Tooltips;
 import mapped.Class3234;
-import mapped.Class341;
-import mapped.Class355;
+import mapped.TrueSight;
+import mapped.FastFall;
 import mapped.Class36;
-import mapped.Class361;
+import mapped.PenisBuilder;
 import mapped.Class3807;
 import mapped.Class3907;
-import mapped.Class393;
+import mapped.Crasher;
 import mapped.Class3980;
 import mapped.Class4081;
 import mapped.Class4146;
-import mapped.Class429;
-import mapped.Class433;
+import mapped.HoleFill;
+import mapped.Blocker;
 import mapped.Class5450;
 import mapped.Class549;
 import mapped.Class551;
@@ -58,7 +58,7 @@ import mapped.Class873;
 import mapped.Class906;
 
 public class Class5669 {
-    public static int method22257(int n2, int n3, Class341 class341, Class873 class873) {
+    public static int method22257(int n2, int n3, TrueSight class341, Class873 class873) {
         int n4 = n2;
         return (n4 | 0xDEFF5BF) & (0xF2100A40 | ~n4);
     }
@@ -87,11 +87,11 @@ public class Class5669 {
         return 106736831 + (n2 & 0xF9A35340);
     }
 
-    public static int method22263(int n2, int n3, Class355 class355, Class155 class155) {
+    public static int method22263(int n2, int n3, FastFall class355, Class155 class155) {
         return n2 ^ 0x2747BA7;
     }
 
-    public static int method22264(int n2, int n3, Class308 class308, Class361 class361) {
+    public static int method22264(int n2, int n3, AntiLevitation class308, PenisBuilder class361) {
         int n4 = n2;
         return (n4 | 0x7CAF17) & (0xFF8350E8 | ~n4);
     }
@@ -101,7 +101,7 @@ public class Class5669 {
         return (n3 | ~n4) - ~n4;
     }
 
-    public static int method22266(int n2, int n3, Class307 class307, Class3907 class3907) {
+    public static int method22266(int n2, int n3, Criticals class307, Class3907 class3907) {
         return n2 ^ 0x862EF8B;
     }
 
@@ -145,13 +145,13 @@ public class Class5669 {
         return n4 & 0xF38F5411 | 0xC70ABEE & ~n4;
     }
 
-    public static int method22275(int n2, int n3, Class429 class429, Class393 class393) {
+    public static int method22275(int n2, int n3, HoleFill class429, Crasher class393) {
         int n4 = n2 ^ 0xE3C6A883;
         int n5 = n3;
         return (n4 | n5) & (~n5 | ~n4);
     }
 
-    public static int method22276(int n2, int n3, Class318 class318, Class287 class287) {
+    public static int method22276(int n2, int n3, Tooltips class318, Nametags class287) {
         return n2 ^ 0x758B749;
     }
 
@@ -160,7 +160,7 @@ public class Class5669 {
         return (n3 | ~n4) - ~n4;
     }
 
-    public static int method22278(int n2, int n3, Class433 class433, Class5450 class5450) {
+    public static int method22278(int n2, int n3, Blocker class433, Class5450 class5450) {
         int n4 = n2 ^ 0x452B86A0;
         return (n3 | ~n4) - ~n4;
     }

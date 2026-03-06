@@ -14,24 +14,24 @@ import mapped.Class261;
 import mapped.Class268;
 import mapped.Class27;
 import mapped.Class277;
-import mapped.Class279;
+import mapped.AutoArmor;
 import mapped.Class31;
 import mapped.Class3209;
 import mapped.Class3293;
-import mapped.Class330;
-import mapped.Class345;
+import mapped.AutoFish;
+import mapped.Shulkerception;
 import mapped.Class3766;
-import mapped.Class387;
-import mapped.Class389;
+import mapped.XCarry;
+import mapped.ChorusControl;
 import mapped.Class3933;
 import mapped.Class3978;
 import mapped.Class3979;
-import mapped.Class400;
+import mapped.NoMineAnimation;
 import mapped.Class4036;
-import mapped.Class410;
+import mapped.MultiTask;
 import mapped.Class411;
-import mapped.Class419;
-import mapped.Class455;
+import mapped.AutoCrystal;
+import mapped.AntiCheat;
 import mapped.Class538;
 import mapped.Class544;
 import mapped.Class5457;
@@ -52,7 +52,7 @@ import mapped.Class92;
 import mapped.Class93;
 
 public class Class3937 {
-    public static int method19401(int n2, int n3, Class389 class389, Class229 class229) {
+    public static int method19401(int n2, int n3, ChorusControl class389, Class229 class229) {
         int n4 = n3;
         return n4 + ((n2 ^ 0x6FFBB97D) & ~n4);
     }
@@ -77,7 +77,7 @@ public class Class3937 {
         return (n3 | ~n4) - ~n4;
     }
 
-    public static int method19406(int n2, int n3, Class619 class619, Class455 class455) {
+    public static int method19406(int n2, int n3, Class619 class619, AntiCheat class455) {
         int n4 = n2 ^ 0x74EEFB40;
         int n5 = n3;
         return n4 & ~n5 | n5 & ~n4;
@@ -93,7 +93,7 @@ public class Class3937 {
         return n4 + ((n2 ^ 0xC1C47DB7) & ~n4);
     }
 
-    public static int method19409(int n2, int n3, Class279 class279, Class261 class261) {
+    public static int method19409(int n2, int n3, AutoArmor class279, Class261 class261) {
         int n4 = n2;
         return (0x23121B55 | ~n4) - ~n4;
     }
@@ -121,7 +121,7 @@ public class Class3937 {
         return n4 + ((n2 ^ 0xE0021440) & ~n4);
     }
 
-    public static int method19415(int n2, int n3, Class400 class400, Class67 class67) {
+    public static int method19415(int n2, int n3, NoMineAnimation class400, Class67 class67) {
         int n4 = n2 ^ 0xF5824783;
         return (n3 | ~n4) - ~n4;
     }
@@ -130,7 +130,7 @@ public class Class3937 {
         return n2 ^ 0xEA7FF7F3 ^ n3;
     }
 
-    public static int method19417(int n2, int n3, Class330 class330, Class5496 class5496) {
+    public static int method19417(int n2, int n3, AutoFish class330, Class5496 class5496) {
         int n4 = n3;
         return n4 + ((n2 ^ 0x85D052F0) & ~n4);
     }
@@ -139,11 +139,11 @@ public class Class3937 {
         return 88803308 + (n2 & 0xFAB4F813);
     }
 
-    public static int method19419(int n2, int n3, Class411 class411, Class387 class387) {
+    public static int method19419(int n2, int n3, Class411 class411, XCarry class387) {
         return 473872185 + (n2 & 0xE3C148C6);
     }
 
-    public static int method19420(int n2, int n3, Class419 class419, Class682 class682) {
+    public static int method19420(int n2, int n3, AutoCrystal class419, Class682 class682) {
         int n4 = n2;
         return (0x151A7432 | ~n4) - ~n4;
     }
@@ -162,7 +162,7 @@ public class Class3937 {
         return 856843290 + (n2 & 0xCCED9BE5);
     }
 
-    public static int method19424(int n2, int n3, Class410 class410, Class345 class345) {
+    public static int method19424(int n2, int n3, MultiTask class410, Shulkerception class345) {
         return 168118745 + (n2 & 0xF5FAB626);
     }
 }

@@ -7,13 +7,13 @@ import mapped.Class1278;
 import mapped.Class134;
 import mapped.Class3224;
 import mapped.Class3414;
-import mapped.Class373;
-import mapped.Class383;
-import mapped.Class425;
+import mapped.Skybox;
+import mapped.LongJump;
+import mapped.SpeedMine;
 import mapped.Class535;
 
 public class Class1792 {
-    public static int method15702(int n2, int n3, Class3224 class3224, Class373 class373) {
+    public static int method15702(int n2, int n3, Class3224 class3224, Skybox class373) {
         int n4 = n2;
         return (0x2238B293 | ~n4) - ~n4;
     }
@@ -24,7 +24,7 @@ public class Class1792 {
         return (n4 | n5) & (~n5 | ~n4);
     }
 
-    public static int method15704(int n2, int n3, Class425 class425, Class383 class383) {
+    public static int method15704(int n2, int n3, SpeedMine class425, LongJump class383) {
         int n4 = n2 ^ 0xA000412A;
         int n5 = n3;
         return (n4 | n5) & (~n5 | ~n4);

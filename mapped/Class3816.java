@@ -48,49 +48,49 @@ import mapped.Class265;
 import mapped.Class269;
 import mapped.Class272;
 import mapped.Class277;
-import mapped.Class280;
-import mapped.Class286;
-import mapped.Class292;
-import mapped.Class298;
-import mapped.Class301;
-import mapped.Class303;
-import mapped.Class314;
-import mapped.Class317;
-import mapped.Class319;
+import mapped.Flight;
+import mapped.NoRotate;
+import mapped.KillEffects;
+import mapped.Chams;
+import mapped.ScreenKeeper;
+import mapped.NoSoundLag;
+import mapped.TrueDurability;
+import mapped.AntiSpam;
+import mapped.AntiCrawl;
 import mapped.Class3221;
-import mapped.Class325;
+import mapped.TextRadar;
 import mapped.Class3263;
-import mapped.Class327;
+import mapped.Yaw;
 import mapped.Class3271;
 import mapped.Class3285;
-import mapped.Class329;
+import mapped.XRay;
 import mapped.Class3293;
 import mapped.Class3317;
 import mapped.Class3323;
 import mapped.Class3336;
 import mapped.Class3377;
-import mapped.Class338;
+import mapped.Step;
 import mapped.Class3404;
-import mapped.Class342;
+import mapped.PacketLogger;
 import mapped.Class3448;
 import mapped.Class35;
 import mapped.Class3546;
-import mapped.Class355;
+import mapped.FastFall;
 import mapped.Class3556;
 import mapped.Class3586;
-import mapped.Class359;
+import mapped.Ping;
 import mapped.Class3612;
-import mapped.Class362;
+import mapped.BetterChat;
 import mapped.Class3684;
 import mapped.Class3691;
-import mapped.Class371;
-import mapped.Class373;
+import mapped.TickShift;
+import mapped.Skybox;
 import mapped.Class3730;
 import mapped.Class374;
-import mapped.Class380;
+import mapped.BreakESP;
 import mapped.Class3817;
-import mapped.Class384;
-import mapped.Class385;
+import mapped.PhaseESP;
+import mapped.RocketExtend;
 import mapped.Class3865;
 import mapped.Class3878;
 import mapped.Class3879;
@@ -98,11 +98,11 @@ import mapped.Class39;
 import mapped.Class3904;
 import mapped.Class3921;
 import mapped.Class3923;
-import mapped.Class396;
+import mapped.PhantomView;
 import mapped.Class3976;
-import mapped.Class398;
-import mapped.Class401;
-import mapped.Class402;
+import mapped.ArmorAlert;
+import mapped.UnfocusedFPS;
+import mapped.Shaders;
 import mapped.Class4026;
 import mapped.Class4028;
 import mapped.Class4070;
@@ -110,19 +110,19 @@ import mapped.Class4074;
 import mapped.Class4089;
 import mapped.Class41;
 import mapped.Class4132;
-import mapped.Class419;
-import mapped.Class420;
+import mapped.AutoCrystal;
+import mapped.Nuker;
 import mapped.Class4218;
-import mapped.Class425;
+import mapped.SpeedMine;
 import mapped.Class4257;
-import mapped.Class430;
-import mapped.Class440;
-import mapped.Class442;
-import mapped.Class445;
-import mapped.Class450;
-import mapped.Class456;
-import mapped.Class457;
-import mapped.Class458;
+import mapped.AutoCrawlTrap;
+import mapped.ClickTweaks;
+import mapped.Sprint;
+import mapped.Phase;
+import mapped.ChatNotifier;
+import mapped.Rotations;
+import mapped.Colors;
+import mapped.Socials;
 import mapped.Class4602;
 import mapped.Class461;
 import mapped.Class469;
@@ -194,13 +194,13 @@ import mapped.Class949;
 import mapped.Class95;
 
 public class Class3816 {
-    public static int method18587(int n2, int n3, Class13 class13, Class384 class384) {
+    public static int method18587(int n2, int n3, Class13 class13, PhaseESP class384) {
         int n4 = n2 ^ 0x747D3CFD;
         int n5 = n3;
         return (n4 | n5) & (~n5 | ~n4);
     }
 
-    public static int method18588(int n2, int n3, Class6098 class6098, Class419 class419) {
+    public static int method18588(int n2, int n3, Class6098 class6098, AutoCrystal class419) {
         int n4 = n2 ^ 0xCC98EA4F;
         return (n3 | ~n4) - ~n4;
     }
@@ -219,7 +219,7 @@ public class Class3816 {
         return (0x202A1BAB | ~n4) - ~n4;
     }
 
-    public static int method18592(int n2, int n3, Class440 class440, Class380 class380) {
+    public static int method18592(int n2, int n3, ClickTweaks class440, BreakESP class380) {
         int n4 = n2;
         return (n4 | 0x2537F531) & (0xDAC80ACE | ~n4);
     }
@@ -235,7 +235,7 @@ public class Class3816 {
         return n4 + ((n2 ^ 0x20522155) & ~n4);
     }
 
-    public static int method18595(int n2, int n3, Class430 class430, Class128 class128) {
+    public static int method18595(int n2, int n3, AutoCrawlTrap class430, Class128 class128) {
         return n2 ^ 0x4CBD926;
     }
 
@@ -247,7 +247,7 @@ public class Class3816 {
         return 266108531 + (n2 & 0xF023818C);
     }
 
-    public static int method18598(int n2, int n3, Class3336 class3336, Class420 class420) {
+    public static int method18598(int n2, int n3, Class3336 class3336, Nuker class420) {
         int n4 = n2 ^ 0x721A04CA;
         int n5 = n3;
         return n4 & ~n5 | n5 & ~n4;
@@ -268,12 +268,12 @@ public class Class3816 {
         return n4 & ~n5 | n5 & ~n4;
     }
 
-    public static int method18602(int n2, int n3, Class5723 class5723, Class401 class401) {
+    public static int method18602(int n2, int n3, Class5723 class5723, UnfocusedFPS class401) {
         int n4 = n2;
         return (n4 | 0x2E71B397) & (0xD18E4C68 | ~n4);
     }
 
-    public static int method18603(int n2, int n3, Class39 class39, Class280 class280) {
+    public static int method18603(int n2, int n3, Class39 class39, Flight class280) {
         int n4 = n2;
         return (0x3EA56D4D | ~n4) - ~n4;
     }
@@ -308,7 +308,7 @@ public class Class3816 {
         return (0x39C65B1A | ~n4) - ~n4;
     }
 
-    public static int method18610(int n2, int n3, Class458 class458, Class3317 class3317) {
+    public static int method18610(int n2, int n3, Socials class458, Class3317 class3317) {
         int n4 = n2 ^ 0x5CE5F6C3;
         return (n3 | ~n4) - ~n4;
     }
@@ -319,12 +319,12 @@ public class Class3816 {
         return (n4 | n5) & (~n5 | ~n4);
     }
 
-    public static int method18612(int n2, int n3, Class3865 class3865, Class442 class442) {
+    public static int method18612(int n2, int n3, Class3865 class3865, Sprint class442) {
         int n4 = n3;
         return n4 + ((n2 ^ 0x50C0800) & ~n4);
     }
 
-    public static int method18613(int n2, int n3, Class327 class327, Class398 class398) {
+    public static int method18613(int n2, int n3, Yaw class327, ArmorAlert class398) {
         return n2 ^ 0x8945EF4C ^ n3;
     }
 
@@ -333,16 +333,16 @@ public class Class3816 {
         return n4 & 0xE16D3099 | 0x1E92CF66 & ~n4;
     }
 
-    public static int method18615(int n2, int n3, Class373 class373, Class205 class205) {
+    public static int method18615(int n2, int n3, Skybox class373, Class205 class205) {
         return 583660349 + (n2 & 0xDD360CC2);
     }
 
-    public static int method18616(int n2, int n3, Class402 class402, Class3878 class3878) {
+    public static int method18616(int n2, int n3, Shaders class402, Class3878 class3878) {
         int n4 = n2;
         return (0x32142127 | ~n4) - ~n4;
     }
 
-    public static int method18617(int n2, int n3, Class5868 class5868, Class314 class314) {
+    public static int method18617(int n2, int n3, Class5868 class5868, TrueDurability class314) {
         int n4 = n2;
         return (0x2101A551 | ~n4) - ~n4;
     }
@@ -364,11 +364,11 @@ public class Class3816 {
         return n2 ^ 0xEDC51BC;
     }
 
-    public static int method18622(int n2, int n3, Class445 class445, Class1383 class1383) {
+    public static int method18622(int n2, int n3, Phase class445, Class1383 class1383) {
         return 697177518 + (n2 & 0xD671EA51);
     }
 
-    public static int method18623(int n2, int n3, Class457 class457, Class374 class374) {
+    public static int method18623(int n2, int n3, Colors class457, Class374 class374) {
         int n4 = n2 ^ 0xD5A8E886;
         return (n3 | ~n4) - ~n4;
     }
@@ -426,7 +426,7 @@ public class Class3816 {
         return (0x2A58587A | ~n4) - ~n4;
     }
 
-    public static int method18635(int n2, int n3, Class292 class292, Class338 class338) {
+    public static int method18635(int n2, int n3, KillEffects class292, Step class338) {
         int n4 = n2;
         return (0x1FC2092E | ~n4) - ~n4;
     }
@@ -441,7 +441,7 @@ public class Class3816 {
         return (0x2C0E6DBA | ~n4) - ~n4;
     }
 
-    public static int method18638(int n2, int n3, Class450 class450, Class442 class442) {
+    public static int method18638(int n2, int n3, ChatNotifier class450, Sprint class442) {
         int n4 = n3;
         return n4 + ((n2 ^ 0x90020008) & ~n4);
     }
@@ -480,7 +480,7 @@ public class Class3816 {
         return n4 + ((n2 ^ 0xAAFEFBFA) & ~n4);
     }
 
-    public static int method18646(int n2, int n3, Class578 class578, Class425 class425) {
+    public static int method18646(int n2, int n3, Class578 class578, SpeedMine class425) {
         int n4 = n2;
         return (0x3A390B38 | ~n4) - ~n4;
     }
@@ -494,22 +494,22 @@ public class Class3816 {
         return (0x715688F | ~n4) - ~n4;
     }
 
-    public static int method18649(int n2, int n3, Class3691 class3691, Class362 class362) {
+    public static int method18649(int n2, int n3, Class3691 class3691, BetterChat class362) {
         int n4 = n3;
         return n4 + ((n2 ^ 0x5A90401) & ~n4);
     }
 
-    public static int method18650(int n2, int n3, Class385 class385, Class95 class95) {
+    public static int method18650(int n2, int n3, RocketExtend class385, Class95 class95) {
         int n4 = n3;
         return n4 + ((n2 ^ 0x69200C32) & ~n4);
     }
 
-    public static int method18651(int n2, int n3, Class355 class355, Class3730 class3730) {
+    public static int method18651(int n2, int n3, FastFall class355, Class3730 class3730) {
         int n4 = n2;
         return (0x284BB2D4 | ~n4) - ~n4;
     }
 
-    public static int method18652(int n2, int n3, Class286 class286, Class456 class456) {
+    public static int method18652(int n2, int n3, NoRotate class286, Rotations class456) {
         int n4 = n2 ^ 0x6851C68B;
         int n5 = n3;
         return (n4 | n5) & (~n5 | ~n4);
@@ -519,12 +519,12 @@ public class Class3816 {
         return n2 ^ 0xEF4A730C ^ n3;
     }
 
-    public static int method18654(int n2, int n3, Class325 class325, Class23 class23) {
+    public static int method18654(int n2, int n3, TextRadar class325, Class23 class23) {
         int n4 = n2;
         return n4 & 0xD89AFEE6 | 0x27650119 & ~n4;
     }
 
-    public static int method18655(int n2, int n3, Class319 class319, Class4089 class4089) {
+    public static int method18655(int n2, int n3, AntiCrawl class319, Class4089 class4089) {
         return n2 ^ 0x8A080880 ^ n3;
     }
 
@@ -564,7 +564,7 @@ public class Class3816 {
         return (n4 | n5) & (~n5 | ~n4);
     }
 
-    public static int method18663(int n2, int n3, Class425 class425, Class342 class342) {
+    public static int method18663(int n2, int n3, SpeedMine class425, PacketLogger class342) {
         int n4 = n2;
         return n4 & 0xF9D8B34E | 0x6274CB1 & ~n4;
     }
@@ -575,7 +575,7 @@ public class Class3816 {
         return n4 & ~n5 | n5 & ~n4;
     }
 
-    public static int method18665(int n2, int n3, Class5860 class5860, Class301 class301) {
+    public static int method18665(int n2, int n3, Class5860 class5860, ScreenKeeper class301) {
         int n4 = n2 ^ 0x24001300;
         return (n3 | ~n4) - ~n4;
     }
@@ -612,7 +612,7 @@ public class Class3816 {
         return (0x2B52CC14 | ~n4) - ~n4;
     }
 
-    public static int method18673(int n2, int n3, Class396 class396, Class3293 class3293) {
+    public static int method18673(int n2, int n3, PhantomView class396, Class3293 class3293) {
         int n4 = n3;
         return n4 + ((n2 ^ 0x9A89578C) & ~n4);
     }
@@ -621,22 +621,22 @@ public class Class3816 {
         return n2 ^ 0x280715B8;
     }
 
-    public static int method18675(int n2, int n3, Class384 class384, Class618 class618) {
+    public static int method18675(int n2, int n3, PhaseESP class384, Class618 class618) {
         int n4 = n2 ^ 0xFD0F4A3B;
         return (n3 | ~n4) - ~n4;
     }
 
-    public static int method18676(int n2, int n3, Class298 class298, Class1153 class1153) {
+    public static int method18676(int n2, int n3, Chams class298, Class1153 class1153) {
         int n4 = n2;
         return (0x321AC6DF | ~n4) - ~n4;
     }
 
-    public static int method18677(int n2, int n3, Class359 class359, Class303 class303) {
+    public static int method18677(int n2, int n3, Ping class359, NoSoundLag class303) {
         int n4 = n2;
         return n4 & 0xC6ED0A84 | 0x3912F57B & ~n4;
     }
 
-    public static int method18678(int n2, int n3, Class261 class261, Class430 class430) {
+    public static int method18678(int n2, int n3, Class261 class261, AutoCrawlTrap class430) {
         int n4 = n2;
         return (0x38AD0806 | ~n4) - ~n4;
     }
@@ -651,12 +651,12 @@ public class Class3816 {
         return n4 + ((n2 ^ 0xB6B9BD5F) & ~n4);
     }
 
-    public static int method18681(int n2, int n3, Class317 class317, Class4074 class4074) {
+    public static int method18681(int n2, int n3, AntiSpam class317, Class4074 class4074) {
         int n4 = n2 ^ 0x640A23;
         return (n3 | ~n4) - ~n4;
     }
 
-    public static int method18682(int n2, int n3, Class425 class425, Class5504 class5504) {
+    public static int method18682(int n2, int n3, SpeedMine class425, Class5504 class5504) {
         return n2 ^ 0x6FA9D36A ^ n3;
     }
 
@@ -665,7 +665,7 @@ public class Class3816 {
         return (0x1EC13DEE | ~n4) - ~n4;
     }
 
-    public static int method18684(int n2, int n3, Class371 class371, Class5496 class5496) {
+    public static int method18684(int n2, int n3, TickShift class371, Class5496 class5496) {
         int n4 = n2;
         return n4 & 0xEC976386 | 0x13689C79 & ~n4;
     }
@@ -674,7 +674,7 @@ public class Class3816 {
         return n2 ^ 0xD2CF6B9C ^ n3;
     }
 
-    public static int method18686(int n2, int n3, Class7 class7, Class329 class329) {
+    public static int method18686(int n2, int n3, Class7 class7, XRay class329) {
         int n4 = n3;
         return n4 + ((n2 ^ 0x16B983F) & ~n4);
     }

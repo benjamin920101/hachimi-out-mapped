@@ -13,19 +13,19 @@ import mapped.Class175;
 import mapped.Class209;
 import mapped.Class213;
 import mapped.Class258;
-import mapped.Class296;
+import mapped.Font;
 import mapped.Class3271;
-import mapped.Class331;
-import mapped.Class362;
+import mapped.PlaceEcho;
+import mapped.BetterChat;
 import mapped.Class3730;
 import mapped.Class3816;
 import mapped.Class3878;
 import mapped.Class3904;
 import mapped.Class3992;
-import mapped.Class408;
-import mapped.Class430;
+import mapped.Replenish;
+import mapped.AutoCrawlTrap;
 import mapped.Class44;
-import mapped.Class440;
+import mapped.ClickTweaks;
 import mapped.Class525;
 import mapped.Class5512;
 import mapped.Class5532;
@@ -68,7 +68,7 @@ public class Class1156 {
         return (n4 | n5) & (~n5 | ~n4);
     }
 
-    public static int method13089(int n2, int n3, Class688 class688, Class430 class430) {
+    public static int method13089(int n2, int n3, Class688 class688, AutoCrawlTrap class430) {
         int n4 = n2 ^ 0x6E395100;
         return (n3 | ~n4) - ~n4;
     }
@@ -95,20 +95,20 @@ public class Class1156 {
         return 205324306 + (n2 & 0xF3C2FFED);
     }
 
-    public static int method13095(int n2, int n3, Class440 class440, Class1278 class1278) {
+    public static int method13095(int n2, int n3, ClickTweaks class440, Class1278 class1278) {
         return 967495010 + (n2 & 0xC655329D);
     }
 
-    public static int method13096(int n2, int n3, Class1365 class1365, Class296 class296) {
+    public static int method13096(int n2, int n3, Class1365 class1365, Font class296) {
         int n4 = n3;
         return n4 + ((n2 ^ 0x39AE5A05) & ~n4);
     }
 
-    public static int method13097(int n2, int n3, Class258 class258, Class331 class331) {
+    public static int method13097(int n2, int n3, Class258 class258, PlaceEcho class331) {
         return 297141757 + (n2 & 0xEE49FA02);
     }
 
-    public static int method13098(int n2, int n3, Class175 class175, Class408 class408) {
+    public static int method13098(int n2, int n3, Class175 class175, Replenish class408) {
         int n4 = n3;
         return n4 + ((n2 ^ 0x20208809) & ~n4);
     }
@@ -117,7 +117,7 @@ public class Class1156 {
         return 247365220 + (n2 & 0xF141819B);
     }
 
-    public static int method13100(int n2, int n3, Class3992 class3992, Class362 class362) {
+    public static int method13100(int n2, int n3, Class3992 class3992, BetterChat class362) {
         return n2 ^ 0x1B685B6A;
     }
 

@@ -6,10 +6,10 @@ package mapped;
 import mapped.Class141;
 import mapped.Class198;
 import mapped.Class253;
-import mapped.Class363;
-import mapped.Class384;
-import mapped.Class391;
-import mapped.Class393;
+import mapped.TridentTweaks;
+import mapped.PhaseESP;
+import mapped.NoGlitch;
+import mapped.Crasher;
 import mapped.Class4056;
 import mapped.Class547;
 import mapped.Class6127;
@@ -26,17 +26,17 @@ public class Class1442 {
         return (n3 | ~n4) - ~n4;
     }
 
-    public static int method14253(int n2, int n3, Class384 class384, Class253 class253) {
+    public static int method14253(int n2, int n3, PhaseESP class384, Class253 class253) {
         int n4 = n3;
         return n4 + ((n2 ^ 0xF5258B5B) & ~n4);
     }
 
-    public static int method14254(int n2, int n3, Class391 class391, Class393 class393) {
+    public static int method14254(int n2, int n3, NoGlitch class391, Crasher class393) {
         int n4 = n3;
         return n4 + ((n2 ^ 0xD92E5691) & ~n4);
     }
 
-    public static int method14255(int n2, int n3, Class4056 class4056, Class363 class363) {
+    public static int method14255(int n2, int n3, Class4056 class4056, TridentTweaks class363) {
         int n4 = n2;
         return (0xB0542D9 | ~n4) - ~n4;
     }

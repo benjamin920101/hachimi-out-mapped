@@ -14,9 +14,9 @@ import mapped.Class248;
 import mapped.Class261;
 import mapped.Class268;
 import mapped.Class276;
-import mapped.Class283;
+import mapped.BetterHotbar;
 import mapped.Class3263;
-import mapped.Class333;
+import mapped.ClickGui;
 import mapped.Class3792;
 import mapped.Class3979;
 import mapped.Class414;
@@ -48,7 +48,7 @@ extends Class268 {
 
     @Override
     public void method825(class_332 a2, float b2, float c2, float d2, float e2, float f2) {
-        this.method753(Class6454.method24637() + Class333.method2989().method2999());
+        this.method753(Class6454.method24637() + ClickGui.method2989().method2999());
         this.field340 = b2;
         this.field337 = c2;
         Class6283 g2 = this.field354.method516();
@@ -57,9 +57,9 @@ extends Class268 {
             this.field345.method24284(h2);
         }
         int i2 = (int)(45.0 * class_3532.method_15350((double)this.field345.method24281(), (double)0.0, (double)1.0));
-        this.method742(a2, g2.method24281() > Class6096.field12294 ? Class272.method952(Class333.method2989(), (int)field368[2] + i2, (float)g2.method24281()) : new Color((int)field368[1], (int)field368[1], (int)field368[1], i2).getRGB());
+        this.method742(a2, g2.method24281() > Class6096.field12294 ? Class272.method952(ClickGui.method2989(), (int)field368[2] + i2, (float)g2.method24281()) : new Color((int)field368[1], (int)field368[1], (int)field368[1], i2).getRGB());
         int j2 = (int)field368[0];
-        this.method771(a2, this.field354.method512(), b2 + 2.0f, c2 + Class333.method2989().method3018() * 1.0f, j2);
+        this.method771(a2, this.field354.method512(), b2 + 2.0f, c2 + ClickGui.method2989().method3018() * 1.0f, j2);
     }
 
     private static void method943(boolean bl2) {
@@ -82,8 +82,8 @@ extends Class268 {
         Class3979.method19561();
     }
 
-    private static Class333 method946() {
-        return Class333.method2989();
+    private static ClickGui method946() {
+        return ClickGui.method2989();
     }
 
     private static void method947(float f2, float f3) {
@@ -98,7 +98,7 @@ extends Class268 {
         Class4146.method20694();
     }
 
-    private static int method950(int n2, int n3, Class283 class283, Class414 class414) {
+    private static int method950(int n2, int n3, BetterHotbar class283, Class414 class414) {
         return Class3792.method18362(n2, n3, class283, class414);
     }
 
@@ -115,7 +115,7 @@ extends Class268 {
         Class272.field368[4] = l2 ^ 0x36414C90801146A9L;
     }
 
-    private static int method952(Class333 class333, int n2, float f2) {
+    private static int method952(ClickGui class333, int n2, float f2) {
         return class333.method3028(n2, f2);
     }
 

@@ -8,7 +8,7 @@ import mapped.Class240;
 import mapped.Class243;
 import mapped.Class34;
 import mapped.Class3843;
-import mapped.Class430;
+import mapped.AutoCrawlTrap;
 import mapped.Class5868;
 import mapped.Class600;
 import mapped.Class6315;
@@ -28,7 +28,7 @@ public class Class3414 {
         return n2 ^ 0x136F4850;
     }
 
-    public static int method17237(int n2, int n3, Class6315 class6315, Class430 class430) {
+    public static int method17237(int n2, int n3, Class6315 class6315, AutoCrawlTrap class430) {
         int n4 = n3;
         return n4 + ((n2 ^ 0xFA8178F2) & ~n4);
     }

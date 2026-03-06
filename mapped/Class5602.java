@@ -23,22 +23,22 @@ import mapped.Class191;
 import mapped.Class239;
 import mapped.Class240;
 import mapped.Class248;
-import mapped.Class282;
-import mapped.Class292;
+import mapped.Strafe;
+import mapped.KillEffects;
 import mapped.Class3285;
-import mapped.Class330;
+import mapped.AutoFish;
 import mapped.Class3317;
 import mapped.Class3323;
-import mapped.Class348;
-import mapped.Class379;
+import mapped.BlockHighlight;
+import mapped.AirPlace;
 import mapped.Class3871;
 import mapped.Class3915;
 import mapped.Class3978;
 import mapped.Class3989;
-import mapped.Class420;
-import mapped.Class425;
-import mapped.Class432;
-import mapped.Class435;
+import mapped.Nuker;
+import mapped.SpeedMine;
+import mapped.SelfTrap;
+import mapped.AutoMine;
 import mapped.Class51;
 import mapped.Class530;
 import mapped.Class555;
@@ -82,7 +82,7 @@ public class Class5602 {
         return n4 + ((n2 ^ 0x77B92CAF) & ~n4);
     }
 
-    public static int method21950(int n2, int n3, Class530 class530, Class432 class432) {
+    public static int method21950(int n2, int n3, Class530 class530, SelfTrap class432) {
         int n4 = n2;
         return (0x2FC8DBF5 | ~n4) - ~n4;
     }
@@ -98,7 +98,7 @@ public class Class5602 {
         return n4 + ((n2 ^ 0xBFFFFFFB) & ~n4);
     }
 
-    public static int method21953(int n2, int n3, Class906 class906, Class292 class292) {
+    public static int method21953(int n2, int n3, Class906 class906, KillEffects class292) {
         int n4 = n2 ^ 0xD07C23BD;
         return (n3 | ~n4) - ~n4;
     }
@@ -113,7 +113,7 @@ public class Class5602 {
         return (n3 | ~n4) - ~n4;
     }
 
-    public static int method21956(int n2, int n3, Class282 class282, Class129 class129) {
+    public static int method21956(int n2, int n3, Strafe class282, Class129 class129) {
         int n4 = n3;
         return n4 + ((n2 ^ 0x8148C020) & ~n4);
     }
@@ -148,7 +148,7 @@ public class Class5602 {
         return (n4 | n5) & (~n5 | ~n4);
     }
 
-    public static int method21963(int n2, int n3, Class330 class330, Class425 class425) {
+    public static int method21963(int n2, int n3, AutoFish class330, SpeedMine class425) {
         return n2 ^ 0xD8EEF7CB | n3;
     }
 
@@ -167,21 +167,21 @@ public class Class5602 {
         return (0x1BC5DE5B | ~n4) - ~n4;
     }
 
-    public static int method21967(int n2, int n3, Class435 class435, Class10 class10) {
+    public static int method21967(int n2, int n3, AutoMine class435, Class10 class10) {
         return n2 ^ 0xDFFFFF7E ^ n3;
     }
 
-    public static int method21968(int n2, int n3, Class248 class248, Class425 class425) {
+    public static int method21968(int n2, int n3, Class248 class248, SpeedMine class425) {
         int n4 = n2 ^ 0xCEE05100;
         return (n3 | ~n4) - ~n4;
     }
 
-    public static int method21969(int n2, int n3, Class420 class420, Class348 class348) {
+    public static int method21969(int n2, int n3, Nuker class420, BlockHighlight class348) {
         int n4 = n2 ^ 0x81F2F2FD;
         return (n3 | ~n4) - ~n4;
     }
 
-    public static int method21970(int n2, int n3, Class909 class909, Class379 class379) {
+    public static int method21970(int n2, int n3, Class909 class909, AirPlace class379) {
         return 27904313 + (n2 & 0xFE5636C6);
     }
 

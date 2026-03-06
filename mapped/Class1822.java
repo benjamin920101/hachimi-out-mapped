@@ -13,13 +13,13 @@ import mapped.Class189;
 import mapped.Class221;
 import mapped.Class224;
 import mapped.Class248;
-import mapped.Class295;
+import mapped.Waypoints;
 import mapped.Class3272;
 import mapped.Class3871;
 import mapped.Class3923;
 import mapped.Class4074;
-import mapped.Class437;
-import mapped.Class447;
+import mapped.AntiRegear;
+import mapped.Velocity;
 import mapped.Class451;
 import mapped.Class519;
 import mapped.Class520;
@@ -44,13 +44,13 @@ public class Class1822 {
         return n2 ^ 0x2D9EE804;
     }
 
-    public static int method15808(int n2, int n3, Class1536 class1536, Class295 class295) {
+    public static int method15808(int n2, int n3, Class1536 class1536, Waypoints class295) {
         int n4 = n2 ^ 0x46081048;
         int n5 = n3;
         return (n4 | n5) & (~n5 | ~n4);
     }
 
-    public static int method15809(int n2, int n3, Class6286 class6286, Class437 class437) {
+    public static int method15809(int n2, int n3, Class6286 class6286, AntiRegear class437) {
         int n4 = n2 ^ 0xF93DF578;
         int n5 = n3;
         return (n4 | n5) & (~n5 | ~n4);
@@ -70,7 +70,7 @@ public class Class1822 {
         return 47194880 + (n2 & 0xFD2FDCFF);
     }
 
-    public static int method15813(int n2, int n3, Class4074 class4074, Class447 class447) {
+    public static int method15813(int n2, int n3, Class4074 class4074, Velocity class447) {
         int n4 = n2;
         return (n4 | 0x3C122461) & (0xC3EDDB9E | ~n4);
     }

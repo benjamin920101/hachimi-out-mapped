@@ -38,21 +38,21 @@ import mapped.Class244;
 import mapped.Class246;
 import mapped.Class248;
 import mapped.Class29;
-import mapped.Class319;
+import mapped.AntiCrawl;
 import mapped.Class3226;
 import mapped.Class3336;
 import mapped.Class3342;
-import mapped.Class376;
+import mapped.Blink;
 import mapped.Class3871;
 import mapped.Class3927;
 import mapped.Class3979;
-import mapped.Class404;
+import mapped.MainHand;
 import mapped.Class4045;
 import mapped.Class4146;
-import mapped.Class425;
-import mapped.Class436;
-import mapped.Class447;
-import mapped.Class449;
+import mapped.SpeedMine;
+import mapped.AutoAnchor;
+import mapped.Velocity;
+import mapped.FakePlayer;
 import mapped.Class480;
 import mapped.Class5496;
 import mapped.Class554;
@@ -109,7 +109,7 @@ public class Class5512 {
     public class_2338 field10395;
     public int field10396;
     public class_1799 field10397;
-    final Class425 field10398;
+    final SpeedMine field10398;
     public int field10399;
     public boolean field10400;
     public boolean field10401;
@@ -122,7 +122,7 @@ public class Class5512 {
         return Class5628.method21987(n2, n3, class3336, class2298);
     }
 
-    private static Class248 method21489(Class425 class425) {
+    private static Class248 method21489(SpeedMine class425) {
         return Class5512.method21593(class425);
     }
 
@@ -131,7 +131,7 @@ public class Class5512 {
     }
 
     private static boolean method21491() {
-        return Class447.method10252();
+        return Velocity.method10252();
     }
 
     private static void method21492() {
@@ -200,7 +200,7 @@ public class Class5512 {
         return Class5628.method22039(n2, n3, class5496, class29);
     }
 
-    public static Class425 method21501(Class5512 class5512) {
+    public static SpeedMine method21501(Class5512 class5512) {
         return class5512.field10398;
     }
 
@@ -291,7 +291,7 @@ public class Class5512 {
         Class5512.field10402[6] = l2 ^ 0x51787BB947EC4185L;
     }
 
-    public static Class248 method21508(Class425 class425) {
+    public static Class248 method21508(SpeedMine class425) {
         return class425.field1907;
     }
 
@@ -327,12 +327,12 @@ public class Class5512 {
         Class4146.method20694();
     }
 
-    public static void method21517(Class425 class425, Runnable runnable) {
+    public static void method21517(SpeedMine class425, Runnable runnable) {
         class425.field1902 = runnable;
     }
 
     private static boolean method21518() {
-        return Class447.method10322();
+        return Velocity.method10322();
     }
 
     private static class_2338 method21519(Class5512 class5512) {
@@ -355,7 +355,7 @@ public class Class5512 {
         class480.method10782(class_12682);
     }
 
-    public static Class425 method21524(Class5512 class5512) {
+    public static SpeedMine method21524(Class5512 class5512) {
         return class5512.field10398;
     }
 
@@ -366,14 +366,14 @@ public class Class5512 {
         return new class_2846(class_2846.class_2847.field_12973, this.field10395, a2, b2);
     }
 
-    public Class5512(Class425 a2, class_2338 b2, int c2, double d2) {
+    public Class5512(SpeedMine a2, class_2338 b2, int c2, double d2) {
         this.field10398 = a2;
         this.field10395 = b2;
         this.field10392 = c2;
         this.field10389 = d2;
     }
 
-    private static int method21526(int n2, int n3, Class319 class319, Class609 class609) {
+    private static int method21526(int n2, int n3, AntiCrawl class319, Class609 class609) {
         return Class5628.method22016(n2, n3, class319, class609);
     }
 
@@ -409,7 +409,7 @@ public class Class5512 {
         return class5512.field10395;
     }
 
-    public static Class5512 method21535(Class425 class425) {
+    public static Class5512 method21535(SpeedMine class425) {
         return class425.field1893;
     }
 
@@ -417,7 +417,7 @@ public class Class5512 {
         class480.method10782(class_12682);
     }
 
-    private static int method21537(int n2, int n3, Class449 class449, Class3871 class3871) {
+    private static int method21537(int n2, int n3, FakePlayer class449, Class3871 class3871) {
         return Class5628.method21982(n2, n3, class449, class3871);
     }
 
@@ -425,7 +425,7 @@ public class Class5512 {
         return Class244.field290;
     }
 
-    public static Class425 method21539(Class5512 class5512) {
+    public static SpeedMine method21539(Class5512 class5512) {
         return class5512.field10398;
     }
 
@@ -433,7 +433,7 @@ public class Class5512 {
         return class_3102.field_1724;
     }
 
-    public static Class425 method21541(Class5512 class5512) {
+    public static SpeedMine method21541(Class5512 class5512) {
         return class5512.field10398;
     }
 
@@ -441,7 +441,7 @@ public class Class5512 {
         return class248.method507();
     }
 
-    public static Class248 method21543(Class425 class425) {
+    public static Class248 method21543(SpeedMine class425) {
         return class425.field1908;
     }
 
@@ -505,7 +505,7 @@ public class Class5512 {
                 Class5512.method21666().method21353((class_7204)LambdaMetafactory.metafactory(null, null, null, (I)Lnet/minecraft/class_2596;, method21579(net.minecraft.util.math.Direction int ), (I)Lnet/minecraft/class_2596;)((Class5512)this, (class_2350)a));
                 Class5512.method21529(Class5723.field11048, (class_7204)LambdaMetafactory.metafactory(null, null, null, (I)Lnet/minecraft/class_2596;, method21670(net.minecraft.util.math.Direction int ), (I)Lnet/minecraft/class_2596;)((Class5512)this, (class_2350)a));
                 if (this.field10398.field1893 == null) ** GOTO lbl-1000
-                if (!Class5512.method21535((Class425)this.field10398).field10394) break block12;
+                if (!Class5512.method21535((SpeedMine)this.field10398).field10394) break block12;
                 v0 = 60779;
                 ** GOTO lbl30
             }
@@ -559,7 +559,7 @@ lbl30:
         return class_3102.field_1687;
     }
 
-    public static Class425 method21557(Class5512 class5512) {
+    public static SpeedMine method21557(Class5512 class5512) {
         return class5512.field10398;
     }
 
@@ -567,7 +567,7 @@ lbl30:
         return Class5723.field11048;
     }
 
-    private static class_1799 method21559(Class425 class425) {
+    private static class_1799 method21559(SpeedMine class425) {
         return class425.method8356();
     }
 
@@ -591,7 +591,7 @@ lbl30:
         return class_3102.field_1724;
     }
 
-    private static Class425 method21565(Class5512 class5512) {
+    private static SpeedMine method21565(Class5512 class5512) {
         return Class5512.method21632(class5512);
     }
 
@@ -599,7 +599,7 @@ lbl30:
         return class5512.field10394;
     }
 
-    public static Class425 method21567(Class5512 class5512) {
+    public static SpeedMine method21567(Class5512 class5512) {
         return class5512.field10398;
     }
 
@@ -615,7 +615,7 @@ lbl30:
         return class_3102.field_1724;
     }
 
-    public static Class425 method21571(Class5512 class5512) {
+    public static SpeedMine method21571(Class5512 class5512) {
         return class5512.field10398;
     }
 
@@ -647,7 +647,7 @@ lbl30:
             block19: {
                 if (this.field10394) {
                     v0 = 3798;
-                    return Class447.method10252();
+                    return Velocity.method10252();
                 }
                 v1 = 3799;
                 if (true) ** GOTO lbl8
@@ -731,7 +731,7 @@ lbl49:
 lbl51:
                     // 2 sources
 
-                    if (!Class244.field290.field_1724.method_6115() && !Class376.method4987() && !Class5512.method21652((Class246)this.field10398.field1895.method507()) && !Class404.method6279().method6306()) ** GOTO lbl53
+                    if (!Class244.field290.field_1724.method_6115() && !Blink.method4987() && !Class5512.method21652((Class246)this.field10398.field1895.method507()) && !MainHand.method6279().method6306()) ** GOTO lbl53
 lbl52:
                     // 4 sources
 
@@ -776,7 +776,7 @@ lbl53:
         return class_3102.field_1724;
     }
 
-    public static Class425 method21583(Class5512 class5512) {
+    public static SpeedMine method21583(Class5512 class5512) {
         return class5512.field10398;
     }
 
@@ -788,7 +788,7 @@ lbl53:
         class5512.field10393 = d2;
     }
 
-    private static Class425 method21586(Class5512 class5512) {
+    private static SpeedMine method21586(Class5512 class5512) {
         return Class5512.method21541(class5512);
     }
 
@@ -801,7 +801,7 @@ lbl53:
     }
 
     private static boolean method21589() {
-        return Class376.method4987();
+        return Blink.method4987();
     }
 
     private static void method21590() {
@@ -812,11 +812,11 @@ lbl53:
         return class5512.field10395;
     }
 
-    private static Class425 method21592(Class5512 class5512) {
+    private static SpeedMine method21592(Class5512 class5512) {
         return Class5512.method21615(class5512);
     }
 
-    public static Class248 method21593(Class425 class425) {
+    public static Class248 method21593(SpeedMine class425) {
         return class425.field1878;
     }
 
@@ -824,11 +824,11 @@ lbl53:
         Class1503.method14412(class_23382, class_23502);
     }
 
-    public static Class248 method21595(Class425 class425) {
+    public static Class248 method21595(SpeedMine class425) {
         return class425.field1903;
     }
 
-    public static Class425 method21596(Class5512 class5512) {
+    public static SpeedMine method21596(Class5512 class5512) {
         return class5512.field10398;
     }
 
@@ -844,7 +844,7 @@ lbl53:
         return class248.method507();
     }
 
-    private static boolean method21600(Class425 class425) {
+    private static boolean method21600(SpeedMine class425) {
         return class425.method8432();
     }
 
@@ -868,7 +868,7 @@ lbl53:
         return class_3102.field_1724;
     }
 
-    public static Class425 method21606(Class5512 class5512) {
+    public static SpeedMine method21606(Class5512 class5512) {
         return class5512.field10398;
     }
 
@@ -894,7 +894,7 @@ lbl53:
         return e2;
     }
 
-    private static Class425 method21610(Class5512 class5512) {
+    private static SpeedMine method21610(Class5512 class5512) {
         return Class5512.method21583(class5512);
     }
 
@@ -902,7 +902,7 @@ lbl53:
         return Class4045.method20093(n2, n3);
     }
 
-    public static Class248 method21612(Class425 class425) {
+    public static Class248 method21612(SpeedMine class425) {
         return class425.field1910;
     }
 
@@ -914,14 +914,14 @@ lbl53:
         return class248.method507();
     }
 
-    public static Class425 method21615(Class5512 class5512) {
+    public static SpeedMine method21615(Class5512 class5512) {
         return class5512.field10398;
     }
 
     private void method21616(int a2, Class580 b2, int c2, int d2) {
         block5: {
             block4: {
-                if (Class5512.method21567((Class5512)this).field1918 == null || Class5512.method21589() || Class404.method6279().method6306() || ((Class246)this.field10398.field1895.method507()).field295 || Class244.field290.field_1687.method_22347(this.field10395) && this.field10404 >= (Integer)Class5512.method21508(this.field10398).method507()) break block4;
+                if (Class5512.method21567((Class5512)this).field1918 == null || Class5512.method21589() || MainHand.method6279().method6306() || ((Class246)this.field10398.field1895.method507()).field295 || Class244.field290.field_1687.method_22347(this.field10395) && this.field10404 >= (Integer)Class5512.method21508(this.field10398).method507()) break block4;
                 if (!Class5595.method21942(this.field10395) && !Class5512.method21501((Class5512)this).field1920 && Class1745.method15561(Class5512.method21656(this), (Double)Class5512.method21686((Class5512)this).field1898.method507()) != null) break block5;
             }
             if (Class5512.method21606((Class5512)this).field1903.method507() != Class607.field2954 || a2 == Class5512.method21582((class_310)Class244.field290).field_7512.field_7763) {
@@ -935,7 +935,7 @@ lbl53:
         Class5836.method22885();
     }
 
-    public static Class425 method21618(Class5512 class5512) {
+    public static SpeedMine method21618(Class5512 class5512) {
         return class5512.field10398;
     }
 
@@ -943,7 +943,7 @@ lbl53:
         return class5512.field10403;
     }
 
-    public static Class248 method21620(Class425 class425) {
+    public static Class248 method21620(SpeedMine class425) {
         return class425.field1877;
     }
 
@@ -951,15 +951,15 @@ lbl53:
         return class5512.field10394;
     }
 
-    public static Class425 method21622(Class5512 class5512) {
+    public static SpeedMine method21622(Class5512 class5512) {
         return class5512.field10398;
     }
 
-    public static void method21623(Class425 class425, Runnable runnable) {
+    public static void method21623(SpeedMine class425, Runnable runnable) {
         class425.field1902 = runnable;
     }
 
-    public static Class425 method21624(Class5512 class5512) {
+    public static SpeedMine method21624(Class5512 class5512) {
         return class5512.field10398;
     }
 
@@ -971,7 +971,7 @@ lbl53:
         class5512.method21550();
     }
 
-    public static void method21627(Class425 class425, boolean bl2) {
+    public static void method21627(SpeedMine class425, boolean bl2) {
         class425.field1920 = bl2;
     }
 
@@ -987,7 +987,7 @@ lbl53:
         return Class6322.method24325();
     }
 
-    public static void method21630(Class425 class425, boolean bl2) {
+    public static void method21630(SpeedMine class425, boolean bl2) {
         class425.field1920 = bl2;
     }
 
@@ -995,7 +995,7 @@ lbl53:
         Class1108.method12918(bl2);
     }
 
-    public static Class425 method21632(Class5512 class5512) {
+    public static SpeedMine method21632(Class5512 class5512) {
         return class5512.field10398;
     }
 
@@ -1012,7 +1012,7 @@ lbl53:
     }
 
     private void method21636(int a2, Class580 b2, int c2, int d2) {
-        if (Class376.method4987() || this.field10398.field1920 || Class5512.method21621(this) || Class5512.method21646().method6306()) {
+        if (Blink.method4987() || this.field10398.field1920 || Class5512.method21621(this) || Class5512.method21646().method6306()) {
             if (Class5512.method21599(Class5512.method21651(this.field10398)) != Class607.field2954 || a2 == Class5512.method21605((class_310)Class244.field290).field_7512.field_7763) {
                 b2.method11125(c2, d2);
                 Class5512.method21623(this.field10398, null);
@@ -1024,11 +1024,11 @@ lbl53:
         return Class5512.method21566(class5512);
     }
 
-    public static Class248 method21638(Class425 class425) {
+    public static Class248 method21638(SpeedMine class425) {
         return class425.field1912;
     }
 
-    public static Class425 method21639(Class5512 class5512) {
+    public static SpeedMine method21639(Class5512 class5512) {
         return class5512.field10398;
     }
 
@@ -1077,8 +1077,8 @@ lbl53:
         return Class3979.method19551();
     }
 
-    private static Class404 method21646() {
-        return Class404.method6279();
+    private static MainHand method21646() {
+        return MainHand.method6279();
     }
 
     private static void method21647() {
@@ -1107,7 +1107,7 @@ lbl53:
                         Class5512.method21554().method21353(arg_0 -> this.method21547(e2, arg_0));
                         ((Class480)((Object)Class5512.method21542(Class5512.method21677(Class5512.method21624(this))))).method10782(class_1268.field_5808);
                         Class5512.method21688().method12593();
-                        Class425.field1886.add(this.field10395);
+                        SpeedMine.field1886.add(this.field10395);
                         if (!this.field10398.field1922 && this.field10398.field1902 != null) {
                             Class5512.method21539((Class5512)this).field1902.run();
                         }
@@ -1147,7 +1147,7 @@ lbl53:
                             c2.method11125(f2, d2);
                             ((Class480)((Object)this.field10398.field1909.method507())).method10782(Class5512.method21561());
                             Class5512.method21667().method12593();
-                            Class425.field1886.add(this.field10395);
+                            SpeedMine.field1886.add(this.field10395);
                         }
                     }
                 } else {
@@ -1186,7 +1186,7 @@ lbl53:
         return (int)field10402[0] != 0;
     }
 
-    public static Class248 method21651(Class425 class425) {
+    public static Class248 method21651(SpeedMine class425) {
         return class425.field1903;
     }
 
@@ -1218,7 +1218,7 @@ lbl53:
         return class5512.field10395;
     }
 
-    public static Class425 method21659(Class5512 class5512) {
+    public static SpeedMine method21659(Class5512 class5512) {
         return class5512.field10398;
     }
 
@@ -1245,7 +1245,7 @@ lbl53:
         return new class_2846(class_2846.class_2847.field_12973, Class5512.method21658(this), a2, b2);
     }
 
-    public static Class425 method21665(Class5512 class5512) {
+    public static SpeedMine method21665(Class5512 class5512) {
         return class5512.field10398;
     }
 
@@ -1254,7 +1254,7 @@ lbl53:
     }
 
     public static Class926 method21667() {
-        return Class425.field1883;
+        return SpeedMine.field1883;
     }
 
     public static class_2846.class_2847 method21668() {
@@ -1281,7 +1281,7 @@ lbl53:
         Class1745.method15538();
     }
 
-    public static Class248 method21674(Class425 class425) {
+    public static Class248 method21674(SpeedMine class425) {
         return class425.field1904;
     }
 
@@ -1372,7 +1372,7 @@ lbl27:
         Class5836.method22897();
     }
 
-    public static Class248 method21677(Class425 class425) {
+    public static Class248 method21677(SpeedMine class425) {
         return class425.field1909;
     }
 
@@ -1392,7 +1392,7 @@ lbl27:
                         block14: {
                             block15: {
                                 block13: {
-                                    if (Class376.method4987()) break block13;
+                                    if (Blink.method4987()) break block13;
                                     if (!((Boolean)Class5512.method21684(this.field10398.field1889)).booleanValue()) break block14;
                                     break block15;
                                 }
@@ -1407,7 +1407,7 @@ lbl27:
                             Class1108.method12918(true);
                             return;
                         }
-                        if (!((Boolean)Class5512.method21521(this.field10398.field1915) != false && Class244.field290.field_1724.method_52535() || (Boolean)Class425.method8451(this.field10398).method507() == false && this.field10398.method6626()) && !((Class246)Class5512.method21586((Class5512)this).field1895.method507()).field295) break block17;
+                        if (!((Boolean)Class5512.method21521(this.field10398.field1915) != false && Class244.field290.field_1724.method_52535() || (Boolean)SpeedMine.method8451(this.field10398).method507() == false && this.field10398.method6626()) && !((Class246)Class5512.method21586((Class5512)this).field1895.method507()).field295) break block17;
                     }
                     if (Class5512.method21493(this)) break block18;
                     n2 = !Class5512.method21600(this.field10398) ? 57784 : 57785;
@@ -1424,7 +1424,7 @@ lbl27:
                         Class5512.method21647();
                         return;
                     }
-                    if (!Class5512.method21584().field_1687.method_22347(Class5512.method21591(this)) && (Class436.method9338().method9315() != null && !this.field10395.equals((Object)Class436.method9338().method9315()) || Class436.method9338().method9315() == null)) {
+                    if (!Class5512.method21584().field_1687.method_22347(Class5512.method21591(this)) && (AutoAnchor.method9338().method9315() != null && !this.field10395.equals((Object)AutoAnchor.method9338().method9315()) || AutoAnchor.method9338().method9315() == null)) {
                         this.method21648();
                     }
                 }
@@ -1463,8 +1463,8 @@ lbl27:
         return class248.method507();
     }
 
-    private static Class404 method21683() {
-        return Class404.method6279();
+    private static MainHand method21683() {
+        return MainHand.method6279();
     }
 
     private static Object method21684(Class248 class248) {
@@ -1475,7 +1475,7 @@ lbl27:
         return class_2846.class_2847.field_12968;
     }
 
-    public static Class425 method21686(Class5512 class5512) {
+    public static SpeedMine method21686(Class5512 class5512) {
         return class5512.field10398;
     }
 
@@ -1484,10 +1484,10 @@ lbl27:
     }
 
     public static Class926 method21688() {
-        return Class425.field1883;
+        return SpeedMine.field1883;
     }
 
-    private static void method21689(Class425 class425, Runnable runnable) {
+    private static void method21689(SpeedMine class425, Runnable runnable) {
         Class5512.method21517(class425, runnable);
     }
 

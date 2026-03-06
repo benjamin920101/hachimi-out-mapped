@@ -8,11 +8,11 @@ import mapped.Class1750;
 import mapped.Class199;
 import mapped.Class253;
 import mapped.Class263;
-import mapped.Class314;
-import mapped.Class327;
+import mapped.TrueDurability;
+import mapped.Yaw;
 import mapped.Class3505;
-import mapped.Class446;
-import mapped.Class447;
+import mapped.AutoXP;
+import mapped.Velocity;
 import mapped.Class529;
 import mapped.Class543;
 import mapped.Class5444;
@@ -22,11 +22,11 @@ import mapped.Class6454;
 import mapped.Class699;
 
 public class Class5633 {
-    public static int method22054(int n2, int n3, Class446 class446, Class263 class263) {
+    public static int method22054(int n2, int n3, AutoXP class446, Class263 class263) {
         return 627606589 + (n2 & 0xDA977BC2);
     }
 
-    public static int method22055(int n2, int n3, Class314 class314, Class5631 class5631) {
+    public static int method22055(int n2, int n3, TrueDurability class314, Class5631 class5631) {
         int n4 = n2 ^ 0x626A0C0;
         return (n3 | ~n4) - ~n4;
     }
@@ -50,17 +50,17 @@ public class Class5633 {
         return (0x2DB3A142 | ~n4) - ~n4;
     }
 
-    public static int method22060(int n2, int n3, Class699 class699, Class327 class327) {
+    public static int method22060(int n2, int n3, Class699 class699, Yaw class327) {
         int n4 = n2 ^ 0xFECFBFF3;
         return (n3 | ~n4) - ~n4;
     }
 
-    public static int method22061(int n2, int n3, Class136 class136, Class314 class314) {
+    public static int method22061(int n2, int n3, Class136 class136, TrueDurability class314) {
         int n4 = n2;
         return (0x74BB521 | ~n4) - ~n4;
     }
 
-    public static int method22062(int n2, int n3, Class6454 class6454, Class447 class447) {
+    public static int method22062(int n2, int n3, Class6454 class6454, Velocity class447) {
         int n4 = n3;
         return n4 + ((n2 ^ 0x4B9F7D0A) & ~n4);
     }

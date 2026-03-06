@@ -17,27 +17,27 @@ import mapped.Class2;
 import mapped.Class207;
 import mapped.Class249;
 import mapped.Class26;
-import mapped.Class293;
-import mapped.Class318;
-import mapped.Class323;
+import mapped.Reach;
+import mapped.Tooltips;
+import mapped.NoSlotSet;
 import mapped.Class3285;
-import mapped.Class336;
+import mapped.NoFall;
 import mapped.Class3442;
-import mapped.Class346;
+import mapped.GhostHand;
 import mapped.Class3493;
 import mapped.Class3511;
-import mapped.Class352;
-import mapped.Class359;
+import mapped.Speed;
+import mapped.Ping;
 import mapped.Class3691;
-import mapped.Class381;
-import mapped.Class387;
-import mapped.Class391;
+import mapped.NoJumpDelay;
+import mapped.XCarry;
+import mapped.NoGlitch;
 import mapped.Class3923;
-import mapped.Class401;
+import mapped.UnfocusedFPS;
 import mapped.Class4113;
-import mapped.Class437;
+import mapped.AntiRegear;
 import mapped.Class45;
-import mapped.Class458;
+import mapped.Socials;
 import mapped.Class479;
 import mapped.Class536;
 import mapped.Class54;
@@ -56,7 +56,7 @@ import mapped.Class89;
 import mapped.Class976;
 
 public class Class4257 {
-    public static int method20918(int n2, int n3, Class3691 class3691, Class401 class401) {
+    public static int method20918(int n2, int n3, Class3691 class3691, UnfocusedFPS class401) {
         int n4 = n2;
         return (n4 | 0x122DBCC4) & (0xEDD2433B | ~n4);
     }
@@ -75,17 +75,17 @@ public class Class4257 {
         return 176506658 + (n2 & 0xF57AB8DD);
     }
 
-    public static int method20922(int n2, int n3, Class323 class323, Class352 class352) {
+    public static int method20922(int n2, int n3, NoSlotSet class323, Speed class352) {
         int n4 = n2;
         return (0x359DFA16 | ~n4) - ~n4;
     }
 
-    public static int method20923(int n2, int n3, Class45 class45, Class359 class359) {
+    public static int method20923(int n2, int n3, Class45 class45, Ping class359) {
         int n4 = n3;
         return n4 + ((n2 ^ 0xAE4474FF) & ~n4);
     }
 
-    public static int method20924(int n2, int n3, Class391 class391, Class336 class336) {
+    public static int method20924(int n2, int n3, NoGlitch class391, NoFall class336) {
         int n4 = n3;
         return n4 + ((n2 ^ 0xEFFDFF7F) & ~n4);
     }
@@ -95,7 +95,7 @@ public class Class4257 {
         return (n3 | ~n4) - ~n4;
     }
 
-    public static int method20926(int n2, int n3, Class136 class136, Class387 class387) {
+    public static int method20926(int n2, int n3, Class136 class136, XCarry class387) {
         int n4 = n2 ^ 0x3DED9E00;
         return (n3 | ~n4) - ~n4;
     }
@@ -111,7 +111,7 @@ public class Class4257 {
         return n4 + ((n2 ^ 0x56D8801) & ~n4);
     }
 
-    public static int method20929(int n2, int n3, Class437 class437, Class381 class381) {
+    public static int method20929(int n2, int n3, AntiRegear class437, NoJumpDelay class381) {
         int n4 = n2 ^ 0x9C2369C8;
         int n5 = n3;
         return (n4 | n5) & (~n5 | ~n4);
@@ -123,7 +123,7 @@ public class Class4257 {
         return (n4 | n5) & (~n5 | ~n4);
     }
 
-    public static int method20931(int n2, int n3, Class458 class458, Class2 class2) {
+    public static int method20931(int n2, int n3, Socials class458, Class2 class2) {
         int n4 = n2 ^ 0x8F57732A;
         return (n3 | ~n4) - ~n4;
     }
@@ -151,12 +151,12 @@ public class Class4257 {
         return (0x3AD0AAEF | ~n4) - ~n4;
     }
 
-    public static int method20937(int n2, int n3, Class479 class479, Class318 class318) {
+    public static int method20937(int n2, int n3, Class479 class479, Tooltips class318) {
         int n4 = n3;
         return n4 + ((n2 ^ 0x62502040) & ~n4);
     }
 
-    public static int method20938(int n2, int n3, Class293 class293, Class199 class199) {
+    public static int method20938(int n2, int n3, Reach class293, Class199 class199) {
         int n4 = n2 ^ 0x73C3C30;
         return (n3 | ~n4) - ~n4;
     }
@@ -169,7 +169,7 @@ public class Class4257 {
         return 94461480 + (n2 & 0xFA5EA1D7);
     }
 
-    public static int method20941(int n2, int n3, Class346 class346, Class3493 class3493) {
+    public static int method20941(int n2, int n3, GhostHand class346, Class3493 class3493) {
         int n4 = n2;
         return (n4 | 0x14BC0CAB) & (0xEB43F354 | ~n4);
     }

@@ -12,15 +12,15 @@ import mapped.Class187;
 import mapped.Class207;
 import mapped.Class21;
 import mapped.Class226;
-import mapped.Class297;
+import mapped.AntiWeakness;
 import mapped.Class3408;
 import mapped.Class3473;
-import mapped.Class361;
-import mapped.Class381;
+import mapped.PenisBuilder;
+import mapped.NoJumpDelay;
 import mapped.Class3976;
-import mapped.Class405;
+import mapped.Breadcrumbs;
 import mapped.Class44;
-import mapped.Class453;
+import mapped.Server;
 import mapped.Class520;
 import mapped.Class5477;
 import mapped.Class555;
@@ -31,11 +31,11 @@ import mapped.Class715;
 import mapped.Class784;
 
 public class Class1392 {
-    public static int method14119(int n2, int n3, Class381 class381, Class361 class361) {
+    public static int method14119(int n2, int n3, NoJumpDelay class381, PenisBuilder class361) {
         return 319155935 + (n2 & 0xECFA1120);
     }
 
-    public static int method14120(int n2, int n3, Class405 class405, Class175 class175) {
+    public static int method14120(int n2, int n3, Breadcrumbs class405, Class175 class175) {
         int n4 = n3;
         return n4 + ((n2 ^ 0x41008028) & ~n4);
     }
@@ -53,7 +53,7 @@ public class Class1392 {
         return n4 & 0xD78E0D95 | 0x2871F26A & ~n4;
     }
 
-    public static int method14124(int n2, int n3, Class453 class453, Class784 class784) {
+    public static int method14124(int n2, int n3, Server class453, Class784 class784) {
         int n4 = n2 ^ 0xBC9C5092;
         return (n3 | ~n4) - ~n4;
     }
@@ -83,7 +83,7 @@ public class Class1392 {
         return n4 & ~n5 | n5 & ~n4;
     }
 
-    public static int method14130(int n2, int n3, Class297 class297, Class604 class604) {
+    public static int method14130(int n2, int n3, AntiWeakness class297, Class604 class604) {
         return 1023086881 + (n2 & 0xC304EEDE);
     }
 

@@ -15,10 +15,10 @@ import mapped.Class1004;
 import mapped.Class1580;
 import mapped.Class1745;
 import mapped.Class248;
-import mapped.Class396;
+import mapped.PhantomView;
 import mapped.Class3979;
 import mapped.Class4045;
-import mapped.Class436;
+import mapped.AutoAnchor;
 import mapped.Class5659;
 import mapped.Class570;
 import mapped.Class5836;
@@ -40,11 +40,11 @@ public class Class4056 {
     public class_243 field9361;
     public class_243 field9362;
 
-    public static Class248 method20106(Class436 class436) {
+    public static Class248 method20106(AutoAnchor class436) {
         return class436.field2165;
     }
 
-    public static Class248 method20107(Class436 class436) {
+    public static Class248 method20107(AutoAnchor class436) {
         return class436.field2148;
     }
 
@@ -56,7 +56,7 @@ public class Class4056 {
         return class248.method507();
     }
 
-    public static Class248 method20110(Class436 class436) {
+    public static Class248 method20110(AutoAnchor class436) {
         return class436.field2161;
     }
 
@@ -92,11 +92,11 @@ public class Class4056 {
         Class1745.method15538();
     }
 
-    public static Class248 method20119(Class436 class436) {
+    public static Class248 method20119(AutoAnchor class436) {
         return class436.field2129;
     }
 
-    public static Class248 method20120(Class436 class436) {
+    public static Class248 method20120(AutoAnchor class436) {
         return class436.field2165;
     }
 
@@ -147,7 +147,7 @@ public class Class4056 {
     public void method20131(Class59 e2) {
         block29: {
             StringBuilder a2;
-            Class436 f2;
+            AutoAnchor f2;
             block28: {
                 block31: {
                     double d2;
@@ -156,7 +156,7 @@ public class Class4056 {
                             int n2;
                             block30: {
                                 class_2338 b2;
-                                f2 = Class436.method9338();
+                                f2 = AutoAnchor.method9338();
                                 if (!((Boolean)Class4056.method20110(f2).method507()).booleanValue()) break block29;
                                 Class6009.method23560();
                                 a2 = new StringBuilder();
@@ -210,7 +210,7 @@ public class Class4056 {
                         }
                         d2 = 0.5;
                     }
-                    this.field9360 = Class396.method5737(this.field9360, d2, (Double)f2.field2128.method507() / Class1580.field5899);
+                    this.field9360 = PhantomView.method5737(this.field9360, d2, (Double)f2.field2128.method507() / Class1580.field5899);
                 }
                 if (this.field9360 == 0.0) {
                     this.field9361 = null;
@@ -233,7 +233,7 @@ public class Class4056 {
                     }
                     break;
                 }
-                this.field9361 = new class_243(Class396.method5737(this.field9361.field_1352, this.field9362.field_1352, (Double)Class4056.method20114(f2.field2148) / 10.0), Class396.method5737(this.field9361.field_1351, this.field9362.field_1351, (Double)Class4056.method20107(f2).method507() / Class889.field3822), Class396.method5737(this.field9361.field_1350, this.field9362.field_1350, (Double)f2.field2148.method507() / 10.0));
+                this.field9361 = new class_243(PhantomView.method5737(this.field9361.field_1352, this.field9362.field_1352, (Double)Class4056.method20114(f2.field2148) / 10.0), PhantomView.method5737(this.field9361.field_1351, this.field9362.field_1351, (Double)Class4056.method20107(f2).method507() / Class889.field3822), PhantomView.method5737(this.field9361.field_1350, this.field9362.field_1350, (Double)f2.field2148.method507() / 10.0));
             }
             class_238 c2 = new class_238(this.field9361, this.field9361);
             c2 = (Boolean)Class4056.method20109(f2.field2154) != false ? c2.method_1014(this.field9360) : c2.method_1014(0.5);

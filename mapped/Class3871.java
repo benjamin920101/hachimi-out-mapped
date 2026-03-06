@@ -8,9 +8,9 @@ import mapped.Class1503;
 import mapped.Class154;
 import mapped.Class1662;
 import mapped.Class250;
-import mapped.Class330;
-import mapped.Class356;
-import mapped.Class421;
+import mapped.AutoFish;
+import mapped.CombatHUD;
+import mapped.PistonCrystal;
 import mapped.Class4244;
 import mapped.Class521;
 import mapped.Class5496;
@@ -19,18 +19,18 @@ import mapped.Class5860;
 import mapped.Class686;
 
 public class Class3871 {
-    public static int method19071(int n2, int n3, Class5496 class5496, Class356 class356) {
+    public static int method19071(int n2, int n3, Class5496 class5496, CombatHUD class356) {
         int n4 = n3;
         return n4 + ((n2 ^ 0x87C9ECFA) & ~n4);
     }
 
-    public static int method19072(int n2, int n3, Class330 class330, Class686 class686) {
+    public static int method19072(int n2, int n3, AutoFish class330, Class686 class686) {
         int n4 = n2 ^ 0x67A7CA3A;
         int n5 = n3;
         return (n4 | n5) & (~n5 | ~n4);
     }
 
-    public static int method19073(int n2, int n3, Class5643 class5643, Class421 class421) {
+    public static int method19073(int n2, int n3, Class5643 class5643, PistonCrystal class421) {
         int n4 = n2;
         return (0x8118E3B | ~n4) - ~n4;
     }

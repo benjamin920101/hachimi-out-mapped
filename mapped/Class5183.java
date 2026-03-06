@@ -30,11 +30,11 @@ import mapped.Class1344;
 import mapped.Class1668;
 import mapped.Class1745;
 import mapped.Class278;
-import mapped.Class298;
+import mapped.Chams;
 import mapped.Class3292;
 import mapped.Class3402;
-import mapped.Class347;
-import mapped.Class380;
+import mapped.AutoTool;
+import mapped.BreakESP;
 import mapped.Class3906;
 import mapped.Class4016;
 import mapped.Class4036;
@@ -115,7 +115,7 @@ extends class_1309 {
         Class6322.method24332(f2, f3);
     }
 
-    private static int method21010(int n2, int n3, Class347 class347, Class6023 class6023) {
+    private static int method21010(int n2, int n3, AutoTool class347, Class6023 class6023) {
         return Class729.method11949(n2, n3, class347, class6023);
     }
 
@@ -664,7 +664,7 @@ lbl177:
         Class6454.method24636(d2, d3, d4, d5);
     }
 
-    private static int method21055(int n2, int n3, Class380 class380, Class698 class698) {
+    private static int method21055(int n2, int n3, BreakESP class380, Class698 class698) {
         return Class729.method11929(n2, n3, class380, class698);
     }
 
@@ -690,7 +690,7 @@ lbl177:
     }
 
     private static void method21061() {
-        Class298.method1924();
+        Chams.method1924();
     }
 
     private static class_1309 method21062(Class5183 class5183) {

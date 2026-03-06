@@ -4,7 +4,7 @@
 package mapped;
 
 import mapped.Class251;
-import mapped.Class344;
+import mapped.ChestStealer;
 import mapped.Class3730;
 import mapped.Class3965;
 import mapped.Class52;
@@ -16,7 +16,7 @@ public class Class3724 {
         return (n3 | ~n4) - ~n4;
     }
 
-    public static int method18185(int n2, int n3, Class344 class344, Class926 class926) {
+    public static int method18185(int n2, int n3, ChestStealer class344, Class926 class926) {
         int n4 = n2 ^ 0x5FF7EFAF;
         int n5 = n3;
         return (n4 | n5) & (~n5 | ~n4);

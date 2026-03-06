@@ -20,8 +20,8 @@ import mapped.Class1468;
 import mapped.Class1503;
 import mapped.Class1668;
 import mapped.Class1807;
-import mapped.Class298;
-import mapped.Class376;
+import mapped.Chams;
+import mapped.Blink;
 import mapped.Class3979;
 import mapped.Class4122;
 import mapped.Class525;
@@ -57,7 +57,7 @@ public class Class3493 {
     }
 
     private static void method17600() {
-        Class298.method1924();
+        Chams.method1924();
     }
 
     static {
@@ -141,7 +141,7 @@ lbl12:
     }
 
     private static boolean method17608() {
-        return Class376.method4987();
+        return Blink.method4987();
     }
 
     private static void method17609(boolean bl2) {

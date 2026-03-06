@@ -46,19 +46,19 @@ import mapped.Class182;
 import mapped.Class2298;
 import mapped.Class2300;
 import mapped.Class231;
-import mapped.Class287;
-import mapped.Class298;
-import mapped.Class315;
-import mapped.Class364;
+import mapped.Nametags;
+import mapped.Chams;
+import mapped.HoleESP;
+import mapped.AutoEat;
 import mapped.Class3850;
-import mapped.Class390;
+import mapped.Disabler;
 import mapped.Class3979;
 import mapped.Class4036;
 import mapped.Class4122;
 import mapped.Class4146;
 import mapped.Class4196;
 import mapped.Class43;
-import mapped.Class455;
+import mapped.AntiCheat;
 import mapped.Class480;
 import mapped.Class521;
 import mapped.Class5449;
@@ -202,15 +202,15 @@ public class Class1745 {
     public static void method15538() {
         Class1745.method15670().clear();
         Class1745.method15543(Class2298.method15863(Class1745.method15542().method10569()));
-        Class1745.method15575(Class455.method10581().method10584());
-        field6549 = Class455.method10581().method10558();
+        Class1745.method15575(AntiCheat.method10581().method10584());
+        field6549 = AntiCheat.method10581().method10558();
         field6555 = Class1745.method15598().method10598();
-        field6545 = Class455.method10581().method10579();
-        field6552 = Class1745.method15639(Class455.method10581());
-        field6554 = Class455.method10581().method10576();
-        field6553 = Class1745.method15669(Class455.method10581());
-        field6542 = Class455.method10581().method10560();
-        Class1745.method15617(Class455.method10581().method10589());
+        field6545 = AntiCheat.method10581().method10579();
+        field6552 = Class1745.method15639(AntiCheat.method10581());
+        field6554 = AntiCheat.method10581().method10576();
+        field6553 = Class1745.method15669(AntiCheat.method10581());
+        field6542 = AntiCheat.method10581().method10560();
+        Class1745.method15617(AntiCheat.method10581().method10589());
         field6548 = (int)field6550[0];
     }
 
@@ -226,8 +226,8 @@ public class Class1745 {
         return Class1745.method15668(a2, Double.MAX_VALUE);
     }
 
-    private static Class455 method15542() {
-        return Class455.method10581();
+    private static AntiCheat method15542() {
+        return AntiCheat.method10581();
     }
 
     public static void method15543(Class2298 class2298) {
@@ -259,7 +259,7 @@ public class Class1745 {
         Class5836.method22907(f2);
     }
 
-    private static int method15550(int n2, int n3, Class390 class390, Class3850 class3850) {
+    private static int method15550(int n2, int n3, Disabler class390, Class3850 class3850) {
         return Class5829.method22826(n2, n3, class390, class3850);
     }
 
@@ -618,8 +618,8 @@ lbl33:
         return d2;
     }
 
-    private static Class455 method15598() {
-        return Class455.method10581();
+    private static AntiCheat method15598() {
+        return AntiCheat.method10581();
     }
 
     public static class_746 method15599(class_310 class_3102) {
@@ -720,7 +720,7 @@ lbl33:
         return Class1745.method15631();
     }
 
-    private static int method15610(int n2, int n3, Class315 class315, Class182 class182) {
+    private static int method15610(int n2, int n3, HoleESP class315, Class182 class182) {
         return Class5829.method22821(n2, n3, class315, class182);
     }
 
@@ -733,14 +733,14 @@ lbl33:
     }
 
     private static void method15613() {
-        Class298.method1924();
+        Chams.method1924();
     }
 
     private static boolean method15614(double d2, double d3, double d4, double d5, double d6, double d7) {
         return Class803.method12224(d2, d3, d4, d5, d6, d7);
     }
 
-    private static int method15615(int n2, int n3, Class231 class231, Class287 class287) {
+    private static int method15615(int n2, int n3, Class231 class231, Nametags class287) {
         return Class5829.method22874(n2, n3, class231, class287);
     }
 
@@ -807,7 +807,7 @@ lbl10:
         Class6454.method24594();
     }
 
-    private static int method15623(int n2, int n3, Class364 class364, Class64 class64) {
+    private static int method15623(int n2, int n3, AutoEat class364, Class64 class64) {
         return Class5829.method22818(n2, n3, class364, class64);
     }
 
@@ -869,7 +869,7 @@ lbl10:
     }
 
     private static void method15632() {
-        Class298.method1924();
+        Chams.method1924();
     }
 
     private static void method15633(float f2) {
@@ -907,7 +907,7 @@ lbl10:
         Class6322.method24332(f2, f3);
     }
 
-    private static Boolean method15639(Class455 class455) {
+    private static Boolean method15639(AntiCheat class455) {
         return class455.method10563();
     }
 
@@ -1103,7 +1103,7 @@ lbl10:
         }
     }
 
-    private static Boolean method15669(Class455 class455) {
+    private static Boolean method15669(AntiCheat class455) {
         return class455.method10594();
     }
 

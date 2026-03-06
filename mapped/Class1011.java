@@ -30,16 +30,16 @@ import mapped.Class1503;
 import mapped.Class1745;
 import mapped.Class1807;
 import mapped.Class1981;
-import mapped.Class298;
-import mapped.Class379;
+import mapped.Chams;
+import mapped.AirPlace;
 import mapped.Class3815;
 import mapped.Class3850;
 import mapped.Class3878;
 import mapped.Class3979;
 import mapped.Class4122;
 import mapped.Class4146;
-import mapped.Class447;
-import mapped.Class455;
+import mapped.Velocity;
+import mapped.AntiCheat;
 import mapped.Class4971;
 import mapped.Class5496;
 import mapped.Class5574;
@@ -166,7 +166,7 @@ lbl29:
             Class5723.field11058.method18887(d2);
         }
         if (f2) {
-            return Class447.method10252();
+            return Velocity.method10252();
         }
         return Class803.method12224(0.7933515556947149, 0.02535533383821542, Class1981.field6779, 0.4781588451839812, 0.07941603754148996, 0.13669354437242065);
     }
@@ -217,7 +217,7 @@ lbl29:
             block7: {
                 h = Class1011.method12777(this, a, c);
                 if (f) ** GOTO lbl-1000
-                if (!Class379.method5038().method1265()) break block6;
+                if (!AirPlace.method5038().method1265()) break block6;
                 if (h != null) break block7;
                 v0 = 24741;
                 ** GOTO lbl12
@@ -238,7 +238,7 @@ lbl12:
 
                     {
                         h = class_2350.field_11033;
-                        return this.method12756(a, h, b, d, Class455.method10581().method10559(), g);
+                        return this.method12756(a, h, b, d, AntiCheat.method10581().method10559(), g);
                     }
                 }
                 break;
@@ -356,7 +356,7 @@ lbl38:
     }
 
     private static void method12764() {
-        Class298.method1924();
+        Chams.method1924();
     }
 
     private static int method12765(int n2, int n3, Class4971 class4971, Class67 class67) {
@@ -421,7 +421,7 @@ lbl38:
     }
 
     private static boolean method12779() {
-        return Class447.method10322();
+        return Velocity.method10322();
     }
 
     public static class_638 method12780(class_310 class_3102) {
@@ -429,7 +429,7 @@ lbl38:
     }
 
     private static boolean method12781() {
-        return Class447.method10322();
+        return Velocity.method10322();
     }
 
     private static boolean method12782() {
@@ -457,7 +457,7 @@ lbl38:
     }
 
     private static boolean method12788() {
-        return Class447.method10252();
+        return Velocity.method10252();
     }
 
     private static void method12789(Class5496 class5496, class_7204 class_72042) {
@@ -537,7 +537,7 @@ lbl38:
         Class1503.method14420();
     }
 
-    private static int method12801(int n2, int n3, Class1463 class1463, Class298 class298) {
+    private static int method12801(int n2, int n3, Class1463 class1463, Chams class298) {
         return Class3878.method19190(n2, n3, class1463, class298);
     }
 
@@ -591,9 +591,9 @@ lbl38:
      */
     public boolean method12804(class_2338 a2, int b2, boolean c2, boolean d2, Class6134 e2, boolean f2) {
         class_2350 g2 = this.method12762(a2, c2);
-        if (f2 || Class379.method5038().method1265() && g2 == null) {
+        if (f2 || AirPlace.method5038().method1265() && g2 == null) {
             g2 = class_2350.field_11033;
-            return this.method12756(a2, g2, b2, d2, Class455.method10581().method10559(), e2);
+            return this.method12756(a2, g2, b2, d2, AntiCheat.method10581().method10559(), e2);
         }
         int n2 = g2 == null ? 4006 : 4007;
         block4: while (true) {

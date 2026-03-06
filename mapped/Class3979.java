@@ -18,7 +18,7 @@ import mapped.Class1658;
 import mapped.Class1668;
 import mapped.Class209;
 import mapped.Class258;
-import mapped.Class331;
+import mapped.PlaceEcho;
 import mapped.Class3816;
 import mapped.Class3878;
 import mapped.Class3904;
@@ -148,7 +148,7 @@ public class Class3979 {
         Class3979.method19567(string);
     }
 
-    private static int method19550(int n2, int n3, Class258 class258, Class331 class331) {
+    private static int method19550(int n2, int n3, Class258 class258, PlaceEcho class331) {
         return Class1156.method13097(n2, n3, class258, class331);
     }
 

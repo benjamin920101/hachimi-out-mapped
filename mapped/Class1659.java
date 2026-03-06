@@ -20,7 +20,7 @@ import java.nio.file.attribute.FileAttribute;
 import mapped.Class1272;
 import mapped.Class1658;
 import mapped.Class3979;
-import mapped.Class421;
+import mapped.PistonCrystal;
 import mapped.Class5450;
 import mapped.Class546;
 import mapped.Class5478;
@@ -93,7 +93,7 @@ extends Class1658 {
     @Override
     public native void method15040();
 
-    private static int method15051(int n2, int n3, Class5450 class5450, Class421 class421) {
+    private static int method15051(int n2, int n3, Class5450 class5450, PistonCrystal class421) {
         return Class1272.method13569(n2, n3, class5450, class421);
     }
 

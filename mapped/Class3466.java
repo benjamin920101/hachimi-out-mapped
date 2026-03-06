@@ -4,7 +4,7 @@
 package mapped;
 
 import mapped.Class270;
-import mapped.Class392;
+import mapped.NewChunks;
 import mapped.Class585;
 import mapped.Class95;
 
@@ -13,7 +13,7 @@ public class Class3466 {
         return 435097966 + (n2 & 0xE610EE91);
     }
 
-    public static int method17587(int n2, int n3, Class585 class585, Class392 class392) {
+    public static int method17587(int n2, int n3, Class585 class585, NewChunks class392) {
         int n4 = n2 ^ 0x437AB088;
         return (n3 | ~n4) - ~n4;
     }

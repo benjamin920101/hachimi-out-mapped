@@ -9,7 +9,7 @@ package mapped;
 
 import mapped.Class1108;
 import mapped.Class1567;
-import mapped.Class331;
+import mapped.PlaceEcho;
 import mapped.Class3431;
 import mapped.Class3455;
 import mapped.Class4146;
@@ -62,7 +62,7 @@ public class Class5587 {
         };
     }
 
-    private static int method21922(int n2, int n3, Class331 class331, Class98 class98) {
+    private static int method21922(int n2, int n3, PlaceEcho class331, Class98 class98) {
         return Class5940.method23356(n2, n3, class331, class98);
     }
 

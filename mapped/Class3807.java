@@ -32,19 +32,19 @@ import mapped.Class2299;
 import mapped.Class261;
 import mapped.Class278;
 import mapped.Class28;
-import mapped.Class317;
-import mapped.Class357;
+import mapped.AntiSpam;
+import mapped.FakeLatency;
 import mapped.Class3696;
 import mapped.Class3792;
 import mapped.Class3814;
 import mapped.Class3865;
-import mapped.Class396;
+import mapped.PhantomView;
 import mapped.Class3977;
 import mapped.Class3979;
 import mapped.Class4074;
 import mapped.Class4122;
-import mapped.Class423;
-import mapped.Class456;
+import mapped.Follower;
+import mapped.Rotations;
 import mapped.Class544;
 import mapped.Class5670;
 import mapped.Class5693;
@@ -99,7 +99,7 @@ public class Class3807 {
         return (n3 | ~n4) - ~n4;
     }
 
-    public static int method18476(int n2, int n3, Class317 class317, Class587 class587) {
+    public static int method18476(int n2, int n3, AntiSpam class317, Class587 class587) {
         return 628316099 + (n2 & 0xDA8CA83C);
     }
 
@@ -149,7 +149,7 @@ public class Class3807 {
         return 969129698 + (n2 & 0xC63C411D);
     }
 
-    public static int method18487(int n2, int n3, Class456 class456, Class72 class72) {
+    public static int method18487(int n2, int n3, Rotations class456, Class72 class72) {
         int n4 = n3;
         return n4 + ((n2 ^ 0x80000010) & ~n4);
     }
@@ -187,12 +187,12 @@ public class Class3807 {
         return (n4 | 0x345C5604) & (0xCBA3A9FB | ~n4);
     }
 
-    public static int method18495(int n2, int n3, Class1822 class1822, Class423 class423) {
+    public static int method18495(int n2, int n3, Class1822 class1822, Follower class423) {
         int n4 = n2;
         return (n4 | 0x2D1B88C0) & (0xD2E4773F | ~n4);
     }
 
-    public static int method18496(int n2, int n3, Class396 class396, Class216 class216) {
+    public static int method18496(int n2, int n3, PhantomView class396, Class216 class216) {
         int n4 = n2;
         return (0x3924ED49 | ~n4) - ~n4;
     }
@@ -202,7 +202,7 @@ public class Class3807 {
         return n4 + ((n2 ^ 0xE97F28D6) & ~n4);
     }
 
-    public static int method18498(int n2, int n3, Class357 class357, Class119 class119) {
+    public static int method18498(int n2, int n3, FakeLatency class357, Class119 class119) {
         int n4 = n2;
         return (0x3B93A155 | ~n4) - ~n4;
     }

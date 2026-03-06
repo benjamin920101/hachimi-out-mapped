@@ -5,9 +5,9 @@ package mapped;
 
 import mapped.Class2;
 import mapped.Class252;
-import mapped.Class284;
+import mapped.AutoTunnel;
 import mapped.Class30;
-import mapped.Class353;
+import mapped.Animations;
 import mapped.Class3586;
 import mapped.Class3933;
 import mapped.Class4157;
@@ -15,12 +15,12 @@ import mapped.Class606;
 import mapped.Class62;
 
 public class Class3965 {
-    public static int method19477(int n2, int n3, Class284 class284, Class252 class252) {
+    public static int method19477(int n2, int n3, AutoTunnel class284, Class252 class252) {
         int n4 = n2;
         return (0x2B274035 | ~n4) - ~n4;
     }
 
-    public static int method19478(int n2, int n3, Class606 class606, Class353 class353) {
+    public static int method19478(int n2, int n3, Class606 class606, Animations class353) {
         int n4 = n2 ^ 0xBAC77323;
         return (n3 | ~n4) - ~n4;
     }

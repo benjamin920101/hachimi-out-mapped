@@ -10,10 +10,10 @@ import mapped.Class188;
 import mapped.Class191;
 import mapped.Class232;
 import mapped.Class253;
-import mapped.Class346;
-import mapped.Class388;
+import mapped.GhostHand;
+import mapped.Particles;
 import mapped.Class39;
-import mapped.Class454;
+import mapped.Kit;
 import mapped.Class489;
 import mapped.Class548;
 import mapped.Class5512;
@@ -29,11 +29,11 @@ import mapped.Class700;
 import mapped.Class708;
 
 public class Class1383 {
-    public static int method13978(int n2, int n3, Class454 class454, Class613 class613) {
+    public static int method13978(int n2, int n3, Kit class454, Class613 class613) {
         return 165937213 + (n2 & 0xF61BFFC2);
     }
 
-    public static int method13979(int n2, int n3, Class346 class346, Class579 class579) {
+    public static int method13979(int n2, int n3, GhostHand class346, Class579 class579) {
         return 291559905 + (n2 & 0xEE9F261E);
     }
 
@@ -65,7 +65,7 @@ public class Class1383 {
         return n4 + ((n2 ^ 0x38D617FD) & ~n4);
     }
 
-    public static int method13986(int n2, int n3, Class232 class232, Class388 class388) {
+    public static int method13986(int n2, int n3, Class232 class232, Particles class388) {
         return 771264772 + (n2 & 0xD2076EFB);
     }
 

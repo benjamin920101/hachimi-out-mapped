@@ -16,15 +16,15 @@ import mapped.Class213;
 import mapped.Class25;
 import mapped.Class250;
 import mapped.Class275;
-import mapped.Class291;
-import mapped.Class307;
-import mapped.Class311;
-import mapped.Class318;
-import mapped.Class340;
-import mapped.Class372;
-import mapped.Class408;
-import mapped.Class413;
-import mapped.Class449;
+import mapped.FastProjectile;
+import mapped.Criticals;
+import mapped.AutoLog;
+import mapped.Tooltips;
+import mapped.NoSlow;
+import mapped.PacketEat;
+import mapped.Replenish;
+import mapped.SelfBow;
+import mapped.FakePlayer;
 import mapped.Class5183;
 import mapped.Class530;
 import mapped.Class533;
@@ -57,7 +57,7 @@ public class Class1530 {
         return 613475725 + (n2 & 0xDB6F1A72);
     }
 
-    public static int method14449(int n2, int n3, Class372 class372, Class5688 class5688) {
+    public static int method14449(int n2, int n3, PacketEat class372, Class5688 class5688) {
         return n2 ^ 0xA02288E2 ^ n3;
     }
 
@@ -66,7 +66,7 @@ public class Class1530 {
         return (n3 | ~n4) - ~n4;
     }
 
-    public static int method14451(int n2, int n3, Class626 class626, Class408 class408) {
+    public static int method14451(int n2, int n3, Class626 class626, Replenish class408) {
         int n4 = n2 ^ 0x569F9087;
         int n5 = n3;
         return (n4 | n5) & (~n5 | ~n4);
@@ -81,7 +81,7 @@ public class Class1530 {
         return (0x21C5CF11 | ~n4) - ~n4;
     }
 
-    public static int method14454(int n2, int n3, Class449 class449, Class340 class340) {
+    public static int method14454(int n2, int n3, FakePlayer class449, NoSlow class340) {
         return n2 ^ 0x21A49321 ^ n3;
     }
 
@@ -104,11 +104,11 @@ public class Class1530 {
         return (n3 | ~n4) - ~n4;
     }
 
-    public static int method14459(int n2, int n3, Class307 class307, Class318 class318) {
+    public static int method14459(int n2, int n3, Criticals class307, Tooltips class318) {
         return 236231389 + (n2 & 0xF1EB6522);
     }
 
-    public static int method14460(int n2, int n3, Class291 class291, Class683 class683) {
+    public static int method14460(int n2, int n3, FastProjectile class291, Class683 class683) {
         int n4 = n3;
         return n4 + ((n2 ^ 0xFFDFBFED) & ~n4);
     }
@@ -122,12 +122,12 @@ public class Class1530 {
         return n2 ^ 0x17E2548;
     }
 
-    public static int method14463(int n2, int n3, Class311 class311, Class633 class633) {
+    public static int method14463(int n2, int n3, AutoLog class311, Class633 class633) {
         int n4 = n2;
         return (0x27A0E783 | ~n4) - ~n4;
     }
 
-    public static int method14464(int n2, int n3, Class1215 class1215, Class413 class413) {
+    public static int method14464(int n2, int n3, Class1215 class1215, SelfBow class413) {
         return n2 ^ 0x2E579F11;
     }
 

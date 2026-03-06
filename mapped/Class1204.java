@@ -10,9 +10,9 @@ import mapped.Class1792;
 import mapped.Class19;
 import mapped.Class206;
 import mapped.Class276;
-import mapped.Class295;
-import mapped.Class302;
-import mapped.Class347;
+import mapped.Waypoints;
+import mapped.Avoid;
+import mapped.AutoTool;
 import mapped.Class3638;
 import mapped.Class5467;
 import mapped.Class601;
@@ -35,11 +35,11 @@ public class Class1204 {
         return (0x3118C384 | ~n4) - ~n4;
     }
 
-    public static int method13234(int n2, int n3, Class5467 class5467, Class302 class302) {
+    public static int method13234(int n2, int n3, Class5467 class5467, Avoid class302) {
         return 407518272 + (n2 & 0xE7B5C3BF);
     }
 
-    public static int method13235(int n2, int n3, Class295 class295, Class19 class19) {
+    public static int method13235(int n2, int n3, Waypoints class295, Class19 class19) {
         int n4 = n2 ^ 0x80020564;
         return (n3 | ~n4) - ~n4;
     }
@@ -64,7 +64,7 @@ public class Class1204 {
         return (0x17088E29 | ~n4) - ~n4;
     }
 
-    public static int method13240(int n2, int n3, Class347 class347, Class1745 class1745) {
+    public static int method13240(int n2, int n3, AutoTool class347, Class1745 class1745) {
         int n4 = n3;
         return n4 + ((n2 ^ 0xDE000000) & ~n4);
     }

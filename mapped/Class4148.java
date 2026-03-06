@@ -15,16 +15,16 @@ import mapped.Class193;
 import mapped.Class2;
 import mapped.Class220;
 import mapped.Class273;
-import mapped.Class313;
+import mapped.AutoWalk;
 import mapped.Class3291;
-import mapped.Class335;
+import mapped.Timer;
 import mapped.Class3454;
-import mapped.Class354;
-import mapped.Class388;
-import mapped.Class397;
+import mapped.ElytraTweaks;
+import mapped.Particles;
+import mapped.Trajectories;
 import mapped.Class4113;
 import mapped.Class42;
-import mapped.Class420;
+import mapped.Nuker;
 import mapped.Class54;
 import mapped.Class5478;
 import mapped.Class5550;
@@ -55,7 +55,7 @@ public class Class4148 {
         return n4 + ((n2 ^ 0x20452014) & ~n4);
     }
 
-    public static int method20703(int n2, int n3, Class388 class388, Class420 class420) {
+    public static int method20703(int n2, int n3, Particles class388, Nuker class420) {
         int n4 = n2 ^ 0x97434;
         int n5 = n3;
         return (n4 | n5) & (~n5 | ~n4);
@@ -76,7 +76,7 @@ public class Class4148 {
         return n4 & 0xD0056199 | 0x2FFA9E66 & ~n4;
     }
 
-    public static int method20707(int n2, int n3, Class354 class354, Class5478 class5478) {
+    public static int method20707(int n2, int n3, ElytraTweaks class354, Class5478 class5478) {
         int n4 = n3;
         return n4 + ((n2 ^ 0x6052E584) & ~n4);
     }
@@ -87,11 +87,11 @@ public class Class4148 {
         return (n4 | n5) & (~n5 | ~n4);
     }
 
-    public static int method20709(int n2, int n3, Class188 class188, Class313 class313) {
+    public static int method20709(int n2, int n3, Class188 class188, AutoWalk class313) {
         return 138501964 + (n2 & 0xF7BEA0B3);
     }
 
-    public static int method20710(int n2, int n3, Class335 class335, Class397 class397) {
+    public static int method20710(int n2, int n3, Timer class335, Trajectories class397) {
         int n4 = n2;
         return (n4 | 0x2ADC66FA) & (0xD5239905 | ~n4);
     }

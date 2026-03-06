@@ -14,7 +14,7 @@ import mapped.Class1108;
 import mapped.Class248;
 import mapped.Class4045;
 import mapped.Class4146;
-import mapped.Class457;
+import mapped.Colors;
 import mapped.Class5550;
 import mapped.Class6009;
 import mapped.Class6322;
@@ -78,8 +78,8 @@ extends Class248 {
     }
 
     public Color method541(int a2) {
-        if (Class457.method10620() != null && this.field307) {
-            return Class457.method10620().method10618(a2);
+        if (Colors.method10620() != null && this.field307) {
+            return Colors.method10620().method10618(a2);
         }
         return new Color(((Color)this.field305).getRed(), ((Color)this.field305).getGreen(), ((Color)this.field305).getBlue(), a2);
     }
@@ -92,7 +92,7 @@ extends Class248 {
         this.field307 = a2;
         this.field302.method24284(a2);
         if (Class251.method550() != null && a2) {
-            this.method505(Class251.method547(Class457.method10620(), this.method554()));
+            this.method505(Class251.method547(Colors.method10620(), this.method554()));
         }
     }
 
@@ -112,7 +112,7 @@ extends Class248 {
         Class6322.method24332(f2, f3);
     }
 
-    private static Color method547(Class457 class457, int n2) {
+    private static Color method547(Colors class457, int n2) {
         return class457.method10618(n2);
     }
 
@@ -125,8 +125,8 @@ extends Class248 {
 
     public native Color method549(JsonObject var1);
 
-    private static Class457 method550() {
-        return Class457.method10620();
+    private static Colors method550() {
+        return Colors.method10620();
     }
 
     public Color method551(String a2) {
@@ -142,8 +142,8 @@ extends Class248 {
      */
     public Color method552() {
         int n2;
-        if (Class457.method10620() != null && this.field307) {
-            return Class457.method10620().method10618(this.method554());
+        if (Colors.method10620() != null && this.field307) {
+            return Colors.method10620().method10618(this.method554());
         }
         int n3 = ((Color)this.field305).getRed();
         int n4 = ((Color)this.field305).getGreen();

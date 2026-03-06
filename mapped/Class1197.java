@@ -19,13 +19,13 @@ import mapped.Class1503;
 import mapped.Class1745;
 import mapped.Class1807;
 import mapped.Class212;
-import mapped.Class324;
+import mapped.AutoMount;
 import mapped.Class3259;
-import mapped.Class376;
+import mapped.Blink;
 import mapped.Class3979;
 import mapped.Class4196;
-import mapped.Class457;
-import mapped.Class458;
+import mapped.Colors;
+import mapped.Socials;
 import mapped.Class5649;
 import mapped.Class5659;
 import mapped.Class5836;
@@ -45,8 +45,8 @@ public class Class1197 {
     private static final Map field4729;
     private static long[] field4730;
 
-    private static Class457 method13199() {
-        return Class457.method10620();
+    private static Colors method13199() {
+        return Colors.method10620();
     }
 
     private static void method13200() {
@@ -118,7 +118,7 @@ public class Class1197 {
         Class1503.method14417(f2, f3);
     }
 
-    private static int method13216(int n2, int n3, Class324 class324, Class5984 class5984) {
+    private static int method13216(int n2, int n3, AutoMount class324, Class5984 class5984) {
         return Class3259.method16690(n2, n3, class324, class5984);
     }
 
@@ -132,7 +132,7 @@ public class Class1197 {
         field4729 = (Map)Stream.of(class_124.values()).filter(class_124::method_543).collect(ImmutableMap.toImmutableMap(class_124::method_532, Function.identity()));
     }
 
-    private static int method13218(Class458 class458) {
+    private static int method13218(Socials class458) {
         return class458.method10627();
     }
 
@@ -143,7 +143,7 @@ public class Class1197 {
                 int n2 = Class1197.method13199().method10621();
                 if (b2 == ((int)field4730[2] | ~n2) - ~n2) {
                     c2.append((char)field4730[1]).append("s");
-                } else if (b2 == (Class1197.method13218(Class458.method10623()) & (int)field4730[2])) {
+                } else if (b2 == (Class1197.method13218(Socials.method10623()) & (int)field4730[2])) {
                     c2.append((char)field4730[1]).append("g");
                 } else {
                     class_124 a2 = (class_124)Class1197.method13205().get(b2);
@@ -207,10 +207,10 @@ public class Class1197 {
             block19: {
                 if (e.method_10973() == null) break block19;
                 b = e.method_10973().method_27716();
-                v0 = Class457.method10620().method10621();
+                v0 = Colors.method10620().method10621();
                 if (b == ((int)Class1197.field4730[2] | ~v0) - ~v0) {
                     v1 = 25559;
-                    return Class376.method4987();
+                    return Blink.method4987();
                 }
                 v2 = 25560;
                 if (true) ** GOTO lbl11
@@ -228,7 +228,7 @@ lbl11:
                             break block4;
                         }
                         default: {
-                            if (b == (Class458.method10623().method10627() & (int)Class1197.field4730[2])) {
+                            if (b == (Socials.method10623().method10627() & (int)Class1197.field4730[2])) {
                                 c.append((char)Class1197.field4730[1]).append("g");
                                 break block4;
                             }

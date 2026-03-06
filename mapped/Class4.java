@@ -6,9 +6,9 @@ package mapped;
 import mapped.Class107;
 import mapped.Class204;
 import mapped.Class21;
-import mapped.Class364;
+import mapped.AutoEat;
 import mapped.Class4134;
-import mapped.Class416;
+import mapped.Surround;
 import mapped.Class4655;
 import mapped.Class5487;
 import mapped.Class78;
@@ -20,7 +20,7 @@ public class Class4 {
         return (0x212A057C | ~n4) - ~n4;
     }
 
-    public static int method2(int n2, int n3, Class416 class416, Class364 class364) {
+    public static int method2(int n2, int n3, Surround class416, AutoEat class364) {
         int n4 = n2;
         return (0x339C0423 | ~n4) - ~n4;
     }

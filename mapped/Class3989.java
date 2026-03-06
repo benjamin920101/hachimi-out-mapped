@@ -5,21 +5,21 @@ package mapped;
 
 import mapped.Class107;
 import mapped.Class15;
-import mapped.Class309;
-import mapped.Class352;
+import mapped.Swing;
+import mapped.Speed;
 import mapped.Class3980;
-import mapped.Class413;
+import mapped.SelfBow;
 import mapped.Class550;
 import mapped.Class56;
 import mapped.Class925;
 import mapped.Class976;
 
 public class Class3989 {
-    public static int method19571(int n2, int n3, Class413 class413, Class925 class925) {
+    public static int method19571(int n2, int n3, SelfBow class413, Class925 class925) {
         return n2 ^ 0x3092E491;
     }
 
-    public static int method19572(int n2, int n3, Class15 class15, Class309 class309) {
+    public static int method19572(int n2, int n3, Class15 class15, Swing class309) {
         return n2 ^ 0xEFFFFA6B ^ n3;
     }
 
@@ -35,7 +35,7 @@ public class Class3989 {
         return (n4 | n5) & (~n5 | ~n4);
     }
 
-    public static int method19575(int n2, int n3, Class352 class352, Class3980 class3980) {
+    public static int method19575(int n2, int n3, Speed class352, Class3980 class3980) {
         int n4 = n3;
         return n4 + ((n2 ^ 0xFFEFBF7D) & ~n4);
     }

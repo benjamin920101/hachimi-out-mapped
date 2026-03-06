@@ -11,13 +11,13 @@ import mapped.Class184;
 import mapped.Class2;
 import mapped.Class20;
 import mapped.Class28;
-import mapped.Class303;
-import mapped.Class305;
+import mapped.NoSoundLag;
+import mapped.PacketFly;
 import mapped.Class3291;
-import mapped.Class330;
+import mapped.AutoFish;
 import mapped.Class3317;
 import mapped.Class3392;
-import mapped.Class354;
+import mapped.ElytraTweaks;
 import mapped.Class3696;
 import mapped.Class3933;
 import mapped.Class3992;
@@ -37,7 +37,7 @@ import mapped.Class72;
 import mapped.Class94;
 
 public class Class3248 {
-    public static int method16649(int n2, int n3, Class330 class330, Class5843 class5843) {
+    public static int method16649(int n2, int n3, AutoFish class330, Class5843 class5843) {
         return n2 ^ 0x4FEBCA8B ^ n3;
     }
 
@@ -51,7 +51,7 @@ public class Class3248 {
         return n4 + ((n2 ^ 0xAEE35A6D) & ~n4);
     }
 
-    public static int method16652(int n2, int n3, Class305 class305, Class3291 class3291) {
+    public static int method16652(int n2, int n3, PacketFly class305, Class3291 class3291) {
         int n4 = n3;
         return n4 + ((n2 ^ 0xDADCEE5E) & ~n4);
     }
@@ -69,7 +69,7 @@ public class Class3248 {
         return n2 ^ 0x32F5B86;
     }
 
-    public static int method16656(int n2, int n3, Class94 class94, Class303 class303) {
+    public static int method16656(int n2, int n3, Class94 class94, NoSoundLag class303) {
         int n4 = n2;
         return (0x37DB6134 | ~n4) - ~n4;
     }
@@ -109,7 +109,7 @@ public class Class3248 {
         return (n3 | ~n4) - ~n4;
     }
 
-    public static int method16664(int n2, int n3, Class354 class354, Class1097 class1097) {
+    public static int method16664(int n2, int n3, ElytraTweaks class354, Class1097 class1097) {
         return 514682307 + (n2 & 0xE152923C);
     }
 }

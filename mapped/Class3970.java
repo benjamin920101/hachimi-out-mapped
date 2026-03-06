@@ -17,17 +17,17 @@ import mapped.Class182;
 import mapped.Class2298;
 import mapped.Class244;
 import mapped.Class276;
-import mapped.Class331;
-import mapped.Class333;
+import mapped.PlaceEcho;
+import mapped.ClickGui;
 import mapped.Class3332;
-import mapped.Class337;
-import mapped.Class340;
+import mapped.AutoRespawn;
+import mapped.NoSlow;
 import mapped.Class3708;
 import mapped.Class3833;
 import mapped.Class3923;
 import mapped.Class4011;
-import mapped.Class409;
-import mapped.Class435;
+import mapped.Zoom;
+import mapped.AutoMine;
 import mapped.Class538;
 import mapped.Class5548;
 import mapped.Class5694;
@@ -38,7 +38,7 @@ import mapped.Class696;
 import mapped.Class85;
 
 public class Class3970 {
-    public static int method19482(int n2, int n3, Class172 class172, Class435 class435) {
+    public static int method19482(int n2, int n3, Class172 class172, AutoMine class435) {
         int n4 = n3;
         return n4 + ((n2 ^ 0x3AE68108) & ~n4);
     }
@@ -48,7 +48,7 @@ public class Class3970 {
         return (n4 | 0x3E76623C) & (0xC1899DC3 | ~n4);
     }
 
-    public static int method19484(int n2, int n3, Class1277 class1277, Class331 class331) {
+    public static int method19484(int n2, int n3, Class1277 class1277, PlaceEcho class331) {
         int n4 = n3;
         return n4 + ((n2 ^ 0x54330E00) & ~n4);
     }
@@ -68,7 +68,7 @@ public class Class3970 {
         return (n3 | ~n4) - ~n4;
     }
 
-    public static int method19488(int n2, int n3, Class337 class337, Class696 class696) {
+    public static int method19488(int n2, int n3, AutoRespawn class337, Class696 class696) {
         int n4 = n2 ^ 0xA0100800;
         int n5 = n3;
         return (n4 | n5) & (~n5 | ~n4);
@@ -86,7 +86,7 @@ public class Class3970 {
         return 889885054 + (n2 & 0xCAF56E81);
     }
 
-    public static int method19492(int n2, int n3, Class333 class333, Class1065 class1065) {
+    public static int method19492(int n2, int n3, ClickGui class333, Class1065 class1065) {
         int n4 = n3;
         return n4 + ((n2 ^ 0x4B1DD2A7) & ~n4);
     }
@@ -106,12 +106,12 @@ public class Class3970 {
         return (n4 | 0x17FCCE4C) & (0xE80331B3 | ~n4);
     }
 
-    public static int method19496(int n2, int n3, Class1695 class1695, Class409 class409) {
+    public static int method19496(int n2, int n3, Class1695 class1695, Zoom class409) {
         int n4 = n2;
         return (n4 | 0x173769DF) & (0xE8C89620 | ~n4);
     }
 
-    public static int method19497(int n2, int n3, Class3923 class3923, Class340 class340) {
+    public static int method19497(int n2, int n3, Class3923 class3923, NoSlow class340) {
         return n2 ^ 0x1FF61E7B;
     }
 

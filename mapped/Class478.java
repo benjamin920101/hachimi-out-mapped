@@ -11,7 +11,7 @@
 package mapped;
 
 import mapped.Class248;
-import mapped.Class279;
+import mapped.AutoArmor;
 import mapped.Class4045;
 import mapped.Class529;
 import mapped.Class5659;
@@ -27,7 +27,7 @@ import net.minecraft.registry.RegistryKey;
 public class Class478
 implements Comparable {
     private static long[] field2498 = new long[4];
-    final Class279 field2499;
+    final AutoArmor field2499;
     private final class_1799 field2500;
     private final int field2501;
     private final int field2502;
@@ -52,7 +52,7 @@ implements Comparable {
         return this.method10771((Class478)object);
     }
 
-    public static Class279 method10763(Class478 class478) {
+    public static AutoArmor method10763(Class478 class478) {
         return class478.field2499;
     }
 
@@ -64,15 +64,15 @@ implements Comparable {
         Class478.method10768(3431018756098879080L);
     }
 
-    public static Class279 method10765(Class478 class478) {
+    public static AutoArmor method10765(Class478 class478) {
         return class478.field2499;
     }
 
-    public static Class248 method10766(Class279 class279) {
+    public static Class248 method10766(AutoArmor class279) {
         return class279.field410;
     }
 
-    private static boolean method10767(Class279 class279, class_1799 class_17992, class_5321 class_53212) {
+    private static boolean method10767(AutoArmor class279, class_1799 class_17992, class_5321 class_53212) {
         return class279.method1302(class_17992, class_53212);
     }
 
@@ -124,7 +124,7 @@ implements Comparable {
         return this.field2500;
     }
 
-    public Class478(Class279 a2, int b2, int c2, class_1799 d2) {
+    public Class478(AutoArmor a2, int b2, int c2, class_1799 d2) {
         this.field2499 = a2;
         this.field2502 = b2;
         this.field2501 = c2;

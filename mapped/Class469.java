@@ -17,8 +17,8 @@ import mapped.Class141;
 import mapped.Class1503;
 import mapped.Class1807;
 import mapped.Class216;
-import mapped.Class296;
-import mapped.Class298;
+import mapped.Font;
+import mapped.Chams;
 import mapped.Class3933;
 import mapped.Class4146;
 import mapped.Class5183;
@@ -85,7 +85,7 @@ public class Class469 {
     }
 
     private static void method10723() {
-        Class298.method1924();
+        Chams.method1924();
     }
 
     /*
@@ -278,7 +278,7 @@ lbl68:
         Class4146.method20697();
     }
 
-    private static int method10739(int n2, int n3, Class296 class296, Class141 class141) {
+    private static int method10739(int n2, int n3, Font class296, Class141 class141) {
         return Class1357.method13890(n2, n3, class296, class141);
     }
 

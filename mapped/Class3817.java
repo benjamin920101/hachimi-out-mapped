@@ -19,21 +19,21 @@ import mapped.Class192;
 import mapped.Class27;
 import mapped.Class276;
 import mapped.Class278;
-import mapped.Class281;
+import mapped.FreeLook;
 import mapped.Class30;
-import mapped.Class304;
-import mapped.Class323;
-import mapped.Class325;
-import mapped.Class334;
-import mapped.Class336;
-import mapped.Class338;
+import mapped.AutoRelease;
+import mapped.NoSlotSet;
+import mapped.TextRadar;
+import mapped.Tracers;
+import mapped.NoFall;
+import mapped.Step;
 import mapped.Class3426;
 import mapped.Class3815;
 import mapped.Class4045;
 import mapped.Class4056;
 import mapped.Class4070;
 import mapped.Class4132;
-import mapped.Class442;
+import mapped.Sprint;
 import mapped.Class478;
 import mapped.Class537;
 import mapped.Class5444;
@@ -82,7 +82,7 @@ public class Class3817 {
         return (0x1FF7AE4F | ~n4) - ~n4;
     }
 
-    public static int method18696(int n2, int n3, Class442 class442, Class105 class105) {
+    public static int method18696(int n2, int n3, Sprint class442, Class105 class105) {
         int n4 = n2 ^ 0xB5FBF041;
         return (n3 | ~n4) - ~n4;
     }
@@ -108,12 +108,12 @@ public class Class3817 {
         return n4 + ((n2 ^ 0x13CE3F8F) & ~n4);
     }
 
-    public static int method18701(int n2, int n3, Class338 class338, Class281 class281) {
+    public static int method18701(int n2, int n3, Step class338, FreeLook class281) {
         int n4 = n2 ^ 0x15EB11CC;
         return (n3 | ~n4) - ~n4;
     }
 
-    public static int method18702(int n2, int n3, Class133 class133, Class336 class336) {
+    public static int method18702(int n2, int n3, Class133 class133, NoFall class336) {
         int n4 = n2 ^ 0x749FF3B9;
         return (n3 | ~n4) - ~n4;
     }
@@ -134,7 +134,7 @@ public class Class3817 {
         return (n3 | ~n4) - ~n4;
     }
 
-    public static int method18706(int n2, int n3, Class334 class334, Class5550 class5550) {
+    public static int method18706(int n2, int n3, Tracers class334, Class5550 class5550) {
         int n4 = n2;
         return (n4 | 0x3810B3E1) & (0xC7EF4C1E | ~n4);
     }
@@ -180,7 +180,7 @@ public class Class3817 {
         return (0x3AF35EDE | ~n4) - ~n4;
     }
 
-    public static int method18716(int n2, int n3, Class687 class687, Class304 class304) {
+    public static int method18716(int n2, int n3, Class687 class687, AutoRelease class304) {
         int n4 = n2;
         return (0x3EFAC5B3 | ~n4) - ~n4;
     }
@@ -190,11 +190,11 @@ public class Class3817 {
         return (n3 | ~n4) - ~n4;
     }
 
-    public static int method18718(int n2, int n3, Class325 class325, Class30 class30) {
+    public static int method18718(int n2, int n3, TextRadar class325, Class30 class30) {
         return n2 ^ 0x2BA6811E;
     }
 
-    public static int method18719(int n2, int n3, Class323 class323, Class1807 class1807) {
+    public static int method18719(int n2, int n3, NoSlotSet class323, Class1807 class1807) {
         int n4 = n2 ^ 0x603F9EBE;
         int n5 = n3;
         return (n4 | n5) & (~n5 | ~n4);

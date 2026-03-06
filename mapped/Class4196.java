@@ -13,12 +13,12 @@ package mapped;
 
 import mapped.Class1215;
 import mapped.Class1308;
-import mapped.Class376;
+import mapped.Blink;
 import mapped.Class3979;
 import mapped.Class4045;
 import mapped.Class411;
 import mapped.Class4122;
-import mapped.Class447;
+import mapped.Velocity;
 import mapped.Class5550;
 import mapped.Class5659;
 import mapped.Class5836;
@@ -131,11 +131,11 @@ public class Class4196 {
             }
         }
         ++b2;
-        return Class447.method10322();
+        return Velocity.method10322();
     }
 
     private static boolean method20812() {
-        return Class447.method10252();
+        return Velocity.method10252();
     }
 
     public static int method20813(class_1792 c2) {
@@ -192,7 +192,7 @@ public class Class4196 {
     }
 
     private static boolean method20823() {
-        return Class376.method4987();
+        return Blink.method4987();
     }
 
     /*

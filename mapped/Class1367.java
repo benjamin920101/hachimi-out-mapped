@@ -7,11 +7,11 @@ import mapped.Class133;
 import mapped.Class178;
 import mapped.Class206;
 import mapped.Class247;
-import mapped.Class314;
-import mapped.Class318;
+import mapped.TrueDurability;
+import mapped.Tooltips;
 import mapped.Class33;
 import mapped.Class3336;
-import mapped.Class404;
+import mapped.MainHand;
 import mapped.Class4218;
 import mapped.Class46;
 import mapped.Class4971;
@@ -31,12 +31,12 @@ public class Class1367 {
         return (n4 | n5) & (~n5 | ~n4);
     }
 
-    public static int method13951(int n2, int n3, Class404 class404, Class708 class708) {
+    public static int method13951(int n2, int n3, MainHand class404, Class708 class708) {
         int n4 = n3;
         return n4 + ((n2 ^ 0x1FE4B34B) & ~n4);
     }
 
-    public static int method13952(int n2, int n3, Class5648 class5648, Class314 class314) {
+    public static int method13952(int n2, int n3, Class5648 class5648, TrueDurability class314) {
         int n4 = n2 ^ 0x8B51BCF6;
         return (n3 | ~n4) - ~n4;
     }
@@ -54,7 +54,7 @@ public class Class1367 {
         return n2 ^ 0x3AC227F2 ^ n3;
     }
 
-    public static int method13956(int n2, int n3, Class318 class318, Class76 class76) {
+    public static int method13956(int n2, int n3, Tooltips class318, Class76 class76) {
         int n4 = n2 ^ 0xC806E568;
         int n5 = n3;
         return (n4 | n5) & (~n5 | ~n4);
@@ -65,12 +65,12 @@ public class Class1367 {
         return (0x3592E4 | ~n4) - ~n4;
     }
 
-    public static int method13958(int n2, int n3, Class318 class318, Class3336 class3336) {
+    public static int method13958(int n2, int n3, Tooltips class318, Class3336 class3336) {
         int n4 = n3;
         return n4 + ((n2 ^ 0xBDFDEB7C) & ~n4);
     }
 
-    public static int method13959(int n2, int n3, Class33 class33, Class404 class404) {
+    public static int method13959(int n2, int n3, Class33 class33, MainHand class404) {
         int n4 = n3;
         return n4 + ((n2 ^ 0x98936A04) & ~n4);
     }

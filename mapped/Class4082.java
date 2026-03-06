@@ -8,13 +8,13 @@ import mapped.Class1468;
 import mapped.Class159;
 import mapped.Class19;
 import mapped.Class261;
-import mapped.Class314;
-import mapped.Class326;
+import mapped.TrueDurability;
+import mapped.AntiHunger;
 import mapped.Class3392;
-import mapped.Class352;
-import mapped.Class392;
+import mapped.Speed;
+import mapped.NewChunks;
 import mapped.Class4146;
-import mapped.Class446;
+import mapped.AutoXP;
 import mapped.Class527;
 import mapped.Class530;
 import mapped.Class5540;
@@ -30,11 +30,11 @@ public class Class4082 {
         return n4 + ((n2 ^ 0x9F74D82) & ~n4);
     }
 
-    public static int method20347(int n2, int n3, Class4146 class4146, Class446 class446) {
+    public static int method20347(int n2, int n3, Class4146 class4146, AutoXP class446) {
         return 852379233 + (n2 & 0xCD31B99E);
     }
 
-    public static int method20348(int n2, int n3, Class5540 class5540, Class392 class392) {
+    public static int method20348(int n2, int n3, Class5540 class5540, NewChunks class392) {
         int n4 = n2;
         return (0x1A5F32B9 | ~n4) - ~n4;
     }
@@ -54,7 +54,7 @@ public class Class4082 {
         return (n4 | 0x1F4F301A) & (0xE0B0CFE5 | ~n4);
     }
 
-    public static int method20352(int n2, int n3, Class326 class326, Class618 class618) {
+    public static int method20352(int n2, int n3, AntiHunger class326, Class618 class618) {
         int n4 = n3;
         return n4 + ((n2 ^ 0x5D11A13D) & ~n4);
     }
@@ -64,7 +64,7 @@ public class Class4082 {
         return (0x7DA2A83 | ~n4) - ~n4;
     }
 
-    public static int method20354(int n2, int n3, Class352 class352, Class314 class314) {
+    public static int method20354(int n2, int n3, Speed class352, TrueDurability class314) {
         return 537529469 + (n2 & 0xDFF5F382);
     }
 

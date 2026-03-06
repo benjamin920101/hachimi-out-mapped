@@ -4,7 +4,7 @@
 package mapped;
 
 import mapped.Class1327;
-import mapped.Class282;
+import mapped.Strafe;
 import mapped.Class3332;
 import mapped.Class3935;
 import mapped.Class3980;
@@ -20,7 +20,7 @@ public class Class1384 {
         return (n3 | ~n4) - ~n4;
     }
 
-    public static int method13992(int n2, int n3, Class3332 class3332, Class282 class282) {
+    public static int method13992(int n2, int n3, Class3332 class3332, Strafe class282) {
         int n4 = n2;
         return (0x2D0F148E | ~n4) - ~n4;
     }

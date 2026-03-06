@@ -4,10 +4,10 @@
 package mapped;
 
 import mapped.Class130;
-import mapped.Class314;
+import mapped.TrueDurability;
 import mapped.Class3843;
 import mapped.Class3871;
-import mapped.Class449;
+import mapped.FakePlayer;
 import mapped.Class486;
 import mapped.Class5649;
 import mapped.Class5808;
@@ -21,11 +21,11 @@ public class Class1277 {
         return (n4 | n5) & (~n5 | ~n4);
     }
 
-    public static int method13573(int n2, int n3, Class314 class314, Class486 class486) {
+    public static int method13573(int n2, int n3, TrueDurability class314, Class486 class486) {
         return 50637802 + (n2 & 0xFCFB5415);
     }
 
-    public static int method13574(int n2, int n3, Class5808 class5808, Class449 class449) {
+    public static int method13574(int n2, int n3, Class5808 class5808, FakePlayer class449) {
         int n4 = n2;
         return (n4 | 0x3940C7E5) & (0xC6BF381A | ~n4);
     }

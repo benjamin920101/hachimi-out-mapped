@@ -18,7 +18,7 @@ import mapped.Class214;
 import mapped.Class233;
 import mapped.Class237;
 import mapped.Class260;
-import mapped.Class283;
+import mapped.BetterHotbar;
 import mapped.Class3291;
 import mapped.Class37;
 import mapped.Class3741;
@@ -141,7 +141,7 @@ public class Class1748 {
         return (0x13DF4854 | ~n4) - ~n4;
     }
 
-    public static int method15691(int n2, int n3, Class283 class283, Class69 class69) {
+    public static int method15691(int n2, int n3, BetterHotbar class283, Class69 class69) {
         int n4 = n3;
         return n4 + ((n2 ^ 0x5FDB9C8) & ~n4);
     }

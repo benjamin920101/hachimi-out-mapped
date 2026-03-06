@@ -13,7 +13,7 @@ import mapped.Class206;
 import mapped.Class2299;
 import mapped.Class261;
 import mapped.Class264;
-import mapped.Class308;
+import mapped.AntiLevitation;
 import mapped.Class3766;
 import mapped.Class3814;
 import mapped.Class62;
@@ -43,7 +43,7 @@ public class Class1448 {
         return n2 ^ 0xF51419C;
     }
 
-    public static int method14275(int n2, int n3, Class199 class199, Class308 class308) {
+    public static int method14275(int n2, int n3, Class199 class199, AntiLevitation class308) {
         int n4 = n2 ^ 0xAFF8BB2;
         return (n3 | ~n4) - ~n4;
     }

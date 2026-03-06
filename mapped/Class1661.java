@@ -30,9 +30,9 @@ import mapped.Class246;
 import mapped.Class253;
 import mapped.Class26;
 import mapped.Class261;
-import mapped.Class298;
+import mapped.Chams;
 import mapped.Class3224;
-import mapped.Class333;
+import mapped.ClickGui;
 import mapped.Class3979;
 import mapped.Class4146;
 import mapped.Class4196;
@@ -160,7 +160,7 @@ extends Class1658 {
     }
 
     public static Class1450 method15079() {
-        return Class333.field838;
+        return ClickGui.field838;
     }
 
     @Override
@@ -171,7 +171,7 @@ extends Class1658 {
     }
 
     private static void method15081() {
-        Class298.method1924();
+        Chams.method1924();
     }
 
     private static int method15082(int n2, int n3, Class253 class253, Class3224 class3224) {
@@ -183,7 +183,7 @@ extends Class1658 {
     }
 
     public Class261 method15084(Class556 b2) {
-        for (Class261 a2 : Class1661.method15068(Class333.field838)) {
+        for (Class261 a2 : Class1661.method15068(ClickGui.field838)) {
             if (!Class1661.method15088(a2).equals((Object)b2)) continue;
             return a2;
         }

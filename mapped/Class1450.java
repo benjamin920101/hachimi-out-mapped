@@ -25,19 +25,19 @@ import mapped.Class273;
 import mapped.Class274;
 import mapped.Class276;
 import mapped.Class277;
-import mapped.Class298;
-import mapped.Class333;
-import mapped.Class376;
+import mapped.Chams;
+import mapped.ClickGui;
+import mapped.Blink;
 import mapped.Class3810;
 import mapped.Class3979;
 import mapped.Class4034;
 import mapped.Class4045;
-import mapped.Class408;
-import mapped.Class409;
+import mapped.Replenish;
+import mapped.Zoom;
 import mapped.Class4122;
 import mapped.Class4146;
 import mapped.Class4196;
-import mapped.Class447;
+import mapped.Velocity;
 import mapped.Class489;
 import mapped.Class5473;
 import mapped.Class556;
@@ -61,7 +61,7 @@ import net.minecraft.client.gui.screen.Screen;
  */
 public class Class1450
 extends class_437 {
-    private final Class333 field5514;
+    private final ClickGui field5514;
     public static boolean field5515;
     public static int field5516;
     public static boolean field5517;
@@ -83,7 +83,7 @@ extends class_437 {
         return super.method_16803(a2, b2, c2);
     }
 
-    public static Class333 method14278(Class1450 class1450) {
+    public static ClickGui method14278(Class1450 class1450) {
         return class1450.field5514;
     }
 
@@ -92,11 +92,11 @@ extends class_437 {
     }
 
     private static boolean method14280() {
-        return Class447.method10252();
+        return Velocity.method10252();
     }
 
     private static boolean method14281() {
-        return Class376.method4987();
+        return Blink.method4987();
     }
 
     public boolean method_25406(double b2, double c2, int d2) {
@@ -122,7 +122,7 @@ extends class_437 {
     }
 
     private static boolean method14284() {
-        return Class376.method4987();
+        return Blink.method4987();
     }
 
     private static int method14285(int n2, int n3, Class8 class8, Class99 class99) {
@@ -134,14 +134,14 @@ extends class_437 {
     }
 
     private static boolean method14287() {
-        return Class447.method10322();
+        return Velocity.method10322();
     }
 
     public static float method14288() {
         return 1.0f;
     }
 
-    private static boolean method14289(Class333 class333) {
+    private static boolean method14289(ClickGui class333) {
         return class333.method3003();
     }
 
@@ -153,7 +153,7 @@ extends class_437 {
         return Class5659.method22150(d2, d3, d4);
     }
 
-    public static Class333 method14292(Class1450 class1450) {
+    public static ClickGui method14292(Class1450 class1450) {
         return class1450.field5514;
     }
 
@@ -170,7 +170,7 @@ extends class_437 {
         }
         if (i == (int)Class1450.field5525[4]) {
             if (Class1450.field5515) {
-                Class333.field838 = new Class1450(this.field5514);
+                ClickGui.field838 = new Class1450(this.field5514);
                 Class1450.method14278(this).method1268();
                 Class1450.method14292(this).method1264();
             }
@@ -193,7 +193,7 @@ extends class_437 {
                             a = (Class269)e;
                             if (a.method834()) break block20;
                             if (!(e instanceof Class270)) {
-                                return Class447.method10322();
+                                return Velocity.method10322();
                             }
                             b = (Class270)e;
                             if (b.method882()) break block20;
@@ -245,7 +245,7 @@ lbl44:
                 c2.method759(a2, c2.method762());
                 continue;
             }
-            float b2 = (float)((double)c2.method762() + g2 * (double)Class333.method2989().method3017());
+            float b2 = (float)((double)c2.method762() + g2 * (double)ClickGui.method2989().method3017());
             c2.method759(c2.method782(), b2);
         }
         return super.method_25401(d2, e2, f2, g2);
@@ -255,8 +255,8 @@ lbl44:
         Class5836.method22897();
     }
 
-    private static Class333 method14295() {
-        return Class333.method2989();
+    private static ClickGui method14295() {
+        return ClickGui.method2989();
     }
 
     private static void method14296() {
@@ -271,7 +271,7 @@ lbl44:
         return Class267.field350;
     }
 
-    public Class1450(Class333 c2) {
+    public Class1450(ClickGui c2) {
         super((class_2561)class_2561.method_43470((String)"ClickGui"));
         this.field5514 = c2;
         float d2 = Class830.field3644;
@@ -352,15 +352,15 @@ lbl44:
     }
 
     private static boolean method14306() {
-        return Class408.method6431();
+        return Replenish.method6431();
     }
 
     private static boolean method14307(double d2) {
         return Class5659.method22193(d2);
     }
 
-    private static Class333 method14308() {
-        return Class333.method2989();
+    private static ClickGui method14308() {
+        return ClickGui.method2989();
     }
 
     private static boolean method14309() {
@@ -368,9 +368,9 @@ lbl44:
     }
 
     private void method14310(class_332 a2) {
-        int b2 = Class333.method2989().method2990((int)field5525[6]);
+        int b2 = ClickGui.method2989().method2990((int)field5525[6]);
         Class6454.method24667(a2.method_51448(), 0.0, 0.0, a2.method_51421(), a2.method_51443(), b2);
-        float c2 = Class333.method2989().method2985();
+        float c2 = ClickGui.method2989().method2985();
         if (c2 == 1.0f) {
             return;
         }
@@ -385,7 +385,7 @@ lbl44:
     }
 
     private static boolean method14312() {
-        return Class447.method10322();
+        return Velocity.method10322();
     }
 
     private static void method14313(Class1450 class1450, boolean bl2) {
@@ -408,7 +408,7 @@ lbl44:
             }
             c2.method707(h2, i2, j2, k2);
             for (Class276 b2 : c2.method663()) {
-                if (Class333.method2989().method3019() && Class1450.method14298() != null && !Class1450.method14316(b2).method446().toLowerCase().contains(Class1450.method14323().toLowerCase())) continue;
+                if (ClickGui.method2989().method3019() && Class1450.method14298() != null && !Class1450.method14316(b2).method446().toLowerCase().contains(Class1450.method14323().toLowerCase())) continue;
                 if (b2.method740(i2, j2) && !b2.method1228().method1253().isEmpty()) {
                     this.field5519 = b2.method1228().method1253();
                     l2 = (int)field5525[0];
@@ -417,7 +417,7 @@ lbl44:
                 if (!Class1450.method14324(b2)) continue;
                 for (Class268 a2 : b2.method1164()) {
                     if (!Class1450.method14301(a2.method826()) || a2.method826().method504().isEmpty()) continue;
-                    Class298.method1924();
+                    Chams.method1924();
                     return;
                 }
                 Class6009.method23560();
@@ -425,14 +425,14 @@ lbl44:
             }
         }
         h2.method_51448().method_22909();
-        if (Class1450.method14289(Class333.method2989())) {
+        if (Class1450.method14289(ClickGui.method2989())) {
             Class1450.method14326(this.field5523, l2 != 0);
             if (this.field5523.method24281() > Class3810.field8619) {
                 h2.method_51448().method_22905(1.0f, 1.0f, 0.0f);
                 float d2 = 1.0f / Class1450.method14305();
                 int e2 = Class6454.method24719(Class1450.method14322(this));
                 int f2 = (int)(60.0 * Class1450.method14303(this).method24281());
-                int g2 = Class333.method2989().method2990(new Color((int)field5525[1], (int)field5525[1], (int)field5525[1], (int)field5525[2] + f2).getRGB());
+                int g2 = ClickGui.method2989().method2990(new Color((int)field5525[1], (int)field5525[1], (int)field5525[1], (int)field5525[2] + f2).getRGB());
                 Class6454.method24667(h2.method_51448(), ((float)i2 + 10.0f) * d2, ((float)j2 - 8.0f) * d2, (float)e2 + 4.0f, ((float)Class1450.method14329() + 2.0f) * d2, g2);
                 Class6454.method24624(h2, this.field5519, ((float)i2 + 12.0f) * d2, ((float)j2 - 6.0f) * d2, Class1450.method14340((int)field5525[3], (float)this.field5523.method24281()));
                 h2.method_51448().method_22905(d2, d2, 0.0f);
@@ -472,7 +472,7 @@ lbl44:
         return class1450.field5518;
     }
 
-    private static int method14321(int n2, int n3, Class601 class601, Class409 class409) {
+    private static int method14321(int n2, int n3, Class601 class601, Zoom class409) {
         return Class6435.method24552(n2, n3, class601, class409);
     }
 
@@ -562,7 +562,7 @@ lbl44:
     }
 
     private static boolean method14338() {
-        return Class447.method10322();
+        return Velocity.method10322();
     }
 
     static {
@@ -572,7 +572,7 @@ lbl44:
     }
 
     private static boolean method14339() {
-        return Class447.method10322();
+        return Velocity.method10322();
     }
 
     public void method_25419() {

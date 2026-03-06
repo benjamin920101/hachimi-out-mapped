@@ -18,7 +18,7 @@ import mapped.Class1405;
 import mapped.Class1503;
 import mapped.Class1668;
 import mapped.Class1807;
-import mapped.Class298;
+import mapped.Chams;
 import mapped.Class3510;
 import mapped.Class3511;
 import mapped.Class3814;
@@ -209,7 +209,7 @@ implements Class3814 {
     }
 
     private static void method18569() {
-        Class298.method1924();
+        Chams.method1924();
     }
 
     private static void method18570() {

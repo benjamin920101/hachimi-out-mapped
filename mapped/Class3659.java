@@ -7,7 +7,7 @@ import mapped.Class1352;
 import mapped.Class14;
 import mapped.Class158;
 import mapped.Class213;
-import mapped.Class346;
+import mapped.GhostHand;
 import mapped.Class3531;
 import mapped.Class5836;
 import mapped.Class597;
@@ -23,7 +23,7 @@ public class Class3659 {
         return 582699930 + (n2 & 0xDD44B465);
     }
 
-    public static int method17995(int n2, int n3, Class605 class605, Class346 class346) {
+    public static int method17995(int n2, int n3, Class605 class605, GhostHand class346) {
         int n4 = n3;
         return n4 + ((n2 ^ 0xB560DB16) & ~n4);
     }

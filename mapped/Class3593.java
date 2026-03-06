@@ -6,10 +6,10 @@ package mapped;
 import mapped.Class1123;
 import mapped.Class1485;
 import mapped.Class1790;
-import mapped.Class326;
+import mapped.AntiHunger;
 import mapped.Class3291;
 import mapped.Class35;
-import mapped.Class361;
+import mapped.PenisBuilder;
 import mapped.Class4218;
 import mapped.Class538;
 import mapped.Class6060;
@@ -22,7 +22,7 @@ public class Class3593 {
         return (n4 | 0x1785B6) & (0xFFE87A49 | ~n4);
     }
 
-    public static int method17854(int n2, int n3, Class35 class35, Class326 class326) {
+    public static int method17854(int n2, int n3, Class35 class35, AntiHunger class326) {
         int n4 = n3;
         return n4 + ((n2 ^ 0x48F19B50) & ~n4);
     }
@@ -32,7 +32,7 @@ public class Class3593 {
         return (0x13AEEE96 | ~n4) - ~n4;
     }
 
-    public static int method17856(int n2, int n3, Class361 class361, Class6280 class6280) {
+    public static int method17856(int n2, int n3, PenisBuilder class361, Class6280 class6280) {
         int n4 = n2;
         return n4 & 0xD1F44CDA | 0x2E0BB325 & ~n4;
     }

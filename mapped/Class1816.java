@@ -11,26 +11,26 @@ import mapped.Class20;
 import mapped.Class212;
 import mapped.Class227;
 import mapped.Class263;
-import mapped.Class288;
-import mapped.Class295;
+import mapped.NameProtect;
+import mapped.Waypoints;
 import mapped.Class3209;
 import mapped.Class33;
-import mapped.Class331;
+import mapped.PlaceEcho;
 import mapped.Class3510;
 import mapped.Class36;
-import mapped.Class369;
+import mapped.StorageESP;
 import mapped.Class3724;
-import mapped.Class375;
+import mapped.CrystalModel;
 import mapped.Class3812;
 import mapped.Class3850;
-import mapped.Class387;
+import mapped.XCarry;
 import mapped.Class3907;
 import mapped.Class3913;
 import mapped.Class3916;
 import mapped.Class3933;
 import mapped.Class3952;
-import mapped.Class412;
-import mapped.Class448;
+import mapped.InventoryManager;
+import mapped.AntiAliasing;
 import mapped.Class5655;
 import mapped.Class6;
 import mapped.Class608;
@@ -51,7 +51,7 @@ public class Class1816 {
         return (n4 | n5) & (~n5 | ~n4);
     }
 
-    public static int method15787(int n2, int n3, Class83 class83, Class448 class448) {
+    public static int method15787(int n2, int n3, Class83 class83, AntiAliasing class448) {
         int n4 = n2 ^ 0x623C000E;
         return (n3 | ~n4) - ~n4;
     }
@@ -71,12 +71,12 @@ public class Class1816 {
         return (n4 | n5) & (~n5 | ~n4);
     }
 
-    public static int method15791(int n2, int n3, Class331 class331, Class3850 class3850) {
+    public static int method15791(int n2, int n3, PlaceEcho class331, Class3850 class3850) {
         int n4 = n2;
         return n4 & 0xF432FA79 | 0xBCD0586 & ~n4;
     }
 
-    public static int method15792(int n2, int n3, Class375 class375, Class412 class412) {
+    public static int method15792(int n2, int n3, CrystalModel class375, InventoryManager class412) {
         return n2 ^ 0x2B995835;
     }
 
@@ -84,7 +84,7 @@ public class Class1816 {
         return n2 ^ 0xD52205D9 ^ n3;
     }
 
-    public static int method15794(int n2, int n3, Class288 class288, Class633 class633) {
+    public static int method15794(int n2, int n3, NameProtect class288, Class633 class633) {
         int n4 = n2;
         return (0x2F6F1961 | ~n4) - ~n4;
     }
@@ -93,7 +93,7 @@ public class Class1816 {
         return 788590754 + (n2 & 0xD0FF0F5D);
     }
 
-    public static int method15796(int n2, int n3, Class295 class295, Class33 class33) {
+    public static int method15796(int n2, int n3, Waypoints class295, Class33 class33) {
         int n4 = n2;
         return n4 & 0xF4A3A4F3 | 0xB5C5B0C & ~n4;
     }
@@ -109,7 +109,7 @@ public class Class1816 {
         return n4 & ~n5 | n5 & ~n4;
     }
 
-    public static int method15799(int n2, int n3, Class3812 class3812, Class369 class369) {
+    public static int method15799(int n2, int n3, Class3812 class3812, StorageESP class369) {
         int n4 = n2 ^ 0x1045D4AB;
         int n5 = n3;
         return n4 & ~n5 | n5 & ~n4;
@@ -120,7 +120,7 @@ public class Class1816 {
         return (0x2A846409 | ~n4) - ~n4;
     }
 
-    public static int method15801(int n2, int n3, Class387 class387, Class3724 class3724) {
+    public static int method15801(int n2, int n3, XCarry class387, Class3724 class3724) {
         int n4 = n2;
         return n4 & 0xFE7A6BEB | 0x1859414 & ~n4;
     }

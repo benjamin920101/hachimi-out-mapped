@@ -8,7 +8,7 @@ import mapped.Class171;
 import mapped.Class1763;
 import mapped.Class2297;
 import mapped.Class237;
-import mapped.Class454;
+import mapped.Kit;
 import mapped.Class5457;
 import mapped.Class55;
 import mapped.Class601;
@@ -31,7 +31,7 @@ public class Class3491 {
         return n4 + ((n2 ^ 0x57CCCEFF) & ~n4);
     }
 
-    public static int method17595(int n2, int n3, Class454 class454, Class601 class601) {
+    public static int method17595(int n2, int n3, Kit class454, Class601 class601) {
         int n4 = n3;
         return n4 + ((n2 ^ 0x10002C06) & ~n4);
     }

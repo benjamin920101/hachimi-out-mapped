@@ -12,15 +12,15 @@ import mapped.Class180;
 import mapped.Class189;
 import mapped.Class203;
 import mapped.Class253;
-import mapped.Class286;
-import mapped.Class288;
-import mapped.Class324;
+import mapped.NoRotate;
+import mapped.NameProtect;
+import mapped.AutoMount;
 import mapped.Class3766;
 import mapped.Class38;
 import mapped.Class4045;
-import mapped.Class419;
+import mapped.AutoCrystal;
 import mapped.Class42;
-import mapped.Class446;
+import mapped.AutoXP;
 import mapped.Class5183;
 import mapped.Class556;
 import mapped.Class560;
@@ -49,12 +49,12 @@ public class Class3684 {
         return n4 + ((n2 ^ 0xBCEE66C8) & ~n4);
     }
 
-    public static int method18142(int n2, int n3, Class286 class286, Class253 class253) {
+    public static int method18142(int n2, int n3, NoRotate class286, Class253 class253) {
         int n4 = n2 ^ 0x8CD36F50;
         return (n3 | ~n4) - ~n4;
     }
 
-    public static int method18143(int n2, int n3, Class288 class288, Class324 class324) {
+    public static int method18143(int n2, int n3, NameProtect class288, AutoMount class324) {
         int n4 = n3;
         return n4 + ((n2 ^ 0xFACDF7F7) & ~n4);
     }
@@ -85,7 +85,7 @@ public class Class3684 {
         return n4 & ~n5 | n5 & ~n4;
     }
 
-    public static int method18149(int n2, int n3, Class419 class419, Class446 class446) {
+    public static int method18149(int n2, int n3, AutoCrystal class419, AutoXP class446) {
         int n4 = n2;
         return (0x24EF3290 | ~n4) - ~n4;
     }

@@ -21,7 +21,7 @@ import mapped.Class268;
 import mapped.Class276;
 import mapped.Class277;
 import mapped.Class278;
-import mapped.Class333;
+import mapped.ClickGui;
 import mapped.Class4036;
 import mapped.Class4146;
 import mapped.Class5659;
@@ -94,7 +94,7 @@ extends Class268 {
 
     @Override
     public void method825(class_332 c2, float d2, float e2, float f2, float g2, float h2) {
-        this.method753(Class269.method849() + Class333.method2989().method2999());
+        this.method753(Class269.method849() + ClickGui.method2989().method2999());
         this.field340 = d2;
         this.field337 = e2;
         Class246 i2 = (Class246)this.field354.method507();
@@ -120,8 +120,8 @@ extends Class268 {
     @Override
     public native void method727(char var1, int var2);
 
-    private static Class333 method835() {
-        return Class333.method2989();
+    private static ClickGui method835() {
+        return ClickGui.method2989();
     }
 
     private static int method836(int n2, int n3, Class6286 class6286, Class2299 class2299) {
@@ -132,7 +132,7 @@ extends Class268 {
         this.field355 = a2;
     }
 
-    private static boolean method838(Class333 class333) {
+    private static boolean method838(ClickGui class333) {
         return class333.method3011();
     }
 
@@ -210,7 +210,7 @@ extends Class268 {
                     ((Class259)this.field354).method628((int)field356[2]);
                 }
             }
-            if (Class269.method838(Class333.method2989())) {
+            if (Class269.method838(ClickGui.method2989())) {
                 Class5723.field11041.method22448(Class5693.field10948);
             }
         }
@@ -277,8 +277,8 @@ extends Class268 {
         return 1.0f;
     }
 
-    private static Class333 method863() {
-        return Class333.method2989();
+    private static ClickGui method863() {
+        return ClickGui.method2989();
     }
 
     private static void method864(int n2, int n3, int n4, int n5) {

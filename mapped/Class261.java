@@ -30,15 +30,15 @@ import mapped.Class271;
 import mapped.Class273;
 import mapped.Class276;
 import mapped.Class277;
-import mapped.Class279;
-import mapped.Class298;
-import mapped.Class305;
-import mapped.Class309;
-import mapped.Class333;
+import mapped.AutoArmor;
+import mapped.Chams;
+import mapped.PacketFly;
+import mapped.Swing;
+import mapped.ClickGui;
 import mapped.Class3432;
 import mapped.Class3471;
 import mapped.Class3549;
-import mapped.Class376;
+import mapped.Blink;
 import mapped.Class3979;
 import mapped.Class4036;
 import mapped.Class4146;
@@ -93,7 +93,7 @@ implements Class245 {
         super.method646(b2, c2, d2);
         if (this.method682()) {
             for (Class276 a2 : this.field330) {
-                int n2 = Class333.method2989().method3019() ? 31013 : 31014;
+                int n2 = ClickGui.method2989().method3019() ? 31013 : 31014;
                 block9: while (true) {
                     switch (n2) {
                         case 31014: {
@@ -186,13 +186,13 @@ implements Class245 {
                 }
                 this.field324 = n2;
                 Class261.method695(this.field333, this.field324);
-                if (!Class333.method2989().method3011()) break block10;
+                if (!ClickGui.method2989().method3011()) break block10;
                 Class5723.field11041.method22448(Class5693.field10948);
                 break block10;
             }
             while (iterator.hasNext()) {
                 Class276 a2 = (Class276)iterator.next();
-                if (Class261.method708(Class333.method2989()) && Class267.field350 != null && !a2.method1228().method446().toLowerCase().contains(Class261.method716().toLowerCase())) continue;
+                if (Class261.method708(ClickGui.method2989()) && Class267.field350 != null && !a2.method1228().method446().toLowerCase().contains(Class261.method716().toLowerCase())) continue;
                 a2.method649(b2, c2, d2);
             }
         }
@@ -234,12 +234,12 @@ implements Class245 {
         class6283.method24284(bl2);
     }
 
-    private static int method657(int n2, int n3, Class309 class309, Class4244 class4244) {
+    private static int method657(int n2, int n3, Swing class309, Class4244 class4244) {
         return Class1110.method12948(n2, n3, class309, class4244);
     }
 
-    private static Class333 method658() {
-        return Class333.method2989();
+    private static ClickGui method658() {
+        return ClickGui.method2989();
     }
 
     public static String method659() {
@@ -247,7 +247,7 @@ implements Class245 {
     }
 
     private static void method660() {
-        Class298.method1924();
+        Chams.method1924();
     }
 
     private static void method661() {
@@ -367,7 +367,7 @@ implements Class245 {
     }
 
     private static void method685() {
-        Class298.method1924();
+        Chams.method1924();
     }
 
     static {
@@ -384,7 +384,7 @@ implements Class245 {
     }
 
     private static void method688() {
-        Class298.method1924();
+        Chams.method1924();
     }
 
     private static void method689(float f2, float f3) {
@@ -474,10 +474,10 @@ implements Class245 {
                 }
                 this.field334 = 1.0f;
                 if (this.field331 != null) {
-                    this.field334 += this.field331.method778() + Class333.method2989().method3018() * Class261.method697();
+                    this.field334 += this.field331.method778() + ClickGui.method2989().method3018() * Class261.method697();
                 }
                 for (Class276 d : this.field330) {
-                    if (Class333.method2989().method3019() && Class267.field350 != null && !d.method1228().method446().toLowerCase().contains(Class267.field350.toLowerCase())) continue;
+                    if (ClickGui.method2989().method3019() && Class267.field350 != null && !d.method1228().method446().toLowerCase().contains(Class267.field350.toLowerCase())) continue;
                     this.field334 += d.method778() + 0.5f;
                     if (d.method1176() < 0.01f) continue;
                     this.field334 += 2.0f * Class261.method687() * d.method1176();
@@ -540,15 +540,15 @@ lbl39:
                 p = (int)Class261.field332[2];
                 this.method771(k, this.field328, this.field340 + 3.0f, this.field337 + Class6126.field12387 * 1.0f, p);
                 if (!(Class261.method715(this).method24281() > Class749.field3389)) break block26;
-                f = Class333.method2989().method2998();
+                f = ClickGui.method2989().method2998();
                 g = this.field337;
                 if (this.field331 != null) {
-                    g += Class261.method693(this).method778() + Class333.method2989().method3018() * 1.0f;
+                    g += Class261.method693(this).method778() + ClickGui.method2989().method3018() * 1.0f;
                 }
                 if (f) {
                     this.method737(this.field340, this.field337 + this.field339 * 1.0f, this.field340 + this.field341 * 1.0f, (double)(this.field337 + 1.0f * this.field339) + (double)this.field334 * Class261.method675(this.field333));
                 }
-                h = Class333.method2989().method2990(Class333.method2989().method3004().getRGB());
+                h = ClickGui.method2989().method2990(ClickGui.method2989().method3004().getRGB());
                 i = Class261.method726() * this.field339;
                 j = this.field341 * 1.0f;
                 this.method763(k, this.field340, (double)this.field337 + i, this.field341 * Class261.method678(), this.field334, h);
@@ -560,7 +560,7 @@ lbl39:
                 }
                 this.field327 = this.field325 = g + this.field339 * 1.0f - Class5545.field10496;
                 for (Class276 e : this.field330) {
-                    if (Class261.method725(Class333.method2989())) {
+                    if (Class261.method725(ClickGui.method2989())) {
                         if (Class267.field350 != null && !e.method1228().method446().toLowerCase().contains(Class261.method731().toLowerCase())) continue;
                     }
                     e.method1209(k, this.field340 + 1.0f, this.field327 + 1.0f, l, m, n);
@@ -573,7 +573,7 @@ lbl39:
                 if (true) ** GOTO lbl84
             }
             v4 = 31067;
-            Class298.method1924();
+            Chams.method1924();
             return;
             block17: while (true) {
                 v3 = 31065;
@@ -595,7 +595,7 @@ lbl84:
         this.field335 = Class1450.field5527;
     }
 
-    private static boolean method708(Class333 class333) {
+    private static boolean method708(ClickGui class333) {
         return class333.method3019();
     }
 
@@ -622,7 +622,7 @@ lbl84:
     }
 
     private static boolean method711() {
-        return Class376.method4987();
+        return Blink.method4987();
     }
 
     private static void method712(long l2) {
@@ -645,12 +645,12 @@ lbl84:
         return Class267.field350;
     }
 
-    private static int method717(int n2, int n3, Class305 class305, Class694 class694) {
+    private static int method717(int n2, int n3, PacketFly class305, Class694 class694) {
         return Class1110.method12954(n2, n3, class305, class694);
     }
 
-    private static Class333 method718() {
-        return Class333.method2989();
+    private static ClickGui method718() {
+        return ClickGui.method2989();
     }
 
     private static void method719() {
@@ -694,7 +694,7 @@ lbl84:
         return Class267.field350;
     }
 
-    private static boolean method725(Class333 class333) {
+    private static boolean method725(ClickGui class333) {
         return class333.method3019();
     }
 
@@ -710,7 +710,7 @@ lbl84:
         super.method727(b2, c2);
         if (this.method682()) {
             for (Class276 a2 : this.field330) {
-                if (Class333.method2989().method3019() && Class261.method696() != null) {
+                if (ClickGui.method2989().method3019() && Class261.method696() != null) {
                     if (a2.method1228().method446().toLowerCase().contains(Class261.method724().toLowerCase())) {
                         int n2 = 47698;
                         Class5836.method22907(0.55431694f);
@@ -768,7 +768,7 @@ lbl84:
         return Class261.method701();
     }
 
-    private static int method732(int n2, int n3, Class279 class279, Class6418 class6418) {
+    private static int method732(int n2, int n3, AutoArmor class279, Class6418 class6418) {
         return Class1110.method12932(n2, n3, class279, class6418);
     }
 

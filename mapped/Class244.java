@@ -45,15 +45,15 @@ import mapped.Class255;
 import mapped.Class257;
 import mapped.Class259;
 import mapped.Class260;
-import mapped.Class346;
+import mapped.GhostHand;
 import mapped.Class36;
 import mapped.Class3833;
 import mapped.Class3979;
-import mapped.Class398;
+import mapped.ArmorAlert;
 import mapped.Class4036;
 import mapped.Class4138;
 import mapped.Class4146;
-import mapped.Class421;
+import mapped.PistonCrystal;
 import mapped.Class469;
 import mapped.Class574;
 import mapped.Class5836;
@@ -110,7 +110,7 @@ Class245 {
         Class1108.method12918(bl2);
     }
 
-    private static int method453(int n2, int n3, Class118 class118, Class421 class421) {
+    private static int method453(int n2, int n3, Class118 class118, PistonCrystal class421) {
         return Class947.method12692(n2, n3, class118, class421);
     }
 
@@ -146,7 +146,7 @@ Class245 {
         return Class947.method12696(n2, n3, class196, class260);
     }
 
-    private static int method461(int n2, int n3, Class346 class346, Class696 class696) {
+    private static int method461(int n2, int n3, GhostHand class346, Class696 class696) {
         return Class947.method12702(n2, n3, class346, class696);
     }
 
@@ -264,7 +264,7 @@ Class245 {
         return Class947.method12687(n2, n3, class717, class574);
     }
 
-    private static int method470(int n2, int n3, Class398 class398, Class469 class469) {
+    private static int method470(int n2, int n3, ArmorAlert class398, Class469 class469) {
         return Class947.method12691(n2, n3, class398, class469);
     }
 

@@ -7,11 +7,11 @@ import mapped.Class1034;
 import mapped.Class1044;
 import mapped.Class1278;
 import mapped.Class3248;
-import mapped.Class326;
+import mapped.AntiHunger;
 import mapped.Class3510;
 import mapped.Class38;
 import mapped.Class411;
-import mapped.Class443;
+import mapped.AntiAFK;
 import mapped.Class598;
 import mapped.Class605;
 import mapped.Class6090;
@@ -32,7 +32,7 @@ public class Class5678 {
         return n2 ^ 0x25E9B4EF;
     }
 
-    public static int method22374(int n2, int n3, Class598 class598, Class443 class443) {
+    public static int method22374(int n2, int n3, Class598 class598, AntiAFK class443) {
         int n4 = n2 ^ 0x9859094D;
         return (n3 | ~n4) - ~n4;
     }
@@ -42,7 +42,7 @@ public class Class5678 {
         return (n3 | ~n4) - ~n4;
     }
 
-    public static int method22376(int n2, int n3, Class605 class605, Class326 class326) {
+    public static int method22376(int n2, int n3, Class605 class605, AntiHunger class326) {
         int n4 = n2 ^ 0xD5CE32F4;
         return (n3 | ~n4) - ~n4;
     }

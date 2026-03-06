@@ -36,36 +36,36 @@ import mapped.Class263;
 import mapped.Class265;
 import mapped.Class274;
 import mapped.Class278;
-import mapped.Class283;
-import mapped.Class293;
-import mapped.Class308;
+import mapped.BetterHotbar;
+import mapped.Reach;
+import mapped.AntiLevitation;
 import mapped.Class3224;
 import mapped.Class3272;
 import mapped.Class33;
 import mapped.Class3323;
 import mapped.Class3336;
-import mapped.Class334;
-import mapped.Class339;
+import mapped.Tracers;
+import mapped.HUD;
 import mapped.Class34;
 import mapped.Class3404;
 import mapped.Class3414;
 import mapped.Class3449;
 import mapped.Class3466;
-import mapped.Class356;
+import mapped.CombatHUD;
 import mapped.Class3592;
-import mapped.Class373;
+import mapped.Skybox;
 import mapped.Class3794;
 import mapped.Class3804;
 import mapped.Class3868;
-import mapped.Class392;
+import mapped.NewChunks;
 import mapped.Class3976;
 import mapped.Class3977;
 import mapped.Class4056;
 import mapped.Class4081;
 import mapped.Class4082;
 import mapped.Class451;
-import mapped.Class454;
-import mapped.Class457;
+import mapped.Kit;
+import mapped.Colors;
 import mapped.Class519;
 import mapped.Class530;
 import mapped.Class54;
@@ -113,7 +113,7 @@ public class Class1440 {
         return (n4 | n5) & (~n5 | ~n4);
     }
 
-    public static int method14206(int n2, int n3, Class373 class373, Class3449 class3449) {
+    public static int method14206(int n2, int n3, Skybox class373, Class3449 class3449) {
         int n4 = n2 ^ 0x2348470;
         int n5 = n3;
         return n4 & ~n5 | n5 & ~n4;
@@ -129,11 +129,11 @@ public class Class1440 {
         return 337655132 + (n2 & 0xEBDFCAA3);
     }
 
-    public static int method14209(int n2, int n3, Class373 class373, Class208 class208) {
+    public static int method14209(int n2, int n3, Skybox class373, Class208 class208) {
         return 707709205 + (n2 & 0xD5D136EA);
     }
 
-    public static int method14210(int n2, int n3, Class148 class148, Class392 class392) {
+    public static int method14210(int n2, int n3, Class148 class148, NewChunks class392) {
         return 558879425 + (n2 & 0xDEB02D3E);
     }
 
@@ -191,7 +191,7 @@ public class Class1440 {
         return n4 + ((n2 ^ 0x49C7D697) & ~n4);
     }
 
-    public static int method14222(int n2, int n3, Class283 class283, Class81 class81) {
+    public static int method14222(int n2, int n3, BetterHotbar class283, Class81 class81) {
         int n4 = n2;
         return (0x4189F66 | ~n4) - ~n4;
     }
@@ -210,7 +210,7 @@ public class Class1440 {
         return n2 ^ 0x2F1D3018;
     }
 
-    public static int method14226(int n2, int n3, Class454 class454, Class80 class80) {
+    public static int method14226(int n2, int n3, Kit class454, Class80 class80) {
         return n2 ^ 0x349B6C70;
     }
 
@@ -224,7 +224,7 @@ public class Class1440 {
         return 86426001 + (n2 & 0xFAD93E6E);
     }
 
-    public static int method14229(int n2, int n3, Class339 class339, Class560 class560) {
+    public static int method14229(int n2, int n3, HUD class339, Class560 class560) {
         return 932616649 + (n2 & 0xC8696636);
     }
 
@@ -238,17 +238,17 @@ public class Class1440 {
         return (0x226A3534 | ~n4) - ~n4;
     }
 
-    public static int method14232(int n2, int n3, Class334 class334, Class356 class356) {
+    public static int method14232(int n2, int n3, Tracers class334, CombatHUD class356) {
         int n4 = n2 ^ 0x20DB9BBD;
         return (n3 | ~n4) - ~n4;
     }
 
-    public static int method14233(int n2, int n3, Class3414 class3414, Class457 class457) {
+    public static int method14233(int n2, int n3, Class3414 class3414, Colors class457) {
         int n4 = n2;
         return (n4 | 0xB59274E) & (0xF4A6D8B1 | ~n4);
     }
 
-    public static int method14234(int n2, int n3, Class5790 class5790, Class308 class308) {
+    public static int method14234(int n2, int n3, Class5790 class5790, AntiLevitation class308) {
         int n4 = n3;
         return n4 + ((n2 ^ 0x50739FB8) & ~n4);
     }
@@ -294,7 +294,7 @@ public class Class1440 {
         return 156579082 + (n2 & 0xF6AACAF5);
     }
 
-    public static int method14244(int n2, int n3, Class293 class293, Class5532 class5532) {
+    public static int method14244(int n2, int n3, Reach class293, Class5532 class5532) {
         return 391811733 + (n2 & 0xE8A56D6A);
     }
 

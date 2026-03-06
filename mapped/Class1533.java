@@ -32,25 +32,25 @@ import mapped.Class237;
 import mapped.Class244;
 import mapped.Class251;
 import mapped.Class258;
-import mapped.Class282;
-import mapped.Class292;
-import mapped.Class316;
+import mapped.Strafe;
+import mapped.KillEffects;
+import mapped.ExtraTab;
 import mapped.Class3221;
 import mapped.Class3285;
 import mapped.Class33;
 import mapped.Class3546;
-import mapped.Class363;
+import mapped.TridentTweaks;
 import mapped.Class3659;
 import mapped.Class3684;
 import mapped.Class374;
-import mapped.Class382;
+import mapped.Notification;
 import mapped.Class3868;
 import mapped.Class3978;
 import mapped.Class3980;
-import mapped.Class409;
+import mapped.Zoom;
 import mapped.Class4134;
-import mapped.Class422;
-import mapped.Class434;
+import mapped.PistonKick;
+import mapped.Aura;
 import mapped.Class468;
 import mapped.Class47;
 import mapped.Class474;
@@ -130,7 +130,7 @@ public class Class1533 {
         return (n3 | ~n4) - ~n4;
     }
 
-    public static int method14476(int n2, int n3, Class3980 class3980, Class292 class292) {
+    public static int method14476(int n2, int n3, Class3980 class3980, KillEffects class292) {
         int n4 = n2 ^ 0xFBBBF6EB;
         return (n3 | ~n4) - ~n4;
     }
@@ -140,7 +140,7 @@ public class Class1533 {
         return n4 + ((n2 ^ 0x31000) & ~n4);
     }
 
-    public static int method14478(int n2, int n3, Class363 class363, Class3868 class3868) {
+    public static int method14478(int n2, int n3, TridentTweaks class363, Class3868 class3868) {
         return n2 ^ 0x419C7F3F ^ n3;
     }
 
@@ -164,7 +164,7 @@ public class Class1533 {
         return n4 + ((n2 ^ 0x8A240222) & ~n4);
     }
 
-    public static int method14483(int n2, int n3, Class409 class409, Class468 class468) {
+    public static int method14483(int n2, int n3, Zoom class409, Class468 class468) {
         int n4 = n3;
         return n4 + ((n2 ^ 0x3E911A13) & ~n4);
     }
@@ -179,7 +179,7 @@ public class Class1533 {
         return (0x373DB777 | ~n4) - ~n4;
     }
 
-    public static int method14486(int n2, int n3, Class282 class282, Class829 class829) {
+    public static int method14486(int n2, int n3, Strafe class282, Class829 class829) {
         return 596370003 + (n2 & 0xDC741DAC);
     }
 
@@ -213,7 +213,7 @@ public class Class1533 {
         return n4 + ((n2 ^ 0x1695AEC6) & ~n4);
     }
 
-    public static int method14493(int n2, int n3, Class422 class422, Class727 class727) {
+    public static int method14493(int n2, int n3, PistonKick class422, Class727 class727) {
         return n2 ^ 0x7B7895B;
     }
 
@@ -233,7 +233,7 @@ public class Class1533 {
         return (n4 | n5) & (~n5 | ~n4);
     }
 
-    public static int method14497(int n2, int n3, Class6161 class6161, Class316 class316) {
+    public static int method14497(int n2, int n3, Class6161 class6161, ExtraTab class316) {
         int n4 = n2 ^ 0xF7BFEA98;
         int n5 = n3;
         return (n4 | n5) & (~n5 | ~n4);
@@ -244,7 +244,7 @@ public class Class1533 {
         return (n3 | ~n4) - ~n4;
     }
 
-    public static int method14499(int n2, int n3, Class84 class84, Class434 class434) {
+    public static int method14499(int n2, int n3, Class84 class84, Aura class434) {
         int n4 = n2 ^ 0xD5981FDD;
         int n5 = n3;
         return (n4 | n5) & (~n5 | ~n4);
@@ -269,7 +269,7 @@ public class Class1533 {
         return 142750650 + (n2 & 0xF77DCC45);
     }
 
-    public static int method14504(int n2, int n3, Class382 class382, Class18 class18) {
+    public static int method14504(int n2, int n3, Notification class382, Class18 class18) {
         int n4 = n2;
         return n4 & 0xC48BA293 | 0x3B745D6C & ~n4;
     }

@@ -17,19 +17,19 @@ import mapped.Class1790;
 import mapped.Class1796;
 import mapped.Class182;
 import mapped.Class238;
-import mapped.Class295;
+import mapped.Waypoints;
 import mapped.Class30;
-import mapped.Class311;
-import mapped.Class319;
+import mapped.AutoLog;
+import mapped.AntiCrawl;
 import mapped.Class3293;
-import mapped.Class331;
-import mapped.Class358;
-import mapped.Class397;
+import mapped.PlaceEcho;
+import mapped.AnvilRename;
+import mapped.Trajectories;
 import mapped.Class4036;
-import mapped.Class423;
-import mapped.Class431;
-import mapped.Class438;
-import mapped.Class440;
+import mapped.Follower;
+import mapped.Scaffold;
+import mapped.InventoryTweaks;
+import mapped.ClickTweaks;
 import mapped.Class46;
 import mapped.Class479;
 import mapped.Class5183;
@@ -47,11 +47,11 @@ import mapped.Class77;
 import mapped.Class942;
 
 public class Class3933 {
-    public static int method19327(int n2, int n3, Class715 class715, Class423 class423) {
+    public static int method19327(int n2, int n3, Class715 class715, Follower class423) {
         return n2 ^ 0xBBFCF6BF ^ n3;
     }
 
-    public static int method19328(int n2, int n3, Class440 class440, Class4036 class4036) {
+    public static int method19328(int n2, int n3, ClickTweaks class440, Class4036 class4036) {
         int n4 = n3;
         return n4 + ((n2 ^ 0x1519AB4C) & ~n4);
     }
@@ -61,7 +61,7 @@ public class Class3933 {
         return (n3 | ~n4) - ~n4;
     }
 
-    public static int method19330(int n2, int n3, Class311 class311, Class155 class155) {
+    public static int method19330(int n2, int n3, AutoLog class311, Class155 class155) {
         int n4 = n3;
         return n4 + ((n2 ^ 0x24202071) & ~n4);
     }
@@ -84,7 +84,7 @@ public class Class3933 {
         return n2 ^ 0x3484DF0F;
     }
 
-    public static int method19335(int n2, int n3, Class397 class397, Class331 class331) {
+    public static int method19335(int n2, int n3, Trajectories class397, PlaceEcho class331) {
         int n4 = n2 ^ 0xB8744563;
         return (n3 | ~n4) - ~n4;
     }
@@ -94,7 +94,7 @@ public class Class3933 {
         return n4 + ((n2 ^ 0x200E422) & ~n4);
     }
 
-    public static int method19337(int n2, int n3, Class587 class587, Class438 class438) {
+    public static int method19337(int n2, int n3, Class587 class587, InventoryTweaks class438) {
         int n4 = n2;
         return (0x52DE937 | ~n4) - ~n4;
     }
@@ -109,7 +109,7 @@ public class Class3933 {
         return (0x2DA4494B | ~n4) - ~n4;
     }
 
-    public static int method19340(int n2, int n3, Class295 class295, Class479 class479) {
+    public static int method19340(int n2, int n3, Waypoints class295, Class479 class479) {
         int n4 = n2;
         return (0x2DEE7B40 | ~n4) - ~n4;
     }
@@ -128,7 +128,7 @@ public class Class3933 {
         return n2 ^ 0x86ED995;
     }
 
-    public static int method19344(int n2, int n3, Class358 class358, Class117 class117) {
+    public static int method19344(int n2, int n3, AnvilRename class358, Class117 class117) {
         int n4 = n2 ^ 0xBBE5E3DD;
         int n5 = n3;
         return (n4 | n5) & (~n5 | ~n4);
@@ -140,7 +140,7 @@ public class Class3933 {
         return n4 & ~n5 | n5 & ~n4;
     }
 
-    public static int method19346(int n2, int n3, Class431 class431, Class319 class319) {
+    public static int method19346(int n2, int n3, Scaffold class431, AntiCrawl class319) {
         return 846976629 + (n2 & 0xCD84298A);
     }
 

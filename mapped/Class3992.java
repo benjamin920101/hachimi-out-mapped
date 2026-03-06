@@ -34,7 +34,7 @@ import mapped.Class3224;
 import mapped.Class3580;
 import mapped.Class3868;
 import mapped.Class4036;
-import mapped.Class404;
+import mapped.MainHand;
 import mapped.Class4045;
 import mapped.Class4146;
 import mapped.Class5510;
@@ -142,7 +142,7 @@ extends class_4264 {
         this.field9125 = h2;
     }
 
-    private static int method19603(int n2, int n3, Class404 class404, Class708 class708) {
+    private static int method19603(int n2, int n3, MainHand class404, Class708 class708) {
         return Class1367.method13951(n2, n3, class404, class708);
     }
 

@@ -18,13 +18,13 @@ import mapped.Class221;
 import mapped.Class245;
 import mapped.Class267;
 import mapped.Class3291;
-import mapped.Class381;
+import mapped.NoJumpDelay;
 import mapped.Class3891;
-import mapped.Class390;
+import mapped.Disabler;
 import mapped.Class3937;
 import mapped.Class3957;
-import mapped.Class420;
-import mapped.Class448;
+import mapped.Nuker;
+import mapped.AntiAliasing;
 import mapped.Class548;
 import mapped.Class5628;
 import mapped.Class5659;
@@ -77,7 +77,7 @@ public class Class5467 {
         return (0x3DCABDAC | ~n4) - ~n4;
     }
 
-    public static int method21219(int n2, int n3, Class420 class420, Class390 class390) {
+    public static int method21219(int n2, int n3, Nuker class420, Disabler class390) {
         int n4 = n3;
         return n4 + ((n2 ^ 0x456840C0) & ~n4);
     }
@@ -100,11 +100,11 @@ public class Class5467 {
         return 1072829845 + (n2 & 0xC00DEA6A);
     }
 
-    public static int method21224(int n2, int n3, Class381 class381, Class617 class617) {
+    public static int method21224(int n2, int n3, NoJumpDelay class381, Class617 class617) {
         return 226520015 + (n2 & 0xF27F9430);
     }
 
-    public static int method21225(int n2, int n3, Class448 class448, Class112 class112) {
+    public static int method21225(int n2, int n3, AntiAliasing class448, Class112 class112) {
         int n4 = n2 ^ 0xFDFBDFEF;
         return (n3 | ~n4) - ~n4;
     }

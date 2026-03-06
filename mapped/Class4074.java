@@ -46,37 +46,37 @@ import mapped.Class246;
 import mapped.Class255;
 import mapped.Class262;
 import mapped.Class266;
-import mapped.Class285;
-import mapped.Class286;
-import mapped.Class311;
-import mapped.Class317;
-import mapped.Class322;
+import mapped.Crosshair;
+import mapped.NoRotate;
+import mapped.AutoLog;
+import mapped.AntiSpam;
+import mapped.MaceSpoof;
 import mapped.Class3293;
-import mapped.Class340;
+import mapped.NoSlow;
 import mapped.Class3419;
 import mapped.Class3426;
 import mapped.Class3497;
-import mapped.Class350;
+import mapped.FastLatency;
 import mapped.Class3511;
 import mapped.Class36;
 import mapped.Class3684;
-import mapped.Class369;
-import mapped.Class370;
-import mapped.Class381;
+import mapped.StorageESP;
+import mapped.PMSound;
+import mapped.NoJumpDelay;
 import mapped.Class3817;
 import mapped.Class3843;
-import mapped.Class386;
+import mapped.FastPlace;
 import mapped.Class3880;
 import mapped.Class3935;
 import mapped.Class3952;
 import mapped.Class40;
 import mapped.Class4081;
-import mapped.Class423;
-import mapped.Class429;
-import mapped.Class434;
-import mapped.Class442;
-import mapped.Class448;
-import mapped.Class453;
+import mapped.Follower;
+import mapped.HoleFill;
+import mapped.Aura;
+import mapped.Sprint;
+import mapped.AntiAliasing;
+import mapped.Server;
 import mapped.Class480;
 import mapped.Class4971;
 import mapped.Class520;
@@ -117,7 +117,7 @@ public class Class4074 {
         return n2 ^ 0x3F09DC63;
     }
 
-    public static int method20265(int n2, int n3, Class5587 class5587, Class369 class369) {
+    public static int method20265(int n2, int n3, Class5587 class5587, StorageESP class369) {
         return n2 ^ 0x712DF8D7 ^ n3;
     }
 
@@ -161,7 +161,7 @@ public class Class4074 {
         return (0x13E8AEAF | ~n4) - ~n4;
     }
 
-    public static int method20274(int n2, int n3, Class150 class150, Class286 class286) {
+    public static int method20274(int n2, int n3, Class150 class150, NoRotate class286) {
         int n4 = n2 ^ 0xBFFBE6DC;
         int n5 = n3;
         return n4 & ~n5 | n5 & ~n4;
@@ -181,7 +181,7 @@ public class Class4074 {
         return (n4 | 0x294AF562) & (0xD6B50A9D | ~n4);
     }
 
-    public static int method20278(int n2, int n3, Class448 class448, Class1750 class1750) {
+    public static int method20278(int n2, int n3, AntiAliasing class448, Class1750 class1750) {
         return 257234763 + (n2 & 0xF0AAE8B4);
     }
 
@@ -206,7 +206,7 @@ public class Class4074 {
         return (n3 | ~n4) - ~n4;
     }
 
-    public static int method20283(int n2, int n3, Class317 class317, Class69 class69) {
+    public static int method20283(int n2, int n3, AntiSpam class317, Class69 class69) {
         int n4 = n2;
         return (n4 | 0x419E407) & (0xFBE61BF8 | ~n4);
     }
@@ -228,11 +228,11 @@ public class Class4074 {
         return (0x2A60A4D7 | ~n4) - ~n4;
     }
 
-    public static int method20287(int n2, int n3, Class429 class429, Class1763 class1763) {
+    public static int method20287(int n2, int n3, HoleFill class429, Class1763 class1763) {
         return 694856177 + (n2 & 0xD695560E);
     }
 
-    public static int method20288(int n2, int n3, Class285 class285, Class311 class311) {
+    public static int method20288(int n2, int n3, Crosshair class285, AutoLog class311) {
         int n4 = n2 ^ 0xF3E9C9EF;
         int n5 = n3;
         return (n4 | n5) & (~n5 | ~n4);
@@ -243,7 +243,7 @@ public class Class4074 {
         return n4 + ((n2 ^ 0xFEFFDFFF) & ~n4);
     }
 
-    public static int method20290(int n2, int n3, Class241 class241, Class340 class340) {
+    public static int method20290(int n2, int n3, Class241 class241, NoSlow class340) {
         return 8400760 + (n2 & 0xFF7FD087);
     }
 
@@ -275,7 +275,7 @@ public class Class4074 {
         return n4 & ~n5 | n5 & ~n4;
     }
 
-    public static int method20296(int n2, int n3, Class434 class434, Class53 class53) {
+    public static int method20296(int n2, int n3, Aura class434, Class53 class53) {
         int n4 = n2;
         return (0x26EBA788 | ~n4) - ~n4;
     }
@@ -300,22 +300,22 @@ public class Class4074 {
         return n2 ^ 0x908080B4 ^ n3;
     }
 
-    public static int method20301(int n2, int n3, Class453 class453, Class3684 class3684) {
+    public static int method20301(int n2, int n3, Server class453, Class3684 class3684) {
         int n4 = n2 ^ 0x88001006;
         return (n3 | ~n4) - ~n4;
     }
 
-    public static int method20302(int n2, int n3, Class381 class381, Class202 class202) {
+    public static int method20302(int n2, int n3, NoJumpDelay class381, Class202 class202) {
         int n4 = n2;
         return (0x2D4DA2FE | ~n4) - ~n4;
     }
 
-    public static int method20303(int n2, int n3, Class423 class423, Class262 class262) {
+    public static int method20303(int n2, int n3, Follower class423, Class262 class262) {
         int n4 = n3;
         return n4 + ((n2 ^ 0xD6F6EEEF) & ~n4);
     }
 
-    public static int method20304(int n2, int n3, Class6074 class6074, Class317 class317) {
+    public static int method20304(int n2, int n3, Class6074 class6074, AntiSpam class317) {
         int n4 = n2 ^ 0xB23D2BA1;
         int n5 = n3;
         return n4 & ~n5 | n5 & ~n4;
@@ -329,7 +329,7 @@ public class Class4074 {
         return n2 ^ 0x273100D ^ n3;
     }
 
-    public static int method20307(int n2, int n3, Class784 class784, Class370 class370) {
+    public static int method20307(int n2, int n3, Class784 class784, PMSound class370) {
         int n4 = n2;
         return (n4 | 0x12C28F61) & (0xED3D709E | ~n4);
     }
@@ -354,11 +354,11 @@ public class Class4074 {
         return n4 + ((n2 ^ 0x2A473E74) & ~n4);
     }
 
-    public static int method20312(int n2, int n3, Class322 class322, Class520 class520) {
+    public static int method20312(int n2, int n3, MaceSpoof class322, Class520 class520) {
         return 791738781 + (n2 & 0xD0CF0662);
     }
 
-    public static int method20313(int n2, int n3, Class5460 class5460, Class442 class442) {
+    public static int method20313(int n2, int n3, Class5460 class5460, Sprint class442) {
         return 783275512 + (n2 & 0xD1502A07);
     }
 
@@ -386,11 +386,11 @@ public class Class4074 {
         return n2 ^ 0x63FFF2A;
     }
 
-    public static int method20319(int n2, int n3, Class199 class199, Class350 class350) {
+    public static int method20319(int n2, int n3, Class199 class199, FastLatency class350) {
         return n2 ^ 0xDA342404 | n3;
     }
 
-    public static int method20320(int n2, int n3, Class386 class386, Class5649 class5649) {
+    public static int method20320(int n2, int n3, FastPlace class386, Class5649 class5649) {
         int n4 = n2 ^ 0x79AE6E7E;
         return (n3 | ~n4) - ~n4;
     }

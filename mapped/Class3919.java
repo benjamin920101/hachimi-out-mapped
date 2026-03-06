@@ -9,13 +9,13 @@ import mapped.Class1750;
 import mapped.Class189;
 import mapped.Class247;
 import mapped.Class3259;
-import mapped.Class356;
-import mapped.Class389;
+import mapped.CombatHUD;
+import mapped.ChorusControl;
 import mapped.Class4074;
-import mapped.Class408;
+import mapped.Replenish;
 import mapped.Class4084;
-import mapped.Class416;
-import mapped.Class458;
+import mapped.Surround;
+import mapped.Socials;
 import mapped.Class5649;
 import mapped.Class5693;
 import mapped.Class626;
@@ -34,11 +34,11 @@ public class Class3919 {
         return 902520046 + (n2 & 0xCA34A311);
     }
 
-    public static int method19317(int n2, int n3, Class389 class389, Class408 class408) {
+    public static int method19317(int n2, int n3, ChorusControl class389, Replenish class408) {
         return 460074262 + (n2 & 0xE493D2E9);
     }
 
-    public static int method19318(int n2, int n3, Class416 class416, Class4074 class4074) {
+    public static int method19318(int n2, int n3, Surround class416, Class4074 class4074) {
         int n4 = n2 ^ 0xBFD9BC67;
         return (n3 | ~n4) - ~n4;
     }
@@ -58,7 +58,7 @@ public class Class3919 {
         return n4 + ((n2 ^ 0x3F33B6AB) & ~n4);
     }
 
-    public static int method19322(int n2, int n3, Class356 class356, Class696 class696) {
+    public static int method19322(int n2, int n3, CombatHUD class356, Class696 class696) {
         return n2 ^ 0x32B06E3E;
     }
 
@@ -66,7 +66,7 @@ public class Class3919 {
         return n2 ^ 0x7B049E70 ^ n3;
     }
 
-    public static int method19324(int n2, int n3, Class1412 class1412, Class458 class458) {
+    public static int method19324(int n2, int n3, Class1412 class1412, Socials class458) {
         return 717232659 + (n2 & 0xD53FE5EC);
     }
 }

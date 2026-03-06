@@ -26,14 +26,14 @@ import mapped.Class1745;
 import mapped.Class209;
 import mapped.Class216;
 import mapped.Class230;
-import mapped.Class348;
+import mapped.BlockHighlight;
 import mapped.Class3974;
 import mapped.Class4036;
 import mapped.Class4122;
 import mapped.Class4146;
-import mapped.Class419;
-import mapped.Class423;
-import mapped.Class447;
+import mapped.AutoCrystal;
+import mapped.Follower;
+import mapped.Velocity;
 import mapped.Class545;
 import mapped.Class5463;
 import mapped.Class5541;
@@ -160,7 +160,7 @@ public class Class1807 {
     }
 
     private static boolean method15751() {
-        return Class447.method10252();
+        return Velocity.method10252();
     }
 
     private static void method15752() {
@@ -373,7 +373,7 @@ public class Class1807 {
         return Class5659.method22111();
     }
 
-    private static int method15778(int n2, int n3, Class419 class419, Class423 class423) {
+    private static int method15778(int n2, int n3, AutoCrystal class419, Follower class423) {
         return Class5541.method21774(n2, n3, class419, class423);
     }
 
@@ -389,7 +389,7 @@ public class Class1807 {
         Class1807.method15747(-6622690105523327149L);
     }
 
-    private static int method15781(int n2, int n3, Class147 class147, Class348 class348) {
+    private static int method15781(int n2, int n3, Class147 class147, BlockHighlight class348) {
         return Class5541.method21807(n2, n3, class147, class348);
     }
 

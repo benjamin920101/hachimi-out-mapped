@@ -44,12 +44,12 @@ import mapped.Class3462;
 import mapped.Class3641;
 import mapped.Class3833;
 import mapped.Class3979;
-import mapped.Class408;
+import mapped.Replenish;
 import mapped.Class4122;
 import mapped.Class4196;
 import mapped.Class4225;
-import mapped.Class447;
-import mapped.Class453;
+import mapped.Velocity;
+import mapped.Server;
 import mapped.Class541;
 import mapped.Class5613;
 import mapped.Class5649;
@@ -128,7 +128,7 @@ public class Class1158 {
                     int n3;
                     if (!(f2 instanceof class_1560)) break block5;
                     class_1560 a2 = (class_1560)f2;
-                    if (!a2.method_6510()) return Class447.method10322();
+                    if (!a2.method_6510()) return Velocity.method10322();
                     int n4 = 51512;
                     boolean bl2 = true;
                     do {
@@ -184,7 +184,7 @@ public class Class1158 {
         return Class5659.method22150(d2, d3, d4);
     }
 
-    private static int method13119(int n2, int n3, Class81 class81, Class453 class453) {
+    private static int method13119(int n2, int n3, Class81 class81, Server class453) {
         return Class3283.method16807(n2, n3, class81, class453);
     }
 
@@ -205,7 +205,7 @@ public class Class1158 {
                     continue block4;
                 }
                 case 1431: {
-                    if (a2 instanceof class_1493) return Class408.method6431();
+                    if (a2 instanceof class_1493) return Replenish.method6431();
                     if (!(a2 instanceof class_1439)) return Class1158.method13132(1851071128);
                     return (int)field4625[0] != 0;
                 }
@@ -232,7 +232,7 @@ public class Class1158 {
     }
 
     private static boolean method13126() {
-        return Class447.method10252();
+        return Velocity.method10252();
     }
 
     private static boolean method13127(int n2) {
@@ -328,7 +328,7 @@ public class Class1158 {
             int e2 = class_4076.method_18690((long)c2);
             if (d2 < n2) continue;
             if (d2 > q2) {
-                return Class447.method10322();
+                return Velocity.method10322();
             }
             int n3 = 26217;
             block5: while (true) {

@@ -9,9 +9,9 @@ import mapped.Class1463;
 import mapped.Class172;
 import mapped.Class21;
 import mapped.Class2297;
-import mapped.Class318;
-import mapped.Class324;
-import mapped.Class359;
+import mapped.Tooltips;
+import mapped.AutoMount;
+import mapped.Ping;
 import mapped.Class540;
 import mapped.Class5541;
 import mapped.Class578;
@@ -29,7 +29,7 @@ public class Class5534 {
         return (n3 | ~n4) - ~n4;
     }
 
-    public static int method21754(int n2, int n3, Class359 class359, Class318 class318) {
+    public static int method21754(int n2, int n3, Ping class359, Tooltips class318) {
         int n4 = n2;
         return (0x21C5F6E8 | ~n4) - ~n4;
     }
@@ -39,7 +39,7 @@ public class Class5534 {
         return (n3 | ~n4) - ~n4;
     }
 
-    public static int method21756(int n2, int n3, Class324 class324, Class172 class172) {
+    public static int method21756(int n2, int n3, AutoMount class324, Class172 class172) {
         int n4 = n2 ^ 0xB4457CF7;
         return (n3 | ~n4) - ~n4;
     }

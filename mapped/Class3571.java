@@ -7,13 +7,13 @@ import mapped.Class1367;
 import mapped.Class1610;
 import mapped.Class17;
 import mapped.Class268;
-import mapped.Class323;
+import mapped.NoSlotSet;
 import mapped.Class3364;
-import mapped.Class359;
+import mapped.Ping;
 import mapped.Class3793;
 import mapped.Class3907;
 import mapped.Class40;
-import mapped.Class404;
+import mapped.MainHand;
 import mapped.Class5595;
 import mapped.Class58;
 import mapped.Class581;
@@ -32,7 +32,7 @@ public class Class3571 {
         return (0x79D3B90 | ~n4) - ~n4;
     }
 
-    public static int method17830(int n2, int n3, Class323 class323, Class5938 class5938) {
+    public static int method17830(int n2, int n3, NoSlotSet class323, Class5938 class5938) {
         int n4 = n3;
         return n4 + ((n2 ^ 0xBF9FFF7D) & ~n4);
     }
@@ -51,7 +51,7 @@ public class Class3571 {
         return 1044711589 + (n2 & 0xC1BAF75A);
     }
 
-    public static int method17834(int n2, int n3, Class17 class17, Class359 class359) {
+    public static int method17834(int n2, int n3, Class17 class17, Ping class359) {
         return n2 ^ 0x9BDCA930 ^ n3;
     }
 
@@ -69,7 +69,7 @@ public class Class3571 {
         return (n3 | ~n4) - ~n4;
     }
 
-    public static int method17838(int n2, int n3, Class5595 class5595, Class404 class404) {
+    public static int method17838(int n2, int n3, Class5595 class5595, MainHand class404) {
         int n4 = n2;
         return n4 & 0xE7CBAA53 | 0x183455AC & ~n4;
     }

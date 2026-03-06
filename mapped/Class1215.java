@@ -26,8 +26,8 @@ package mapped;
 import java.util.ArrayList;
 import java.util.List;
 import mapped.Class1807;
-import mapped.Class298;
-import mapped.Class376;
+import mapped.Chams;
+import mapped.Blink;
 import mapped.Class4122;
 import mapped.Class5659;
 import mapped.Class6454;
@@ -148,7 +148,7 @@ public class Class1215 {
     }
 
     private static void method13260() {
-        Class298.method1924();
+        Chams.method1924();
     }
 
     public static boolean method13261(double a2, double b2) {
@@ -169,7 +169,7 @@ public class Class1215 {
     }
 
     private static boolean method13263() {
-        return Class376.method4987();
+        return Blink.method4987();
     }
 
     public static boolean method13264(class_2338 a2, boolean b2, class_2248 c2) {

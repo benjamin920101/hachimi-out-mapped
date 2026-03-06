@@ -19,9 +19,9 @@ import mapped.Class261;
 import mapped.Class268;
 import mapped.Class27;
 import mapped.Class277;
-import mapped.Class279;
+import mapped.AutoArmor;
 import mapped.Class31;
-import mapped.Class387;
+import mapped.XCarry;
 import mapped.Class3937;
 import mapped.Class4036;
 import mapped.Class411;
@@ -287,7 +287,7 @@ public final class Class4132 {
         this.method20665();
     }
 
-    private static int method20678(int n2, int n3, Class411 class411, Class387 class387) {
+    private static int method20678(int n2, int n3, Class411 class411, XCarry class387) {
         return Class3937.method19419(n2, n3, class411, class387);
     }
 
@@ -295,7 +295,7 @@ public final class Class4132 {
         return new ArrayList(this.field9593.values());
     }
 
-    private static int method20680(int n2, int n3, Class279 class279, Class261 class261) {
+    private static int method20680(int n2, int n3, AutoArmor class279, Class261 class261) {
         return Class3937.method19409(n2, n3, class279, class261);
     }
 

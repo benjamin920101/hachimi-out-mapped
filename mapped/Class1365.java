@@ -15,11 +15,11 @@ package mapped;
 import mapped.Class1763;
 import mapped.Class1807;
 import mapped.Class3432;
-import mapped.Class382;
+import mapped.Notification;
 import mapped.Class4074;
 import mapped.Class4087;
 import mapped.Class4122;
-import mapped.Class457;
+import mapped.Colors;
 import mapped.Class5836;
 import net.minecraft.util.Formatting;
 import net.minecraft.entity.player.PlayerEntity;
@@ -97,9 +97,9 @@ public class Class1365 {
     }
 
     public static void method13931(String b2, int c2) {
-        Class1365.method13942(Class382.INSTANCE, b2, c2);
+        Class1365.method13942(Notification.INSTANCE, b2, c2);
         if (Class1365.method13940(Class1365.method13935())) {
-            class_7591 a2 = new class_7591(Class457.method10620().method10621().intValue(), null, (class_2561)class_2561.method_43473(), "Hachimi");
+            class_7591 a2 = new class_7591(Colors.method10620().method10621().intValue(), null, (class_2561)class_2561.method_43473(), "Hachimi");
             ((Class1763)Class1365.method13925(Class4122.field9561).method_1743()).method15699(class_2561.method_30163((String)b2), a2, c2);
         }
     }
@@ -116,8 +116,8 @@ public class Class1365 {
         Class1365.method13919(string);
     }
 
-    public static Class382 method13935() {
-        return Class382.INSTANCE;
+    public static Notification method13935() {
+        return Notification.INSTANCE;
     }
 
     public static void method13936(String a2) {
@@ -128,15 +128,15 @@ public class Class1365 {
         return class_3102.field_1705;
     }
 
-    private static Class457 method13938() {
-        return Class457.method10620();
+    private static Colors method13938() {
+        return Colors.method10620();
     }
 
     private static class_746 method13939(class_310 class_3102) {
         return Class1365.method13927(class_3102);
     }
 
-    private static boolean method13940(Class382 class382) {
+    private static boolean method13940(Notification class382) {
         return class382.method5105();
     }
 
@@ -144,7 +144,7 @@ public class Class1365 {
         Class1365.method13919(String.format(a2, b2));
     }
 
-    private static void method13942(Class382 class382, String string, int n2) {
+    private static void method13942(Notification class382, String string, int n2) {
         class382.method5103(string, n2);
     }
 
@@ -170,14 +170,14 @@ public class Class1365 {
 
     public static void method13948(String b2, int c2) {
         Class1365.method13949().method5103(b2, c2);
-        if (Class382.INSTANCE.method5105()) {
+        if (Notification.INSTANCE.method5105()) {
             class_7591 a2 = new class_7591(Class1365.method13938().method10621().intValue(), null, (class_2561)class_2561.method_43473(), "Hachimi");
             ((Class1763)Class1365.method13924(Class4122.field9561).method_1743()).method15699(class_2561.method_30163((String)("\u00a7s[Hachimi] \u00a7r" + b2)), a2, c2);
         }
     }
 
-    public static Class382 method13949() {
-        return Class382.INSTANCE;
+    public static Notification method13949() {
+        return Notification.INSTANCE;
     }
 }
 

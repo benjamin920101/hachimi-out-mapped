@@ -18,21 +18,21 @@ import mapped.Class252;
 import mapped.Class253;
 import mapped.Class26;
 import mapped.Class266;
-import mapped.Class286;
-import mapped.Class287;
-import mapped.Class309;
-import mapped.Class336;
-import mapped.Class341;
+import mapped.NoRotate;
+import mapped.Nametags;
+import mapped.Swing;
+import mapped.NoFall;
+import mapped.TrueSight;
 import mapped.Class3473;
-import mapped.Class352;
-import mapped.Class381;
+import mapped.Speed;
+import mapped.NoJumpDelay;
 import mapped.Class3880;
-import mapped.Class400;
+import mapped.NoMineAnimation;
 import mapped.Class4110;
 import mapped.Class414;
 import mapped.Class4146;
-import mapped.Class418;
-import mapped.Class431;
+import mapped.AutoTrap;
+import mapped.Scaffold;
 import mapped.Class487;
 import mapped.Class530;
 import mapped.Class5441;
@@ -56,12 +56,12 @@ public class Class3780 {
         return n2 ^ 0xEC8CBF1;
     }
 
-    public static int method18307(int n2, int n3, Class239 class239, Class431 class431) {
+    public static int method18307(int n2, int n3, Class239 class239, Scaffold class431) {
         int n4 = n3;
         return n4 + ((n2 ^ 0x35CDE95C) & ~n4);
     }
 
-    public static int method18308(int n2, int n3, Class5441 class5441, Class336 class336) {
+    public static int method18308(int n2, int n3, Class5441 class5441, NoFall class336) {
         int n4 = n2;
         return (0x35117041 | ~n4) - ~n4;
     }
@@ -76,7 +76,7 @@ public class Class3780 {
         return (0x3F79098D | ~n4) - ~n4;
     }
 
-    public static int method18311(int n2, int n3, Class352 class352, Class253 class253) {
+    public static int method18311(int n2, int n3, Speed class352, Class253 class253) {
         int n4 = n2 ^ 0x7F5C73C0;
         int n5 = n3;
         return n4 & ~n5 | n5 & ~n4;
@@ -88,15 +88,15 @@ public class Class3780 {
         return n4 & ~n5 | n5 & ~n4;
     }
 
-    public static int method18313(int n2, int n3, Class287 class287, Class610 class610) {
+    public static int method18313(int n2, int n3, Nametags class287, Class610 class610) {
         return n2 ^ 0x822830D;
     }
 
-    public static int method18314(int n2, int n3, Class341 class341, Class252 class252) {
+    public static int method18314(int n2, int n3, TrueSight class341, Class252 class252) {
         return 218058300 + (n2 & 0xF300B1C3);
     }
 
-    public static int method18315(int n2, int n3, Class5670 class5670, Class431 class431) {
+    public static int method18315(int n2, int n3, Class5670 class5670, Scaffold class431) {
         return n2 ^ 0xD471E974 ^ n3;
     }
 
@@ -108,12 +108,12 @@ public class Class3780 {
         return n2 ^ 0x650269D2 ^ n3;
     }
 
-    public static int method18318(int n2, int n3, Class309 class309, Class400 class400) {
+    public static int method18318(int n2, int n3, Swing class309, NoMineAnimation class400) {
         int n4 = n2 ^ 0x399812A7;
         return (n3 | ~n4) - ~n4;
     }
 
-    public static int method18319(int n2, int n3, Class381 class381, Class4146 class4146) {
+    public static int method18319(int n2, int n3, NoJumpDelay class381, Class4146 class4146) {
         int n4 = n2 ^ 0xCCB8816F;
         int n5 = n3;
         return n4 & ~n5 | n5 & ~n4;
@@ -128,7 +128,7 @@ public class Class3780 {
         return n2 ^ 0x23605138;
     }
 
-    public static int method18322(int n2, int n3, Class266 class266, Class286 class286) {
+    public static int method18322(int n2, int n3, Class266 class266, NoRotate class286) {
         return n2 ^ 0x48004 ^ n3;
     }
 
@@ -145,7 +145,7 @@ public class Class3780 {
         return 921324308 + (n2 & 0xC915B4EB);
     }
 
-    public static int method18326(int n2, int n3, Class418 class418, Class5837 class5837) {
+    public static int method18326(int n2, int n3, AutoTrap class418, Class5837 class5837) {
         return n2 ^ 0x639DF53;
     }
 }

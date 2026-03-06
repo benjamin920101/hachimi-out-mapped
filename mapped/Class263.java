@@ -31,7 +31,7 @@ import mapped.Class1668;
 import mapped.Class1745;
 import mapped.Class1807;
 import mapped.Class264;
-import mapped.Class298;
+import mapped.Chams;
 import mapped.Class3587;
 import mapped.Class5473;
 import mapped.Class5685;
@@ -272,7 +272,7 @@ implements Class264 {
     }
 
     private static void method760() {
-        Class298.method1924();
+        Chams.method1924();
     }
 
     public void method761(int a2, int b2, BiConsumer c2) {

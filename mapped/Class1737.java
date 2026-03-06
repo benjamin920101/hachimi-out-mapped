@@ -8,13 +8,13 @@ import mapped.Class1011;
 import mapped.Class170;
 import mapped.Class220;
 import mapped.Class250;
-import mapped.Class294;
-import mapped.Class300;
-import mapped.Class372;
-import mapped.Class398;
-import mapped.Class400;
-import mapped.Class445;
-import mapped.Class458;
+import mapped.PacketCanceler;
+import mapped.Debug;
+import mapped.PacketEat;
+import mapped.ArmorAlert;
+import mapped.NoMineAnimation;
+import mapped.Phase;
+import mapped.Socials;
 import mapped.Class530;
 import mapped.Class5473;
 import mapped.Class5478;
@@ -23,27 +23,27 @@ import mapped.Class637;
 import mapped.Class6435;
 
 public class Class1737 {
-    public static int method15509(int n2, int n3, Class458 class458, Class300 class300) {
+    public static int method15509(int n2, int n3, Socials class458, Debug class300) {
         int n4 = n3;
         return n4 + ((n2 ^ 0x87834597) & ~n4);
     }
 
-    public static int method15510(int n2, int n3, Class445 class445, Class6435 class6435) {
+    public static int method15510(int n2, int n3, Phase class445, Class6435 class6435) {
         int n4 = n2 ^ 0x1E380000;
         return (n3 | ~n4) - ~n4;
     }
 
-    public static int method15511(int n2, int n3, Class294 class294, Class400 class400) {
+    public static int method15511(int n2, int n3, PacketCanceler class294, NoMineAnimation class400) {
         int n4 = n3;
         return n4 + ((n2 ^ 0xE0911405) & ~n4);
     }
 
-    public static int method15512(int n2, int n3, Class372 class372, Class220 class220) {
+    public static int method15512(int n2, int n3, PacketEat class372, Class220 class220) {
         int n4 = n3;
         return n4 + ((n2 ^ 0x1AEE5D9) & ~n4);
     }
 
-    public static int method15513(int n2, int n3, Class530 class530, Class398 class398) {
+    public static int method15513(int n2, int n3, Class530 class530, ArmorAlert class398) {
         int n4 = n2 ^ 0xC7FDFF7F;
         return (n3 | ~n4) - ~n4;
     }

@@ -9,7 +9,7 @@ package mapped;
 import mapped.Class124;
 import mapped.Class225;
 import mapped.Class235;
-import mapped.Class406;
+import mapped.Spammer;
 import mapped.Class4074;
 import mapped.Class42;
 import mapped.Class554;
@@ -97,7 +97,7 @@ class Class3368 {
         Class3368.field7306[3] = l2 ^ 0xBF00C03590BBC312L;
     }
 
-    private static int method17190(int n2, int n3, Class406 class406, Class686 class686) {
+    private static int method17190(int n2, int n3, Spammer class406, Class686 class686) {
         return Class6418.method24501(n2, n3, class406, class686);
     }
 

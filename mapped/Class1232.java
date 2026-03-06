@@ -20,22 +20,22 @@ import mapped.Class27;
 import mapped.Class274;
 import mapped.Class275;
 import mapped.Class277;
-import mapped.Class287;
-import mapped.Class320;
+import mapped.Nametags;
+import mapped.InventorySync;
 import mapped.Class34;
-import mapped.Class341;
+import mapped.TrueSight;
 import mapped.Class3691;
-import mapped.Class379;
-import mapped.Class380;
+import mapped.AirPlace;
+import mapped.BreakESP;
 import mapped.Class3817;
-import mapped.Class389;
+import mapped.ChorusControl;
 import mapped.Class3952;
 import mapped.Class40;
-import mapped.Class412;
-import mapped.Class417;
-import mapped.Class420;
-import mapped.Class421;
-import mapped.Class435;
+import mapped.InventoryManager;
+import mapped.AntiPhase;
+import mapped.Nuker;
+import mapped.PistonCrystal;
+import mapped.AutoMine;
 import mapped.Class44;
 import mapped.Class526;
 import mapped.Class5496;
@@ -84,12 +84,12 @@ public class Class1232 {
         return (n3 | ~n4) - ~n4;
     }
 
-    public static int method13305(int n2, int n3, Class6280 class6280, Class320 class320) {
+    public static int method13305(int n2, int n3, Class6280 class6280, InventorySync class320) {
         int n4 = n2;
         return (0x16427008 | ~n4) - ~n4;
     }
 
-    public static int method13306(int n2, int n3, Class380 class380, Class417 class417) {
+    public static int method13306(int n2, int n3, BreakESP class380, AntiPhase class417) {
         return n2 ^ 0xF971734;
     }
 
@@ -97,7 +97,7 @@ public class Class1232 {
         return n2 ^ 0xCCA9AD8F ^ n3;
     }
 
-    public static int method13308(int n2, int n3, Class287 class287, Class149 class149) {
+    public static int method13308(int n2, int n3, Nametags class287, Class149 class149) {
         int n4 = n2 ^ 0x4E28CE80;
         return (n3 | ~n4) - ~n4;
     }
@@ -107,7 +107,7 @@ public class Class1232 {
         return n4 + ((n2 ^ 0xBC213D0F) & ~n4);
     }
 
-    public static int method13310(int n2, int n3, Class217 class217, Class379 class379) {
+    public static int method13310(int n2, int n3, Class217 class217, AirPlace class379) {
         int n4 = n2;
         return (0x2EC6F62C | ~n4) - ~n4;
     }
@@ -117,22 +117,22 @@ public class Class1232 {
         return (n3 | ~n4) - ~n4;
     }
 
-    public static int method13312(int n2, int n3, Class123 class123, Class421 class421) {
+    public static int method13312(int n2, int n3, Class123 class123, PistonCrystal class421) {
         int n4 = n2;
         return (0x2310222C | ~n4) - ~n4;
     }
 
-    public static int method13313(int n2, int n3, Class3691 class3691, Class341 class341) {
+    public static int method13313(int n2, int n3, Class3691 class3691, TrueSight class341) {
         int n4 = n2 ^ 0xB1348CC6;
         int n5 = n3;
         return (n4 | n5) & (~n5 | ~n4);
     }
 
-    public static int method13314(int n2, int n3, Class389 class389, Class251 class251) {
+    public static int method13314(int n2, int n3, ChorusControl class389, Class251 class251) {
         return 41762734 + (n2 & 0xFD82C051);
     }
 
-    public static int method13315(int n2, int n3, Class195 class195, Class420 class420) {
+    public static int method13315(int n2, int n3, Class195 class195, Nuker class420) {
         int n4 = n2;
         return (0x1B3DD442 | ~n4) - ~n4;
     }
@@ -141,7 +141,7 @@ public class Class1232 {
         return 602300591 + (n2 & 0xDC199F50);
     }
 
-    public static int method13317(int n2, int n3, Class412 class412, Class27 class27) {
+    public static int method13317(int n2, int n3, InventoryManager class412, Class27 class27) {
         return n2 ^ 8 ^ n3;
     }
 
@@ -150,7 +150,7 @@ public class Class1232 {
         return (0x2079B9AC | ~n4) - ~n4;
     }
 
-    public static int method13319(int n2, int n3, Class435 class435, Class3952 class3952) {
+    public static int method13319(int n2, int n3, AutoMine class435, Class3952 class3952) {
         int n4 = n2 ^ 0x3FB2295C;
         int n5 = n3;
         return (n4 | n5) & (~n5 | ~n4);

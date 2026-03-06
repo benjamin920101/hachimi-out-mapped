@@ -7,7 +7,7 @@ import mapped.Class1383;
 import mapped.Class1763;
 import mapped.Class1790;
 import mapped.Class235;
-import mapped.Class290;
+import mapped.Ambience;
 import mapped.Class3879;
 import mapped.Class4079;
 import mapped.Class468;
@@ -18,7 +18,7 @@ public class Class3678 {
         return n4 & 0xDBA2A9E7 | 0x245D5618 & ~n4;
     }
 
-    public static int method18135(int n2, int n3, Class1383 class1383, Class290 class290) {
+    public static int method18135(int n2, int n3, Class1383 class1383, Ambience class290) {
         int n4 = n3;
         return n4 + ((n2 ^ 0x3C385517) & ~n4);
     }

@@ -16,7 +16,7 @@ import mapped.Class1503;
 import mapped.Class229;
 import mapped.Class3815;
 import mapped.Class3979;
-import mapped.Class455;
+import mapped.AntiCheat;
 import mapped.Class6322;
 import mapped.Class659;
 import mapped.Class926;
@@ -85,7 +85,7 @@ public final class Class1447 {
     }
 
     public boolean method14262() {
-        return this.field5507.method12595(Float.valueOf(Class455.method10581().method10573().floatValue() * 50.0f));
+        return this.field5507.method12595(Float.valueOf(AntiCheat.method10581().method10573().floatValue() * 50.0f));
     }
 
     private static void method14263(long l2) {

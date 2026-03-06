@@ -14,7 +14,7 @@ package mapped;
 import java.util.Comparator;
 import mapped.Class1503;
 import mapped.Class221;
-import mapped.Class287;
+import mapped.Nametags;
 import mapped.Class4045;
 import mapped.Class4122;
 import mapped.Class4222;
@@ -85,7 +85,7 @@ implements Comparator {
     }
 
     private static int method10886(int n2) {
-        return Class287.method1495(n2);
+        return Nametags.method1495(n2);
     }
 
     public int method10887(class_1297 a2, class_1297 b2) {
@@ -182,7 +182,7 @@ implements Comparator {
     }
 
     private static int method10897(int n2) {
-        return Class287.method1495(n2);
+        return Nametags.method1495(n2);
     }
 
     private static int method10898() {

@@ -20,8 +20,8 @@ import java.nio.file.attribute.FileAttribute;
 import java.util.function.Predicate;
 import mapped.Class1658;
 import mapped.Class246;
-import mapped.Class298;
-import mapped.Class329;
+import mapped.Chams;
+import mapped.XRay;
 import mapped.Class3979;
 import mapped.Class4089;
 import mapped.Class4146;
@@ -87,7 +87,7 @@ extends Class1658 {
         return Class5723.field11059;
     }
 
-    private static int method15102(int n2, int n3, Class4089 class4089, Class329 class329) {
+    private static int method15102(int n2, int n3, Class4089 class4089, XRay class329) {
         return Class4655.method20953(n2, n3, class4089, class329);
     }
 
@@ -96,7 +96,7 @@ extends Class1658 {
     }
 
     private static void method15104() {
-        Class298.method1924();
+        Chams.method1924();
     }
 
     private static JsonObject method15105(Class246 class246) {

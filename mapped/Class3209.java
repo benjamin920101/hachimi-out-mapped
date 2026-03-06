@@ -12,12 +12,12 @@ import mapped.Class1763;
 import mapped.Class192;
 import mapped.Class208;
 import mapped.Class240;
-import mapped.Class295;
-import mapped.Class327;
+import mapped.Waypoints;
+import mapped.Yaw;
 import mapped.Class3510;
-import mapped.Class368;
+import mapped.ClientSpoof;
 import mapped.Class3815;
-import mapped.Class407;
+import mapped.EntityControl;
 import mapped.Class522;
 import mapped.Class525;
 import mapped.Class543;
@@ -48,7 +48,7 @@ public class Class3209 {
         return (0x249D3EDA | ~n4) - ~n4;
     }
 
-    public static int method16021(int n2, int n3, Class522 class522, Class327 class327) {
+    public static int method16021(int n2, int n3, Class522 class522, Yaw class327) {
         return n2 ^ 0x23809514;
     }
 
@@ -56,7 +56,7 @@ public class Class3209 {
         return 106949540 + (n2 & 0xF9A0145B);
     }
 
-    public static int method16023(int n2, int n3, Class10 class10, Class368 class368) {
+    public static int method16023(int n2, int n3, Class10 class10, ClientSpoof class368) {
         int n4 = n2 ^ 0x10CFD8A6;
         return (n3 | ~n4) - ~n4;
     }
@@ -70,7 +70,7 @@ public class Class3209 {
         return (n4 | 0x38E704A3) & (0xC718FB5C | ~n4);
     }
 
-    public static int method16026(int n2, int n3, Class6161 class6161, Class295 class295) {
+    public static int method16026(int n2, int n3, Class6161 class6161, Waypoints class295) {
         return n2 ^ 0x2D0769E;
     }
 
@@ -79,7 +79,7 @@ public class Class3209 {
         return n4 + ((n2 ^ 0xFDFB2CDE) & ~n4);
     }
 
-    public static int method16028(int n2, int n3, Class3510 class3510, Class407 class407) {
+    public static int method16028(int n2, int n3, Class3510 class3510, EntityControl class407) {
         int n4 = n2 ^ 0xBFDFF6BF;
         int n5 = n3;
         return n4 & ~n5 | n5 & ~n4;

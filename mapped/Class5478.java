@@ -19,12 +19,12 @@ import java.util.concurrent.ConcurrentMap;
 import mapped.Class1063;
 import mapped.Class1365;
 import mapped.Class1503;
-import mapped.Class376;
+import mapped.Blink;
 import mapped.Class4122;
 import mapped.Class4196;
-import mapped.Class453;
-import mapped.Class454;
-import mapped.Class458;
+import mapped.Server;
+import mapped.Kit;
+import mapped.Socials;
 import mapped.Class546;
 import mapped.Class5540;
 import mapped.Class5649;
@@ -48,7 +48,7 @@ public class Class5478 {
      * Enabled aggressive block sorting
      */
     public boolean method21233(String a2) {
-        if (Class458.method10623().method10622()) {
+        if (Socials.method10623().method10622()) {
             return Class5659.method22111();
         }
         int n2 = 17860;
@@ -59,7 +59,7 @@ public class Class5478 {
                     continue block4;
                 }
                 case 17860: {
-                    if (Class453.field2377) break block4;
+                    if (Server.field2377) break block4;
                     return (int)field10265[0] != 0;
                 }
             }
@@ -105,12 +105,12 @@ public class Class5478 {
     }
 
     public boolean method21243(class_2561 a2) {
-        if (!Class458.method10623().method10622() && !Class453.field2377) {
+        if (!Socials.method10623().method10622() && !Server.field2377) {
             return (int)field10265[0] != 0;
         }
         if (a2 != null && this.method21238(a2.getString(), Class546.field2704)) {
             int n2 = (int)field10265[1];
-            return Class376.method4987();
+            return Blink.method4987();
         }
         return (int)field10265[0] != 0;
     }
@@ -157,7 +157,7 @@ public class Class5478 {
         return Class546.field2704;
     }
 
-    private static int method21253(int n2, int n3, Class454 class454, Class1063 class1063) {
+    private static int method21253(int n2, int n3, Kit class454, Class1063 class1063) {
         return Class5540.method21771(n2, n3, class454, class1063);
     }
 
@@ -171,7 +171,7 @@ public class Class5478 {
 
     public void method21255(String f2) {
         this.method21258(f2, Class5478.method21235());
-        if (Class458.method10623().method10624()) {
+        if (Socials.method10623().method10624()) {
             Collection e2;
             Iterator iterator;
             if (Class5478.method21242().field_1687 != null && (iterator = (e2 = Class5478.method21254().field_1724.field_3944.method_2880()).iterator()).hasNext()) {
@@ -221,7 +221,7 @@ public class Class5478 {
     }
 
     public boolean method21261(class_1657 a2) {
-        if (!Class458.method10623().method10622() && !Class453.field2377) {
+        if (!Socials.method10623().method10622() && !Server.field2377) {
             return (int)field10265[0] != 0;
         }
         return this.method21238(a2.method_7334().getName(), Class546.field2704);

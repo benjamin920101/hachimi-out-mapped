@@ -11,17 +11,17 @@ import mapped.Class1405;
 import mapped.Class189;
 import mapped.Class227;
 import mapped.Class233;
-import mapped.Class339;
-import mapped.Class341;
-import mapped.Class426;
-import mapped.Class430;
+import mapped.HUD;
+import mapped.TrueSight;
+import mapped.Flatten;
+import mapped.AutoCrawlTrap;
 import mapped.Class5829;
 import mapped.Class77;
 import mapped.Class78;
 import mapped.Class8;
 
 public class Class3872 {
-    public static int method19078(int n2, int n3, Class341 class341, Class129 class129) {
+    public static int method19078(int n2, int n3, TrueSight class341, Class129 class129) {
         int n4 = n2 ^ 0x80120010;
         return (n3 | ~n4) - ~n4;
     }
@@ -30,12 +30,12 @@ public class Class3872 {
         return 164924948 + (n2 & 0xF62B71EB);
     }
 
-    public static int method19080(int n2, int n3, Class339 class339, Class1405 class1405) {
+    public static int method19080(int n2, int n3, HUD class339, Class1405 class1405) {
         int n4 = n2 ^ 0x9EEA02AE;
         return (n3 | ~n4) - ~n4;
     }
 
-    public static int method19081(int n2, int n3, Class426 class426, Class8 class8) {
+    public static int method19081(int n2, int n3, Flatten class426, Class8 class8) {
         return 38119312 + (n2 & 0xFDBA586F);
     }
 
@@ -44,7 +44,7 @@ public class Class3872 {
         return (n3 | ~n4) - ~n4;
     }
 
-    public static int method19083(int n2, int n3, Class115 class115, Class430 class430) {
+    public static int method19083(int n2, int n3, Class115 class115, AutoCrawlTrap class430) {
         return 807809983 + (n2 & 0xCFD9CC40);
     }
 

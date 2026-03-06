@@ -26,16 +26,16 @@ import mapped.Class1503;
 import mapped.Class1668;
 import mapped.Class1745;
 import mapped.Class1807;
-import mapped.Class279;
-import mapped.Class298;
-import mapped.Class315;
+import mapped.AutoArmor;
+import mapped.Chams;
+import mapped.HoleESP;
 import mapped.Class3323;
 import mapped.Class3815;
 import mapped.Class3979;
 import mapped.Class4122;
 import mapped.Class4146;
 import mapped.Class4244;
-import mapped.Class429;
+import mapped.HoleFill;
 import mapped.Class537;
 import mapped.Class543;
 import mapped.Class5595;
@@ -130,7 +130,7 @@ public class Class4971 {
      */
     public List method20968(class_243 f2) {
         ArrayList<class_2338> g2 = new ArrayList<class_2338>();
-        double h2 = Math.ceil(Math.max(5.0, Class315.method2586().method2593()));
+        double h2 = Math.ceil(Math.max(5.0, HoleESP.method2586().method2593()));
         double e2 = -h2;
         while (e2 <= h2) {
             double d2 = -h2;
@@ -151,7 +151,7 @@ public class Class4971 {
                             double c2 = -h2;
                             if (!(c2 <= h2)) {
                                 int n4 = 27126;
-                                Class298.method1924();
+                                Chams.method1924();
                                 return null;
                             }
                             int n5 = 27125;
@@ -234,7 +234,7 @@ public class Class4971 {
             if (n2 != 56510) continue;
             return;
         } while (n2 == 56511);
-        if (!Class315.method2586().method1265() && !Class4971.method20992().method1265()) {
+        if (!HoleESP.method2586().method1265() && !Class4971.method20992().method1265()) {
             return;
         }
         Class4244 a2 = new Class4244(this, this.method20968(Class4971.method20965(Class4122.field9561).method_19538()));
@@ -273,7 +273,7 @@ public class Class4971 {
         Class3979.method19561();
     }
 
-    private static int method20983(int n2, int n3, Class628 class628, Class279 class279) {
+    private static int method20983(int n2, int n3, Class628 class628, AutoArmor class279) {
         return Class3323.method16972(n2, n3, class628, class279);
     }
 
@@ -313,8 +313,8 @@ public class Class4971 {
         Class5836.method22890();
     }
 
-    private static Class429 method20992() {
-        return Class429.method8657();
+    private static HoleFill method20992() {
+        return HoleFill.method8657();
     }
 
     private static void method20993() {

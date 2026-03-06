@@ -17,21 +17,21 @@ import mapped.Class232;
 import mapped.Class234;
 import mapped.Class268;
 import mapped.Class270;
-import mapped.Class279;
-import mapped.Class332;
+import mapped.AutoArmor;
+import mapped.Search;
 import mapped.Class3377;
 import mapped.Class3414;
 import mapped.Class3510;
 import mapped.Class3556;
 import mapped.Class3684;
-import mapped.Class371;
-import mapped.Class381;
-import mapped.Class382;
+import mapped.TickShift;
+import mapped.NoJumpDelay;
+import mapped.Notification;
 import mapped.Class3878;
-import mapped.Class391;
-import mapped.Class408;
-import mapped.Class420;
-import mapped.Class455;
+import mapped.NoGlitch;
+import mapped.Replenish;
+import mapped.Nuker;
+import mapped.AntiCheat;
 import mapped.Class5534;
 import mapped.Class5582;
 import mapped.Class5711;
@@ -46,16 +46,16 @@ import mapped.Class711;
 import mapped.Class92;
 
 public class Class3990 {
-    public static int method19576(int n2, int n3, Class382 class382, Class624 class624) {
+    public static int method19576(int n2, int n3, Notification class382, Class624 class624) {
         int n4 = n2;
         return (0xB780476 | ~n4) - ~n4;
     }
 
-    public static int method19577(int n2, int n3, Class621 class621, Class381 class381) {
+    public static int method19577(int n2, int n3, Class621 class621, NoJumpDelay class381) {
         return 226454375 + (n2 & 0xF2809498);
     }
 
-    public static int method19578(int n2, int n3, Class371 class371, Class234 class234) {
+    public static int method19578(int n2, int n3, TickShift class371, Class234 class234) {
         int n4 = n2 ^ 0x14822841;
         return (n3 | ~n4) - ~n4;
     }
@@ -69,7 +69,7 @@ public class Class3990 {
         return 946169525 + (n2 & 0xC79A994A);
     }
 
-    public static int method19581(int n2, int n3, Class613 class613, Class420 class420) {
+    public static int method19581(int n2, int n3, Class613 class613, Nuker class420) {
         int n4 = n3;
         return n4 + ((n2 ^ 0xB59011AD) & ~n4);
     }
@@ -104,7 +104,7 @@ public class Class3990 {
         return 405391779 + (n2 & 0xE7D6365C);
     }
 
-    public static int method19588(int n2, int n3, Class408 class408, Class270 class270) {
+    public static int method19588(int n2, int n3, Replenish class408, Class270 class270) {
         int n4 = n2 ^ 0xC19E45BC;
         return (n3 | ~n4) - ~n4;
     }
@@ -119,7 +119,7 @@ public class Class3990 {
         return (n3 | ~n4) - ~n4;
     }
 
-    public static int method19591(int n2, int n3, Class583 class583, Class391 class391) {
+    public static int method19591(int n2, int n3, Class583 class583, NoGlitch class391) {
         int n4 = n2;
         return (0x1EE43714 | ~n4) - ~n4;
     }
@@ -129,12 +129,12 @@ public class Class3990 {
         return (0x29D06650 | ~n4) - ~n4;
     }
 
-    public static int method19593(int n2, int n3, Class455 class455, Class3510 class3510) {
+    public static int method19593(int n2, int n3, AntiCheat class455, Class3510 class3510) {
         int n4 = n2;
         return (0xDE82293 | ~n4) - ~n4;
     }
 
-    public static int method19594(int n2, int n3, Class332 class332, Class279 class279) {
+    public static int method19594(int n2, int n3, Search class332, AutoArmor class279) {
         int n4 = n2 ^ 0x41AAA383;
         return (n3 | ~n4) - ~n4;
     }

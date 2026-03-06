@@ -7,8 +7,8 @@ import mapped.Class1365;
 import mapped.Class141;
 import mapped.Class1658;
 import mapped.Class2;
-import mapped.Class311;
-import mapped.Class328;
+import mapped.AutoLog;
+import mapped.BoatFly;
 import mapped.Class3792;
 import mapped.Class43;
 import mapped.Class5541;
@@ -27,7 +27,7 @@ public class Class3783 {
         return (n3 | ~n4) - ~n4;
     }
 
-    public static int method18329(int n2, int n3, Class311 class311, Class1365 class1365) {
+    public static int method18329(int n2, int n3, AutoLog class311, Class1365 class1365) {
         return 214645082 + (n2 & 0xF334C6A5);
     }
 
@@ -36,7 +36,7 @@ public class Class3783 {
         return n4 + ((n2 ^ 0x5F7B2F7F) & ~n4);
     }
 
-    public static int method18331(int n2, int n3, Class2 class2, Class328 class328) {
+    public static int method18331(int n2, int n3, Class2 class2, BoatFly class328) {
         return n2 ^ 0x2E08D110;
     }
 

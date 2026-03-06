@@ -22,7 +22,7 @@ import mapped.Class170;
 import mapped.Class229;
 import mapped.Class251;
 import mapped.Class3815;
-import mapped.Class408;
+import mapped.Replenish;
 import mapped.Class4122;
 import mapped.Class461;
 import mapped.Class533;
@@ -125,7 +125,7 @@ public class Class3978 {
     }
 
     private static boolean method19517() {
-        return Class408.method6431();
+        return Replenish.method6431();
     }
 
     public float method19518() {

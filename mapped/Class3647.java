@@ -10,21 +10,21 @@ import mapped.Class3392;
 import mapped.Class3684;
 import mapped.Class3833;
 import mapped.Class3990;
-import mapped.Class415;
-import mapped.Class419;
-import mapped.Class446;
-import mapped.Class458;
+import mapped.PearlBlocker;
+import mapped.AutoCrystal;
+import mapped.AutoXP;
+import mapped.Socials;
 import mapped.Class550;
 import mapped.Class5944;
 import mapped.Class63;
 
 public class Class3647 {
-    public static int method17986(int n2, int n3, Class446 class446, Class458 class458) {
+    public static int method17986(int n2, int n3, AutoXP class446, Socials class458) {
         int n4 = n2;
         return (0x355439A | ~n4) - ~n4;
     }
 
-    public static int method17987(int n2, int n3, Class419 class419, Class3392 class3392) {
+    public static int method17987(int n2, int n3, AutoCrystal class419, Class3392 class3392) {
         return n2 ^ 0x31BBDE31;
     }
 
@@ -43,7 +43,7 @@ public class Class3647 {
         return (n4 | n5) & (~n5 | ~n4);
     }
 
-    public static int method17991(int n2, int n3, Class3684 class3684, Class415 class415) {
+    public static int method17991(int n2, int n3, Class3684 class3684, PearlBlocker class415) {
         int n4 = n2;
         return (0x19A5D293 | ~n4) - ~n4;
     }

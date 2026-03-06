@@ -15,16 +15,16 @@ import mapped.Class181;
 import mapped.Class2297;
 import mapped.Class259;
 import mapped.Class260;
-import mapped.Class316;
+import mapped.ExtraTab;
 import mapped.Class3317;
-import mapped.Class336;
+import mapped.NoFall;
 import mapped.Class3730;
-import mapped.Class377;
-import mapped.Class382;
+import mapped.Parkour;
+import mapped.Notification;
 import mapped.Class4045;
 import mapped.Class4081;
 import mapped.Class4146;
-import mapped.Class452;
+import mapped.Baritone;
 import mapped.Class5460;
 import mapped.Class5550;
 import mapped.Class580;
@@ -68,7 +68,7 @@ public class Class5556 {
         return n4 & ~n5 | n5 & ~n4;
     }
 
-    public static int method21894(int n2, int n3, Class382 class382, Class3317 class3317) {
+    public static int method21894(int n2, int n3, Notification class382, Class3317 class3317) {
         return n2 ^ 0x297A158E;
     }
 
@@ -81,7 +81,7 @@ public class Class5556 {
         return (n4 | 0x3ED67B31) & (0xC12984CE | ~n4);
     }
 
-    public static int method21897(int n2, int n3, Class336 class336, Class316 class316) {
+    public static int method21897(int n2, int n3, NoFall class336, ExtraTab class316) {
         int n4 = n2;
         return (0x3FB322F2 | ~n4) - ~n4;
     }
@@ -99,13 +99,13 @@ public class Class5556 {
         return 221576156 + (n2 & 0xF2CB0423);
     }
 
-    public static int method21901(int n2, int n3, Class452 class452, Class4081 class4081) {
+    public static int method21901(int n2, int n3, Baritone class452, Class4081 class4081) {
         int n4 = n2 ^ 0x44132704;
         int n5 = n3;
         return n4 & ~n5 | n5 & ~n4;
     }
 
-    public static int method21902(int n2, int n3, Class2297 class2297, Class377 class377) {
+    public static int method21902(int n2, int n3, Class2297 class2297, Parkour class377) {
         return n2 ^ 0x35298069;
     }
 

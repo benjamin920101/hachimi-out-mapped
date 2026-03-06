@@ -7,12 +7,12 @@ import mapped.Class118;
 import mapped.Class1447;
 import mapped.Class188;
 import mapped.Class33;
-import mapped.Class343;
+import mapped.AutoReconnect;
 import mapped.Class3814;
-import mapped.Class383;
+import mapped.LongJump;
 import mapped.Class3937;
-import mapped.Class396;
-import mapped.Class457;
+import mapped.PhantomView;
+import mapped.Colors;
 import mapped.Class527;
 import mapped.Class685;
 import mapped.Class695;
@@ -26,15 +26,15 @@ public class Class1695 {
         return (n3 | ~n4) - ~n4;
     }
 
-    public static int method15404(int n2, int n3, Class396 class396, Class905 class905) {
+    public static int method15404(int n2, int n3, PhantomView class396, Class905 class905) {
         return 614113790 + (n2 & 0xDB655E01);
     }
 
-    public static int method15405(int n2, int n3, Class343 class343, Class3937 class3937) {
+    public static int method15405(int n2, int n3, AutoReconnect class343, Class3937 class3937) {
         return 799183818 + (n2 & 0xD05D6C35);
     }
 
-    public static int method15406(int n2, int n3, Class85 class85, Class457 class457) {
+    public static int method15406(int n2, int n3, Class85 class85, Colors class457) {
         return 898652077 + (n2 & 0xCA6FA852);
     }
 
@@ -51,7 +51,7 @@ public class Class1695 {
         return n4 + ((n2 ^ 0x155433B0) & ~n4);
     }
 
-    public static int method15410(int n2, int n3, Class383 class383, Class1447 class1447) {
+    public static int method15410(int n2, int n3, LongJump class383, Class1447 class1447) {
         int n4 = n2 ^ 0xEBE3DC87;
         return (n3 | ~n4) - ~n4;
     }

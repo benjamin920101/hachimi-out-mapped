@@ -9,14 +9,14 @@ import mapped.Class177;
 import mapped.Class191;
 import mapped.Class212;
 import mapped.Class241;
-import mapped.Class281;
-import mapped.Class296;
+import mapped.FreeLook;
+import mapped.Font;
 import mapped.Class3224;
-import mapped.Class344;
+import mapped.ChestStealer;
 import mapped.Class3684;
 import mapped.Class3814;
 import mapped.Class3915;
-import mapped.Class404;
+import mapped.MainHand;
 import mapped.Class487;
 import mapped.Class52;
 import mapped.Class525;
@@ -42,7 +42,7 @@ public class Class3291 {
         return (0x3FE083D2 | ~n4) - ~n4;
     }
 
-    public static int method16826(int n2, int n3, Class404 class404, Class5473 class5473) {
+    public static int method16826(int n2, int n3, MainHand class404, Class5473 class5473) {
         int n4 = n2;
         return (0xB4289D4 | ~n4) - ~n4;
     }
@@ -62,7 +62,7 @@ public class Class3291 {
         return (n3 | ~n4) - ~n4;
     }
 
-    public static int method16830(int n2, int n3, Class296 class296, Class52 class52) {
+    public static int method16830(int n2, int n3, Font class296, Class52 class52) {
         int n4 = n2 ^ 0x3DEF3E72;
         int n5 = n3;
         return n4 & ~n5 | n5 & ~n4;
@@ -73,7 +73,7 @@ public class Class3291 {
         return n4 & 0xF78BB767 | 0x8744898 & ~n4;
     }
 
-    public static int method16832(int n2, int n3, Class344 class344, Class3684 class3684) {
+    public static int method16832(int n2, int n3, ChestStealer class344, Class3684 class3684) {
         int n4 = n3;
         return n4 + ((n2 ^ 0x7404C482) & ~n4);
     }
@@ -83,7 +83,7 @@ public class Class3291 {
         return (0xBD01D97 | ~n4) - ~n4;
     }
 
-    public static int method16834(int n2, int n3, Class487 class487, Class281 class281) {
+    public static int method16834(int n2, int n3, Class487 class487, FreeLook class281) {
         int n4 = n2;
         return (0x13780B9E | ~n4) - ~n4;
     }

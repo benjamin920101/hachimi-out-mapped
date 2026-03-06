@@ -11,7 +11,7 @@ import com.google.gson.JsonObject;
 import java.util.function.Supplier;
 import mapped.Class1668;
 import mapped.Class248;
-import mapped.Class376;
+import mapped.Blink;
 import mapped.Class3979;
 import mapped.Class5659;
 import mapped.Class5836;
@@ -97,7 +97,7 @@ extends Class248 {
     }
 
     private static boolean method570() {
-        return Class376.method4987();
+        return Blink.method4987();
     }
 
     public native Number method571(JsonObject var1);

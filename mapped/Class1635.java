@@ -37,47 +37,47 @@ import mapped.Class255;
 import mapped.Class27;
 import mapped.Class270;
 import mapped.Class273;
-import mapped.Class282;
-import mapped.Class287;
-import mapped.Class288;
-import mapped.Class295;
-import mapped.Class304;
-import mapped.Class322;
+import mapped.Strafe;
+import mapped.Nametags;
+import mapped.NameProtect;
+import mapped.Waypoints;
+import mapped.AutoRelease;
+import mapped.MaceSpoof;
 import mapped.Class3259;
-import mapped.Class326;
-import mapped.Class333;
-import mapped.Class335;
+import mapped.AntiHunger;
+import mapped.ClickGui;
+import mapped.Timer;
 import mapped.Class3377;
 import mapped.Class3426;
-import mapped.Class345;
-import mapped.Class346;
-import mapped.Class347;
-import mapped.Class359;
-import mapped.Class363;
-import mapped.Class368;
-import mapped.Class370;
+import mapped.Shulkerception;
+import mapped.GhostHand;
+import mapped.AutoTool;
+import mapped.Ping;
+import mapped.TridentTweaks;
+import mapped.ClientSpoof;
+import mapped.PMSound;
 import mapped.Class3730;
 import mapped.Class374;
 import mapped.Class3796;
 import mapped.Class3817;
-import mapped.Class385;
+import mapped.RocketExtend;
 import mapped.Class3850;
-import mapped.Class389;
+import mapped.ChorusControl;
 import mapped.Class3891;
-import mapped.Class390;
+import mapped.Disabler;
 import mapped.Class3977;
 import mapped.Class40;
-import mapped.Class401;
+import mapped.UnfocusedFPS;
 import mapped.Class4057;
-import mapped.Class406;
-import mapped.Class409;
-import mapped.Class410;
+import mapped.Spammer;
+import mapped.Zoom;
+import mapped.MultiTask;
 import mapped.Class4210;
 import mapped.Class4218;
-import mapped.Class422;
+import mapped.PistonKick;
 import mapped.Class4257;
-import mapped.Class445;
-import mapped.Class456;
+import mapped.Phase;
+import mapped.Rotations;
 import mapped.Class461;
 import mapped.Class51;
 import mapped.Class519;
@@ -112,12 +112,12 @@ import mapped.Class83;
 import mapped.Class941;
 
 public class Class1635 {
-    public static int method14782(int n2, int n3, Class282 class282, Class3817 class3817) {
+    public static int method14782(int n2, int n3, Strafe class282, Class3817 class3817) {
         int n4 = n2 ^ 0x8552C40;
         return (n3 | ~n4) - ~n4;
     }
 
-    public static int method14783(int n2, int n3, Class456 class456, Class51 class51) {
+    public static int method14783(int n2, int n3, Rotations class456, Class51 class51) {
         int n4 = n2 ^ 0x15FFDAFF;
         int n5 = n3;
         return (n4 | n5) & (~n5 | ~n4);
@@ -149,7 +149,7 @@ public class Class1635 {
         return (0x33D2E9F9 | ~n4) - ~n4;
     }
 
-    public static int method14789(int n2, int n3, Class105 class105, Class287 class287) {
+    public static int method14789(int n2, int n3, Class105 class105, Nametags class287) {
         int n4 = n3;
         return n4 + ((n2 ^ 0x7800000) & ~n4);
     }
@@ -168,7 +168,7 @@ public class Class1635 {
         return n4 + ((n2 ^ 0xFDFFFFFC) & ~n4);
     }
 
-    public static int method14793(int n2, int n3, Class401 class401, Class209 class209) {
+    public static int method14793(int n2, int n3, UnfocusedFPS class401, Class209 class209) {
         return n2 ^ 0xE683D85;
     }
 
@@ -178,7 +178,7 @@ public class Class1635 {
         return (n4 | n5) & (~n5 | ~n4);
     }
 
-    public static int method14795(int n2, int n3, Class591 class591, Class345 class345) {
+    public static int method14795(int n2, int n3, Class591 class591, Shulkerception class345) {
         int n4 = n2;
         return (n4 | 0x8E7D758) & (0xF71828A7 | ~n4);
     }
@@ -193,17 +193,17 @@ public class Class1635 {
         return n4 + ((n2 ^ 0xE58F050) & ~n4);
     }
 
-    public static int method14798(int n2, int n3, Class347 class347, Class4210 class4210) {
+    public static int method14798(int n2, int n3, AutoTool class347, Class4210 class4210) {
         int n4 = n2 ^ 0x140A6016;
         return (n3 | ~n4) - ~n4;
     }
 
-    public static int method14799(int n2, int n3, Class6408 class6408, Class422 class422) {
+    public static int method14799(int n2, int n3, Class6408 class6408, PistonKick class422) {
         int n4 = n2;
         return (0x3E948131 | ~n4) - ~n4;
     }
 
-    public static int method14800(int n2, int n3, Class4057 class4057, Class370 class370) {
+    public static int method14800(int n2, int n3, Class4057 class4057, PMSound class370) {
         int n4 = n2 ^ 0x6D995269;
         int n5 = n3;
         return (n4 | n5) & (~n5 | ~n4);
@@ -214,12 +214,12 @@ public class Class1635 {
         return (0x1B6FAA8C | ~n4) - ~n4;
     }
 
-    public static int method14802(int n2, int n3, Class273 class273, Class288 class288) {
+    public static int method14802(int n2, int n3, Class273 class273, NameProtect class288) {
         int n4 = n2 ^ 0x22F31D1A;
         return (n3 | ~n4) - ~n4;
     }
 
-    public static int method14803(int n2, int n3, Class3977 class3977, Class445 class445) {
+    public static int method14803(int n2, int n3, Class3977 class3977, Phase class445) {
         int n4 = n2;
         return (0x2681AA80 | ~n4) - ~n4;
     }
@@ -238,7 +238,7 @@ public class Class1635 {
         return (n3 | ~n4) - ~n4;
     }
 
-    public static int method14807(int n2, int n3, Class359 class359, Class686 class686) {
+    public static int method14807(int n2, int n3, Ping class359, Class686 class686) {
         int n4 = n2;
         return (0x207F379F | ~n4) - ~n4;
     }
@@ -248,7 +248,7 @@ public class Class1635 {
         return (0x12F7CC8D | ~n4) - ~n4;
     }
 
-    public static int method14809(int n2, int n3, Class75 class75, Class335 class335) {
+    public static int method14809(int n2, int n3, Class75 class75, Timer class335) {
         return n2 ^ 0x9DEC285C ^ n3;
     }
 
@@ -261,7 +261,7 @@ public class Class1635 {
         return (0x125F6D85 | ~n4) - ~n4;
     }
 
-    public static int method14812(int n2, int n3, Class322 class322, Class363 class363) {
+    public static int method14812(int n2, int n3, MaceSpoof class322, TridentTweaks class363) {
         int n4 = n2;
         return (0x2928C7AA | ~n4) - ~n4;
     }
@@ -298,22 +298,22 @@ public class Class1635 {
         return n4 + ((n2 ^ 0xA3889F07) & ~n4);
     }
 
-    public static int method14820(int n2, int n3, Class389 class389, Class390 class390) {
+    public static int method14820(int n2, int n3, ChorusControl class389, Disabler class390) {
         return 826191814 + (n2 & 0xCEC15039);
     }
 
-    public static int method14821(int n2, int n3, Class326 class326, Class385 class385) {
+    public static int method14821(int n2, int n3, AntiHunger class326, RocketExtend class385) {
         int n4 = n2 ^ 0x65D25FB0;
         int n5 = n3;
         return n4 & ~n5 | n5 & ~n4;
     }
 
-    public static int method14822(int n2, int n3, Class4218 class4218, Class333 class333) {
+    public static int method14822(int n2, int n3, Class4218 class4218, ClickGui class333) {
         int n4 = n3;
         return n4 + ((n2 ^ 0x8FE5AF00) & ~n4);
     }
 
-    public static int method14823(int n2, int n3, Class5760 class5760, Class406 class406) {
+    public static int method14823(int n2, int n3, Class5760 class5760, Spammer class406) {
         return 291745520 + (n2 & 0xEE9C510F);
     }
 
@@ -322,7 +322,7 @@ public class Class1635 {
         return (n4 | 0x1A71AFEC) & (0xE58E5013 | ~n4);
     }
 
-    public static int method14825(int n2, int n3, Class304 class304, Class540 class540) {
+    public static int method14825(int n2, int n3, AutoRelease class304, Class540 class540) {
         int n4 = n3;
         return n4 + ((n2 ^ 0x43ED4093) & ~n4);
     }
@@ -331,7 +331,7 @@ public class Class1635 {
         return n2 ^ 0x201098D4;
     }
 
-    public static int method14827(int n2, int n3, Class410 class410, Class1570 class1570) {
+    public static int method14827(int n2, int n3, MultiTask class410, Class1570 class1570) {
         int n4 = n2;
         return (0x133C0724 | ~n4) - ~n4;
     }
@@ -356,7 +356,7 @@ public class Class1635 {
         return (0x1EAC44A1 | ~n4) - ~n4;
     }
 
-    public static int method14832(int n2, int n3, Class295 class295, Class409 class409) {
+    public static int method14832(int n2, int n3, Waypoints class295, Zoom class409) {
         int n4 = n2;
         return (0xF2DDD14 | ~n4) - ~n4;
     }
@@ -365,17 +365,17 @@ public class Class1635 {
         return n2 ^ 0x22E15A7C;
     }
 
-    public static int method14834(int n2, int n3, Class368 class368, Class246 class246) {
+    public static int method14834(int n2, int n3, ClientSpoof class368, Class246 class246) {
         int n4 = n2;
         return (0x290B7C86 | ~n4) - ~n4;
     }
 
-    public static int method14835(int n2, int n3, Class121 class121, Class333 class333) {
+    public static int method14835(int n2, int n3, Class121 class121, ClickGui class333) {
         int n4 = n3;
         return n4 + ((n2 ^ 0x3F6E437C) & ~n4);
     }
 
-    public static int method14836(int n2, int n3, Class106 class106, Class346 class346) {
+    public static int method14836(int n2, int n3, Class106 class106, GhostHand class346) {
         int n4 = n3;
         return n4 + ((n2 ^ 0x1180) & ~n4);
     }

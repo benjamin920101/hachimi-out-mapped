@@ -13,10 +13,10 @@ import mapped.Class1145;
 import mapped.Class1588;
 import mapped.Class1745;
 import mapped.Class1807;
-import mapped.Class298;
+import mapped.Chams;
 import mapped.Class4122;
 import mapped.Class4265;
-import mapped.Class456;
+import mapped.Rotations;
 import mapped.Class5672;
 import mapped.Class5723;
 import mapped.Class6009;
@@ -80,7 +80,7 @@ public class Class1503 {
     }
 
     public static void method14420() {
-        if (Class456.method10602().method10610() != Class632.field3088) {
+        if (Rotations.method10602().method10610() != Class632.field3088) {
             Class1807.method15744();
             return;
         }
@@ -124,7 +124,7 @@ public class Class1503 {
     }
 
     private static void method14428() {
-        Class298.method1924();
+        Chams.method1924();
     }
 
     public static float method14429(class_243 a2) {

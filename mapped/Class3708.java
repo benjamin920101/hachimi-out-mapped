@@ -12,16 +12,16 @@ import mapped.Class1467;
 import mapped.Class1561;
 import mapped.Class1763;
 import mapped.Class199;
-import mapped.Class291;
-import mapped.Class297;
-import mapped.Class312;
+import mapped.FastProjectile;
+import mapped.AntiWeakness;
+import mapped.SkinBlink;
 import mapped.Class3442;
 import mapped.Class3491;
 import mapped.Class3794;
-import mapped.Class386;
+import mapped.FastPlace;
 import mapped.Class3980;
 import mapped.Class4028;
-import mapped.Class457;
+import mapped.Colors;
 import mapped.Class486;
 import mapped.Class521;
 import mapped.Class543;
@@ -42,7 +42,7 @@ public class Class3708 {
         return n4 + ((n2 ^ 0x542981) & ~n4);
     }
 
-    public static int method18163(int n2, int n3, Class457 class457, Class3442 class3442) {
+    public static int method18163(int n2, int n3, Colors class457, Class3442 class3442) {
         int n4 = n2;
         return (n4 | 0x6BD6C12) & (0xF94293ED | ~n4);
     }
@@ -89,21 +89,21 @@ public class Class3708 {
         return n4 + ((n2 ^ 0x2D976A65) & ~n4);
     }
 
-    public static int method18173(int n2, int n3, Class95 class95, Class291 class291) {
+    public static int method18173(int n2, int n3, Class95 class95, FastProjectile class291) {
         int n4 = n3;
         return n4 + ((n2 ^ 0xFC7B85A0) & ~n4);
     }
 
-    public static int method18174(int n2, int n3, Class100 class100, Class312 class312) {
+    public static int method18174(int n2, int n3, Class100 class100, SkinBlink class312) {
         return n2 ^ 0x188B733F;
     }
 
-    public static int method18175(int n2, int n3, Class297 class297, Class58 class58) {
+    public static int method18175(int n2, int n3, AntiWeakness class297, Class58 class58) {
         int n4 = n2 ^ 0x9C1EDAD8;
         return (n3 | ~n4) - ~n4;
     }
 
-    public static int method18176(int n2, int n3, Class386 class386, Class3491 class3491) {
+    public static int method18176(int n2, int n3, FastPlace class386, Class3491 class3491) {
         int n4 = n2;
         return (n4 | 0x151C02CA) & (0xEAE3FD35 | ~n4);
     }

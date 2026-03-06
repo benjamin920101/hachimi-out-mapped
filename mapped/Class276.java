@@ -33,18 +33,18 @@ import mapped.Class273;
 import mapped.Class274;
 import mapped.Class277;
 import mapped.Class278;
-import mapped.Class298;
-import mapped.Class299;
+import mapped.Chams;
+import mapped.FireworkBoost;
 import mapped.Class3211;
-import mapped.Class333;
-import mapped.Class342;
-import mapped.Class389;
+import mapped.ClickGui;
+import mapped.PacketLogger;
+import mapped.ChorusControl;
 import mapped.Class3979;
 import mapped.Class4033;
 import mapped.Class4036;
 import mapped.Class4146;
-import mapped.Class435;
-import mapped.Class447;
+import mapped.AutoMine;
+import mapped.Velocity;
 import mapped.Class489;
 import mapped.Class5659;
 import mapped.Class5693;
@@ -106,7 +106,7 @@ extends Class266 {
         Class6454.method24636(d2, d3, d4, d5);
     }
 
-    private static int method1166(int n2, int n3, Class198 class198, Class447 class447) {
+    private static int method1166(int n2, int n3, Class198 class198, Velocity class447) {
         return Class5760.method22625(n2, n3, class198, class447);
     }
 
@@ -204,7 +204,7 @@ lbl12:
                     this.field390 = Class276.method1238(this) == false ? (int)Class276.field387[2] : (int)Class276.field387[0];
                     this.field391.method24284(Class276.method1244(this));
                 }
-                if (!Class333.method2989().method3011()) break block9;
+                if (!ClickGui.method2989().method3011()) break block9;
                 Class5723.field11041.method22448(Class5693.field10948);
                 break block9;
             }
@@ -222,7 +222,7 @@ lbl12:
     }
 
     private static void method1181() {
-        Class298.method1924();
+        Chams.method1924();
     }
 
     private static void method1182() {
@@ -233,7 +233,7 @@ lbl12:
         Class1745.method15538();
     }
 
-    private static int method1184(int n2, int n3, Class683 class683, Class342 class342) {
+    private static int method1184(int n2, int n3, Class683 class683, PacketLogger class342) {
         return Class5760.method22649(n2, n3, class683, class342);
     }
 
@@ -337,7 +337,7 @@ lbl12:
     }
 
     private static void method1192() {
-        Class298.method1924();
+        Chams.method1924();
     }
 
     private static void method1193() {
@@ -357,7 +357,7 @@ lbl12:
         Class4146.method20694();
     }
 
-    private static int method1196(int n2, int n3, Class435 class435, Class299 class299) {
+    private static int method1196(int n2, int n3, AutoMine class435, FireworkBoost class299) {
         return Class5760.method22654(n2, n3, class435, class299);
     }
 
@@ -389,8 +389,8 @@ lbl12:
         Class4036.method20085(f2, f3, f4, f5, f6, f7);
     }
 
-    private static Class333 method1204() {
-        return Class333.method2989();
+    private static ClickGui method1204() {
+        return ClickGui.method2989();
     }
 
     public static Class277 method1205(Class276 class276) {
@@ -467,20 +467,20 @@ lbl12:
                 Class6009.method23559(true);
                 return;
             }
-            int z2 = (int)((double)((int)field387[5] + ((Boolean)Class333.method2989().field836.method507() != false ? (int)field387[0] : (int)field387[4])) * class_3532.method_15350((double)y2, (double)0.0, (double)1.0));
+            int z2 = (int)((double)((int)field387[5] + ((Boolean)ClickGui.method2989().field836.method507() != false ? (int)field387[0] : (int)field387[4])) * class_3532.method_15350((double)y2, (double)0.0, (double)1.0));
             int A2 = (int)((double)(x2 != 0 ? (int)field387[4] : (int)field387[1]) * class_3532.method_15350((double)y2, (double)0.0, (double)1.0));
-            int B2 = Class276.method1224(Class333.method2989(), new Color((int)(255.0 * y2), (int)(Class4033.field9285 * y2), (int)(Class750.field3395 * y2), z2 + ((Boolean)Class333.method2989().field836.method507() != false ? (int)field387[4] : (int)field387[0])).getRGB());
-            this.method742(n2, u2 != 0 ? Class333.method2989().method3028((x2 != 0 ? (int)field387[1] : (int)field387[3]) + A2, t2) : B2);
+            int B2 = Class276.method1224(ClickGui.method2989(), new Color((int)(255.0 * y2), (int)(Class4033.field9285 * y2), (int)(Class750.field3395 * y2), z2 + ((Boolean)ClickGui.method2989().field836.method507() != false ? (int)field387[4] : (int)field387[0])).getRGB());
+            this.method742(n2, u2 != 0 ? ClickGui.method2989().method3028((x2 != 0 ? (int)field387[1] : (int)field387[3]) + A2, t2) : B2);
             int C2 = (int)field387[7];
             int D2 = (int)field387[6];
-            int n9 = E2 = (Boolean)Class276.method1236(Class333.method2989()).method507() == false || t2 > Class735.field3354 ? C2 : D2;
+            int n9 = E2 = (Boolean)Class276.method1236(ClickGui.method2989()).method507() == false || t2 > Class735.field3354 ? C2 : D2;
             if (w2 != 0) {
                 E2 = x2 != 0 ? D2 : C2;
             }
-            this.method771(n2, this.field389.method446(), o2 + 2.0f, p2 + Class276.method1220(Class333.method2989()) * Class276.method1162(), E2);
+            this.method771(n2, this.field389.method446(), o2 + 2.0f, p2 + Class276.method1220(ClickGui.method2989()) * Class276.method1162(), E2);
             double F2 = Class276.method1234(this.field391);
-            if (((Boolean)Class333.method2989().field847.method507()).booleanValue()) {
-                this.method771(n2, F2 > Class3211.field6889 ? "-" : "+", o2 + 86.0f, p2 + Class333.method2989().method3018() * Class276.method1188(), C2);
+            if (((Boolean)ClickGui.method2989().field847.method507()).booleanValue()) {
+                this.method771(n2, F2 > Class3211.field6889 ? "-" : "+", o2 + 86.0f, p2 + ClickGui.method2989().method3018() * Class276.method1188(), C2);
             }
             int n10 = n3 = F2 > (double)0.01f ? 46309 : 46310;
             if (n3 != 46309) {
@@ -520,7 +520,7 @@ lbl12:
                 Class271 d2;
                 Class273 c2;
                 if (!iterator.hasNext()) {
-                    boolean h2 = Class333.method2989().method2998();
+                    boolean h2 = ClickGui.method2989().method2998();
                     if (h2) {
                         break;
                     }
@@ -528,7 +528,7 @@ lbl12:
                 }
                 e2 = (Class268)iterator.next();
                 if (!((Class268)e2).method826().method503()) {
-                    Class298.method1924();
+                    Chams.method1924();
                     return;
                 }
                 g2 += ((Class263)e2).method778();
@@ -584,7 +584,7 @@ lbl12:
         return class276.field388;
     }
 
-    private static int method1215(int n2, int n3, Class389 class389, Class1150 class1150) {
+    private static int method1215(int n2, int n3, ChorusControl class389, Class1150 class1150) {
         return Class5760.method22667(n2, n3, class389, class1150);
     }
 
@@ -604,7 +604,7 @@ lbl12:
         return class276.field390;
     }
 
-    private static float method1220(Class333 class333) {
+    private static float method1220(ClickGui class333) {
         return class333.method3018();
     }
 
@@ -620,7 +620,7 @@ lbl12:
         Class1807.method15744();
     }
 
-    private static int method1224(Class333 class333, int n2) {
+    private static int method1224(ClickGui class333, int n2) {
         return class333.method2990(n2);
     }
 
@@ -644,7 +644,7 @@ lbl12:
         Class6009.method23561();
     }
 
-    private static int method1230(Class333 class333, int n2, float f2) {
+    private static int method1230(ClickGui class333, int n2, float f2) {
         return class333.method3028(n2, f2);
     }
 
@@ -668,7 +668,7 @@ lbl12:
         Class1745.method15538();
     }
 
-    public static Class248 method1236(Class333 class333) {
+    public static Class248 method1236(ClickGui class333) {
         return class333.field844;
     }
 
@@ -707,8 +707,8 @@ lbl12:
         Class4146.method20694();
     }
 
-    private static Class333 method1243() {
-        return Class333.method2989();
+    private static ClickGui method1243() {
+        return ClickGui.method2989();
     }
 
     public static boolean method1244(Class276 class276) {

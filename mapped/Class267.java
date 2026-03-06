@@ -18,8 +18,8 @@ import mapped.Class1503;
 import mapped.Class1807;
 import mapped.Class262;
 import mapped.Class266;
-import mapped.Class298;
-import mapped.Class333;
+import mapped.Chams;
+import mapped.ClickGui;
 import mapped.Class4146;
 import mapped.Class5693;
 import mapped.Class5723;
@@ -55,7 +55,7 @@ extends Class266 {
     }
 
     private static void method795() {
-        Class298.method1924();
+        Chams.method1924();
     }
 
     public boolean method796() {
@@ -80,7 +80,7 @@ extends Class266 {
                 return;
             }
         } else {
-            if (!Class333.method2989().method3019()) {
+            if (!ClickGui.method2989().method3019()) {
                 this.field351 = (int)field346[3];
                 field350 = null;
                 this.field349 = "".toCharArray();
@@ -110,7 +110,7 @@ extends Class266 {
             break;
         }
         this.field347 = (int)field346[3];
-        if (!Class333.method2989().method3011()) return;
+        if (!ClickGui.method2989().method3011()) return;
         Class267.method797(Class5723.field11041, Class267.method811());
     }
 
@@ -137,10 +137,10 @@ extends Class266 {
         this.field337 = c2;
         int g2 = Class267.method807().method2990((int)field346[1]);
         this.method742(a2, g2);
-        this.method763(a2, b2 + 1.0f, c2, 0.5, this.method778(), Class333.method2989().method2997(1.7f));
-        this.method763(a2, b2 + this.method788() - 1.5f, c2, 0.5, this.method778(), Class333.method2989().method2997(Class1372.field5287));
-        this.method763(a2, b2 + 1.0f, c2 - 0.5f, this.method788() - 2.0f, 0.5, Class333.method2989().method2997(1.7f));
-        this.method763(a2, b2 + 1.0f, c2 + this.method778(), this.method788() - 2.0f, 0.5, Class333.method2989().method2997(1.7f));
+        this.method763(a2, b2 + 1.0f, c2, 0.5, this.method778(), ClickGui.method2989().method2997(1.7f));
+        this.method763(a2, b2 + this.method788() - 1.5f, c2, 0.5, this.method778(), ClickGui.method2989().method2997(Class1372.field5287));
+        this.method763(a2, b2 + 1.0f, c2 - 0.5f, this.method788() - 2.0f, 0.5, ClickGui.method2989().method2997(1.7f));
+        this.method763(a2, b2 + 1.0f, c2 + this.method778(), this.method788() - 2.0f, 0.5, ClickGui.method2989().method2997(1.7f));
         int h2 = (int)field346[2];
         if (!Class267.method820(this)) {
             int n2 = 54343;
@@ -231,8 +231,8 @@ extends Class266 {
         field350 = string;
     }
 
-    private static Class333 method807() {
-        return Class333.method2989();
+    private static ClickGui method807() {
+        return ClickGui.method2989();
     }
 
     @Override
@@ -266,7 +266,7 @@ extends Class266 {
     }
 
     private static void method808() {
-        Class298.method1924();
+        Chams.method1924();
     }
 
     @Override
@@ -275,7 +275,7 @@ extends Class266 {
     }
 
     private static void method809() {
-        Class298.method1924();
+        Chams.method1924();
     }
 
     private static void method810() {
@@ -310,8 +310,8 @@ extends Class266 {
         Class4146.method20697();
     }
 
-    private static Class333 method818() {
-        return Class333.method2989();
+    private static ClickGui method818() {
+        return ClickGui.method2989();
     }
 
     public String method819() {

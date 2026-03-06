@@ -7,7 +7,7 @@ import mapped.Class1656;
 import mapped.Class3230;
 import mapped.Class3709;
 import mapped.Class3877;
-import mapped.Class396;
+import mapped.PhantomView;
 import mapped.Class4161;
 import mapped.Class489;
 import mapped.Class5927;
@@ -28,7 +28,7 @@ extends Class489 {
         } else {
             if (a2 == 1.0) {
                 double d3 = 1.0;
-                return Class396.method5737(0.4924674300757875, 0.6912130484860607, Class3230.field6932);
+                return PhantomView.method5737(0.4924674300757875, 0.6912130484860607, Class3230.field6932);
             }
             d2 = a2 < Class4161.field9683 ? -(Math.pow(2.0, 20.0 * a2 - Class3709.field8350) * b2) / Class1656.field6151 : Math.pow(2.0, Class5927.field11760 * a2 + Class3877.field8816) * b2 / 2.0 + 1.0;
         }

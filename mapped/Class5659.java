@@ -48,24 +48,24 @@ import mapped.Class14;
 import mapped.Class180;
 import mapped.Class1807;
 import mapped.Class2830;
-import mapped.Class300;
-import mapped.Class322;
-import mapped.Class325;
-import mapped.Class327;
+import mapped.Debug;
+import mapped.MaceSpoof;
+import mapped.TextRadar;
+import mapped.Yaw;
 import mapped.Class3583;
-import mapped.Class359;
+import mapped.Ping;
 import mapped.Class3691;
-import mapped.Class376;
-import mapped.Class380;
+import mapped.Blink;
+import mapped.BreakESP;
 import mapped.Class3979;
 import mapped.Class4036;
 import mapped.Class4045;
-import mapped.Class408;
+import mapped.Replenish;
 import mapped.Class4089;
 import mapped.Class4122;
 import mapped.Class4196;
 import mapped.Class4197;
-import mapped.Class447;
+import mapped.Velocity;
 import mapped.Class5449;
 import mapped.Class5649;
 import mapped.Class5836;
@@ -126,7 +126,7 @@ public final class Class5659 {
     }
 
     private static boolean method22100() {
-        return Class376.method4987();
+        return Blink.method4987();
     }
 
     public static int method22101() {
@@ -231,7 +231,7 @@ public final class Class5659 {
     }
 
     private static boolean method22120() {
-        return Class447.method10322();
+        return Velocity.method10322();
     }
 
     private static List method22121(class_238 class_2383) {
@@ -329,7 +329,7 @@ lbl33:
         return Class5659.method22194();
     }
 
-    private static int method22127(int n2, int n3, Class325 class325, Class180 class180) {
+    private static int method22127(int n2, int n3, TextRadar class325, Class180 class180) {
         return Class4089.method20428(n2, n3, class325, class180);
     }
 
@@ -345,7 +345,7 @@ lbl33:
         return Class5659.method22171(a2.method_23317(), a2.method_23318() + (double)a2.method_18381(a2.method_18376()), a2.method_23321());
     }
 
-    private static int method22131(int n2, int n3, Class596 class596, Class322 class322) {
+    private static int method22131(int n2, int n3, Class596 class596, MaceSpoof class322) {
         return Class4089.method20421(n2, n3, class596, class322);
     }
 
@@ -536,7 +536,7 @@ lbl33:
         return Class4122.field9561;
     }
 
-    private static int method22167(int n2, int n3, Class3691 class3691, Class300 class300) {
+    private static int method22167(int n2, int n3, Class3691 class3691, Debug class300) {
         return Class4089.method20392(n2, n3, class3691, class300);
     }
 
@@ -558,7 +558,7 @@ lbl33:
     }
 
     private static boolean method22172() {
-        return Class447.method10322();
+        return Velocity.method10322();
     }
 
     private static class_310 method22173() {
@@ -630,7 +630,7 @@ lbl33:
     }
 
     private static boolean method22187() {
-        return Class408.method6431();
+        return Replenish.method6431();
     }
 
     public static boolean method22188(double a2, double b2, double c2, double d2) {
@@ -642,7 +642,7 @@ lbl33:
     }
 
     private static boolean method22190() {
-        return Class447.method10322();
+        return Velocity.method10322();
     }
 
     public static double method22191(double a2, double b2, double c2) {
@@ -661,7 +661,7 @@ lbl33:
             if (a2.method_26204() instanceof class_2560) {
                 return (int)field10852[1] != 0;
             }
-            return Class408.method6431();
+            return Replenish.method6431();
         }
         return (int)field10852[0] != 0;
     }
@@ -728,7 +728,7 @@ lbl33:
     }
 
     private static boolean method22202() {
-        return Class447.method10252();
+        return Velocity.method10252();
     }
 
     public static class_310 method22203() {
@@ -762,7 +762,7 @@ lbl33:
         return (Class5659.method22171(a2.method_10263(), a2.method_10264(), a2.method_10260()) <= b2 * b2 ? (int)field10852[1] : (int)field10852[0]) != 0;
     }
 
-    private static int method22210(int n2, int n3, Class14 class14, Class380 class380) {
+    private static int method22210(int n2, int n3, Class14 class14, BreakESP class380) {
         return Class4089.method20371(n2, n3, class14, class380);
     }
 
@@ -774,7 +774,7 @@ lbl33:
         return Class1215.method13261(d2, d3);
     }
 
-    private static int method22213(int n2, int n3, Class327 class327, Class681 class681) {
+    private static int method22213(int n2, int n3, Yaw class327, Class681 class681) {
         return Class4089.method20370(n2, n3, class327, class681);
     }
 
@@ -799,7 +799,7 @@ lbl33:
     }
 
     private static boolean method22219() {
-        return Class447.method10322();
+        return Velocity.method10322();
     }
 
     public static class_1934 method22220() {
@@ -833,7 +833,7 @@ lbl33:
         return class_3102.field_1724;
     }
 
-    private static int method22225(int n2, int n3, Class712 class712, Class359 class359) {
+    private static int method22225(int n2, int n3, Class712 class712, Ping class359) {
         return Class4089.method20375(n2, n3, class712, class359);
     }
 

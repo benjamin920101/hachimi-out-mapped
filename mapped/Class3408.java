@@ -14,20 +14,20 @@ import mapped.Class15;
 import mapped.Class1536;
 import mapped.Class1610;
 import mapped.Class278;
-import mapped.Class306;
-import mapped.Class324;
-import mapped.Class325;
-import mapped.Class327;
+import mapped.ViewModel;
+import mapped.AutoMount;
+import mapped.TextRadar;
+import mapped.Yaw;
 import mapped.Class3293;
 import mapped.Class3432;
-import mapped.Class345;
+import mapped.Shulkerception;
 import mapped.Class3497;
 import mapped.Class3741;
-import mapped.Class386;
+import mapped.FastPlace;
 import mapped.Class3978;
-import mapped.Class410;
+import mapped.MultiTask;
 import mapped.Class4110;
-import mapped.Class431;
+import mapped.Scaffold;
 import mapped.Class45;
 import mapped.Class53;
 import mapped.Class530;
@@ -62,7 +62,7 @@ public class Class3408 {
         return n4 + ((n2 ^ 0xCFF7EF57) & ~n4);
     }
 
-    public static int method17218(int n2, int n3, Class278 class278, Class386 class386) {
+    public static int method17218(int n2, int n3, Class278 class278, FastPlace class386) {
         int n4 = n2 ^ 0x2E02107A;
         return (n3 | ~n4) - ~n4;
     }
@@ -72,12 +72,12 @@ public class Class3408 {
         return n4 + ((n2 ^ 0xCB5F4829) & ~n4);
     }
 
-    public static int method17220(int n2, int n3, Class431 class431, Class604 class604) {
+    public static int method17220(int n2, int n3, Scaffold class431, Class604 class604) {
         int n4 = n2;
         return (n4 | 0x98D761C) & (0xF67289E3 | ~n4);
     }
 
-    public static int method17221(int n2, int n3, Class700 class700, Class306 class306) {
+    public static int method17221(int n2, int n3, Class700 class700, ViewModel class306) {
         int n4 = n2;
         return (0x261E207D | ~n4) - ~n4;
     }
@@ -86,21 +86,21 @@ public class Class3408 {
         return 695265175 + (n2 & 0xD68F1868);
     }
 
-    public static int method17223(int n2, int n3, Class4110 class4110, Class327 class327) {
+    public static int method17223(int n2, int n3, Class4110 class4110, Yaw class327) {
         int n4 = n2;
         return (n4 | 0x247E4A64) & (0xDB81B59B | ~n4);
     }
 
-    public static int method17224(int n2, int n3, Class324 class324, Class3432 class3432) {
+    public static int method17224(int n2, int n3, AutoMount class324, Class3432 class3432) {
         int n4 = n2;
         return (n4 | 0x14778B10) & (0xEB8874EF | ~n4);
     }
 
-    public static int method17225(int n2, int n3, Class538 class538, Class345 class345) {
+    public static int method17225(int n2, int n3, Class538 class538, Shulkerception class345) {
         return n2 ^ 0x22051A4 ^ n3;
     }
 
-    public static int method17226(int n2, int n3, Class325 class325, Class45 class45) {
+    public static int method17226(int n2, int n3, TextRadar class325, Class45 class45) {
         int n4 = n2 ^ 0x36021A18;
         return (n3 | ~n4) - ~n4;
     }
@@ -134,7 +134,7 @@ public class Class3408 {
         return (n3 | ~n4) - ~n4;
     }
 
-    public static int method17233(int n2, int n3, Class410 class410, Class6316 class6316) {
+    public static int method17233(int n2, int n3, MultiTask class410, Class6316 class6316) {
         int n4 = n2 ^ 0xD87E6C2C;
         return (n3 | ~n4) - ~n4;
     }

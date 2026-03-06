@@ -22,9 +22,9 @@ import mapped.Class248;
 import mapped.Class261;
 import mapped.Class268;
 import mapped.Class276;
-import mapped.Class298;
-import mapped.Class326;
-import mapped.Class333;
+import mapped.Chams;
+import mapped.AntiHunger;
+import mapped.ClickGui;
 import mapped.Class3843;
 import mapped.Class3979;
 import mapped.Class4146;
@@ -61,7 +61,7 @@ extends Class268 {
         class5693.method22448(class_34142);
     }
 
-    private static int method893(int n2, int n3, Class1807 class1807, Class326 class326) {
+    private static int method893(int n2, int n3, Class1807 class1807, AntiHunger class326) {
         return Class3843.method18814(n2, n3, class1807, class326);
     }
 
@@ -70,7 +70,7 @@ extends Class268 {
     }
 
     private static void method895() {
-        Class298.method1924();
+        Chams.method1924();
     }
 
     private static void method896() {
@@ -147,7 +147,7 @@ extends Class268 {
         Class6009.method23560();
     }
 
-    private static int method914(Class333 class333, int n2) {
+    private static int method914(ClickGui class333, int n2) {
         return class333.method3021(n2);
     }
 
@@ -155,8 +155,8 @@ extends Class268 {
         return class271.field362;
     }
 
-    private static Class333 method916() {
-        return Class333.method2989();
+    private static ClickGui method916() {
+        return ClickGui.method2989();
     }
 
     public static boolean method917(Class271 class271) {
@@ -179,8 +179,8 @@ extends Class268 {
         Class1807.method15744();
     }
 
-    private static Class333 method922() {
-        return Class333.method2989();
+    private static ClickGui method922() {
+        return ClickGui.method2989();
     }
 
     private static void method923() {
@@ -215,11 +215,11 @@ extends Class268 {
         return Class3843.method18827(n2, n3, class475, class13);
     }
 
-    private static int method930(Class333 class333) {
+    private static int method930(ClickGui class333) {
         return class333.method2999();
     }
 
-    private static boolean method931(Class333 class333) {
+    private static boolean method931(ClickGui class333) {
         return class333.method3011();
     }
 
@@ -274,7 +274,7 @@ extends Class268 {
             break;
         } while (n2 == 32032);
         this.field367 = (float)this.field365 * ((float)Class6454.method24637() + 1.0f) + 3.0f;
-        this.method753(Class271.method926() + Class271.method930(Class333.method2989()));
+        this.method753(Class271.method926() + Class271.method930(ClickGui.method2989()));
         this.field340 = e2;
         this.field337 = f2;
         String j2 = Class271.method933((Enum)this.field354.method507());
@@ -294,13 +294,13 @@ extends Class268 {
             break;
         }
         int l2 = (int)(45.0 * class_3532.method_15350((double)Class271.method900(this.field345), (double)0.0, (double)1.0));
-        int m2 = Class271.method914(Class333.method2989(), (int)field366[2] + l2);
+        int m2 = Class271.method914(ClickGui.method2989(), (int)field366[2] + l2);
         this.method742(d2, m2);
         int n5 = (int)field366[0];
         this.method771(d2, this.field354.method512(), e2 + 2.0f, f2 + Class271.method916().method3018() * Class271.method905(), n5);
         float o2 = (float)Class6454.method24719(this.field354.method512()) * Class271.method934();
         int p2 = (int)field366[4];
-        this.method771(d2, " " + j2, e2 + 2.0f + o2, f2 + Class333.method2989().method3018() * 1.0f, p2);
+        this.method771(d2, " " + j2, e2 + 2.0f + o2, f2 + ClickGui.method2989().method3018() * 1.0f, p2);
         if (Class271.method912(this).method24281() > (double)0.01f) {
             int n6 = 35892;
             Class3979.method19561();
@@ -331,7 +331,7 @@ extends Class268 {
                             Class271.method923();
                             return;
                         }
-                        this.method771(d2, Class5587.method21926(a2.name()), e2 + Class333.method2989().method3018() * Class271.method908(), f2 + (this.field339 + 3.0f) * 1.0f + (float)(c2 * (Class6454.method24637() + (int)field366[3])) * 1.0f, p2);
+                        this.method771(d2, Class5587.method21926(a2.name()), e2 + ClickGui.method2989().method3018() * Class271.method908(), f2 + (this.field339 + 3.0f) * 1.0f + (float)(c2 * (Class6454.method24637() + (int)field366[3])) * 1.0f, p2);
                     }
                     this.field353.method1160(this.method901() * this.method911());
                     ((Class261)this.field344).method654(this.method901() * this.method911() * this.field353.method1176());
@@ -348,8 +348,8 @@ extends Class268 {
         Class1503.method14420();
     }
 
-    private static Class333 method939() {
-        return Class333.method2989();
+    private static ClickGui method939() {
+        return ClickGui.method2989();
     }
 
     private static int method940(Class271 class271) {
@@ -464,7 +464,7 @@ extends Class268 {
             }
             this.field354.method505(Enum.valueOf(f2.getDeclaringClass(), g2[Class271.method940(this)]));
         }
-        if (!Class271.method931(Class333.method2989())) return;
+        if (!Class271.method931(ClickGui.method2989())) return;
         Class5723.field11041.method22448(Class271.method935());
     }
 

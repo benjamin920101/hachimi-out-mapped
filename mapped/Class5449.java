@@ -20,13 +20,13 @@ import mapped.Class166;
 import mapped.Class1668;
 import mapped.Class1745;
 import mapped.Class1807;
-import mapped.Class298;
+import mapped.Chams;
 import mapped.Class3211;
 import mapped.Class3777;
 import mapped.Class4036;
 import mapped.Class4122;
 import mapped.Class4146;
-import mapped.Class446;
+import mapped.AutoXP;
 import mapped.Class47;
 import mapped.Class544;
 import mapped.Class5595;
@@ -181,7 +181,7 @@ public class Class5449 {
     }
 
     private static void method21089() {
-        Class298.method1924();
+        Chams.method1924();
     }
 
     private static void method21090() {
@@ -372,7 +372,7 @@ lbl9:
         Class1745.method15538();
     }
 
-    private static int method21112(int n2, int n3, Class544 class544, Class446 class446) {
+    private static int method21112(int n2, int n3, Class544 class544, AutoXP class446) {
         return Class1345.method13759(n2, n3, class544, class446);
     }
 

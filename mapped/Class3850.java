@@ -71,23 +71,23 @@ import mapped.Class231;
 import mapped.Class246;
 import mapped.Class265;
 import mapped.Class27;
-import mapped.Class287;
-import mapped.Class291;
-import mapped.Class298;
+import mapped.Nametags;
+import mapped.FastProjectile;
+import mapped.Chams;
 import mapped.Class3;
-import mapped.Class302;
-import mapped.Class306;
-import mapped.Class308;
-import mapped.Class313;
-import mapped.Class319;
+import mapped.Avoid;
+import mapped.ViewModel;
+import mapped.AntiLevitation;
+import mapped.AutoWalk;
+import mapped.AntiCrawl;
 import mapped.Class3272;
-import mapped.Class329;
+import mapped.XRay;
 import mapped.Class3323;
 import mapped.Class3332;
-import mapped.Class338;
+import mapped.Step;
 import mapped.Class34;
-import mapped.Class342;
-import mapped.Class343;
+import mapped.PacketLogger;
+import mapped.AutoReconnect;
 import mapped.Class3442;
 import mapped.Class3449;
 import mapped.Class3455;
@@ -96,38 +96,38 @@ import mapped.Class3481;
 import mapped.Class35;
 import mapped.Class3546;
 import mapped.Class3571;
-import mapped.Class358;
-import mapped.Class368;
-import mapped.Class370;
+import mapped.AnvilRename;
+import mapped.ClientSpoof;
+import mapped.PMSound;
 import mapped.Class3794;
 import mapped.Class3815;
 import mapped.Class3817;
 import mapped.Class3860;
 import mapped.Class39;
-import mapped.Class390;
+import mapped.Disabler;
 import mapped.Class3913;
 import mapped.Class3933;
 import mapped.Class4036;
 import mapped.Class4045;
 import mapped.Class4070;
-import mapped.Class408;
+import mapped.Replenish;
 import mapped.Class4084;
 import mapped.Class4110;
 import mapped.Class4122;
-import mapped.Class413;
+import mapped.SelfBow;
 import mapped.Class414;
 import mapped.Class4146;
-import mapped.Class421;
+import mapped.PistonCrystal;
 import mapped.Class4218;
 import mapped.Class4225;
 import mapped.Class4244;
-import mapped.Class425;
+import mapped.SpeedMine;
 import mapped.Class4257;
 import mapped.Class4259;
-import mapped.Class434;
-import mapped.Class435;
-import mapped.Class452;
-import mapped.Class455;
+import mapped.Aura;
+import mapped.AutoMine;
+import mapped.Baritone;
+import mapped.AntiCheat;
 import mapped.Class475;
 import mapped.Class480;
 import mapped.Class5183;
@@ -238,7 +238,7 @@ public class Class3850 {
         return Class6103.method23978(n2, n3, class6286, class713);
     }
 
-    private static int method18833(int n2, int n3, Class230 class230, Class358 class358) {
+    private static int method18833(int n2, int n3, Class230 class230, AnvilRename class358) {
         return Class6103.method23999(n2, n3, class230, class358);
     }
 
@@ -251,7 +251,7 @@ public class Class3850 {
     }
 
     private static int method18836(int n2) {
-        return Class287.method1495(n2);
+        return Nametags.method1495(n2);
     }
 
     public static class_634 method18837(class_746 class_7462) {
@@ -293,7 +293,7 @@ public class Class3850 {
                         a = b.method_12442();
                         if (!class_1661.method_7380((int)a)) break block2;
                         if (Class3850.method18929(this) != a) break block4;
-                        if (!Class455.method10581().method10559()) break block5;
+                        if (!AntiCheat.method10581().method10559()) break block5;
                         v0 = 62734;
                         ** GOTO lbl16
                     }
@@ -388,7 +388,7 @@ lbl22:
         }
     }
 
-    private static int method18856(int n2, int n3, Class548 class548, Class308 class308) {
+    private static int method18856(int n2, int n3, Class548 class548, AntiLevitation class308) {
         return Class6103.method23958(n2, n3, class548, class308);
     }
 
@@ -396,7 +396,7 @@ lbl22:
         return Class4045.method20100(n2, f2);
     }
 
-    private static int method18858(int n2, int n3, Class306 class306, Class63 class63) {
+    private static int method18858(int n2, int n3, ViewModel class306, Class63 class63) {
         return Class6103.method23991(n2, n3, class306, class63);
     }
 
@@ -438,8 +438,8 @@ lbl22:
 
     @Class1
     public void method18868(Class5688 a2) {
-        if (Class425.method8407().method1265()) {
-            if (Class425.method8407().method8500()) {
+        if (SpeedMine.method8407().method1265()) {
+            if (SpeedMine.method8407().method8500()) {
                 return;
             }
         }
@@ -461,7 +461,7 @@ lbl22:
         return Class3850.method18828(class_3102);
     }
 
-    private static int method18870(int n2, int n3, Class342 class342, Class3913 class3913) {
+    private static int method18870(int n2, int n3, PacketLogger class342, Class3913 class3913) {
         return Class6103.method23985(n2, n3, class342, class3913);
     }
 
@@ -538,7 +538,7 @@ lbl22:
         Class5836.method22890();
     }
 
-    private static int method18883(int n2, int n3, Class434 class434, Class5587 class5587) {
+    private static int method18883(int n2, int n3, Aura class434, Class5587 class5587) {
         return Class6103.method23957(n2, n3, class434, class5587);
     }
 
@@ -550,7 +550,7 @@ lbl22:
         Class3815.INSTANCE.method18546(this);
     }
 
-    private static int method18885(int n2, int n3, Class135 class135, Class368 class368) {
+    private static int method18885(int n2, int n3, Class135 class135, ClientSpoof class368) {
         return Class6103.method23947(n2, n3, class135, class368);
     }
 
@@ -634,7 +634,7 @@ lbl22:
         }
     }
 
-    private static int method18892(int n2, int n3, Class413 class413, Class5740 class5740) {
+    private static int method18892(int n2, int n3, SelfBow class413, Class5740 class5740) {
         return Class6103.method24009(n2, n3, class413, class5740);
     }
 
@@ -683,7 +683,7 @@ lbl22:
 
     @Class1
     public void method18900(Class90 a2) {
-        if (Class425.method8407().method1265() && Class425.method8407().method8500()) {
+        if (SpeedMine.method8407().method1265() && SpeedMine.method8407().method8500()) {
             a2.method10();
         }
     }
@@ -712,7 +712,7 @@ lbl22:
         return class_17032.field_7761;
     }
 
-    private static int method18907(int n2, int n3, Class624 class624, Class291 class291) {
+    private static int method18907(int n2, int n3, Class624 class624, FastProjectile class291) {
         return Class6103.method23967(n2, n3, class624, class291);
     }
 
@@ -769,7 +769,7 @@ lbl22:
         return class_17032.field_7763;
     }
 
-    private static int method18912(int n2, int n3, Class313 class313, Class3455 class3455) {
+    private static int method18912(int n2, int n3, AutoWalk class313, Class3455 class3455) {
         return Class6103.method23971(n2, n3, class313, class3455);
     }
 
@@ -810,7 +810,7 @@ lbl22:
         return h2.method_37421();
     }
 
-    private static int method18915(int n2, int n3, Class370 class370, Class696 class696) {
+    private static int method18915(int n2, int n3, PMSound class370, Class696 class696) {
         return Class6103.method23993(n2, n3, class370, class696);
     }
 
@@ -836,7 +836,7 @@ lbl22:
         Class4146.method20694();
     }
 
-    private static int method18921(int n2, int n3, Class535 class535, Class319 class319) {
+    private static int method18921(int n2, int n3, Class535 class535, AntiCrawl class319) {
         return Class6103.method23964(n2, n3, class535, class319);
     }
 
@@ -911,8 +911,8 @@ lbl22:
     @Class1
     public void method18936(Class133 h2) {
         Object b2;
-        if (Class408.method6431()) return;
-        if (!Class455.method10581().method10559()) {
+        if (Replenish.method6431()) return;
+        if (!AntiCheat.method10581().method10559()) {
             return;
         }
         class_2596 class_25962 = h2.method251();
@@ -1016,12 +1016,12 @@ lbl22:
         return Class3850.method18940(class_16612);
     }
 
-    private static int method18938(int n2, int n3, Class181 class181, Class302 class302) {
+    private static int method18938(int n2, int n3, Class181 class181, Avoid class302) {
         return Class6103.method23974(n2, n3, class181, class302);
     }
 
     private static void method18939() {
-        Class298.method1924();
+        Chams.method1924();
     }
 
     public static int method18940(class_1661 class_16612) {
@@ -1032,7 +1032,7 @@ lbl22:
         return Class6103.method23994(n2, n3, class79, class15);
     }
 
-    private static int method18942(int n2, int n3, Class421 class421, Class1198 class1198) {
+    private static int method18942(int n2, int n3, PistonCrystal class421, Class1198 class1198) {
         return Class6103.method23961(n2, n3, class421, class1198);
     }
 
@@ -1044,7 +1044,7 @@ lbl22:
         return class3850.field8724;
     }
 
-    private static int method18945(int n2, int n3, Class435 class435, Class35 class35) {
+    private static int method18945(int n2, int n3, AutoMine class435, Class35 class35) {
         return Class6103.method23995(n2, n3, class435, class35);
     }
 
@@ -1052,7 +1052,7 @@ lbl22:
         Class5723.field11048.method21341((class_2596)new class_2815(Class3850.method18911(Class4122.field9561.field_1724.field_7512)));
     }
 
-    private static int method18947(int n2, int n3, Class899 class899, Class434 class434) {
+    private static int method18947(int n2, int n3, Class899 class899, Aura class434) {
         return Class6103.method24010(n2, n3, class899, class434);
     }
 
@@ -1083,7 +1083,7 @@ lbl22:
     }
 
     private static void method18952() {
-        Class298.method1924();
+        Chams.method1924();
     }
 
     private static int method18953(int n2, int n3, Class231 class231, Class5183 class5183) {
@@ -1094,7 +1094,7 @@ lbl22:
         Class6009.method23560();
     }
 
-    private static int method18955(int n2, int n3, Class435 class435, Class3272 class3272) {
+    private static int method18955(int n2, int n3, AutoMine class435, Class3272 class3272) {
         return Class6103.method23984(n2, n3, class435, class3272);
     }
 
@@ -1137,7 +1137,7 @@ lbl22:
         return class_3102.field_1724;
     }
 
-    private static int method18959(int n2, int n3, Class452 class452, Class1463 class1463) {
+    private static int method18959(int n2, int n3, Baritone class452, Class1463 class1463) {
         return Class6103.method24001(n2, n3, class452, class1463);
     }
 
@@ -1189,11 +1189,11 @@ lbl22:
         class3850.method18874(n2);
     }
 
-    private static int method18972(int n2, int n3, Class343 class343, Class5449 class5449) {
+    private static int method18972(int n2, int n3, AutoReconnect class343, Class5449 class5449) {
         return Class6103.method23953(n2, n3, class343, class5449);
     }
 
-    private static int method18973(int n2, int n3, Class434 class434, Class129 class129) {
+    private static int method18973(int n2, int n3, Aura class434, Class129 class129) {
         return Class6103.method23983(n2, n3, class434, class129);
     }
 
@@ -1209,7 +1209,7 @@ lbl22:
         return class_3102.field_1724;
     }
 
-    private static int method18977(int n2, int n3, Class586 class586, Class390 class390) {
+    private static int method18977(int n2, int n3, Class586 class586, Disabler class390) {
         return Class6103.method23996(n2, n3, class586, class390);
     }
 
@@ -1309,7 +1309,7 @@ lbl15:
         return Class4122.field9561.field_1724.method_31548().field_7545;
     }
 
-    private static int method18991(int n2, int n3, Class338 class338, Class329 class329) {
+    private static int method18991(int n2, int n3, Step class338, XRay class329) {
         return Class6103.method23938(n2, n3, class338, class329);
     }
 

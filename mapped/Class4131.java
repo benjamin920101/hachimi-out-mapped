@@ -8,8 +8,8 @@ import mapped.Class1308;
 import mapped.Class137;
 import mapped.Class1621;
 import mapped.Class3466;
-import mapped.Class379;
-import mapped.Class399;
+import mapped.AirPlace;
+import mapped.FastSwim;
 import mapped.Class4057;
 import mapped.Class4218;
 import mapped.Class5490;
@@ -33,7 +33,7 @@ public class Class4131 {
         return (n3 | ~n4) - ~n4;
     }
 
-    public static int method20661(int n2, int n3, Class579 class579, Class399 class399) {
+    public static int method20661(int n2, int n3, Class579 class579, FastSwim class399) {
         int n4 = n2 ^ 0x190AC072;
         int n5 = n3;
         return n4 & ~n5 | n5 & ~n4;
@@ -50,7 +50,7 @@ public class Class4131 {
         return (0xB0354EA | ~n4) - ~n4;
     }
 
-    public static int method20664(int n2, int n3, Class1011 class1011, Class379 class379) {
+    public static int method20664(int n2, int n3, Class1011 class1011, AirPlace class379) {
         int n4 = n2 ^ 0x80000;
         return (n3 | ~n4) - ~n4;
     }

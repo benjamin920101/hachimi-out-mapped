@@ -25,14 +25,14 @@ import mapped.Class226;
 import mapped.Class25;
 import mapped.Class269;
 import mapped.Class272;
-import mapped.Class282;
-import mapped.Class298;
+import mapped.Strafe;
+import mapped.Chams;
 import mapped.Class3248;
 import mapped.Class3259;
 import mapped.Class3261;
-import mapped.Class331;
-import mapped.Class341;
-import mapped.Class358;
+import mapped.PlaceEcho;
+import mapped.TrueSight;
+import mapped.AnvilRename;
 import mapped.Class3638;
 import mapped.Class3666;
 import mapped.Class3684;
@@ -44,12 +44,12 @@ import mapped.Class3979;
 import mapped.Class4026;
 import mapped.Class4132;
 import mapped.Class4146;
-import mapped.Class419;
-import mapped.Class426;
-import mapped.Class434;
-import mapped.Class440;
-import mapped.Class450;
-import mapped.Class457;
+import mapped.AutoCrystal;
+import mapped.Flatten;
+import mapped.Aura;
+import mapped.ClickTweaks;
+import mapped.ChatNotifier;
+import mapped.Colors;
 import mapped.Class487;
 import mapped.Class520;
 import mapped.Class533;
@@ -98,12 +98,12 @@ public class Class1195 {
         return (n3 | ~n4) - ~n4;
     }
 
-    public static int method13169(int n2, int n3, Class8 class8, Class358 class358) {
+    public static int method13169(int n2, int n3, Class8 class8, AnvilRename class358) {
         int n4 = n2 ^ 0xA1857763;
         return (n3 | ~n4) - ~n4;
     }
 
-    public static int method13170(int n2, int n3, Class419 class419, Class122 class122) {
+    public static int method13170(int n2, int n3, AutoCrystal class419, Class122 class122) {
         return 19767356 + (n2 & 0xFED25FC3);
     }
 
@@ -112,12 +112,12 @@ public class Class1195 {
         return (n4 | 0x341F965E) & (0xCBE069A1 | ~n4);
     }
 
-    public static int method13172(int n2, int n3, Class440 class440, Class341 class341) {
+    public static int method13172(int n2, int n3, ClickTweaks class440, TrueSight class341) {
         int n4 = n2;
         return (0x1EB787BB | ~n4) - ~n4;
     }
 
-    public static int method13173(int n2, int n3, Class298 class298, Class139 class139) {
+    public static int method13173(int n2, int n3, Chams class298, Class139 class139) {
         return n2 ^ 0x3C010411 ^ n3;
     }
 
@@ -127,27 +127,27 @@ public class Class1195 {
         return (n4 | n5) & (~n5 | ~n4);
     }
 
-    public static int method13175(int n2, int n3, Class122 class122, Class282 class282) {
+    public static int method13175(int n2, int n3, Class122 class122, Strafe class282) {
         int n4 = n3;
         return n4 + ((n2 ^ 0x6E631600) & ~n4);
     }
 
-    public static int method13176(int n2, int n3, Class112 class112, Class331 class331) {
+    public static int method13176(int n2, int n3, Class112 class112, PlaceEcho class331) {
         int n4 = n2 ^ 0x4040400A;
         return (n3 | ~n4) - ~n4;
     }
 
-    public static int method13177(int n2, int n3, Class450 class450, Class5991 class5991) {
+    public static int method13177(int n2, int n3, ChatNotifier class450, Class5991 class5991) {
         int n4 = n2;
         return (n4 | 0x36D6C1E) & (0xFC9293E1 | ~n4);
     }
 
-    public static int method13178(int n2, int n3, Class25 class25, Class426 class426) {
+    public static int method13178(int n2, int n3, Class25 class25, Flatten class426) {
         int n4 = n2;
         return (0x8890164 | ~n4) - ~n4;
     }
 
-    public static int method13179(int n2, int n3, Class434 class434, Class164 class164) {
+    public static int method13179(int n2, int n3, Aura class434, Class164 class164) {
         int n4 = n2 ^ 0x8EFEA8BA;
         return (n3 | ~n4) - ~n4;
     }
@@ -230,7 +230,7 @@ public class Class1195 {
         return (0x1625FA14 | ~n4) - ~n4;
     }
 
-    public static int method13196(int n2, int n3, Class457 class457, Class6315 class6315) {
+    public static int method13196(int n2, int n3, Colors class457, Class6315 class6315) {
         return 854105184 + (n2 & 0xCD17639F);
     }
 

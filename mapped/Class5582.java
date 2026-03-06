@@ -9,11 +9,11 @@ import mapped.Class143;
 import mapped.Class228;
 import mapped.Class263;
 import mapped.Class29;
-import mapped.Class324;
+import mapped.AutoMount;
 import mapped.Class3419;
-import mapped.Class348;
+import mapped.BlockHighlight;
 import mapped.Class374;
-import mapped.Class387;
+import mapped.XCarry;
 import mapped.Class3992;
 import mapped.Class41;
 import mapped.Class42;
@@ -58,7 +58,7 @@ public class Class5582 {
         return (n3 | ~n4) - ~n4;
     }
 
-    public static int method21910(int n2, int n3, Class324 class324, Class143 class143) {
+    public static int method21910(int n2, int n3, AutoMount class324, Class143 class143) {
         return 91707973 + (n2 & 0xFA88A5BA);
     }
 
@@ -74,12 +74,12 @@ public class Class5582 {
         return 102787868 + (n2 & 0xF9DF94E3);
     }
 
-    public static int method21914(int n2, int n3, Class5582 class5582, Class387 class387) {
+    public static int method21914(int n2, int n3, Class5582 class5582, XCarry class387) {
         int n4 = n3;
         return n4 + ((n2 ^ 0x6BCE06EA) & ~n4);
     }
 
-    public static int method21915(int n2, int n3, Class348 class348, Class41 class41) {
+    public static int method21915(int n2, int n3, BlockHighlight class348, Class41 class41) {
         return 687171486 + (n2 & 0xD70A9861);
     }
 }

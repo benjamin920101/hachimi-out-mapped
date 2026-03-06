@@ -21,25 +21,25 @@ import mapped.Class26;
 import mapped.Class260;
 import mapped.Class264;
 import mapped.Class274;
-import mapped.Class306;
-import mapped.Class318;
+import mapped.ViewModel;
+import mapped.Tooltips;
 import mapped.Class3259;
-import mapped.Class328;
-import mapped.Class331;
-import mapped.Class333;
-import mapped.Class337;
+import mapped.BoatFly;
+import mapped.PlaceEcho;
+import mapped.ClickGui;
+import mapped.AutoRespawn;
 import mapped.Class3377;
-import mapped.Class344;
+import mapped.ChestStealer;
 import mapped.Class3449;
 import mapped.Class39;
-import mapped.Class395;
-import mapped.Class397;
-import mapped.Class418;
+import mapped.Fullbright;
+import mapped.Trajectories;
+import mapped.AutoTrap;
 import mapped.Class4196;
-import mapped.Class421;
-import mapped.Class422;
-import mapped.Class437;
-import mapped.Class442;
+import mapped.PistonCrystal;
+import mapped.PistonKick;
+import mapped.AntiRegear;
+import mapped.Sprint;
 import mapped.Class48;
 import mapped.Class523;
 import mapped.Class5457;
@@ -83,12 +83,12 @@ public class Class3891 {
         return (0x373215D7 | ~n4) - ~n4;
     }
 
-    public static int method19244(int n2, int n3, Class395 class395, Class560 class560) {
+    public static int method19244(int n2, int n3, Fullbright class395, Class560 class560) {
         int n4 = n2;
         return (0x21A8411D | ~n4) - ~n4;
     }
 
-    public static int method19245(int n2, int n3, Class442 class442, Class3377 class3377) {
+    public static int method19245(int n2, int n3, Sprint class442, Class3377 class3377) {
         int n4 = n2 ^ 0x802505;
         return (n3 | ~n4) - ~n4;
     }
@@ -98,7 +98,7 @@ public class Class3891 {
         return (0x3A3665D3 | ~n4) - ~n4;
     }
 
-    public static int method19247(int n2, int n3, Class106 class106, Class306 class306) {
+    public static int method19247(int n2, int n3, Class106 class106, ViewModel class306) {
         int n4 = n2;
         return (n4 | 0x268E148C) & (0xD971EB73 | ~n4);
     }
@@ -109,7 +109,7 @@ public class Class3891 {
         return (n4 | n5) & (~n5 | ~n4);
     }
 
-    public static int method19249(int n2, int n3, Class418 class418, Class437 class437) {
+    public static int method19249(int n2, int n3, AutoTrap class418, AntiRegear class437) {
         int n4 = n2;
         return (0x22FA304E | ~n4) - ~n4;
     }
@@ -119,21 +119,21 @@ public class Class3891 {
         return n4 + ((n2 ^ 0xBB7F3492) & ~n4);
     }
 
-    public static int method19251(int n2, int n3, Class344 class344, Class3449 class3449) {
+    public static int method19251(int n2, int n3, ChestStealer class344, Class3449 class3449) {
         return n2 ^ 0x2D10B939;
     }
 
-    public static int method19252(int n2, int n3, Class328 class328, Class5457 class5457) {
+    public static int method19252(int n2, int n3, BoatFly class328, Class5457 class5457) {
         int n4 = n3;
         return n4 + ((n2 ^ 0x61032021) & ~n4);
     }
 
-    public static int method19253(int n2, int n3, Class59 class59, Class318 class318) {
+    public static int method19253(int n2, int n3, Class59 class59, Tooltips class318) {
         int n4 = n2 ^ 0x81101059;
         return (n3 | ~n4) - ~n4;
     }
 
-    public static int method19254(int n2, int n3, Class337 class337, Class705 class705) {
+    public static int method19254(int n2, int n3, AutoRespawn class337, Class705 class705) {
         int n4 = n2 ^ 0x81F57161;
         int n5 = n3;
         return (n4 | n5) & (~n5 | ~n4);
@@ -149,7 +149,7 @@ public class Class3891 {
         return (n3 | ~n4) - ~n4;
     }
 
-    public static int method19257(int n2, int n3, Class333 class333, Class6004 class6004) {
+    public static int method19257(int n2, int n3, ClickGui class333, Class6004 class6004) {
         int n4 = n2;
         return (0x217E47C | ~n4) - ~n4;
     }
@@ -164,7 +164,7 @@ public class Class3891 {
         return (n3 | ~n4) - ~n4;
     }
 
-    public static int method19260(int n2, int n3, Class421 class421, Class5534 class5534) {
+    public static int method19260(int n2, int n3, PistonCrystal class421, Class5534 class5534) {
         int n4 = n2;
         return (0x1D1E95F1 | ~n4) - ~n4;
     }
@@ -184,7 +184,7 @@ public class Class3891 {
         return n4 + ((n2 ^ 0x90639404) & ~n4);
     }
 
-    public static int method19264(int n2, int n3, Class422 class422, Class209 class209) {
+    public static int method19264(int n2, int n3, PistonKick class422, Class209 class209) {
         int n4 = n2 ^ 0xCBEDFEED;
         return (n3 | ~n4) - ~n4;
     }
@@ -194,11 +194,11 @@ public class Class3891 {
         return (n4 | 0x2FC95AC3) & (0xD036A53C | ~n4);
     }
 
-    public static int method19266(int n2, int n3, Class331 class331, Class609 class609) {
+    public static int method19266(int n2, int n3, PlaceEcho class331, Class609 class609) {
         return n2 ^ 0x34407FD7;
     }
 
-    public static int method19267(int n2, int n3, Class397 class397, Class598 class598) {
+    public static int method19267(int n2, int n3, Trajectories class397, Class598 class598) {
         return n2 ^ 0x3A21DCCF;
     }
 

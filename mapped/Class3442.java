@@ -34,25 +34,25 @@ import mapped.Class1503;
 import mapped.Class1745;
 import mapped.Class1807;
 import mapped.Class206;
-import mapped.Class298;
+import mapped.Chams;
 import mapped.Class33;
-import mapped.Class331;
+import mapped.PlaceEcho;
 import mapped.Class3336;
-import mapped.Class354;
+import mapped.ElytraTweaks;
 import mapped.Class3571;
 import mapped.Class3586;
-import mapped.Class376;
-import mapped.Class379;
+import mapped.Blink;
+import mapped.AirPlace;
 import mapped.Class3812;
 import mapped.Class3835;
 import mapped.Class3850;
 import mapped.Class3979;
 import mapped.Class4036;
-import mapped.Class408;
+import mapped.Replenish;
 import mapped.Class4122;
 import mapped.Class4146;
 import mapped.Class4196;
-import mapped.Class447;
+import mapped.Velocity;
 import mapped.Class544;
 import mapped.Class5595;
 import mapped.Class5649;
@@ -125,7 +125,7 @@ public class Class3442 {
         int n2;
         if (!a2.method_7325()) {
             if (a2 instanceof class_1511) {
-                return Class447.method10252();
+                return Velocity.method10252();
             }
             n2 = (int)field7524[0];
         } else {
@@ -208,7 +208,7 @@ public class Class3442 {
             Class1745.field6543.add(a2);
         }
         if (!this.field7515) {
-            Class331.method2909().method2916(a2);
+            PlaceEcho.method2909().method2916(a2);
         }
     }
 
@@ -312,7 +312,7 @@ public class Class3442 {
     }
 
     private static boolean method17388() {
-        return Class408.method6431();
+        return Replenish.method6431();
     }
 
     public static class_2338 method17389(Class3442 class3442) {
@@ -336,7 +336,7 @@ public class Class3442 {
     }
 
     private static boolean method17394() {
-        return Class376.method4987();
+        return Blink.method4987();
     }
 
     private static boolean method17395(class_2338 class_23382, boolean bl2, class_2248 class_22482) {
@@ -352,15 +352,15 @@ public class Class3442 {
     }
 
     private static boolean method17398() {
-        return Class376.method4987();
+        return Blink.method4987();
     }
 
     private static boolean method17399() {
-        return Class408.method6431();
+        return Replenish.method6431();
     }
 
     private static boolean method17400() {
-        return Class447.method10252();
+        return Velocity.method10252();
     }
 
     private static boolean method17401(double d2, double d3, double d4, double d5) {
@@ -390,7 +390,7 @@ public class Class3442 {
                     this.field7531 = Class3442.method17395(this.field7518, (boolean)Class3442.field7524[1], null);
                     this.field7520 = Class1745.method15668(this.field7518, f);
                     if (this.field7522) ** GOTO lbl-1000
-                    if (Class379.method5038().method1265()) lbl-1000:
+                    if (AirPlace.method5038().method1265()) lbl-1000:
                     // 2 sources
 
                     {
@@ -477,7 +477,7 @@ lbl21:
         this.field7527 = f2 && Class3442.method17441(Class3442.method17368()) ? (int)field7524[0] : (int)field7524[1];
         this.field7531 = (int)field7524[0];
         this.field7520 = Class3442.method17464(this.field7518, e2);
-        class_2350 class_23502 = this.field7523 = this.field7522 || Class379.method5038().method1265() ? Class3442.method17447(Class3442.method17429(this), e2) : null;
+        class_2350 class_23502 = this.field7523 = this.field7522 || AirPlace.method5038().method1265() ? Class3442.method17447(Class3442.method17429(this), e2) : null;
         if (Class3442.method17490(this) != null) {
             class_1747 a2;
             this.field7516 = new Class3812(this.field7530, this.field7528).method18502();
@@ -518,7 +518,7 @@ lbl21:
     }
 
     private static boolean method17409() {
-        return Class408.method6431();
+        return Replenish.method6431();
     }
 
     private static boolean method17410(Class3812 class3812) {
@@ -536,7 +536,7 @@ lbl21:
         this.field7528 = d2;
     }
 
-    private static int method17412(int n2, int n3, Class3336 class3336, Class354 class354) {
+    private static int method17412(int n2, int n3, Class3336 class3336, ElytraTweaks class354) {
         return Class5986.method23514(n2, n3, class3336, class354);
     }
 
@@ -589,7 +589,7 @@ lbl21:
     }
 
     private static boolean method17425() {
-        return Class376.method4987();
+        return Blink.method4987();
     }
 
     private static boolean method17426() {
@@ -662,7 +662,7 @@ lbl21:
     }
 
     private static boolean method17440() {
-        return Class447.method10252();
+        return Velocity.method10252();
     }
 
     private static boolean method17441(Class1447 class1447) {
@@ -674,7 +674,7 @@ lbl21:
     }
 
     private static boolean method17443() {
-        return Class408.method6431();
+        return Replenish.method6431();
     }
 
     public static class_1747 method17444(Class3442 class3442) {
@@ -742,7 +742,7 @@ lbl21:
     }
 
     private static boolean method17460() {
-        return Class447.method10252();
+        return Velocity.method10252();
     }
 
     private static class_310 method17461() {
@@ -786,7 +786,7 @@ lbl21:
     }
 
     private static void method17470() {
-        Class298.method1924();
+        Chams.method1924();
     }
 
     private static boolean method17471(Class3442 class3442, class_2680 class_26802, class_2338 class_23382, class_3726 class_37262, boolean bl2) {
@@ -852,7 +852,7 @@ lbl21:
         Class3442.method17489(this.field7516, f2);
         if (this.field7520 != null) {
             Class1745.method15625(this.field7518, Class3442.method17436(this), class_1268.field_5808, this.field7525, c2);
-            Class298.method1924();
+            Chams.method1924();
             return;
         }
         if (this.field7523 != null) {

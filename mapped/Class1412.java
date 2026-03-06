@@ -26,33 +26,33 @@ import mapped.Class237;
 import mapped.Class242;
 import mapped.Class257;
 import mapped.Class262;
-import mapped.Class288;
+import mapped.NameProtect;
 import mapped.Class29;
-import mapped.Class293;
-import mapped.Class294;
+import mapped.Reach;
+import mapped.PacketCanceler;
 import mapped.Class3;
-import mapped.Class315;
-import mapped.Class317;
-import mapped.Class320;
-import mapped.Class321;
-import mapped.Class333;
+import mapped.HoleESP;
+import mapped.AntiSpam;
+import mapped.InventorySync;
+import mapped.AspectRatio;
+import mapped.ClickGui;
 import mapped.Class3449;
-import mapped.Class360;
-import mapped.Class369;
+import mapped.ESP;
+import mapped.StorageESP;
 import mapped.Class3766;
-import mapped.Class382;
+import mapped.Notification;
 import mapped.Class3843;
 import mapped.Class3879;
 import mapped.Class3915;
-import mapped.Class397;
+import mapped.Trajectories;
 import mapped.Class40;
 import mapped.Class4036;
-import mapped.Class408;
+import mapped.Replenish;
 import mapped.Class4104;
-import mapped.Class416;
-import mapped.Class417;
-import mapped.Class426;
-import mapped.Class430;
+import mapped.Surround;
+import mapped.AntiPhase;
+import mapped.Flatten;
+import mapped.AutoCrawlTrap;
 import mapped.Class451;
 import mapped.Class479;
 import mapped.Class546;
@@ -117,7 +117,7 @@ public class Class1412 {
         return (0x3C1EF530 | ~n4) - ~n4;
     }
 
-    public static int method14149(int n2, int n3, Class382 class382, Class1338 class1338) {
+    public static int method14149(int n2, int n3, Notification class382, Class1338 class1338) {
         return 433317666 + (n2 & 0xE62C18DD);
     }
 
@@ -139,13 +139,13 @@ public class Class1412 {
         return (0x2141E6FE | ~n4) - ~n4;
     }
 
-    public static int method14154(int n2, int n3, Class92 class92, Class360 class360) {
+    public static int method14154(int n2, int n3, Class92 class92, ESP class360) {
         int n4 = n2 ^ 0xA6B5B6A2;
         int n5 = n3;
         return (n4 | n5) & (~n5 | ~n4);
     }
 
-    public static int method14155(int n2, int n3, Class408 class408, Class698 class698) {
+    public static int method14155(int n2, int n3, Replenish class408, Class698 class698) {
         int n4 = n2;
         return (0x2CA1115B | ~n4) - ~n4;
     }
@@ -165,7 +165,7 @@ public class Class1412 {
         return (0x24834B8F | ~n4) - ~n4;
     }
 
-    public static int method14159(int n2, int n3, Class686 class686, Class293 class293) {
+    public static int method14159(int n2, int n3, Class686 class686, Reach class293) {
         int n4 = n2;
         return (0x1CF7ADC2 | ~n4) - ~n4;
     }
@@ -207,12 +207,12 @@ public class Class1412 {
         return n4 + ((n2 ^ 0x6B644140) & ~n4);
     }
 
-    public static int method14167(int n2, int n3, Class3843 class3843, Class416 class416) {
+    public static int method14167(int n2, int n3, Class3843 class3843, Surround class416) {
         int n4 = n3;
         return n4 + ((n2 ^ 0x9AD51588) & ~n4);
     }
 
-    public static int method14168(int n2, int n3, Class397 class397, Class560 class560) {
+    public static int method14168(int n2, int n3, Trajectories class397, Class560 class560) {
         int n4 = n2 ^ 0x14803028;
         int n5 = n3;
         return n4 & ~n5 | n5 & ~n4;
@@ -232,7 +232,7 @@ public class Class1412 {
         return (0x3FC82ED5 | ~n4) - ~n4;
     }
 
-    public static int method14172(int n2, int n3, Class3766 class3766, Class417 class417) {
+    public static int method14172(int n2, int n3, Class3766 class3766, AntiPhase class417) {
         int n4 = n2;
         return (0x1E8F51D6 | ~n4) - ~n4;
     }
@@ -242,12 +242,12 @@ public class Class1412 {
         return (0x2C8C1DB6 | ~n4) - ~n4;
     }
 
-    public static int method14174(int n2, int n3, Class369 class369, Class333 class333) {
+    public static int method14174(int n2, int n3, StorageESP class369, ClickGui class333) {
         int n4 = n3;
         return n4 + ((n2 ^ 0x75F05C06) & ~n4);
     }
 
-    public static int method14175(int n2, int n3, Class288 class288, Class5852 class5852) {
+    public static int method14175(int n2, int n3, NameProtect class288, Class5852 class5852) {
         int n4 = n3;
         return n4 + ((n2 ^ 0xC0AACC39) & ~n4);
     }
@@ -258,12 +258,12 @@ public class Class1412 {
         return n4 & ~n5 | n5 & ~n4;
     }
 
-    public static int method14177(int n2, int n3, Class573 class573, Class315 class315) {
+    public static int method14177(int n2, int n3, Class573 class573, HoleESP class315) {
         int n4 = n2;
         return (0xD640536 | ~n4) - ~n4;
     }
 
-    public static int method14178(int n2, int n3, Class317 class317, Class40 class40) {
+    public static int method14178(int n2, int n3, AntiSpam class317, Class40 class40) {
         int n4 = n2;
         return (n4 | 0x254AA940) & (0xDAB556BF | ~n4);
     }
@@ -283,26 +283,26 @@ public class Class1412 {
         return (n3 | ~n4) - ~n4;
     }
 
-    public static int method14182(int n2, int n3, Class426 class426, Class3915 class3915) {
+    public static int method14182(int n2, int n3, Flatten class426, Class3915 class3915) {
         int n4 = n2;
         return (0x259FB53C | ~n4) - ~n4;
     }
 
-    public static int method14183(int n2, int n3, Class692 class692, Class321 class321) {
+    public static int method14183(int n2, int n3, Class692 class692, AspectRatio class321) {
         int n4 = n3;
         return n4 + ((n2 ^ 0xE3CBBF6D) & ~n4);
     }
 
-    public static int method14184(int n2, int n3, Class320 class320, Class700 class700) {
+    public static int method14184(int n2, int n3, InventorySync class320, Class700 class700) {
         int n4 = n3;
         return n4 + ((n2 ^ 0x24083608) & ~n4);
     }
 
-    public static int method14185(int n2, int n3, Class3879 class3879, Class430 class430) {
+    public static int method14185(int n2, int n3, Class3879 class3879, AutoCrawlTrap class430) {
         return n2 ^ 0xEB42B8A;
     }
 
-    public static int method14186(int n2, int n3, Class294 class294, Class2297 class2297) {
+    public static int method14186(int n2, int n3, PacketCanceler class294, Class2297 class2297) {
         return 437458960 + (n2 & 0xE5ECE7EF);
     }
 

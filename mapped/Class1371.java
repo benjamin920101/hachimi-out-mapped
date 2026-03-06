@@ -19,15 +19,15 @@ import mapped.Class2297;
 import mapped.Class244;
 import mapped.Class245;
 import mapped.Class278;
-import mapped.Class285;
-import mapped.Class303;
+import mapped.Crosshair;
+import mapped.NoSoundLag;
 import mapped.Class3332;
 import mapped.Class3556;
 import mapped.Class3792;
 import mapped.Class3878;
-import mapped.Class434;
-import mapped.Class444;
-import mapped.Class452;
+import mapped.Aura;
+import mapped.ElytraFly;
+import mapped.Baritone;
 import mapped.Class525;
 import mapped.Class5444;
 import mapped.Class545;
@@ -38,7 +38,7 @@ import mapped.Class9;
 import mapped.Class91;
 
 public class Class1371 {
-    public static int method13961(int n2, int n3, Class434 class434, Class3878 class3878) {
+    public static int method13961(int n2, int n3, Aura class434, Class3878 class3878) {
         int n4 = n2 ^ 0x18D60022;
         return (n3 | ~n4) - ~n4;
     }
@@ -72,7 +72,7 @@ public class Class1371 {
         return (n3 | ~n4) - ~n4;
     }
 
-    public static int method13968(int n2, int n3, Class303 class303, Class2297 class2297) {
+    public static int method13968(int n2, int n3, NoSoundLag class303, Class2297 class2297) {
         int n4 = n2 ^ 0xF35FFFAC;
         return (n3 | ~n4) - ~n4;
     }
@@ -82,12 +82,12 @@ public class Class1371 {
         return (0x349321A0 | ~n4) - ~n4;
     }
 
-    public static int method13970(int n2, int n3, Class218 class218, Class285 class285) {
+    public static int method13970(int n2, int n3, Class218 class218, Crosshair class285) {
         int n4 = n2 ^ 0x9D381070;
         return (n3 | ~n4) - ~n4;
     }
 
-    public static int method13971(int n2, int n3, Class159 class159, Class444 class444) {
+    public static int method13971(int n2, int n3, Class159 class159, ElytraFly class444) {
         return n2 ^ 0xA1562562 ^ n3;
     }
 
@@ -96,7 +96,7 @@ public class Class1371 {
         return n4 & 0xE0E05861 | 0x1F1FA79E & ~n4;
     }
 
-    public static int method13973(int n2, int n3, Class118 class118, Class452 class452) {
+    public static int method13973(int n2, int n3, Class118 class118, Baritone class452) {
         return n2 ^ 0xC72DDD44 ^ n3;
     }
 

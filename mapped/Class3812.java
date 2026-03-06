@@ -15,8 +15,8 @@ import mapped.Class1278;
 import mapped.Class1504;
 import mapped.Class1807;
 import mapped.Class230;
-import mapped.Class287;
-import mapped.Class376;
+import mapped.Nametags;
+import mapped.Blink;
 import mapped.Class4036;
 import mapped.Class4045;
 import mapped.Class4122;
@@ -202,7 +202,7 @@ public class Class3812 {
     }
 
     private static boolean method18522() {
-        return Class376.method4987();
+        return Blink.method4987();
     }
 
     public boolean method18523() {
@@ -244,7 +244,7 @@ public class Class3812 {
     }
 
     private static int method18525(int n2) {
-        return Class287.method1495(n2);
+        return Nametags.method1495(n2);
     }
 
     public static Predicate method18526(Class3812 class3812) {
@@ -342,7 +342,7 @@ public class Class3812 {
     }
 
     private static int method18537(int n2) {
-        return Class287.method1495(n2);
+        return Nametags.method1495(n2);
     }
 
     private static Object 1(char c2) {

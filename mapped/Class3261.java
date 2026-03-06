@@ -32,39 +32,39 @@ import mapped.Class258;
 import mapped.Class263;
 import mapped.Class265;
 import mapped.Class274;
-import mapped.Class282;
-import mapped.Class283;
-import mapped.Class309;
-import mapped.Class320;
+import mapped.Strafe;
+import mapped.BetterHotbar;
+import mapped.Swing;
+import mapped.InventorySync;
 import mapped.Class3225;
 import mapped.Class3235;
 import mapped.Class3248;
 import mapped.Class3285;
 import mapped.Class3364;
-import mapped.Class341;
+import mapped.TrueSight;
 import mapped.Class3442;
 import mapped.Class3461;
 import mapped.Class3466;
 import mapped.Class3491;
 import mapped.Class3510;
-import mapped.Class353;
+import mapped.Animations;
 import mapped.Class3596;
 import mapped.Class3638;
-import mapped.Class367;
+import mapped.NoInteract;
 import mapped.Class3766;
 import mapped.Class3806;
-import mapped.Class384;
+import mapped.PhaseESP;
 import mapped.Class3876;
 import mapped.Class3916;
 import mapped.Class3935;
-import mapped.Class396;
+import mapped.PhantomView;
 import mapped.Class3979;
 import mapped.Class3980;
 import mapped.Class4011;
 import mapped.Class4079;
 import mapped.Class4084;
 import mapped.Class4110;
-import mapped.Class445;
+import mapped.Phase;
 import mapped.Class468;
 import mapped.Class475;
 import mapped.Class48;
@@ -106,7 +106,7 @@ import mapped.Class90;
 import mapped.Class97;
 
 public class Class3261 {
-    public static int method16708(int n2, int n3, Class1462 class1462, Class283 class283) {
+    public static int method16708(int n2, int n3, Class1462 class1462, BetterHotbar class283) {
         return 961830545 + (n2 & 0xC6ABA16E);
     }
 
@@ -167,7 +167,7 @@ public class Class3261 {
         return n4 + ((n2 ^ 0x4C563879) & ~n4);
     }
 
-    public static int method16721(int n2, int n3, Class4110 class4110, Class341 class341) {
+    public static int method16721(int n2, int n3, Class4110 class4110, TrueSight class341) {
         int n4 = n2;
         return (0x1BE5B05B | ~n4) - ~n4;
     }
@@ -177,7 +177,7 @@ public class Class3261 {
         return n4 + ((n2 ^ 0x492841A8) & ~n4);
     }
 
-    public static int method16723(int n2, int n3, Class274 class274, Class353 class353) {
+    public static int method16723(int n2, int n3, Class274 class274, Animations class353) {
         int n4 = n3;
         return n4 + ((n2 ^ 0xEAF7FDFB) & ~n4);
     }
@@ -202,7 +202,7 @@ public class Class3261 {
         return n4 & 0xEF3317C9 | 0x10CCE836 & ~n4;
     }
 
-    public static int method16728(int n2, int n3, Class309 class309, Class4084 class4084) {
+    public static int method16728(int n2, int n3, Swing class309, Class4084 class4084) {
         int n4 = n2;
         return (n4 | 0x98D2826) & (0xF672D7D9 | ~n4);
     }
@@ -240,7 +240,7 @@ public class Class3261 {
         return (n3 | ~n4) - ~n4;
     }
 
-    public static int method16736(int n2, int n3, Class282 class282, Class700 class700) {
+    public static int method16736(int n2, int n3, Strafe class282, Class700 class700) {
         int n4 = n2 ^ 0xB6FBFFFE;
         int n5 = n3;
         return n4 & ~n5 | n5 & ~n4;
@@ -285,7 +285,7 @@ public class Class3261 {
         return 778287815 + (n2 & 0xD19C4538);
     }
 
-    public static int method16745(int n2, int n3, Class829 class829, Class320 class320) {
+    public static int method16745(int n2, int n3, Class829 class829, InventorySync class320) {
         return 225669969 + (n2 & 0xF28C8CAE);
     }
 
@@ -308,13 +308,13 @@ public class Class3261 {
         return n4 + ((n2 ^ 0x9A6F2A1F) & ~n4);
     }
 
-    public static int method16750(int n2, int n3, Class445 class445, Class1320 class1320) {
+    public static int method16750(int n2, int n3, Phase class445, Class1320 class1320) {
         int n4 = n2 ^ 0x291BC8F4;
         int n5 = n3;
         return n4 & ~n5 | n5 & ~n4;
     }
 
-    public static int method16751(int n2, int n3, Class475 class475, Class384 class384) {
+    public static int method16751(int n2, int n3, Class475 class475, PhaseESP class384) {
         int n4 = n2;
         return (0x134133A5 | ~n4) - ~n4;
     }
@@ -323,7 +323,7 @@ public class Class3261 {
         return 17988606 + (n2 & 0xFEED8401);
     }
 
-    public static int method16753(int n2, int n3, Class708 class708, Class396 class396) {
+    public static int method16753(int n2, int n3, Class708 class708, PhantomView class396) {
         return 551985409 + (n2 & 0xDF195EFE);
     }
 
@@ -352,7 +352,7 @@ public class Class3261 {
         return n4 + ((n2 ^ 0x98CD78E5) & ~n4);
     }
 
-    public static int method16759(int n2, int n3, Class5534 class5534, Class367 class367) {
+    public static int method16759(int n2, int n3, Class5534 class5534, NoInteract class367) {
         int n4 = n3;
         return n4 + ((n2 ^ 0xD669DB1A) & ~n4);
     }

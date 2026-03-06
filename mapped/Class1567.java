@@ -80,18 +80,18 @@ import mapped.Class1745;
 import mapped.Class1762;
 import mapped.Class1807;
 import mapped.Class2298;
-import mapped.Class298;
-import mapped.Class309;
+import mapped.Chams;
+import mapped.Swing;
 import mapped.Class3489;
 import mapped.Class3574;
 import mapped.Class3590;
 import mapped.Class3634;
-import mapped.Class365;
+import mapped.Freecam;
 import mapped.Class3689;
-import mapped.Class375;
+import mapped.CrystalModel;
 import mapped.Class3874;
 import mapped.Class3935;
-import mapped.Class396;
+import mapped.PhantomView;
 import mapped.Class3979;
 import mapped.Class4036;
 import mapped.Class4122;
@@ -490,7 +490,7 @@ lbl23:
      */
     public static void method14605(class_4587 q2, float r2, int s2, int t2, float u2, boolean v2, boolean w2, boolean x2) {
         if (!Class1567.method14636(Class4122.field9561).method_31044().method_31034()) return;
-        if (!Class365.method4718().method1265()) {
+        if (!Freecam.method4718().method1265()) {
             int n2 = 60777;
             Class1668.method15147(2090049289, 642492961, 1433378464, 121269222);
             return;
@@ -525,7 +525,7 @@ lbl23:
         q2.method_22907(class_7833.field_40714.rotationDegrees((Class1567.method14635(Class4122.field9561).method_5695(r2) - z2) * 0.1f));
         q2.method_22907(Class1567.method14742().rotationDegrees((Class1567.method14709(Class4122.field9561).method_5705(r2) - A2) * Class1455.field5536));
         float B2 = Class4122.field9561.field_1724.method_6055(r2);
-        class_1268 C2 = !Class309.method2410().method1265() ? (class_1268)MoreObjects.firstNonNull((Object)Class4122.field9561.field_1724.field_6266, (Object)class_1268.field_5808) : Class309.method2410().method2411();
+        class_1268 C2 = !Swing.method2410().method1265() ? (class_1268)MoreObjects.firstNonNull((Object)Class4122.field9561.field_1724.field_6266, (Object)class_1268.field_5808) : Swing.method2410().method2411();
         class_1799 E2 = Class1567.method14583().field_1724.method_6047();
         class_1799 F2 = Class4122.field9561.field_1724.method_6079();
         int G2 = !E2.method_31574(class_1802.field_8102) && !F2.method_31574(class_1802.field_8102) ? (int)field5872[0] : (int)field5872[1];
@@ -625,7 +625,7 @@ lbl23:
     }
 
     private static void method14616() {
-        Class298.method1924();
+        Chams.method1924();
     }
 
     public static class_630 method14617(class_572 class_5722) {
@@ -759,7 +759,7 @@ lbl23:
         Class4146.method20697();
     }
 
-    private static int method14645(int n2, int n3, Class3935 class3935, Class396 class396) {
+    private static int method14645(int n2, int n3, Class3935 class3935, PhantomView class396) {
         return Class6098.method23926(n2, n3, class3935, class396);
     }
 
@@ -1140,8 +1140,8 @@ lbl258:
                     E = (class_892)R;
                     B = (class_1511)G;
                     Class1567.field5873.method_22903();
-                    C = Class375.method4932().method1265() != false && Class375.method4932().method4926() == false ? -1.0f : class_892.method_23155((class_1511)B, (float)H);
-                    D = ((float)Class1567.method14564(B) + H) * (Class375.method4932().method1265() ? Class375.method4932().method4934() : 1.0f) * 3.0f;
+                    C = CrystalModel.method4932().method1265() != false && CrystalModel.method4932().method4926() == false ? -1.0f : class_892.method_23155((class_1511)B, (float)H);
+                    D = ((float)Class1567.method14564(B) + H) * (CrystalModel.method4932().method1265() ? CrystalModel.method4932().method4934() : 1.0f) * 3.0f;
                     Class1567.field5873.method_22903();
                     if (Class1567.method14728().method1265()) {
                         A = Class1567.method14707().method4930();
@@ -1393,8 +1393,8 @@ lbl258:
         Class3979.method19561();
     }
 
-    private static Class375 method14707() {
-        return Class375.method4932();
+    private static CrystalModel method14707() {
+        return CrystalModel.method4932();
     }
 
     private static void method14708(boolean bl2) {
@@ -1477,8 +1477,8 @@ lbl258:
         return Class1567.method14633(vector4f);
     }
 
-    private static Class375 method14728() {
-        return Class375.method4932();
+    private static CrystalModel method14728() {
+        return CrystalModel.method4932();
     }
 
     private static float method14729(class_2350 a2) {

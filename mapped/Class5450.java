@@ -10,8 +10,8 @@ import mapped.Class196;
 import mapped.Class208;
 import mapped.Class25;
 import mapped.Class32;
-import mapped.Class406;
-import mapped.Class418;
+import mapped.Spammer;
+import mapped.AutoTrap;
 import mapped.Class5457;
 import mapped.Class560;
 import mapped.Class6402;
@@ -27,7 +27,7 @@ public class Class5450 {
         return 406204311 + (n2 & 0xE7C9D068);
     }
 
-    public static int method21126(int n2, int n3, Class136 class136, Class418 class418) {
+    public static int method21126(int n2, int n3, Class136 class136, AutoTrap class418) {
         int n4 = n2;
         return (n4 | 0x1627948A) & (0xE9D86B75 | ~n4);
     }
@@ -37,7 +37,7 @@ public class Class5450 {
         return (0xD61A6CE | ~n4) - ~n4;
     }
 
-    public static int method21128(int n2, int n3, Class406 class406, Class560 class560) {
+    public static int method21128(int n2, int n3, Spammer class406, Class560 class560) {
         int n4 = n3;
         return n4 + ((n2 ^ 0x7361CCAF) & ~n4);
     }

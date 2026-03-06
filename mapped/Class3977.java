@@ -5,10 +5,10 @@ package mapped;
 
 import mapped.Class1468;
 import mapped.Class21;
-import mapped.Class280;
+import mapped.Flight;
 import mapped.Class3596;
-import mapped.Class370;
-import mapped.Class424;
+import mapped.PMSound;
+import mapped.AutoWeb;
 import mapped.Class486;
 import mapped.Class5454;
 import mapped.Class579;
@@ -23,7 +23,7 @@ public class Class3977 {
         return (n4 | n5) & (~n5 | ~n4);
     }
 
-    public static int method19500(int n2, int n3, Class21 class21, Class280 class280) {
+    public static int method19500(int n2, int n3, Class21 class21, Flight class280) {
         int n4 = n2;
         return (0x101BB85 | ~n4) - ~n4;
     }
@@ -38,7 +38,7 @@ public class Class3977 {
         return (0x140CDB36 | ~n4) - ~n4;
     }
 
-    public static int method19503(int n2, int n3, Class370 class370, Class424 class424) {
+    public static int method19503(int n2, int n3, PMSound class370, AutoWeb class424) {
         return 848892507 + (n2 & 0xCD66EDA4);
     }
 

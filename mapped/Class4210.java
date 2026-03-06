@@ -12,8 +12,8 @@ import mapped.Class1807;
 import mapped.Class244;
 import mapped.Class277;
 import mapped.Class278;
-import mapped.Class323;
-import mapped.Class339;
+import mapped.NoSlotSet;
+import mapped.HUD;
 import mapped.Class3717;
 import mapped.Class3817;
 import mapped.Class4036;
@@ -37,7 +37,7 @@ public class Class4210 {
     private final Class278 field9837;
     private double field9838;
     private long field9839;
-    final Class339 field9840;
+    final HUD field9840;
     private int field9841;
     private double field9842;
     private static long[] field9843 = new long[2];
@@ -104,7 +104,7 @@ lbl12:
         Class6322.method24332(f2, f3);
     }
 
-    public static Class339 method20834(Class4210 class4210) {
+    public static HUD method20834(Class4210 class4210) {
         return class4210.field9840;
     }
 
@@ -124,15 +124,15 @@ lbl12:
         Class5836.method22897();
     }
 
-    private static int method20839(int n2, int n3, Class323 class323, Class1807 class1807) {
+    private static int method20839(int n2, int n3, NoSlotSet class323, Class1807 class1807) {
         return Class3817.method18719(n2, n3, class323, class1807);
     }
 
-    private static boolean method20840(Class339 class339) {
+    private static boolean method20840(HUD class339) {
         return Class4210.method20860(class339);
     }
 
-    public static float method20841(Class339 class339) {
+    public static float method20841(HUD class339) {
         return class339.field902;
     }
 
@@ -148,7 +148,7 @@ lbl12:
         return Class4210.method20836(class4210);
     }
 
-    public static Class339 method20845(Class4210 class4210) {
+    public static HUD method20845(Class4210 class4210) {
         return class4210.field9840;
     }
 
@@ -189,7 +189,7 @@ lbl12:
         return class4210.field9842;
     }
 
-    private static String method20855(Class339 class339, Class277 class277) {
+    private static String method20855(HUD class339, Class277 class277) {
         return class339.method3541(class277);
     }
 
@@ -201,7 +201,7 @@ lbl12:
         Class6009.method23559(bl2);
     }
 
-    public Class4210(Class339 a2, Class278 b2) {
+    public Class4210(HUD a2, Class278 b2) {
         this.field9840 = a2;
         this.field9837 = b2;
     }
@@ -218,7 +218,7 @@ lbl12:
         Class4210.method20850(5285129821112436772L);
     }
 
-    public static boolean method20860(Class339 class339) {
+    public static boolean method20860(HUD class339) {
         return class339.field935;
     }
 
